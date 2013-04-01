@@ -1,0 +1,92 @@
+/*
+Theme Name: LeMonde - deux colonnes latérales
+Theme URI: http://www.lemonde.fr
+Description: Présentation avec deux colonnes latérales
+Author:
+Version:
+*/
+
+
+/* =Layout
+-------------------------------------------------------------- */
+
+/*
+LAYOUT: Three columns
+DESCRIPTION: Three-column fixed layout with a sidebar on each side
+*/
+
+#container {
+	float: left;
+	margin: 0px;
+	width: 448px;
+	background-color: #FFFFFF;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+}
+#content {
+	padding: 20px 15px 20px 15px;
+}
+#primary {
+	float: left;
+	overflow: hidden;
+	width: 200px;
+}
+#secondary {
+	float: right;
+	overflow: hidden;
+	width: 200px;
+}
+#footer {
+	clear: both;
+	width: 100%;
+}
+
+/*
+LAYOUT: One column, no sidebar
+DESCRIPTION: One centered column with no sidebar
+*/
+
+#container.one-column {
+	float: none;
+	border: none;
+	width: 850px;
+}
+.one-column #content {
+	margin: 0 auto;
+}
+
+/*
+LAYOUT: Full width, no sidebar
+DESCRIPTION: Full width content with no sidebar; used for attachment pages
+*/
+
+#container.single-attachment {
+	width: 850px;
+	border: none;
+}
+.single-attachment #content {
+	margin: 0 auto;
+	width: 820px;
+}
+
+
+/* =Structure
+-------------------------------------------------------------- */
+
+/* The main theme structure */
+#access .menu-header,
+div.menu,
+#colophon,
+#branding,
+#main,
+#wrapper {
+	margin: 0 auto;
+	width: 850px;
+}
+#wrapper {
+	background: #fff;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 0px;
+	border: 1px solid #CCCCCC;
+}
