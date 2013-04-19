@@ -1,0 +1,257 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Flex</title>
+
+<style type="text/css" media="screen">
+
+
+    /*------------------------------------------------- F O N T S ---------------------------------------------------------------------------------------------*/
+        @font-face {
+            font-family: 'UmeMinchoLatin';
+            src: url('http://balsamine.be/pub/skins/balsamine/fonts/UmeMinchoLatin/ume-mincho-latin-webfont.eot');
+            src: url('http://balsamine.be/pub/skins/balsamine/fonts/UmeMinchoLatin/ume-mincho-latin-webfont.eot?#iefix') format('embedded-opentype'),
+                 url('http://balsamine.be/pub/skins/balsamine/fonts/UmeMinchoLatin/ume-mincho-latin-webfont.woff') format('woff'),
+                 url('http://balsamine.be/pub/skins/balsamine/fonts/UmeMinchoLatin/ume-mincho-latin-webfont.ttf') format('truetype'),
+                 url('http://balsamine.be/pub/skins/balsamine/fonts/UmeMinchoLatin/ume-mincho-latin-webfont.svg#UmePGothicBalsaRegular') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'UmePGothicBalsaRegular';
+            src: url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicBalsaRegular/ume-p-gothic_balsa-webfont.eot');
+            src: url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicBalsaRegular/ume-p-gothic_balsa-webfont.eot?#iefix') format('embedded-opentype'),
+                 url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicBalsaRegular/ume-p-gothic_balsa-webfont.woff') format('woff'),
+                 url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicBalsaRegular/ume-p-gothic_balsa-webfont.ttf') format('truetype'),
+                 url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicBalsaRegular/ume-p-gothic_balsa-webfont.svg#UmePGothicBalsaRegular') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'UmePGothicVerticalRegular';
+            src: url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicVerticalRegular/ume-p-gothic-vertical-webfont.eot');
+            src: url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicVerticalRegular/ume-p-gothic-vertical-webfont.eot?#iefix') format('embedded-opentype'),
+                 url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicVerticalRegular/ume-p-gothic-vertical-webfont.woff') format('woff'),
+                 url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicVerticalRegular/ume-p-gothic-vertical-webfont.ttf') format('truetype'),
+                 url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicVerticalRegular/ume-p-gothic-vertical-webfont.svg#UmePGothicVerticalRegular') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+        font-family:"Oswald";
+        src: url('fonts/Oswald-Bold.ttf') format('truetype');
+        }
+   
+   
+    /*------------------------------------------------- V A R I A B L E S ---------------------------------------------------------------------------------------------*/
+        @color-C: black; /*#00FFFF*/
+        @color-M: black; /*#FF00FF*/
+        @color-J: black; /*#FFFF00*/
+        @color-N: black; /*#989898 */
+        @font-size-0: 18px;
+        @font-size-1: 45px;
+        @font-size-2: 21px;
+        @border: 2px solid black;
+ 
+        /*------------------------------------------------- P R I N T ---------------------------------------------------------------------------------------------*/
+        @page {
+            size: 14,5cm 21,5cm;
+            orphans:4; widows:2; /* ça n'a pas l'air de marcher ce truc ? */
+        }
+        @page :left {
+          margin-left: 4cm;
+          margin-right: 3cm;
+          }
+    
+        @page :right {
+          margin-left: 3cm;
+          margin-right: 4cm;
+        }
+        
+   
+
+        body {
+            color:@color-N;
+            font-family: "UmePGothicBalsaRegular";
+            font-size : @font-size-0;
+        } 
+   
+    h1, h2, h3, h4, h5, h6 {
+            font-weight: normal;     /* Enlève le bold, car sinon il est forcé par le navigateur */
+        }
+        
+        h1 {
+            color: @color-M;
+            font-family: UmeMinchoLatin;
+            text-transform : uppercase;
+            font-size: @font-size-1;
+        }
+        
+        h2 {
+            font-family: Oswald;
+            text-transform: uppercase;
+            font-size: @font-size-2;
+            color: @color-C;
+            /*-webkit-filter: blur(15px);*/
+            text-shadow:2px 2px 30px @color-J;
+            page-break-before: always;  /* un saut de page avant chaque titre H2*/
+            }       
+
+    p {
+        padding:5px;
+    }
+	section#body {
+		 -webkit-flow-into: myArticle
+	}
+	section#grille {
+	}
+	section#grille div {
+		    -webkit-flow-from: myArticle
+	} 
+		
+        #container {
+            display: -webkit-box;
+            -webkit-flex-flow: column;
+            -webkit-align-content: flex-start;
+            width: 900px;
+            height : 200px;
+        }
+        .item1 {
+            background-color: #d2ff5d;
+             border: 4px solid black;
+            -webkit-box-flex: 1;     
+            height : 100px; 
+            -webkit-align-self:center;
+            margin-right: -3px;
+            margin-top: -3px;
+        }
+        .item2 {
+            background-color: #fffd18;
+            border: 4px solid black;
+            -webkit-box-flex: 1;
+             margin-right: -3px;
+             margin-top: -3px;
+        }
+         .item3 {
+             background-color: #ffcefe;
+             border: 4px solid black;
+            border: 4px solid black;
+            -webkit-box-flex: 1;
+             margin-right: -3px;
+             margin-top: -3px;
+        }
+          .item4 {
+            background-color: white;
+            border: 4px solid black;
+            border: 4px solid black;
+            -webkit-box-flex: 1;
+            margin-right: -3px;
+            margin-top: -3px;
+        }
+</style>
+
+</head>
+<body>
+<section id="grille">
+    <div id="container">
+        <div class="item1">
+        </div>
+        <div class="item2">
+        </div>
+        <div class="item3">
+        </div>
+       <div class ="item2">
+       </div>
+       <div class="item4">
+       </div>
+    </div>
+        <div id="container">
+        <div class="item4">
+        </div>
+        <div class="item3">
+        </div>
+        <div class="item3">
+        </div>
+       <div class ="item1">
+       </div>
+    </div>
+        <div id="container">
+        <div class="item1">
+        </div>
+        <div class="item4">
+        </div>
+        <div class="item1">
+        </div>
+    </div>
+         <div id="container">
+        <div class="item3">
+        </div>
+        <div class="item2">
+        </div>
+        <div class="item2">
+        </div>
+    </div>           
+       <div id="container">
+        <div class="item4">
+        </div>
+        <div class="item3">
+        </div>
+        <div class="item3">
+        </div>
+       <div class ="item1">
+       </div>
+    </div>
+            <div id="container">
+        <div class="item1">
+        </div>
+        <div class="item4">
+        </div>
+        <div class="item1">
+        </div>
+
+</section>
+<section id="body">
+<h1>Saison 13-14</h1>
+<h1>Et si…</h1>
+<h1>What if …</h1>
+<h1>Wat als…</h1>
+
+
+<h2>INVOLUTION 03 / l’art des possibles</h2>
+<h3>EDITO avant qu’il ne soit trop tard</h3>
+
+<p>Et si de petits pouvoirs impliquaient de grandes responsabilités ? Et si les poules avaient des dents, les traiterions-nous autrement?</p>
+<p>Et si nous devenions les héros de notre super-vie? Et si en se sortant la tête de l’eau, on parvenait à respirer ? Et si on arrêtait de se mettre sous pression ? Et si on passait à l’action, man and woman ? Et si l’alternatif devenait une norme et la norme une alternative ? Et si c’était possible ?  Et si au lieu de vouloir rencontrer  toujours le troisième type, on commençait par le premier ? 
+	<img src="imgf0003_300.png"/>
+	
+<h2>La Forêt – Création / Opéra de chambre</h2>
+<h3>Baudouin de Jaer et Stéphane Arcas</h3>
+<h3>Du 2 au 5 avril à 20h30 – Amphithéâtre</h3>
+
+<p>Et si l’arbre ne cachait plus la forêt ? Et si Marie ne s’appelait plus Laforet ?  Et si tout se jouait la nuit ? Et si l’origine de tout cela se situait à Forest? (Private Joke 2) </p>
+<img src="space-cadet-(5).jpg"/>
+
+<p>La forêt est le premier opéra composé par Baudouin de Jaer, opéra de chambre d’une durée de 45 minutes, sur un livret de Stéphane Arcas - adapté pour l’occasion,  
+Dans un décor sobre, trois personnages occupent la scène : le couple : l’homme A– un ténor et une femme B - une mezzo soprano. Le rôle de C, la narratrice, est tenu par une comédienne.
+Tous trois déambulent dans la forêt des arbres « comme ça ».
+La précision, la complexité de la nature et l’absence totale de réponses alimentent l’inspiration musicale de Baudouin de Jaer. Venez voir et dites-nous quelle est cette faille, cette perte dont on nous parle si intensément...</p>
+
+<p>A  dit : « Cet arbre-là. Je l’ai déjà vu, je suis sûr qu’on est déjà passé ici. »</p>
+
+<p>Livret: Stéphane Arcas
+Musique: Baudouin de Jaer
+Direction musicale: Martijn Dendivel
+Mise en scène et Scénographie: Stéphane Arcas
+Avec l’ensemble BESIDES, Cécile Chèvre, distribution en cours…
+</p>
+
+
+<p>Une production de Noodik Productions, en coproduction avec la Balsamine. Avec le soutien de la Fédération Wallonie-Bruxelles.
+</p>
+	
+	
+</section>
+</body>
+</html>
+

@@ -1,0 +1,54 @@
+/* =Theme My Login
+-------------------------------------------------------------- */
+.tml-action-links {
+	list-style-type: none;
+}
+
+/* =NextGen Gallery Hacks for TCJ Archive
+-------------------------------------------------------------- */
+.pic img {
+	border: 0px;
+}
+
+/* =Intense Debate Hacks
+-------------------------------------------------------------- */
+div.idw-container {
+	font-family: Arial, sans-serif;
+}
+div.idw-container h2 {
+	display: none;
+}
+div.idw-container p.idw-big, div.idw-container p.idw-big a, div.idw-container p.idw-big a:link, div.idw-container p.idw-big a:visited {
+	font-size: 8px;
+	line-height: 10px;
+	color: #000000;
+	text-decoration: none;
+}
+div.idw-container p.idw-big a:hover {
+	font-size: 10px;
+	line-height: 12px;
+	color: #C94639;
+	text-decoration: none;
+}
+span.idc-r {
+	display: none;
+}
+div.idw-container p.idw-time a.idw-jump {
+	background: none;
+}
+div.idw-container div.idw-c-m p {
+	font-size: 10px;
+	line-height: 12px;
+}
+div.idw-footer {
+	display: none;
+}
+
+/* =Better Tag Cloud Hacks
+-------------------------------------------------------------- */
+.wp-tag-cloud a {
+	color: #000000;
+}
+.wp-tag-cloud a:hover {
+	color: #C94639;
+}

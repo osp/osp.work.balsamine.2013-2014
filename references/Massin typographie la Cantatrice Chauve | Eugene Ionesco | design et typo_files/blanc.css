@@ -1,0 +1,9 @@
+body {
+	background-color: #FFFFFF;
+}
+#branding, #main, .commentlist li.comment {
+	background-color: #FFFFFF;
+}
+.entry-meta a {
+    color: #888888;
+}
