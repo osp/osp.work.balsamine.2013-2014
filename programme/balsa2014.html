@@ -49,44 +49,124 @@ src: url('fonts/Oswald-Bold.ttf') format('truetype');
 /*
 *-  V A R I A B L E S  ---------------------------------------------------------------------------------------------
 */
-@color-link: green;
-@color-C: #62ccbc;
-@color-M: #ffd3b3;
-@color-J: #e6f74a;
-@color-N: 6b0b00;
+
 @font-size-99: 10pt;
-@font-size-0: 14pt;
-@line-height-0: 18pt;
-@font-size-1: 30pt;
-@line-height-1: 35pt;
-@font-size-2: 20pt;
-@line-height-2: 24pt;
+@line-height-99: 13pt;
+@font-size-0: 12pt;
+@line-height-0: 15pt;
+@font-size-1: 16pt;
+@line-height-1: 18pt;
+@font-size-2: 27pt;
+@line-height-2: 31pt;
 @font-size-3: 30pt;
 @line-height-3: 34pt;
 @font-size-4: 40pt;
 @line-height-4: 44pt;
 @border: 2px solid @color-N;
+
+@color-link: green;
+//@color-C: rgb(87, 80, 253);
+@color-M: rgb(255, 56, 56);
+@color-J: rgb(249, 255, 98);
+//@color-N: #6b0b00;
+
+@color-C: white;
+//@color-M: white;
+//@color-J: black;
+@color-N: black;
+
+img.preview {
+	display: none;
+}
+img.cyan {
+	display: none;
+}
+img.magenta {
+    display: none;
+}
+img.jaune {
+    display: none;
+}
+img.noir {
+    //display: none;
+}
+
 /*
 *-  P R I N T  ------------------------------------------------------------
 */
 
 @page {
-	size:16,5cm 23cm;
-	margin-top : 0;
-	margin-bottom : 0;
+    //size:16,5cm 23cm;
+	size:18,5cm 25cm;
+	margin: 0;
+        //margin-left: 0.5cm;
+        //margin-right: 0cm;
+        //margin-top: 0.5cm;
+        //margin-bottom: 0.5cm;
+        //margin: 0 1cm;
 	border: 1px solid @color-N;
 	orphans:4; widows:2; /* ça n'a pas l'air de marcher ce truc ? */
 }
 
-@page:left {
-	margin-left: 0.6cm;
-	margin-right: 1.2cm;
+div.crop-tl,
+div.crop-tr,
+div.crop-br,
+div.crop-bl {
+     height: 1cm;
+	width: 1cm;
+     position: absolute;
+
 }
 
-@page:right {
-	margin-left: 1.2cm;
-	margin-right: 0.6cm;
+div.crop-tl {
+    left: 0;
+    top: 0;
+	
 }
+div.crop-tr {
+    right: 0cm;
+    top: 0cm;
+	
+}
+div.crop-br {
+        right: -0.5cm;
+        bottom: -0.5cm;
+	
+}
+div.crop-bl {
+        left: 0;
+    bottom: -0.5cm;
+	
+}
+div.crop-top,
+div.crop-right,
+div.crop-bottom,
+div.crop-left, {
+        width: 0.5cm;
+        height: 0.5cm;
+        position: absolute;
+
+}
+div.crop-top {
+    border-top: 1px solid black;
+
+}
+div.crop-right {
+    border-right: 1px solid black;
+	left: 0;
+	top: 0;
+}
+div.crop-bottom {
+    border-bottom: 1px solid black;
+	left: -0.25cm;
+	top: 0cm;
+}
+div.crop-left {
+    border-left: 1px solid black;
+	right: 0;
+	top: -0.25cm;
+}
+
 /*
 *-  G E N E R A L   ------------------------------------------------------------
 */
@@ -96,36 +176,74 @@ src: url('fonts/Oswald-Bold.ttf') format('truetype');
 	-webkit-print-color-adjust: exact;  /* Allows printing of background colors */
 }
 html {
-    margin: 0;
-    padding: 0;
-    border: 0;
     width: 18cm;
+    //width: 16.5cm;
 }
 body {
 	width: 100%;
-	font-family: "UmePGothicBalsaRegular";
+	font-family: "Ume P Mincho";
 	font-size : @font-size-0;
+	line-height: @line-height-0;
 	color: @color-N;
-	margin: 0;
-     padding: 0;
-     border: 0;
+	
 }
+
 /*
 *-  B L O C K S   -----------------------------------------
 */
-section.grille {
+section#body {
+	margin-left: 1.5cm;
+	margin-right: 0.5cm;
+}
+article {
 	width: 100%;
-	page-break-before: always;  /* un saut de page avant chaque titre H2*/
+	//page-break-before: always;  
+	//margin: 0 0.25cm;
+	
+	margin-top: 1cm;
+	background-color: white;
+	clear: both;
 
 	div {
 		float: left;
 		/*box-sizing: border-box;
 		outline-offset: -10px;*/
 	}
+	
+	div.texte {
+		/*background-color: mix(@color-C, @color-N, 50%);*/
+		padding: 10px;
+		height: auto;
+		box-sizing: border-box;
+		outline-offset: -10px;
+	}
+	div.image {
+		/*background-color: mix(@color-C, @color-C, 33%);*/
+		outline: 2px solid @color-N;
+		overflow: hidden;
+	}
+	div.bible {
+	     padding: 10px;
+		outline: 3px solid @color-N;
+		box-sizing: border-box;
+		outline-offset: -10px;
+		height: auto;
+	}
+	
+	div.artiste {
+		outline: none !important;
+	}
 }
 
-article {
-	clear: both;
+div.image-cmjn {
+	position: relative;
+	width: 100%;
+
+	img {
+		position: absolute;
+		//opacity: 0.9;
+	}
+	
 }
 
 .shape-hexagone {
@@ -134,8 +252,43 @@ article {
 	height: 200px;
 	text-align: justify;
 }
+
+div.page-break {
+    page-break-before: always;
+    height: 1em;
+}
+
+
+/* Cachons des choses pour le moment - - - commenter une ligne pour ne pas plus cacher un article */
+article#edito,
+article#ouverture,
+article#les-moutons,
+article#stage-cifas, 
+article#garage-29, 
+article#balsa-en-mode-india, 
+article#noel-au-theatre, 
+article#le-bureau-des-histoires,
+article#vision, 
+article#k-barre, 
+article#la-foret, 
+article#quest-ce-qui-me-fait-sortir-la-tete-de-leau, 
+article#kunstenfestivaldesarts, 
+article#genesis, 
+article#les-laboreales, 
+article#les-beatitudes-de-lamour,
+article#trilogie-de-lenfer
+{ 
+	display: none;
+}
+
+article#fusee,
+article#jai-endure-vos-discous-et-jai-loreille-en-feu,
+{
+	display: block;
+}
+
 /*
-*-  S E M A N T I C S  ----------------------------------------------
+*-  P A R A G R A P H E S  &  C H A R A C T E R S ----------------------------------------------
 */
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;     /* Enlève le bold, car sinon il est forcé par le navigateur */
@@ -144,19 +297,21 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-family: UmeMinchoLatin;
     text-transform : uppercase;
-    font-size: @font-size-1;
+    font-size: @font-size-4;
+    line-height: @line-height-4;
     color:@color-N;
 }
 
 h2 {
 	font-family: UmeMinchoLatin;
 	text-transform: uppercase;
-	font-size: @font-size-4;
-	line-height : @line-height-4;
+	font-size: @font-size-3;
+	line-height : @line-height-3;
 	 color:@color-N;
 	
+	
 	/*span {
-		color: mix(@color-M, @color-J, 70%);
+		color: mix(@color-C, @color-N, 70%);
 		.shape-hexagone
 	}/*
 	/*span + span {
@@ -180,34 +335,28 @@ h4 {
 	font-size: @font-size-1;
 	line-height :@line-height-1;
 }
-p.date {
-	font-family: UmeMinchoLatin;
-	-webkit-region-break-before: always;
-}
-p.lieu {
-	font-family: UmeMinchoLatin;
-	-webkit-region-break-after: always;
-}
 
+div.titre{
+	padding: 10px;
+	outline:none !important;
+	    border-color: mix(@color-C, @color-C, 20%);
+	border-style: solid;
+    }
+    
 p {
-	font-size: @font-size-0;
-	line-height: @line-height-0;
 	width: 100%;
 	padding : 5px;
 	/*page-break-inside: avoid;*/   /* ça évite que les paragraphes soient coupés par la fin de page ou de bloc*/
 }
-article#fusee p,
-article#jai-endure-vos-discours-et-jai-loreille-en-feu p, article#jai-endure-vos-discours-et-jai-loreille-en-feu ul {
-    -webkit-region-break-after: always;
-}
-
 
 blockquote {
 	font-family: UmeMinchoLatin;
-	font-size: @font-size-3;
-	color:@color-C;
+	font-size: @font-size-1;
+	outline: none;
+	color: mix(@color-C, @color-C, 75%);
 	-webkit-region-break-before: always;
-	line-height: @line-height-3;
+	line-height: @line-height-1;
+	.shape-hexagone;
 }
 
 ul {
@@ -218,84 +367,77 @@ ul {
     }
 }
 
-.bible {
+dl.bible {
     font-family:UmeMinchoLatin;
     font-size: @font-size-99;
     text-align: center;
-    padding: 3px;
+   padding: 3px;
+   background-color: mix(@color-C, @color-N, 90%);
 }
 
 dt {
 	font-size : @font-size-99;
+	line-height: @line-height-99;
 	text-transform: uppercase;
 	line-height : @line-height-0;
 	color: @color-N;
-    }
-    
+}
+
 dd{
-    }
-
-div.image-cmjn {
-	position: relative;
-
-	img {
-		position: absolute;
-		opacity: 0.9;
-	}
 }
 
-div.texte {
-	/*background-color: mix(@color-M, @color-J, 50%);*/
-	padding: 5px;
-	outline: 2px solid @color-J;
-	height: auto;
+div.date {
+	font-family: UmePGothicBalsaRegular;
+	text-align: center;
+	outline: none !important;
+	padding: 0;
 }
-div.image {
-	/*background-color: mix(@color-C, @color-M, 33%);*/
-	outline: 2px solid @color-J;
+div.production {
+    font-family: UmePGothicBalsaRegular;
+    line-height: @line-height-0;
+    font-size: @font-size-99;
 }
-div.bible {
-	background-color: @color-M;
-	padding: 5px
-	height: auto;
+
+
+em {
+	    font-family: UmeMinchoLatin;
+}
+
+b {
+    color: @color-N;
 }
 
 .numbers{
-    font-family: Oswald;
+    font-family: UmePGothicBalsaRegular;
     font-size: @font-size-1;
     text-transform: uppercase;
-    background-color: mix(@color-C, @color-M, 33%);
+    outline: 3px solid mix(@color-C, @color-C, 30%);
+}
+
+div.if {
+    font-family: Oswald;
+    font-size: @font-size-1;
+    line-height: @line-height-1;
+    text-transform : uppercase;
+    outline: none !important;
     }
-
-/* Cachons des choses pour le moment - - - commenter une ligne pour ne pas plus cacher un article */
-article#edito,
-article#ouverture,
-article#les-moutons,
-article#stage-cifas, 
-article#garage-29, 
-article#balsa-en-mode-india, 
-article#noel-au-theatre, 
-article#le-bureau-des-histoires,
-article#vision, 
-article#k-barre, 
-article#la-foret, 
-article#quest-ce-qui-me-fait-sortir-la-tete-de-leau, 
-article#kunstenfestivaldesarts, 
-article#genesis, 
-article#les-laboreales, 
-article#les-beatitudes-de-lamour
-{ 
-	display: none;
+    
+div.out{
+    font-family: UmePGothicVerticalRegular;
+    line-height: @line-height-0;
+    font-size: @font-size-99;
+    background-color: @color-N;
+    }
+div.border {
+    outline: 3px solid @color-N;
 }
 
-article#fusee,
-article#jai-endure-vos-discous-et-jai-loreille-en-feu,
-article#trilogie-de-lenfer
-{
-	display: block;
+article#fusee p,
+article#jai-endure-vos-discours-et-jai-loreille-en-feu p, {
+    -webkit-region-break-after: always;
 }
 
-    </style>
+</style>
 
 
 
@@ -306,7 +448,25 @@ article#trilogie-de-lenfer
 --------------------------------------------------------------------------------------------------->
 <body>
 
-<div id="fakepage" style="position: absolute; height: 25.9cm; width: 18.5cm; z-index: -10"></div>
+<div id="fakepage" style="display: none; position: absolute; top: 1cm; left: 0.5cm; height: 25cm; width: 18.5cm; z-index: -10; background-color: white;">
+<div class="page" style="position: absolute; top: 1cm; left: 1cm; height: 23cm; width: 16.5cm; box-sizing: border-box; outline-offset: 0.5cm; outline: 1px solid white;"></div>
+<div class="crop-tl">
+	<div class="crop-right" style="top: -0.25cm"></div>
+	<div class="crop-bottom"></div>
+</div>
+<div class="crop-tr">
+	<div class="crop-left"></div>
+	<div class="crop-bottom" style="left: 0.75cm"></div>
+</div>
+<div class="crop-br">
+	<div class="crop-left" style="left: 0; top: 0.25cm"></div>
+	<div class="crop-top" style="left: 0.25cm"></div>
+</div>
+<div class="crop-bl">
+	<div class="crop-right" style="top: 0.25cm"></div>
+	<div class="crop-top" style="left: -0.25cm"></div>
+</div>
+</div>
 
 <section id="body">
 <!--------------------------------------------------------------------------------------------------
@@ -357,78 +517,127 @@ article#trilogie-de-lenfer
 <!--------------------------------------------------------------------------------------------------
 *-  F U S E E  -
 -->
-<section class="grille" id="grille-fusee">
-    <div class="texte" style="width: 456px; height: 198px; "></div>
-    <div class="texte" style="width: 186px; height: 33px; "></div>
-    <div class="texte" style="width: 186px; height: 31px; "></div>
-    <div class="texte" style="width: 186px; height: 38px; "></div>
-    <div class="texte" style="width: 48%; height: 172px; "></div>    
-    <div class="texte" style="width: 49%; height: 232px; "></div>    
-    <div class="texte" style="width: 63%; height: 34px; "></div>
-    <div class="texte" style="width: 55%; height: 39px; "></div>
-    <div class="texte" style="width: 100%; height: 36px; "></div>
-    <div class="texte" style="width: 90%; height: 39px; "></div>
-    <div class="texte" style="width: 95%; height: 38px; "></div> 
-    <div class="texte" style="width: 98%; height: 39px; "></div>
-    <div class="texte" style="width: 75%; height: 38px; "></div>
-    <div class="texte" style="width: 80%; height: 37px; "></div>    
-    <div class="texte" style="width: 63%; height: 372px; "></div>    
-    <div class="texte" style="width: 29%; height: 60px; "></div>
-    <div class="texte" style="width: 29%; height: 362px; "></div>
-    <div class="texte" style="width: 29%; height: 362px; "></div>
-    <div class="image" style="width: 12%; height: 301px; "></div>
-    <div class="image" style="width: 13%; height: 301px; "></div>
-    <div class="texte" style="width: 41%; height: 479px; "></div>
-    <div class="bible" style="width: 102%; height: 285px; "></div>
-   <div class="image" style="width: 13%; height: 301px; "></div>
-</section>
-
 <article id="fusee">
-	<div class="content">
-		<h2>Fusée </h2>
-		<h2>[glöörgh opera]</h2>
-		<h3>Création Théâtre</h3>
-		<h4>Clinic Orgasm Society</h4>
-		<p class="date">
-			Du 25 septembre au 5 octobre à 20h30
-		</p>
-		<p class="lieu">
-			Amphithéâtre
+    <div class="texte titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+	    <h1 style="text-align: center;">F u s é e </h1>
+    </div>
+    <div class="texte titre" style="width: 10%;  border-width: 3px; border-bottom-width: 7px; border-radius: 15px;">
+	    <h2 style="text-align: center;">g l ö ö r g h</h2>
+     </div>
+    <div class="texte titre" style="width: 10%;   border-width: 3px; border-bottom-width: 7px; border-radius: 15px; ">
+	    <h2 style="text-align: center;">o p e r a</h2>
+    </div>
+    <div class="texte" style="width: 30%;  ">
+	    <h3 style="-webkit-region-break-after: always;">Création Théâtre</h3>
+    </div>
+    <div class="texte artiste" style="width: 40%;  ">
+	    <h4>Clinic Orgasm Society</h4>
+    </div>
+    <div class="texte date" style="width: 15%; ">
+		<p>
+			Du 25 septembre au 5 octobre à 20h30 
 		</p>
 		<p>
-			Et si les extraterrestres n’étaient pas nos amis? 
+			 Amphithéâtre
+		</p>
+    </div>    
+    <div class="image" style="width: 55%; height: 260px; outline-width: 15px;">
+		<div class="image-cmjn">
+			<img class="cyan" src="../photos/couches-test/extrait_clinic_c.gif" style="margin-top: -110px; margin-left: -60px;" />
+			<img class="magenta" src="../photos/couches-test/extrait_clinic_m.gif" style="margin-top: -110px; margin-left: -60px;" />
+			<img class="jaune" src="../photos/couches-test/extrait_clinic_j.gif" style="margin-top: -110px; margin-left: -60px;" />
+			<img class="noir" src="../photos/couches-test/extrait_clinic_n.gif" style="margin-top: -110px; margin-left: -60px;" />
+			<img class="preview" src="../photos/extrait_clinic1.jpg" style="margin-top: -110px; margin-left: -60px;" />
+		</div>
+    </div>
+
+    <div class="image" style="width: 100%; height: 200px; outline: none; position: relative; z-index: -10;">
+		<div class="image-cmjn">
+			<img class="noir" src="../materials/extract/vagues-trouees-236.gif" style="margin-top: -630px; margin-left: -270px; width: 180%;" />
+		</div>
+    </div>
+
+    <div class="texte if" style="width: 40%;  ">
+		<p>
+			Et si les extra&shy;terrestres n’étaient pas nos amis?
+		</p>
+    </div>
+    <div class="texte if" style="width: 40%;  ">
+		<p>
 			Ne serait-ce pas leur rendre la monnaie de leur pièce que de les torturer à leur tour ? 
+		</p>
+    </div>
+    
+    <div class="texte if" style="width: 40%;  ">
+		<p>
 			Et si tout cela était de l’ordre du préventif ?  
+		</p>
+    </div>
+    <div class="image" style="width: 30%; height: 138px; outline: none; ">
+		<div class="image-cmjn">
+			<img class="noir" src="../materials/extract/pingdansloreille.gif" style="margin-top: -45px; width:100%; " />
+		</div>
+    </div>
+    <div class="texte if" style="width:40%;  ">
+		<p>
 			Et si nous tentions ensemble cette expérience ?
 		</p>
-		
+    </div>
+
+    <div class="texte" style="width: 60%;  ">
 		<p>
-			Première  tentative d’échange artistique entre humains et non-humains, Fusée  est  conçu pour un public majoritairement extra-terrestre. 
+			Première  tentative d’échange artistique entre humains et non-humains, <em>Fusée</em>  est  conçu pour un public majoritairement extra-terrestre. 
 			Déployant  une inventivité perverse et musicale, explorant l’aspect relatif de la  normalité et de l’obscénité, Fusée questionne en dernier ressort les  limites de l’utilité et de la représentation. 
 		</p>
-		
+    </div> 
 
-		<div class="numbers">
-			<p>Les extraterrestres sont-ils nos amis ?</p>
-			<p>Oui, les extraterrestres sont nos amis - 17%</p>
-			<p>Non, les extraterrestres sont ennemis - 4%</p> 
-			<p>Non, nous leurs sommes totalement indifférents - 4%</p> 
-			<p>Non, ils ne savent même pas que nous existons - 0%</p>
-			<p>Non, pour eux, nous sommes des cobayes ou des sujets d'étude - 31%</p>
-			<p>Les extraterrestres ? Quels extraterrestres ? - 14%</p>
-			<p>Autre proposition - 26%</p>
-		</div>
-		
-		<blockquote>
+
+<div class="page-break">&nbsp;</div>
+
+
+    <div class="texte numbers" style="width: 100%; height:135px; ">
+		<p>Les extraterrestres sont-ils nos amis ?</p>
+    </div>
+    <div class="texte numbers" style="width: 100%;  height:135px; ">
+	    <p>Oui, les extra&shy;terrestres sont nos amis - 17%</p>
+    </div>
+    <div class="texte numbers" style="width: 100%;  height:135px;">
+	    <p>Non, les extra&shy;terrestres sont ennemis - 4%</p> 
+    </div>    
+    <div class="texte numbers" style="width: 100%;  height:135px;">
+	    <p>Non, nous leurs sommes totalement indifférents - 4%</p> 
+    </div>    
+    <div class="texte numbers" style="width: 100%;  height:135px;">
+	    <p>Non, ils ne savent même pas que nous existons - 0%</p>
+    </div>
+    <div class="texte numbers" style="width: 100%; height:135px;">
+	    <p>Non, pour eux, nous sommes des cobayes ou des sujets d'étude - 31%</p>
+    </div>
+    <div class="texte numbers" style="width: 100%;   height:135px; ">
+	    <p>Les extraterrestres ? Quels extraterrestres ? - 14%</p>
+    </div>
+    <div class="texte numbers" style="width: 100%; height:135px; ">
+	    <p>Autre proposition - 26%</p>
+    </div>
+    
+    <div class="page-break">&nbsp;</div>
+    
+    <div class="texte" style="width: 40%; outline: none;">
+		<blockquote style="width: 268px; height: 228px;">
 			« Quoi de plus beau et de plus troublant que de torturer en direct un  Glöörgh, fleur mutante extra-terrestre aussi mystérieuse que redoutable ? »
 		</blockquote>
-		
+    </div>
+    <div class="texte" style="width: 25%; ">
 		<p>
 			Ludovic Barth, metteur en scène de <em>Fusée</em>
 		</p>
-		<p>
-			Après les succès de <em>J’ai gravé le nom de ma grenouille dans ton foie</em> et de <em>DTC (on est bien)</em>, la jeune compagnie Clinic Orgasm Society s’est lancée dans un triptyque : <em>Pré-Blé-Fusée</em>,  3 spectacles indépendants et déjantés qui déplacent les limites de la  normalité et qui se jouent de nos répulsions-fascinations.
-		</p>
+    </div>
+    <div class="texte" style="width: 55%; ">
+	<p>
+		Après les succès de <em>J’ai gravé le nom de ma grenouille dans ton foie</em> et de <em>DTC (on est bien)</em>, la jeune compagnie Clinic Orgasm Society s’est lancée dans un triptyque : <em>Pré-Blé-Fusée</em>,  3 spectacles indépendants et déjantés qui déplacent les limites de la  normalité et qui se jouent de nos répulsions-fascinations.
+	</p>
+    </div>
+        <div class="out" style="width: 30%; ">
 		<p>
 			Aussi, après <em>Pré</em> au Varia, <em>Blé</em> au Manège.Mons , voici <em>Fusée</em> à la Balsa, vers l’insoutenable et au-delà !
 		</p>
@@ -436,12 +645,13 @@ article#trilogie-de-lenfer
 			<em>Fusée</em> sera ensuite jouée au Grand Bleu à Lille et au PBA+ Eden à Charleroi. 
 			<em>Pré</em>  et <em>Blé</em>, les deux premiers opus de la trilogie,  seront à nouveau visibles au Théâtre Varia en février 2014.
 		</p>
-		
-		<p class="production">
+    </div>
+        <div class="texte production" style="width: 70%; ">
+		<p>
 			Une  production de la Clinic Orgasm Society en coproduction avec la  Balsamine, le  Théâtre Varia, le manège.mons / Centres Dramatiques de la  Fédération Wallonie-Bruxelles, le PBA + Eden (Charleroi), Le Grand Bleu  – ENPDA Lille Nord/Pas-de-Calais. Avec le soutien du Centre des Arts  Scéniques (CAS) et de la SACD. Avec l’aide du Conseil de l’aide aux  projets théâtraux (CAPT).
 		</p>
-	</div>
-	
+    </div>
+    <div class="texte" style="width: 30%; ">
 	<dl class="bible">
 		<dt>Conception</dt>
 		<dd>Ludovic Barth et Claire Deville</dd>
@@ -458,12 +668,12 @@ article#trilogie-de-lenfer
 		<dt>Interprétation</dt>
 		<dd>Rodolphe Coster, Gregory Duret, Eno Krojanker, Anne-Fleur Inizan</dd>
 	</dl>
-	<div class="image-cmjn">
-		<img src="../photos/layers/sabine/image_Calque 15.png"/>
-	</div>
-	<div class="image-cmjn">
-		<img src="../photos/layers/sabine/image_Calque 13.png"/>
-	</div>
+    </div>
+	    <div class="image" style="width: 100%; height: 400px; outline: none;">
+		<div class="image-cmjn">
+			<img class="noir" src="../materials/extract/geometrie-240.gif" style="margin-top: -630px; margin-left: -270px; width: 180%;" />
+		</div>
+	    </div>
 
 </article>
 
@@ -513,91 +723,137 @@ Une  production de la Schieve Compagnie en coproduction avec la Balsamine,  avec
 <!--------------------------------------------------------------------------------------------------
 *-  J ' A I    E N D U R É    V O S    D I S C O U R S  -
 -------------------------------------------------------------------------------------------------->
-<section class="grille" id="grille-jai-endure-vos-discours-et-jai-loreille-en-feu">
-    <div class="texte" style="width: 50%;  height: 482px;" texte"=""></div>
-    <div class="texte" style="width: 45%;  height: 33px;"></div>
-    <div class="texte" style="width: 100%;  height: 33px;"></div>
-    <div class="bible" style="width: 30%;  height: 180px;"></div>
-    <div class="texte" style="width: 50%;  height: 173px;"></div>
-    <div class="texte" style="width: 100%; height: 88px !important; "></div>
-    <div class="texte" style="width: 50%;  height: 74px;"></div>
-    <div class="texte" style="width: 30%; clear: left; height: 210px !important; "></div>
-    <div class="texte" style="width: 30%;  height: 202px;"></div>
-    <div class="texte" style="width: 30%;  height: 80px;"></div>
-    <div class="texte" style="width: 30%; height: 210px !important; "></div>
-    <div class="texte" style="width: 30%; height: 60px; "></div>
-    <div class="texte" style="width: 50%; height: 200px; "></div>
-    <div class="texte" style="width: 100%; height: 60px; "></div>
-    <div class="texte" style="width: 50%;  height: 197px;"></div>
-    <div class="texte" style="width: 50%;  height: 607px;"></div>
-    <div class="image" style="width: 35%; height: 313px; "></div>
-    <div class="image" style="width: 316px; height: 204px; "></div>
-</section>
-
 <article id="jai-endure-vos-discours-et-jai-loreille-en-feu">
-	<div class="image-cmjn">
-		<img src="../photos/retable_anne.jpg"/>
-		<img src="../photos/retable_anne-r.png" style="opacity:0.3"/>
-	</div>
-	
-	<div class="content">
-		<h2>«J'ai enduré vos discours et j'ai l'oreille en feu»</h2>
-		<h3>Création Théâtre</h3>
-		<h4>Anne Thuot</h4>
-		<p class="date">
+    <div class="titre" style="width: 70%;">
+	<h2>«J'ai enduré vos discours et j'ai l'oreille en feu»</h2>
+    </div>
+    <div class="texte" style="width: 30%;">
+    <h3>Création Théâtre</h3>
+    </div>
+    <div class="texte" style="width: 30%;">
+    <h4>Anne Thuot</h4>
+    </div>
+    <div class="texte date" style="width: 20%;">
+	    <p class>
 			Du 6 au 16 novembre à 20h30
 		</p>
-		<p class="lieu">
+		<p >
 			Amphithéâtre
 		</p>
-		<p>
-			Et  si la vengeance était un plat qui se réchauffait? Et si tu t’appelais  Mélancolie ? (encore Joe Dassin, et si c’était un signe ?) Et si on  dansait avec la mort? Et si Vendice se foutait de la gueule de Hamlet?  <em>What if there was no google?</em>
-		</p>
-		<p>
-			<em>La Tragédie de la vengeance</em>,  pièce écrite et jouée pour la première fois en 1606 , a longtemps été  attribuée à Cyril Tourneur mais la critique pense dorénavant que Thomas  Middleton en serait l’auteur.
-		</p>
-		<p>
-			Elle est constituée de 5 actes, 21 scènes:
-		</p>
-		<ul>
+    </div>
+    <div class="if" style="width: 50%; height: 68px; clear:left;">
+	<p>
+		Et si la vengeance était un plat qui se réchauffait? 
+	</p>
+    </div>
+    <div class="if" style="width: 40%;">
+	<p>
+		Et si tu t’appelais  Mélancolie ? (encore Joe Dassin, et si c’était un signe ?) 
+	</p>
+    </div>
+
+    <div class="if" style="width: 40%;">
+	<p>
+		Et si on  dansait avec la mort? 
+	</p>
+    </div>
+    <div class="if" style="width: 55%;">
+	<p>
+		Et si Vendice se foutait de la gueule de Hamlet?  
+	</p>
+    </div>
+
+    <div class="image" style="width: 100%; height:200px;outline:none;">
+	<div class="image-cmjn">
+		<img class="noir" src="../materials/extract/nuagessales.gif" style="width: 100%" />
+	</div>
+	    </div>
+	
+	    <div class="if" style="width: 100%; text-align:center; margin auto;">
+	 <p style="text-align:center; margin: auto; float:none; width:50%;">
+		What if there was no google?
+	</p>
+	    </div>
+
+    <div class="texte" style="width: 35%;">
+	<p>
+		<em>La Tragédie de la vengeance</em>,   pièce écrite et jouée pour la première fois en 1606 , a longtemps été   attribuée à Cyril Tourneur mais la critique pense dorénavant que Thomas   Middleton en serait l’auteur.
+	</p>
+
+    </div>
+    <div class="texte" style="width: 50%;">
+    
+	<p>
+		Elle est constituée de 5 actes, 21 scènes:
+	</p>
+	<ul style="width: 325px; height: 100px;">
 		<li>4 scènes au I<sup>er</sup> acte</li>
 		<li>4 scènes au II<sup>e</sup> acte</li>
 		<li>6 scènes au III<sup>e</sup> acte</li>
 		<li>4 scènes au IV<sup>e</sup> acte</li>
 		<li>3 scènes au V<sup>e</sup> acte</li>
-		</ul>
-		<p>
-			La pièce compte 12 personnages principaux, 7 lieux d’action différents.
-		</p>
-		<p>
+	</ul>
+    </div>
+    <div class="texte" style="width: 30%; clear: left;">
+	<p>
+		La pièce compte 12 personnages principaux, 7 lieux d’action différents.
+	</p>
+</div>
+    <div class="numbers" style="width: 40%;">
+	<p>
 		Elle se décompose en: 
-		</p>
-		<ul>
+	</p>
+	<ul style="width: 325px; height: 100px;">
 		<li>657 vers au I<sup>er</sup> acte</li>
 		<li>624 vers au II<sup>e</sup> acte</li>
 		<li>518 vers au III<sup>e</sup> acte</li>
 		<li>551 vers au IV<sup>e</sup> acte</li>
 		<li>396 vers au V<sup>e</sup> acte</li>
 		</ul>
-		<p>
-			Pour un total de 2746 vers.
-		</p>
-		
-		<p>
-			<em>«  J’ai enduré vos discours et j’ai l’oreille en feu »</em> est une  réécriture libre sur ce texte original Mélancolie, mort, sexe, inceste  et meurtre en sont les grands thèmes tragiques, un nœud d’intrigues qui  naissent et se décomposent en un fabuleux kaléidoscope. 
-		</p>
-		<p>
-			Anne Thuot: « Cette complexité de nos grandes passions humaines, celles  d’hier et d’aujourd’hui, est un luxe : celui de notre liberté. »
-		</p>
-		<p>
-			Un personnage dit : « Et à la fin, tout le monde meurt, c’est comme dans la vie. »
-		</p>
-		
+	<p>
+		Pour un total de 2746 vers.
+	</p>
+    </div>
+    
+    
+    <div class="image" style="width: 70%; height: 390px; margin-top: 5em;">
+		<div class="image-cmjn">
+			<img class="cyan" src="../photos/couches-test/extrait_anne_c.gif"/>
+			<img class="magenta" src="../photos/couches-test/extrait_anne_m.gif"/>
+			<img class="jaune" src="../photos/couches-test/extrait_anne_j.gif"/>
+			<img class="noir" src="../photos/couches-test/extrait_anne_n.gif"/>
+			<img class="preview" src="../photos/extrait_anne1.jpg"/>
+		</div>
+    </div>
+    <div class="texte" style="width: 60%;">
+	<blockquote style="width: 340px;">
+		Anne  Thuot: « Cette complexité de nos grandes passions humaines, celles   d’hier et d’aujourd’hui, est un luxe : celui de notre liberté. »
+	</blockquote>
+    </div>
+    <div class="texte" style="width: 50%;">
+	<p>
+		<em>«   J’ai enduré vos discours et j’ai l’oreille en feu »</em> est une   réécriture libre sur ce texte original Mélancolie, mort, sexe, inceste   et meurtre en sont les grands thèmes tragiques, un nœud d’intrigues qui  naissent et se décomposent en un fabuleux kaléidoscope. 
+	</p>
+    </div>
+    <div class="texte" style="width: 50%;">
+	<blockquote>
+		Un personnage dit : « Et à la fin, tout le monde meurt, c’est comme dans la vie. »
+	</blockquote>
+    </div>
+	<div class="texte" style="width: 100%;">
 		<p class="production">
-			Une  coproduction du Théâtre de l’Ancre et de la Balsamine. Avec l’aide de  la Fédération Wallonie-Bruxelles, service Théâtre et le soutien de WBTD  (aide à la diffusion). En partenariat avec le Centre des Arts Scéniques.  Anne Thuot est artiste en Compagnie au Théâtre de l’Ancre.
+			Une   coproduction du Théâtre de l’Ancre et de la Balsamine. Avec l’aide de   la Fédération Wallonie-Bruxelles, service Théâtre et le soutien de WBTD   (aide à la diffusion). En partenariat avec le Centre des Arts  Scéniques.  Anne Thuot est artiste en Compagnie au Théâtre de l’Ancre.
 		</p>
+        </div>
+        <!--
+    <div class="image" style="width: 30%; height: 200px;">
+	<div class="image-cmjn">
+		<img class="noir" src="../photos/extrait_anne2.jpg"/>
 	</div>
-
+    </div>
+    -->
+    
+    <div class="bible" style="width: 25%; ">
 	<dl class="bible">
 		<dt>Mise en scène</dt>
 		<dd>Anne Thuot</dd>
@@ -608,6 +864,7 @@ Une  production de la Schieve Compagnie en coproduction avec la Balsamine,  avec
 		<dt>Création lumière</dt>
 		<dd>Raphaël Noël</dd>
 	</dl>
+    </div>
 
 </article>
 
@@ -881,7 +1138,10 @@ Une production du Théâtre du Tilleul, en coproduction avec la Balsamine. Avec 
 -->
 
 
-<section class="grille" id="grille-trilogie-de-lenfer">
+
+
+
+<article id="trilogie-de-lenfer">
     <div class="texte" style="width: 90%; height: 322px; "></div>
     <div class="texte" style="width: 48%; height: 51px; "></div>
     <div class="texte" style="width: 200px; height: 97px; "></div>
@@ -896,19 +1156,13 @@ Une production du Théâtre du Tilleul, en coproduction avec la Balsamine. Avec 
     <div class="texte" style="width: 50%; height: 193px; "></div>
     <div class="bible" style="width: 45%; height: 440px; "></div>
 
-
-</section>
-
-<article id="trilogie-de-lenfer">
-
 <div class="image-cmjn">
-	<img src="../manga/strips/2_180635.jpg" width="500px" style="position:absolute; clip:rect(40px,40px,40px,4 0px)" />
+	<img src="../manga/strips/2_180635.jpg" width="500px" style="position:absolute; clip:rect(40px,40px,40px,40px)" />
 </div>
 
 <div class="image-cmjn">
 	<img src="../manga/strips/783270c7564f62f88a06794ef1921044.jpg"  width="400px" style="position:absolute; clip:rect(0px,100px,50px,50px)" />
 </div>
-
 
 
 <div class="content">
@@ -1423,22 +1677,23 @@ Une production de Paradies en coproduction avec la Balsamine
 	
 	
 		// TITRAGES
-		$("h2").titrage();
+		//$("h2").titrage();
 		//$("h3").cadre();
 		
 		// BRANCHONS LES TUYAUX DE FLUX
-		$("article#fusee").flowText();
-		$("article#jai-endure-vos-discours-et-jai-loreille-en-feu").flowText();
+		//$("article#fusee").flowText();
+		//$("article#jai-endure-vos-discours-et-jai-loreille-en-feu").flowText();
 		$("article#trilogie-de-lenfer").flowText();
 		
 		
 		// FAKE PAGES
 		doc_height = $("body").height();
-		page_height = $("#fakepage").height(); //   => 979px
-		nb_page = Math.floor(doc_height/page_height);
+		page_height = $("#fakepage").height(); 
+		nb_page = Math.ceil(doc_height/page_height) +1;
 		for (i = 0; i <= nb_page; i++){
-		$("#fakepage").clone().css({'top': i*page_height, 'position': 'absolute', 'border': '1px solid purple'}).insertBefore($("#fakepage"));
-	}
+			$("#fakepage").clone().css({'top': i*page_height + 18.90 + (18.90*2.5*i), 'position': 'absolute', 'border': '1px solid white', 'display': 'block'}).insertBefore($("#fakepage"));
+		}
+		
 	
 	// REMET LES HAUTEURS AUTO EN HAUTEUR FIXE → POUR FIXER BUG CHROMIUM CHEZ LUDI
 	$("section.grille div").whatsTheHeight();
