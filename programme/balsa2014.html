@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <!-- curl http://osp.constantvzw.org:9001/p/balsa2014/export/txt > balsa2014.html -->
+<!--activer les options Webkit expérimentales : "chrome://flags/"   >  "webkit"   >  activer "Enable experimental WebKit features"-->
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -65,27 +66,27 @@ src: url('fonts/Oswald-Bold.ttf') format('truetype');
 @border: 2px solid @color-N;
 
 @color-link: green;
-//@color-C: rgb(87, 80, 253);
-@color-M: rgb(255, 56, 56);
-@color-J: rgb(249, 255, 98);
-//@color-N: #6b0b00;
+@color-C: rgb(87, 80, 253);
+@color-N: #6b0b00;
 
-@color-C: white;
-//@color-M: white;
-//@color-J: black;
-@color-N: black;
+//@color-M: rgb(255, 56, 56);
+//@color-J: rgb(249, 255, 98);
+//@color-C: white;
+//@color-M: magenta;
+//@color-J: yellow;
+//@color-N: black;
 
 img.preview {
-	display: none;
+	//display: none;
 }
 img.cyan {
-	display: none;
+	//display: none;
 }
 img.magenta {
-    display: none;
+    //display: none;
 }
 img.jaune {
-    display: none;
+    //display: none;
 }
 img.noir {
     //display: none;
@@ -270,7 +271,6 @@ article#noel-au-theatre,
 article#le-bureau-des-histoires,
 article#vision, 
 article#k-barre, 
-article#la-foret, 
 article#quest-ce-qui-me-fait-sortir-la-tete-de-leau, 
 article#kunstenfestivaldesarts, 
 article#genesis, 
@@ -283,6 +283,8 @@ article#trilogie-de-lenfer
 
 article#fusee,
 article#jai-endure-vos-discous-et-jai-loreille-en-feu,
+article#la-foret, 
+
 {
 	display: block;
 }
@@ -389,8 +391,8 @@ dd{
 div.date {
 	font-family: UmePGothicBalsaRegular;
 	text-align: center;
-	outline: none !important;
-	padding: 0;
+	outline: none;
+	padding: 0px;
 }
 div.production {
     font-family: UmePGothicBalsaRegular;
@@ -433,9 +435,12 @@ div.border {
 }
 
 article#fusee p,
-article#jai-endure-vos-discours-et-jai-loreille-en-feu p, {
+article#jai-endure-vos-discours-et-jai-loreille-en-feu p, 
+article#la-foret p,{
     -webkit-region-break-after: always;
 }
+
+
 
 </style>
 
@@ -845,13 +850,18 @@ Une  production de la Schieve Compagnie en coproduction avec la Balsamine,  avec
 			Une   coproduction du Théâtre de l’Ancre et de la Balsamine. Avec l’aide de   la Fédération Wallonie-Bruxelles, service Théâtre et le soutien de WBTD   (aide à la diffusion). En partenariat avec le Centre des Arts  Scéniques.  Anne Thuot est artiste en Compagnie au Théâtre de l’Ancre.
 		</p>
         </div>
-        <!--
+
     <div class="image" style="width: 30%; height: 200px;">
 	<div class="image-cmjn">
-		<img class="noir" src="../photos/extrait_anne2.jpg"/>
+		<img class="noir" src="../photos/layers/annedroite/anne_Calque 14.png"/>
 	</div>
     </div>
-    -->
+
+	<div class="image-cmjn"  style="width: 30%; height: 200px;">
+		<img class="noir" src="../photos/layers/annedroite/anne__MG_5248.CR2.png" style="margin-left: -250px; margin-top: -50px;"/>
+	</div>
+
+
     
     <div class="bible" style="width: 25%; ">
 	<dl class="bible">
@@ -1365,22 +1375,25 @@ Avec l’aide de la Fédération Wallonie-Bruxelles, Service de la Danse, et le 
 
 <p class="date">Du 2 au 5 avril à 20h30</p>
 <p class="lieu">Amphithéâtre</p>
+<div><img class="cyan" src="../photos/retable_arcas_baudouin.jpg" style="margin-top: -110px; margin-left: -60px; z-index:0;" /></div>
 
-<p>
+
+<div class="if">
 Et  si l’arbre ne cachait plus la forêt ? Et si Marie ne s’appelait plus  Laforet ?  Et si tout se jouait la nuit ? Et si l’origine de tout cela  se situait à Forest? (Private Joke 2) 
-</p>
-<p>
+</div>
+
+<div>
 La  forêt est le premier opéra composé par Baudouin de Jaer, opéra de  chambre d’une durée de 45 minutes, sur un livret de Stéphane Arcas -  adapté pour l’occasion,  
-</p>
-<p>
-Dans  un décor sobre, trois personnages occupent la scène : le couple :  l’homme A– un ténor et une femme B - une mezzo soprano. Le rôle de C, la  narratrice, est tenu par une comédienne.
-</p>
-<p>
+</div>
+<div>
+Dans  undécor sobre, trois personnages occupent la scène : le couple :  l’homme A– un ténor et une femme B - une mezzo soprano. Le rôle de C, la  narratrice, est tenu par une comédienne.
+</div>
+<div>
 Tous trois déambulent dans la forêt des arbres « comme ça ».
-</p>
-<p>
+</div>
+<div>
 La  précision, la complexité de la nature et l’absence totale de réponses  alimentent l’inspiration musicale de Baudouin de Jaer. Venez voir et  dites-nous quelle est cette faille, cette perte dont on nous parle si  intensément...
-</p>
+</div>
 <p>
 <em>A</em>  dit : « Cet arbre-là. Je l’ai déjà vu, je suis sûr qu’on est déjà passé ici. »
 </p>
