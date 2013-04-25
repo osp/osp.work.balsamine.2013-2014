@@ -2,6 +2,10 @@
 
 def save_all_layers(image, directory, name_pattern):
     for layer in image.layers:
+        try:
+            layer.remove_mask(0)
+        except: 
+            pass
         filename = directory + (name_pattern % layer.name)
         raw_filename = name_pattern % layer.name
         pdb.gimp_file_save(image, layer, filename, raw_filename)
