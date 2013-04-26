@@ -1083,5 +1083,83 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="7" PTYPE="4" XPOS="228" YPOS="2475" WIDTH="198" HEIGHT="106.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 198 0 198 0 198 0 198 0 198 106.5 198 106.5 198 106.5 198 106.5 0 106.5 0 106.5 0 106.5 0 106.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 198 0 198 0 198 0 198 0 198 106.5 198 106.5 198 106.5 198 106.5 0 106.5 0 106.5 0 106.5 0 106.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="Spéculation"/>
+            <para LINESPMode="1"/>
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="Du 24 janvier au 15 février "/>
+            <trail LINESPMode="1"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="228.00000002126" YPOS="774.212598400787" WIDTH="198" HEIGHT="106.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 198 0 198 0 198 0 198 0 198 106.5 198 106.5 198 106.5 198 106.5 0 106.5 0 106.5 0 106.5 0 106.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 198 0 198 0 198 0 198 0 198 106.5 198 106.5 198 106.5 198 106.5 0 106.5 0 106.5 0 106.5 0 106.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="Météores"/>
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="134.016377952756" YPOS="1224" WIDTH="291.983622068504" HEIGHT="379.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 291.984 0 291.984 0 291.984 0 291.984 0 291.984 379.5 291.984 379.5 291.984 379.5 291.984 379.5 0 379.5 0 379.5 0 379.5 0 379.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 291.984 0 291.984 0 291.984 0 291.984 0 291.984 379.5 291.984 379.5 291.984 379.5 291.984 379.5 0 379.5 0 379.5 0 379.5 0 379.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="Élévation"/>
+            <para LINESPMode="1"/>
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="Fusée"/>
+            <para LINESPMode="1"/>
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="g l ö ö r g h opera"/>
+            <para LINESPMode="1"/>
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="Clinic Orgasm Society"/>
+            <para LINESPMode="1"/>
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="Du 25 septembre au 5 octobre à 20h30"/>
+            <para LINESPMode="1"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="5" PTYPE="4" XPOS="134.016377952756" YPOS="1844.07086611732" WIDTH="342.992125984252" HEIGHT="188.528818922047" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 342.992 0 342.992 0 342.992 0 342.992 0 342.992 188.529 342.992 188.529 342.992 188.529 342.992 188.529 0 188.529 0 188.529 0 188.529 0 188.529 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 342.992 0 342.992 0 342.992 0 342.992 0 342.992 188.529 342.992 188.529 342.992 188.529 342.992 188.529 0 188.529 0 188.529 0 188.529 0 188.529 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="Inertie"/>
+            <para LINESPMode="1"/>
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="Anne Thuot"/>
+            <para LINESPMode="1"/>
+            <ITEXT FONT="Ume P Mincho Regular" CH="«J'ai enduré vos discours et j'ai l'oreille en feu»"/>
+            <para/>
+            <ITEXT FONT="Ume P Mincho Regular" CH="Du 6 au 16 novembre à 20h30"/>
+            <para/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="9" PTYPE="4" XPOS="228.00000002126" YPOS="3041.92913383386" WIDTH="198" HEIGHT="253.570866166143" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESPMode="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 198 0 198 0 198 0 198 0 198 253.571 198 253.571 198 253.571 198 253.571 0 253.571 0 253.571 0 253.571 0 253.571 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 198 0 198 0 198 0 198 0 198 253.571 198 253.571 198 253.571 198 253.571 0 253.571 0 253.571 0 253.571 0 253.571 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="Possession"/>
+            <para LINESPMode="1"/>
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="K Barré #1"/>
+            <para LINESPMode="1"/>
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="Barbara Mavro Thalassitis"/>
+            <para LINESPMode="1"/>
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="Du 19 au 22 mars à 20h30"/>
+            <trail LINESPMode="1"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="11" PTYPE="4" XPOS="186" YPOS="3514.5" WIDTH="240.00000002126" HEIGHT="249.375" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESPMode="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 240 0 240 0 240 0 240 0 240 249.375 240 249.375 240 249.375 240 249.375 0 249.375 0 249.375 0 249.375 0 249.375 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 240 0 240 0 240 0 240 0 240 249.375 240 249.375 240 249.375 240 249.375 0 249.375 0 249.375 0 249.375 0 249.375 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="Démonstration"/>
+            <para LINESPMode="1"/>
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="Baudouin de Jaer et Stéphane Arcas"/>
+            <para LINESPMode="1"/>
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="La forêt"/>
+            <para LINESPMode="1"/>
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="Du 2 au 5 avril à 20h30"/>
+            <trail LINESPMode="1"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="13" PTYPE="4" XPOS="228.00000002126" YPOS="4175.78740155039" WIDTH="198" HEIGHT="285.587598449607" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 198 0 198 0 198 0 198 0 198 285.588 198 285.588 198 285.588 198 285.588 0 285.588 0 285.588 0 285.588 0 285.588 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 198 0 198 0 198 0 198 0 198 285.588 198 285.588 198 285.588 198 285.588 0 285.588 0 285.588 0 285.588 0 285.588 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="Collisions"/>
+            <para LINESPMode="1"/>
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="Thomas Ryckewaert"/>
+            <para LINESPMode="1"/>
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="Genesis"/>
+            <para LINESPMode="1"/>
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="Les 27, 28 et 31 mai à 20h30"/>
+            <trail LINESPMode="1"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="15" PTYPE="4" XPOS="156.375" YPOS="4742.71653540866" WIDTH="269.62500002126" HEIGHT="239.533464591339" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 269.625 0 269.625 0 269.625 0 269.625 0 269.625 239.533 269.625 239.533 269.625 239.533 269.625 239.533 0 239.533 0 239.533 0 239.533 0 239.533 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 269.625 0 269.625 0 269.625 0 269.625 0 269.625 239.533 269.625 239.533 269.625 239.533 269.625 239.533 0 239.533 0 239.533 0 239.533 0 239.533 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="Évocation"/>
+            <para LINESPMode="1"/>
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="Claude Schmitz Les béatitudes de l'amour"/>
+            <para LINESPMode="1"/>
+            <ITEXT FONT="Ume P Mincho Regular" FONTSIZE="33" CH="Du 10 au 14 juin à 20h30"/>
+            <trail LINESPMode="1"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
     </DOCUMENT>
 </SCRIBUSUTF8NEW>
