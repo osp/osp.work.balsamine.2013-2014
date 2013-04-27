@@ -1,5 +1,5 @@
 The contents of this repository are ©
-Ludivine Loiseau, Pierre Huyghebaert, Stéphanie Vilayphiou
+Ludivine Loiseau, Pierre Huyghebaert, Stéphanie Vilayphiou, Sarah Magnan
 for OSP (Open Source Publishing)
 unless noted otherwise.
 
