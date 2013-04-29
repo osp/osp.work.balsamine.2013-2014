@@ -24,6 +24,12 @@
     font-style: normal;
 }
 @font-face {
+    font-family: 'UmePMincho';
+    src: url('http://git.constantvzw.org/?p=osp.work.balsamine.2013-2014.git;a=blob_plain;f=fonts/Ume-P-Mincho.otf;hb=HEAD') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: 'UmePGothicBalsaRegular';
     src: url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicBalsaRegular/ume-p-gothic_balsa-webfont.eot');
     src: url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicBalsaRegular/ume-p-gothic_balsa-webfont.eot?#iefix') format('embedded-opentype'),
@@ -34,12 +40,36 @@
     font-style: normal;
 }
 @font-face {
+    font-family: 'UmePGothicBalsaRegular';
+    src: url('http://git.constantvzw.org/?p=osp.work.balsamine.2013-2014.git;a=blob_plain;f=fonts/Ume-P-Gothic-Bold.otf;hb=HEAD') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
     font-family: 'UmePGothicVerticalRegular';
     src: url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicVerticalRegular/ume-p-gothic-vertical-webfont.eot');
     src: url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicVerticalRegular/ume-p-gothic-vertical-webfont.eot?#iefix') format('embedded-opentype'),
          url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicVerticalRegular/ume-p-gothic-vertical-webfont.woff') format('woff'),
          url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicVerticalRegular/ume-p-gothic-vertical-webfont.ttf') format('truetype'),
          url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicVerticalRegular/ume-p-gothic-vertical-webfont.svg#UmePGothicVerticalRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'UmeMinchoX';
+    src: url('http://git.constantvzw.org/?p=osp.work.balsamine.2013-2014.git;a=blob_plain;f=fonts/Ume-Mincho-X.otf;hb=HEAD') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'UmeMinchoShadow';
+    src: url('http://git.constantvzw.org/?p=osp.work.balsamine.2013-2014.git;a=blob_plain;f=fonts/Ume-Mincho-Shadow.otf;hb=HEAD') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'UmeGothicShadow';
+    src: url('http://git.constantvzw.org/?p=osp.work.balsamine.2013-2014.git;a=blob_plain;f=fonts/Ume-P-Gothic-Shadow.otf;hb=HEAD') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -54,11 +84,11 @@ src: url('fonts/Oswald-Bold.ttf') format('truetype');
 @font-size-99: 10pt;
 @line-height-99: 13pt;
 @font-size-0: 12pt;
-@line-height-0: 15pt;
+@line-height-0: 14pt;
 @font-size-1: 16pt;
 @line-height-1: 18pt;
 @font-size-2: 27pt;
-@line-height-2: 31pt;
+@line-height-2: 27pt;
 @font-size-3: 30pt;
 @line-height-3: 34pt;
 @font-size-4: 40pt;
@@ -66,21 +96,54 @@ src: url('fonts/Oswald-Bold.ttf') format('truetype');
 @border: 2px solid @color-N;
 
 @color-link: green;
-@color-C: rgb(87, 80, 253);
-@color-N: #6b0b00;
+@color-C: rgb(255, 0, 82);  // magenta/rouge fluo
+@color-N: #00aa5a;   // green U
+
+@color-0: mix(@color-N, @color-C, 0%);
+@color-10: mix(@color-N, @color-C, 10%);
+@color-20: mix(@color-N, @color-C, 20%);
+@color-30: mix(@color-N, @color-C, 30%);
+@color-40: mix(@color-N, @color-C, 40%);
+@color-50: mix(@color-N, @color-C, 50%);
+@color-60: mix(@color-N, @color-C, 60%);
+@color-70: mix(@color-N, @color-C, 70%);
+@color-80: mix(@color-N, @color-C, 80%);
+@color-90: mix(@color-N, @color-C, 90%);
+@color-100: mix(@color-N, @color-C, 100%);
+
+div#nuancier {
+    width: 100%; 
+    div {
+        float: left;
+        height: 100px;
+        width: 8%;
+        margin-right: 5px;
+    }
+}
+div#color-0 { background-color: @color-0;}
+div#color-10 { background-color: @color-10;}
+div#color-20 { background-color: @color-20;}
+div#color-30 { background-color: @color-30;}
+div#color-40 { background-color: @color-40;}
+div#color-50 { background-color: @color-50;}
+div#color-60 { background-color: @color-60;}
+div#color-70 { background-color: @color-70;}
+div#color-80 { background-color: @color-80;}
+div#color-90 { background-color: @color-90;}
+div#color-100 { background-color: @color-100;}
 
 //@color-M: rgb(255, 56, 56);
 //@color-J: rgb(249, 255, 98);
 //@color-C: white;
 //@color-M: magenta;
-//@color-J: yellow;
+//@color-J: yellow;m
 //@color-N: black;
 
 img.preview {
-	//display: none;
+//display: none;
 }
 img.cyan {
-	//display: none;
+//display: none;
 }
 img.magenta {
     //display: none;
@@ -97,16 +160,35 @@ img.noir {
 */
 
 @page {
-    //size:16,5cm 23cm;
-	size:18,5cm 25cm;
-	margin: 0;
+    //size:14,8cm 20cm; // format coupé : soit 559 x 756 px
+size:16,8cm 22cm;  // format avec cropmarks => 6.60 inches * 8.70 inches ou 635 x 831,5 px
+margin: 0;
         //margin-left: 0.5cm;
         //margin-right: 0cm;
         //margin-top: 0.5cm;
         //margin-bottom: 0.5cm;
         //margin: 0 1cm;
-	border: 1px solid @color-N;
-	orphans:4; widows:2; /* ça n'a pas l'air de marcher ce truc ? */
+border: 1px solid @color-N;
+orphans:4; widows:2; /* ça n'a pas l'air de marcher ce truc ? */
+
+}
+div#virtual {
+position: absolute;
+z-index: -100;
+    width: 100%; 
+}
+div.fakepage {
+    //position: absolute; 
+    position: relative;
+    //top: 0cm; 
+    //left: 0cm; 
+    //height: 26.05cm; 
+    //height: 831.1875px;  => 22cm en px
+    //height: 220mm;
+    //height: auto;  //=> 22cm in pt = 8.70in
+    height: 1220px;
+    width: 926px; 
+    z-index: -10;
 }
 
 div.crop-tl,
@@ -114,30 +196,26 @@ div.crop-tr,
 div.crop-br,
 div.crop-bl {
      height: 1cm;
-	width: 1cm;
+width: 1cm;
      position: absolute;
-
+box-sizing: border-box;
 }
 
 div.crop-tl {
     left: 0;
     top: 0;
-	
 }
 div.crop-tr {
     right: 0cm;
     top: 0cm;
-	
 }
 div.crop-br {
-        right: -0.5cm;
-        bottom: -0.5cm;
-	
+        right: 0;
+        bottom: 0;
 }
 div.crop-bl {
-        left: 0;
-    bottom: -0.5cm;
-	
+    left: 0;
+    bottom: 0;
 }
 div.crop-top,
 div.crop-right,
@@ -146,26 +224,19 @@ div.crop-left, {
         width: 0.5cm;
         height: 0.5cm;
         position: absolute;
-
+        box-sizing: border-box;
 }
 div.crop-top {
     border-top: 1px solid black;
-
 }
 div.crop-right {
     border-right: 1px solid black;
-	left: 0;
-	top: 0;
 }
 div.crop-bottom {
     border-bottom: 1px solid black;
-	left: -0.25cm;
-	top: 0cm;
 }
 div.crop-left {
     border-left: 1px solid black;
-	right: 0;
-	top: -0.25cm;
 }
 
 /*
@@ -173,85 +244,123 @@ div.crop-left {
 */
 
 * {
-	color: @color-N;
-	-webkit-print-color-adjust: exact;  /* Allows printing of background colors */
+color: @color-N;
+-webkit-print-color-adjust: exact;  /* Allows printing of background colors */
 }
 html {
-    width: 18cm;
+    width: 870.55px;
     //width: 16.5cm;
 }
 body {
-	width: 100%;
-	font-family: "Ume P Mincho";
-	font-size : @font-size-0;
-	line-height: @line-height-0;
-	color: @color-N;
-	
+width: 100%;
+font-family: UmePMincho;
+font-size : @font-size-0;
+line-height: @line-height-0;
+color: @color-N;
+
+}
+@media screen {
+ul#toc { display: block;}
+}
+@media print {
+ul#toc { display: none;}
+}
+
+ul#toc {
+    position: fixed;
+    right: 1cm;
+    bottom: 1cm;
+    height: auto; 
+    width: auto;
 }
 
 /*
 *-  B L O C K S   -----------------------------------------
 */
 section#body {
-	margin-left: 1.5cm;
-	margin-right: 0.5cm;
+margin-left: 3cm;
+margin-right: 1.5cm;
 }
 article {
-	width: 100%;
-	//page-break-before: always;  
-	//margin: 0 0.25cm;
-	
-	margin-top: 1cm;
-	background-color: white;
-	clear: both;
+width: 100%;
+//page-break-before: always;  
+//margin: 0 0.25cm;
 
-	div {
-		float: left;
-		/*box-sizing: border-box;
-		outline-offset: -10px;*/
-	}
-	
-	div.texte {
-		/*background-color: mix(@color-C, @color-N, 50%);*/
-		padding: 10px;
-		height: auto;
-		box-sizing: border-box;
-		outline-offset: -10px;
-	}
-	div.image {
-		/*background-color: mix(@color-C, @color-C, 33%);*/
-		outline: 2px solid @color-N;
-		overflow: hidden;
-	}
-	div.bible {
-	     padding: 10px;
-		outline: 3px solid @color-N;
-		box-sizing: border-box;
-		outline-offset: -10px;
-		height: auto;
-	}
-	
-	div.artiste {
-		outline: none !important;
-	}
+margin-top: 1cm;
+background-color: white;
+clear: both;
+
+div {
+float: left;
+/*box-sizing: border-box;
+outline-offset: -10px;*/
+}
+
+div.texte {
+/*background-color: mix(@color-C, @color-N, 50%);*/
+padding: 2px 10px 0px 5px;
+height: auto;
+box-sizing: border-box;
+outline-offset: -5px;
+outline: @border;
+line-height: 110%;
+}
+
+div.image {
+/*background-color: mix(@color-C, @color-C, 33%);*/
+border: @border;
+overflow: hidden;
+box-sizing: border-box;
+margin-right: 5px;
+margin-bottom: 5px;
+}
+
+div.imagesimple {
+outline: 0px solid @color-N;
+overflow: hidden;
+box-sizing: border-box;
+}
+
+div.bible {
+     padding: 0 10px;
+//outline: 3px solid @color-N;
+box-sizing: border-box;
+outline-offset: -10px;
+height: auto;
+width:15%;
+}
+
+div.artiste {
+outline: none !important;
+}
 }
 
 div.image-cmjn {
-	position: relative;
-	width: 100%;
+position: relative;
+width: 100%;
+overflow: hidden;
+outline-color: @color-C;
+outline-style: solid;
+outline-width: 0;
 
-	img {
-		position: absolute;
-		//opacity: 0.9;
-	}
-	
+img {
+position: absolute;
+//opacity: 0.9;
+}
+}
+
+div.transition {
+    position: relative;
+    width: 886px;
+    margin-left: -93px;
+    overflow: hidden;
 }
 
 .shape-hexagone {
-	-webkit-shape-inside: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
-	width: 200px;
-	height: 200px;
-	text-align: justify;
+-webkit-shape-inside: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+width: 200px;
+height: 200px;
+text-align: justify;
 }
 
 div.page-break {
@@ -260,458 +369,691 @@ div.page-break {
 }
 
 
-/* Cachons des choses pour le moment - - - commenter une ligne pour ne pas plus cacher un article */
-article#edito,
-article#ouverture,
-article#les-moutons,
-article#stage-cifas, 
-article#garage-29, 
-article#balsa-en-mode-india, 
-article#noel-au-theatre, 
-article#le-bureau-des-histoires,
-article#vision, 
-article#k-barre, 
-article#quest-ce-qui-me-fait-sortir-la-tete-de-leau, 
-article#kunstenfestivaldesarts, 
-article#genesis, 
-article#les-laboreales, 
-article#les-beatitudes-de-lamour,
-article#trilogie-de-lenfer
-{ 
-	display: none;
-}
 
-article#fusee,
-article#jai-endure-vos-discous-et-jai-loreille-en-feu,
-article#la-foret, 
-
-{
-	display: block;
-}
 
 /*
 *-  P A R A G R A P H E S  &  C H A R A C T E R S ----------------------------------------------
 */
+
+sup {
+    font-size: 0.7em;
+    line-height: 0;
+    vertical-align: 0.3em;
+}
+
 h1, h2, h3, h4, h5, h6 {
-	font-weight: normal;     /* Enlève le bold, car sinon il est forcé par le navigateur */
+font-weight: normal;     /* Enlève le bold, car sinon il est forcé par le navigateur */
 }
 
 h1 {
-    font-family: UmeMinchoLatin;
+    font-family: UmeGothicShadow;
     text-transform : uppercase;
     font-size: @font-size-4;
     line-height: @line-height-4;
-    color:@color-N;
+    color:@color-C;
+    text-align: center;
 }
 
 h2 {
-	font-family: UmeMinchoLatin;
-	text-transform: uppercase;
-	font-size: @font-size-3;
-	line-height : @line-height-3;
-	 color:@color-N;
-	
-	
-	/*span {
-		color: mix(@color-C, @color-N, 70%);
-		.shape-hexagone
-	}/*
-	/*span + span {
-		font-family: UmeMinchoLatin;
-		color: @color-N;
-		font-size: 1.3em;
-		// -webkit-transform: rotatey(54deg) rotateX(35deg) skew(10deg,10deg);
-		display: block;
-		//margin-left: 2em;
-		max-width: 200px;
-		z-index: 100;
-		position: relative;
-	}*/
+font-family: UmeMinchoLatin;
+text-transform: uppercase;
+font-size: @font-size-0;
+line-height : @line-height-0;
+ color:@color-C;
+text-align: center;
+
+
+/*span {
+color: mix(@color-C, @color-N, 70%);
+.shape-hexagone
+}/*
+/*span + span {
+font-family: UmeMinchoLatin;
+color: @color-N;
+font-size: 1.3em;r
+// -webkit-transform: rotatey(54deg) rotateX(35deg) skew(10deg,10deg);
+display: block;
+//margin-left: 2em;
+max-width: 200px;
+z-index: 100;
+position: relative;
+}*/
 }
 h3 {
-	font-size: @font-size-2;
-	display: inline-block;
-	line-height : @line-height-2;
+font-size: @font-size-1;
+display: inline-block;
+line-height : @line-height-1;
 }
 h4 {
-	font-size: @font-size-1;
-	line-height :@line-height-1;
+font-size: @font-size-2;
+line-height :@line-height-2;
 }
 
-div.titre{
-	padding: 10px;
-	outline:none !important;
-	    border-color: mix(@color-C, @color-C, 20%);
-	border-style: solid;
-    }
-    
 p {
-	width: 100%;
-	padding : 5px;
-	/*page-break-inside: avoid;*/   /* ça évite que les paragraphes soient coupés par la fin de page ou de bloc*/
+width: 100%;
+padding : 5px;
+/*page-break-inside: avoid;*/   /* ça évite que les paragraphes soient coupés par la fin de page ou de bloc*/
 }
 
-blockquote {
-	font-family: UmeMinchoLatin;
-	font-size: @font-size-1;
-	outline: none;
-	color: mix(@color-C, @color-C, 75%);
-	-webkit-region-break-before: always;
-	line-height: @line-height-1;
-	.shape-hexagone;
+ blockquote {
+font-family: UmeMinchoLatin;
+font-size: @font-size-1;
+outline: none;
+-webkit-region-break-before: always;
+line-height: 110%;
+text-align:center;
 }
-
+.blockquote {
+     color: @color-30;
+}
+.nl {
+color: @color-70;
+}
 ul {
-    .shape-hexagone;
+    //.shape-hexagone;
     
     li {
         list-style-type: none;
     }
 }
 
-dl.bible {
+
+dl {
     font-family:UmeMinchoLatin;
-    font-size: @font-size-99;
-    text-align: center;
-   padding: 3px;
-   background-color: mix(@color-C, @color-N, 90%);
-}
-
+   font-size: 10pt;
+    text-align: left;
+   padding: 0px;
+  
+   }
+   
 dt {
-	font-size : @font-size-99;
-	line-height: @line-height-99;
-	text-transform: uppercase;
-	line-height : @line-height-0;
-	color: @color-N;
+font-size: 7pt;
+text-transform: uppercase;
+line-height: 10pt;
+color: inherit;
+font-weight: bold;
+letter-spacing: 1px;
 }
 
-dd{
+dd {
+color: inherit;
+line-height: 13px;
+margin-bottom: 1px;
+}
+
+
+div.titre{
+padding: 10px;
+outline:none !important;
+border-color: mix(@color-C, @color-C, 20%);
+border-style: solid;
+box-sizing: border-box;
+margin: 0 0 0 -3px;
+}
+div.titre:first-child {
+clear: left;
+}
+
+div.type {
+    padding: 5px;
+}
+
+div.artiste {
+    padding: 10px;
 }
 
 div.date {
-	font-family: UmePGothicBalsaRegular;
-	text-align: center;
-	outline: none;
-	padding: 0px;
+font-family: UmePGothicBalsaRegular;
+//text-align: center;
+outline: none;
+padding: 0px;
+//-webkit-transform: rotate(-15deg);
+}
+div.horaire {
+    font-family: UmePGothicBalsaRegular;
+    text-transform: uppercase;
+    font-weight: bold;
+
 }
 div.production {
     font-family: UmePGothicBalsaRegular;
-    line-height: @line-height-0;
-    font-size: @font-size-99;
+    line-height: 10px;
+    font-size: 8px;
 }
 
 
 em {
-	    font-family: UmeMinchoLatin;
+    font-family: UmePGothicBalsaRegular;
 }
 
 b {
-    color: @color-N;
+    color: @color-C;
 }
 
 .numbers{
     font-family: UmePGothicBalsaRegular;
     font-size: @font-size-1;
+    color: @color-N;
     text-transform: uppercase;
-    outline: 3px solid mix(@color-C, @color-C, 30%);
+    outline: 2px solid @color-N;
+padding: 8px 10px 0px 5px;
+box-sizing: border-box;
+outline-offset: -5px;
+background-image: url('../materials/extract/aspiration.gif');
+background-position:-100px -50px;
 }
 
 div.if {
-    font-family: Oswald;
-    font-size: @font-size-1;
-    line-height: @line-height-1;
-    text-transform : uppercase;
+    font-family: UmePGothicBalsaRegular;
+    font-weight: bold;
+    font-size: @font-size-0;
+    line-height: 16pt;
     outline: none !important;
-    }
-    
+    box-sizing: border-box;
+    padding: 0 5px;
+    text-transform: uppercase;
+}
+ 
+span.lettrine {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+}
+ 
 div.out{
     font-family: UmePGothicVerticalRegular;
     line-height: @line-height-0;
     font-size: @font-size-99;
-    background-color: @color-N;
+    background-color: @color-50;
+    box-sizing: border-box;
+    padding: 0.75em;
+
+<!--    * {
+    color: white !important;-->
     }
+}
+
 div.border {
-    outline: 3px solid @color-N;
+    border: @border;
 }
 
-article#fusee p,
-article#jai-endure-vos-discours-et-jai-loreille-en-feu p, 
-article#la-foret p,{
-    -webkit-region-break-after: always;
+.centrer {   
+    margin-left: auto;   
+    margin-right: auto;   
+    width: 80%; /* largeur obligatoire pour être centré */
 }
-
-
-
 </style>
-
 
 
 </head>
 
-<!--------------------------------------------------------------------------------------------------
-*-  B O D Y   -
---------------------------------------------------------------------------------------------------->
 <body>
+    <div id="virtual">
+        <div id="fakepage" class="fakepage" style="display: none;">
+            <img src="../materials/cale-page.png" />
+            <div class="crop-tl">
+                <div class="crop-right" style="top: 0; right: 0;"></div>
+                <div class="crop-bottom" style="bottom: 0cm; left: 0;"></div>
+            </div>
+            <div class="crop-tr">
+                <div class="crop-left" style="top: 0; left: 0;"></div>
+                <div class="crop-bottom" style="bottom: 0; right: 0;"></div>
+            </div>
+            <div class="crop-br">
+                <div class="crop-left" style="left: 0; bottom: 0;"></div>
+                <div class="crop-top" style="right: 0cm; top: 0;"></div>
+            </div>
+            <div class="crop-bl">
+                <div class="crop-right" style="bottom: 0cm; right: 0;"></div>
+                <div class="crop-top" style="left: 0cm; top: 0"></div>
+            </div>
+        </div>
+    </div>
 
-<div id="fakepage" style="display: none; position: absolute; top: 1cm; left: 0.5cm; height: 25cm; width: 18.5cm; z-index: -10; background-color: white;">
-<div class="page" style="position: absolute; top: 1cm; left: 1cm; height: 23cm; width: 16.5cm; box-sizing: border-box; outline-offset: 0.5cm; outline: 1px solid white;"></div>
-<div class="crop-tl">
-	<div class="crop-right" style="top: -0.25cm"></div>
-	<div class="crop-bottom"></div>
-</div>
-<div class="crop-tr">
-	<div class="crop-left"></div>
-	<div class="crop-bottom" style="left: 0.75cm"></div>
-</div>
-<div class="crop-br">
-	<div class="crop-left" style="left: 0; top: 0.25cm"></div>
-	<div class="crop-top" style="left: 0.25cm"></div>
-</div>
-<div class="crop-bl">
-	<div class="crop-right" style="top: 0.25cm"></div>
-	<div class="crop-top" style="left: -0.25cm"></div>
-</div>
-</div>
+    <ul id="toc"></ul>
 
-<section id="body">
+    <div id="nuancier">
+        <div id="color-0"></div>
+        <div id="color-10"></div>
+        <div id="color-20"></div>
+        <div id="color-30"></div>
+        <div id="color-40"></div>
+        <div id="color-50"></div>
+        <div id="color-60"></div>
+        <div id="color-70"></div>
+        <div id="color-80"></div>
+        <div id="color-90"></div>
+        <div id="color-100"></div>
+    </div>
+
+    <section id="body">
+
 <!--------------------------------------------------------------------------------------------------
-*-  E D I T O  -
+-  F A U X   T I T R E  -
+-->
+<article id="faux-titre">
+
+<div class="titre" style="width:100%;">
+<h1>Saison<br />2013-2014</h1>
+</div>
+<div class="if" style="width:18%;">
+<p>Et si l’alternatif devenait une norme et la norme une alternative&thinsp;? 
+</p>
+</div>
+
+<div class="titre" style="width:17%;">
+<h2>Et si…</h2>
+</div>
+
+<div class="if" style="width:17%;">
+<p>Et si  c’était possible&thinsp;?  
+</p>
+</div>
+
+<div class="titre" style="width:14%;">
+<h2>What if…</h2>
+</div>
+
+<div class="if" style="width:36%;">
+<p>Et si les extraterrestres  c’étaient simplement nous, le Nous du futur communiquant au Nous du  passé&thinsp;? </p>
+</div>
+<div class="titre" style="width:81%;">
+<h2>Wat als…</h2>
+</div>
+
+<div class="transition" style="height: 1060px; outline: none; margin-top: 50px; margin-bottom: -150px;">
+<img class="noir" src="../photos/layers/meteor/meteor_Calque 10-nb.png" style="width: 100%;" />
+</div>
+</article>
+
+<!--------------------------------------------------------------------------------------------------
+-  E D I T O  -
 -->
 <article id="edito">
-<div class="content">
-<h1>Saison 13-14</h1>
-<h1>Et si…</h1>
-<h1>What if …</h1>
-<h1>Wat als…</h1>
 
+<div class="titre" style="width:100%; ">
+<h1>INVOLUTION 03</h1>
+</div>
+<div class="titre" style="width:70%;">
+<h2>L’art des possibles</h2>
+</div>
+<div class="" style="width:15%; clear: left;">
+<h3 style="text-align: center; width: 70%;">Avant qu’il ne soit trop&nbsp;tard</h3>
+</div>
 
-<h2>INVOLUTION 03 / l’art des possibles</h2>
-<h3>ÉDITO avant qu’il ne soit trop tard</h3>
-
-<p>Et  si de petits pouvoirs impliquaient de grandes responsabilités ? Et si  les poules avaient des dents, les traiterions-nous autrement?</p>
-<p>Et  si nous devenions les héros de notre super-vie? Et si en se sortant la  tête de l’eau, on parvenait à respirer ? Et si on arrêtait de se mettre  sous pression ? Et si on passait à l’action, man and woman ? Et si  l’alternatif devenait une norme et la norme une alternative ? Et si  c’était possible ?  Et si au lieu de vouloir rencontrer  toujours le  troisième type, on commençait par le premier ? Et si les extraterrestres  c’étaient simplement nous, le Nous du futur communiquant au Nous du  passé ? </p>
+<div class="texte" style="width:15%; height: 250px;">
 <p>Bricolons de l’espace pour l’humain, et le temps qui va avec, le temps X des frères Bogdanoff par exemple. </p>
-<p>L’art  des possibles, c’est considérer nos imaginaires et nos histoires comme  les fondations réelles et concrètes de toutes les vies parallèles qui  s’offrent à nous. « Et si tu n’existais pas, dis-moi pourquoi  j’existerais ? » Et oui, si vous n’existiez pas, pourquoi les théâtres  existeraient ? Vous connaissez la chanson, un spectacle sans  spectateurs, c’est un peu comme une politique culturelle sans vision,  comme le berger sans ses moutons, comme l’Histoire sans sa genèse, …  </p>
-<p>Et  si la Balsamine se réinventait pour vous, chaque saison ? 2013-2014,  c’est la Balsa au pays de l’uchronie, au sens le plus strict, celui de  l’altération.  </p>
-<p>Un exemple ? </p>
-<img src="../materials/imgf0003_300.png"/>
-<p>Et  si Martine Wijckaert (fondatrice de la Balsamine) n’était pas entrée  dans cette friche, dans cette caserne à l’abandon? Et si elle n’avait  pas, avec ses petits bassinets, recueilli les fuites de ce lieu  abandonné ? Et si elle n’avait pas décidé de rester dans ce lieu comme  dans une seconde maison ? Et si le dictionnaire, avec lequel elle  recherchait le nom du lieu, en tombant sur le sol ne s’était pas ouvert à  la lettre B, sur la page répertoriant cette fleur sauvage, la  balsamine, où en serions-nous aujourd’hui ?  </p>
-<p>Quelle  serait l’Histoire de ce temps qui n’existe pas ? Une autre question  nous brûle les lèvres : et si le bras de Martine Wijckaert avait été  plus long, comme celui d’un des 4 fantastiques, combien d’autres portes  aurait-elle pu ouvrir sur son imaginarium ? Tout ceci confine à  l’émerveillement. </p>
-<p>Martine  Wijckaert est aujourd’hui artiste associée, artiste indissociable de  notre présence en ses murs. Et si sa prochaine création « Trilogie de  l’enfer » était le spectacle incontournable ? Alors pourquoi se priver  de cette réalité si belle?  Les créations susceptibles de changer le  regard ne sont finalement pas aussi nombreuses qu’on pourrait croire !  En soi, la Balsa est un non-lieu de non-temps où le public comme  l’artiste sont dépositaires du sens et du rythme de l’œuvre.  Et si  l’expérience esthétique était à portée de tous ?</p>
-<p>Enfin,  et pour finir avec toutes ces suppositions, imaginons seulement que  cette nouvelle saison théâtrale à effet papillon, ce grand spectacle de  variétés contemporaines,  soit le départ d’une aventure commune, où le  plaisir passe par la découverte de ces multivers artistiques. </p>
-<p>Il est temps de commencer la lecture de ce programme qui, nous l’espérons, vous uppercutera : </p>
-<p><em>Bam Boum Wizz Pimmmm</em></p> 
-<p>Fabien Dehasseler et Monica Gomes, codirecteurs artistiques</p>
 </div>
-</article>
 
-<!--------------------------------------------------------------------------------------------------
-*-  O U V E R T U R E  -
--->
-<article id="ouverture">
-<div class="content">
-<h2>Ouverture de saison 13/14</h2>
-<h3>Le 19 septembre</h3>
-
-<p>Dès 19h : Vernissage des photos de saison 2013&mdash;2014 d'Hichem Dahes </p>
-
-<p>À  20h30 : Conférence d’Isabelle Stengers, « Dis-moi comment tu racontes,  je te dirai à la construction de quoi tu participes. » </p>
+<div class="if" style="width:20%;background-image: url('../materials/extract/lignes-a-droite.gif'); background-size: 100%;background-position: 7px 115px;background-repeat: no-repeat; height: 250px;">
+<p>Et  si de petits pouvoirs impliquaient de grandes responsa&shy;bilités&thinsp;? 
+</p>
 </div>
-</article>
 
-<!--------------------------------------------------------------------------------------------------
-*-  F U S E E  -
--->
-<article id="fusee">
-    <div class="texte titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
-	    <h1 style="text-align: center;">F u s é e </h1>
-    </div>
-    <div class="texte titre" style="width: 10%;  border-width: 3px; border-bottom-width: 7px; border-radius: 15px;">
-	    <h2 style="text-align: center;">g l ö ö r g h</h2>
-     </div>
-    <div class="texte titre" style="width: 10%;   border-width: 3px; border-bottom-width: 7px; border-radius: 15px; ">
-	    <h2 style="text-align: center;">o p e r a</h2>
-    </div>
-    <div class="texte" style="width: 30%;  ">
-	    <h3 style="-webkit-region-break-after: always;">Création Théâtre</h3>
-    </div>
-    <div class="texte artiste" style="width: 40%;  ">
-	    <h4>Clinic Orgasm Society</h4>
-    </div>
-    <div class="texte date" style="width: 15%; ">
-		<p>
-			Du 25 septembre au 5 octobre à 20h30 
-		</p>
-		<p>
-			 Amphithéâtre
-		</p>
-    </div>    
-    <div class="image" style="width: 55%; height: 260px; outline-width: 15px;">
-		<div class="image-cmjn">
-			<img class="cyan" src="../photos/couches-test/extrait_clinic_c.gif" style="margin-top: -110px; margin-left: -60px;" />
-			<img class="magenta" src="../photos/couches-test/extrait_clinic_m.gif" style="margin-top: -110px; margin-left: -60px;" />
-			<img class="jaune" src="../photos/couches-test/extrait_clinic_j.gif" style="margin-top: -110px; margin-left: -60px;" />
-			<img class="noir" src="../photos/couches-test/extrait_clinic_n.gif" style="margin-top: -110px; margin-left: -60px;" />
-			<img class="preview" src="../photos/extrait_clinic1.jpg" style="margin-top: -110px; margin-left: -60px;" />
-		</div>
-    </div>
+<div class="texte" style="width:40%;">
+<p>L’art  des possibles, c’est considérer nos imaginaires et nos histoires comme  les fondations réelles et concrètes de toutes les vies parallèles qui  s’offrent à nous. «&thinsp;Et si tu n’existais pas, dis-moi pourquoi  j’existerais&thinsp;?&thinsp;» Et oui, si vous n’existiez pas, pourquoi les théâtres  existeraient&thinsp;? Vous connaissez la chanson, un spectacle sans  spectateurs, c’est un peu comme une politique culturelle sans vision,  comme le berger sans ses moutons, comme l’Histoire sans sa genèse, …  </p>
+</div>
 
-    <div class="image" style="width: 100%; height: 200px; outline: none; position: relative; z-index: -10;">
-		<div class="image-cmjn">
-			<img class="noir" src="../materials/extract/vagues-trouees-236.gif" style="margin-top: -630px; margin-left: -270px; width: 180%;" />
-		</div>
-    </div>
 
-    <div class="texte if" style="width: 40%;  ">
-		<p>
-			Et si les extra&shy;terrestres n’étaient pas nos amis?
-		</p>
-    </div>
-    <div class="texte if" style="width: 40%;  ">
-		<p>
-			Ne serait-ce pas leur rendre la monnaie de leur pièce que de les torturer à leur tour ? 
-		</p>
-    </div>
-    
-    <div class="texte if" style="width: 40%;  ">
-		<p>
-			Et si tout cela était de l’ordre du préventif ?  
-		</p>
-    </div>
-    <div class="image" style="width: 30%; height: 138px; outline: none; ">
-		<div class="image-cmjn">
-			<img class="noir" src="../materials/extract/pingdansloreille.gif" style="margin-top: -45px; width:100%; " />
-		</div>
-    </div>
-    <div class="texte if" style="width:40%;  ">
-		<p>
-			Et si nous tentions ensemble cette expérience ?
-		</p>
-    </div>
+<div class="texte" style="width:25%;  height: 147px;">
+<p>Et  si la Balsamine se réinventait pour vous, chaque saison&thinsp;? 2013-2014,  c’est la Balsa au pays de l’uchronie, au sens le plus strict, celui de  l’altération.  </p>
+</div>
 
-    <div class="texte" style="width: 60%;  ">
-		<p>
-			Première  tentative d’échange artistique entre humains et non-humains, <em>Fusée</em>  est  conçu pour un public majoritairement extra-terrestre. 
-			Déployant  une inventivité perverse et musicale, explorant l’aspect relatif de la  normalité et de l’obscénité, Fusée questionne en dernier ressort les  limites de l’utilité et de la représentation. 
-		</p>
-    </div> 
+<div class="texte" style="width:12%; height: 147px;" >
+<p>Un exemple&thinsp;? </p>
+</div>
 
+<div class="texte" style="width:40%; height: 147px;">
+<p>Et  si Martine Wijckaert (fondatrice de la Balsamine) n’était pas entrée  dans cette friche, dans cette caserne à l’abandon&thinsp;? Et si elle n’avait  pas, avec ses petits bassinets, recueilli les fuites de ce lieu  abandonné&thinsp;? Et si elle n’avait pas décidé de rester dans ce lieu comme  dans une seconde maison&thinsp;? 
+</div>
+
+<div class="if" style="width:17%; height: 147px;">
+<p>Et si  les poules avaient des dents, les traiterions-nous autrement&thinsp;?
+</p>
+</div>
+
+<div class="if" style="width:16%;">
+<p>Et  si nous devenions les héros de notre super-vie&thinsp;?
+</p>
+</div>
+
+<div class="texte" style="width:40%; ">
+<p>
+Et si le dictionnaire, avec lequel elle  recherchait le nom du lieu, en tombant sur le sol ne s’était pas ouvert à  la lettre B, sur la page répertoriant cette fleur sauvage, la  balsamine, où en serions-nous aujourd’hui&thinsp;?  </p>
+</div>
+
+
+
+
+<div class="if" style="width:30%;">
+<p>Et si en se sortant la  tête de l’eau, on parvenait à respirer&thinsp;? 
+</p>
+</div>
+<div class="if" style="width:36%;">
+<p>Et si on arrêtait de se mettre sous pression&thinsp;? 
+</p>
+</div>
 
 <div class="page-break">&nbsp;</div>
 
+<div class="texte" style="width:30%;">
+<p>Quelle  serait l’Histoire de ce temps qui n’existe pas&thinsp;? Une autre question  nous brûle les lèvres&thinsp;: et si le bras de Martine Wijckaert avait été  plus long, comme celui d’un des 4 fantastiques, combien d’autres portes  aurait-elle pu ouvrir sur son imaginarium&thinsp;? Tout ceci confine à  l’émerveillement. </p>
+</div>
 
-    <div class="texte numbers" style="width: 100%; height:135px; ">
-		<p>Les extraterrestres sont-ils nos amis ?</p>
-    </div>
-    <div class="texte numbers" style="width: 100%;  height:135px; ">
-	    <p>Oui, les extra&shy;terrestres sont nos amis - 17%</p>
-    </div>
-    <div class="texte numbers" style="width: 100%;  height:135px;">
-	    <p>Non, les extra&shy;terrestres sont ennemis - 4%</p> 
-    </div>    
-    <div class="texte numbers" style="width: 100%;  height:135px;">
-	    <p>Non, nous leurs sommes totalement indifférents - 4%</p> 
-    </div>    
-    <div class="texte numbers" style="width: 100%;  height:135px;">
-	    <p>Non, ils ne savent même pas que nous existons - 0%</p>
-    </div>
-    <div class="texte numbers" style="width: 100%; height:135px;">
-	    <p>Non, pour eux, nous sommes des cobayes ou des sujets d'étude - 31%</p>
-    </div>
-    <div class="texte numbers" style="width: 100%;   height:135px; ">
-	    <p>Les extraterrestres ? Quels extraterrestres ? - 14%</p>
-    </div>
-    <div class="texte numbers" style="width: 100%; height:135px; ">
-	    <p>Autre proposition - 26%</p>
-    </div>
-    
-    <div class="page-break">&nbsp;</div>
-    
-    <div class="texte" style="width: 40%; outline: none;">
-		<blockquote style="width: 268px; height: 228px;">
-			« Quoi de plus beau et de plus troublant que de torturer en direct un  Glöörgh, fleur mutante extra-terrestre aussi mystérieuse que redoutable ? »
-		</blockquote>
-    </div>
-    <div class="texte" style="width: 25%; ">
-		<p>
-			Ludovic Barth, metteur en scène de <em>Fusée</em>
-		</p>
-    </div>
-    <div class="texte" style="width: 55%; ">
-	<p>
-		Après les succès de <em>J’ai gravé le nom de ma grenouille dans ton foie</em> et de <em>DTC (on est bien)</em>, la jeune compagnie Clinic Orgasm Society s’est lancée dans un triptyque : <em>Pré-Blé-Fusée</em>,  3 spectacles indépendants et déjantés qui déplacent les limites de la  normalité et qui se jouent de nos répulsions-fascinations.
-	</p>
-    </div>
-        <div class="out" style="width: 30%; ">
-		<p>
-			Aussi, après <em>Pré</em> au Varia, <em>Blé</em> au Manège.Mons , voici <em>Fusée</em> à la Balsa, vers l’insoutenable et au-delà !
-		</p>
-		<p>
-			<em>Fusée</em> sera ensuite jouée au Grand Bleu à Lille et au PBA+ Eden à Charleroi. 
-			<em>Pré</em>  et <em>Blé</em>, les deux premiers opus de la trilogie,  seront à nouveau visibles au Théâtre Varia en février 2014.
-		</p>
-    </div>
-        <div class="texte production" style="width: 70%; ">
-		<p>
-			Une  production de la Clinic Orgasm Society en coproduction avec la  Balsamine, le  Théâtre Varia, le manège.mons / Centres Dramatiques de la  Fédération Wallonie-Bruxelles, le PBA + Eden (Charleroi), Le Grand Bleu  – ENPDA Lille Nord/Pas-de-Calais. Avec le soutien du Centre des Arts  Scéniques (CAS) et de la SACD. Avec l’aide du Conseil de l’aide aux  projets théâtraux (CAPT).
-		</p>
-    </div>
-    <div class="texte" style="width: 30%; ">
-	<dl class="bible">
-		<dt>Conception</dt>
-		<dd>Ludovic Barth et Claire Deville</dd>
-		<dt>Mise en Scène</dt>
-		<dd>Ludovic Barth</dd>
-		<dt>Collaboration artistique</dt>
-		<dd>Mathylde Demarez</dd>
-		<dt>Musique</dt>
-		<dd>Rodolphe Coster</dd>
-		<dt>Lumière</dt>
-		<dd>Marc Lhommel</dd>
-		<dt>Son</dt>
-		<dd>Benjamin Dandoy</dd>
-		<dt>Interprétation</dt>
-		<dd>Rodolphe Coster, Gregory Duret, Eno Krojanker, Anne-Fleur Inizan</dd>
-	</dl>
-    </div>
-	    <div class="image" style="width: 100%; height: 400px; outline: none;">
-		<div class="image-cmjn">
-			<img class="noir" src="../materials/extract/geometrie-240.gif" style="margin-top: -630px; margin-left: -270px; width: 180%;" />
-		</div>
-	    </div>
+<div class="if" style="width:13%; background-image: url('../materials/extract/etoile.gif'); background-size: 100%;background-position: 7px 105px;background-repeat: no-repeat; height: 215px;">
+<p>Et si on passait à l’action, man and woman&thinsp;? 
+</p>
+</div>
+
+<div class="texte" style="width:50%;">
+<p>Martine  Wijckaert est aujourd’hui artiste associée, artiste indissociable de  notre présence en ses murs. Et si sa prochaine création <em>Trilogie de  l’enfer</em> était le spectacle incontournable&thinsp;? Alors pourquoi se priver  de cette réalité si belle&thinsp;?  Les créations susceptibles de changer le  regard ne sont finalement pas aussi nombreuses qu’on pourrait croire&thinsp;!  En soi, la Balsa est un non-lieu de non-temps où le public comme  l’artiste sont dépositaires du sens et du rythme de l’œuvre.  Et si  l’expérience esthétique était à portée de tous&thinsp;?</p>
+</div>
+
+<div class="if" style="width:20%;">
+<p>Et si au lieu de vouloir rencontrer  toujours le  troisième type, on commençait par le premier&thinsp;? 
+</p>
+</div>
+
+
+
+<div class="texte" style="width:30%;">
+<p>Enfin,  et pour finir avec toutes ces suppositions, imaginons seulement que  cette nouvelle saison théâtrale à effet papillon, ce grand spectacle de  variétés contemporaines,  soit le départ d’une aventure commune, où le  plaisir passe par la découverte de ces multivers artistiques. </p>
+</div>
+<div class="" style="width:50%;">
+<p>Il est temps de commencer la lecture de ce programme qui, nous l’espérons, vous uppercutera&thinsp;: </p>
+</div>
+<div class="" style="width:50%;    background-image: url('../materials/extract/BAM.gif'); background-size: 30%;background-position: 100px 16px;background-repeat: no-repeat;height: 106px;">
+<p style="padding: 43px 64px; "><em>Bam Boum Wizz Pimmmm</em></p> 
+</div>
+<div class="" style="width:50%;">
+<p>Fabien Dehasseler et Monica Gomes, <br />co-directeurs artistiques</p>
+</div>
+
+<div class="transition" style="height: 360px; outline: none; margin-top: -64px; z-index: -10;">
+<img class="noir" src="../materials/extract/lignes.gif" style="width: 120%;" />
+</div>
 
 </article>
 
 <!--------------------------------------------------------------------------------------------------
-*-  L E S  M O U T O N S  -
+-  O U V E R T U R E  -
+-->
+
+<article id="ouverture" style="padding-top: 100px;">
+<div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+    <h1 style="text-align: center;">O u v e r t u r e</h1>
+    </div>
+<div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+    <h1 style="text-align: center;">d e</h1>
+    </div>
+    
+<div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+    <h1 style="text-align: center;">s a i s o n</h1>
+    </div>
+    <div class="titre" style="width: 5%;   border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+    <h2 style="text-align: center;">2 0 1 3 &ndash; 2 0 1 4</h2>
+    </div>
+
+<div class="date" style="width: 50%;">
+<p>Le 19 septembre</p>
+</div>
+<div class="horaire" style="width:20%; background-image: url('../materials/extract/allo.gif'); background-size: 100%; height: 130px;">
+<p style="padding: 50px 55px;">
+Dès <br /> 19h
+</p>
+</div>
+
+<div class="texte" style="width: 15%;height: 97px;margin: 10px 0; height: 115px; margin-right: 120px;">
+<p>Vernissage des photos de saison 2013&mdash;2014 d'Hichem Dahes </p>
+</div>
+
+<div class="horaire" style="width:20%; background-image: url('../materials/extract/DSC_6516.gif'); height: 190px; background-size: 100%;margin-left: -35px;z-index: -10;position: relative;">
+<p style="padding: 95px 33px;">
+À 20h30
+</p>
+</div>
+
+<div class="texte" style="width: 18%;height: 165px;margin: 20px 0;">
+<p>Conférence d’Isabelle Stengers, «&thinsp;Dis-moi comment tu racontes,  je te dirai à la construction de quoi tu participes.&thinsp;» </p>
+</div>
+</div>
+
+<div class="transition" style="height: 400px; outline: none; margin-top: 130px;">
+<img class="noir" src="../materials/extract/hairs.gif" style="width: 100%;" />
+</div>
+</article>
+
+<!--------------------------------------------------------------------------------------------------
+-  F U S E E  -
+-->
+<article id="fusee" style="padding-top: 150px;">
+    <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+    <h1 style="text-align: center;">F u s é e </h1>
+    </div>
+    <div class="titre" style="width: 5%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+    <h2 style="text-align: center;">g l ö ö r g h</h2>
+     </div>
+    <div class="titre" style="width: 5%;   border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+    <h2 style="text-align: center;">o p e r a</h2>
+    </div>
+<div class="type" style="width: 30%;  ">
+    <div class="type" style="width: 100%;  ">
+    <h3>Création Théâtre</h3>
+    </div>
+    <div class="artiste" style="width: 100%;  ">
+    <h4>Clinic Orgasm Society</h4>
+    </div>
+</div>
+    <div class="date" style="width: 70%; height: 100px; ">
+<p>
+Du 25 septembre au 5 octobre à 20h30 
+<br />
+ Amphithéâtre
+</p>
+<div class="image-cmjn" style="width: 80px; height: 200px; outline: none; position: relative; z-index: -10; margin-top: -25px; overflow: visible; margin-left: 230px;">
+<img class="noir" src="../materials/extract/crachat.gif" style="width: 100%" />
+</div>
+    </div>    
+
+
+<div class="image-cmjn" style="width: 55%; height: 207px; outline-width: 15px;">
+<!--
+<img class="cyan" src="../photos/couches-test/extrait_clinic_c.gif" style="margin-top: -110px; margin-left: -60px;" />
+<img class="magenta" src="../photos/couches-test/extrait_clinic_m.gif" style="margin-top: -110px; margin-left: -60px;" />
+<img class="jaune" src="../photos/couches-test/extrait_clinic_j.gif" style="margin-top: -110px; margin-left: -60px;" />
+<img class="noir" src="../photos/couches-test/extrait_clinic_n.gif" style="margin-top: -110px; margin-left: -60px;" />
+-->
+<img class="preview" src="../photos/retable_clinic_orgasm-nb.jpg" style="width: 100%" />
+</div>
+
+
+<div class="image-cmjn" style="width: 100%; height: 200px; outline: none; position: relative; z-index: -10;">
+<img class="noir" src="../materials/extract/wouuuuhhhhh.gif" style="width: 140%;" />
+</div>
+
+
+    <div class="if" style="width: 40%;  ">
+<p>
+<span class="lettrine">Et si</span> les extra&shy;terrestres n’étaient pas nos amis&thinsp;?
+</p>
+    </div>
+
+<div class="image-cmjn"  style="width: 20%; height: 120px;">
+<img class="noir" src="../photos/layers/orgasm/orgasm_Calque 20.png"/>
+</div>
+
+    <div class="if" style="width: 40%;  ">
+<p>
+Ne serait-ce pas leur rendre la monnaie de leur pièce que de les torturer à leur tour&thinsp;? 
+</p>
+    </div>
+
+
+<div class="image-cmjn"  style="width: 30%; height: 290px;">
+<img class="noir" src="../photos/layers/orgasm/orgasm_Calque 6.png"  style="width: 100%;"/>
+</div>
+
+    <div class="if" style="width: 50%;  ">
+<p>
+<span class="lettrine">Et si</span> tout cela était de l’ordre du préventif&thinsp;?  
+</p>
+    </div>
+
+    <div class="if" style="width:30%;  ">
+<p>
+<span class="lettrine">Et si</span> nous tentions ensemble cette expérience&thinsp;?
+</p>
+    </div>
+    
+<div class="image-cmjn" style="width: 30%; height: 170px; ">
+<img class="noir" src="../materials/extract/pingdansloreille.gif" style="margin-top: -45px; width:100%; " />
+</div>
+
+  <div class="texte" style="width: 30%;  height: 170px">
+<p>Première tentative d’échange artistique entre humains et non-humains,  <em>Fusée</em>  est  conçu pour un public majoritairement  extra-terrestre.</p>
+</div> 
+
+<div class="texte" style="width: 35%;  height: 170px; margin-bottom: 200px">
+<p>Déployant une inventivité perverse et musicale, explorant l’aspect relatif de  la   normalité et de l’obscénité, Fusée questionne en dernier ressort les limites de l’utilité et de la représentation.</p>
+</div> 
+
+<div class="numbers" style="width: 100%; text-align:center; margin auto; height:135px; ">
+<p style="text-align:center; float:none;">Les extraterrestres sont-ils nos amis?</p>
+</div>
+<div class="numbers" style="width: 51%;  text-align:center; margin auto; height:135px; ">
+<p style="text-align:center; float:none;">Oui, les extra&shy;terrestres sont nos amis<br />17%</p>
+</div>
+<div class="numbers" style="width: 23%; text-align:center; margin auto; height:135px;">
+<p style="text-align:center; float:none;">Non, les extra&shy;terrestres sont ennemis<br />4%</p> 
+</div>    
+<div class="numbers" style="width: 23%; text-align:center; margin auto; height:135px;">
+<p style="text-align:center; float:none;">Non, nous leurs sommes totalement indifférents<br />4%</p> 
+</div>    
+<div class="numbers" style="width: 18%; text-align:center; margin auto; height:135px;">
+<p style="text-align:center; float:none;">Non, ils ne savent même pas que nous existons<br />0%</p>
+</div>
+<div class="numbers" style="width: 82%; text-align:center; margin auto; height:135px;">
+<p style="text-align:center; float:none;">Non, pour eux, nous sommes des cobayes ou des sujets d'étude<br />31%</p>
+</div>
+<div class="numbers" style="width: 42%; text-align:center; margin auto; height:135px; ">
+<p style="text-align:center; float:none;">Les extraterrestres? Quels extraterrestres?<br />14%</p>
+</div>
+<div class="numbers" style="width:72%; text-align:center; margin auto; height:135px; margin-bottom: 490px">
+<p style="text-align:center; float:none;">Autre proposition<br />26%</p>
+</div>
+
+<div class="blockquote" style="width: 18%; outline: none; clear: left">
+<blockquote>«&thinsp;Quoi de plus beau et de plus troublant que de torturer en direct un  Glöörgh, </blockquote>
+</div>
+
+<div class="blockquote" style="width: 20%; outline: none;">
+<blockquote>fleur mutante extra-terrestre aussi mystérieuse que redoutable&thinsp;?&thinsp;»</blockquote>
+</div>
+
+<div style="width: 12%; height: 188px;">
+<div class="texte" style="width: 100%; height: 96px;">
+<p>Ludovic Barth, metteur en scène de <em>Fusée</em></p>
+</div>
+<div style="width: 164%; height: 187px;">
+<img src="../photos/layers-gris/meteor/meteor_Calque2re.png" height="200px">
+</div>
+</div>
+
+<div class="texte" style="width: 36%; height: 188px;">
+<p>Après les succès de <em>J’ai gravé le nom de ma grenouille dans ton foie</em> et de <em>DTC (on est bien)</em>, la jeune compagnie Clinic Orgasm Society s’est lancée dans un triptyque : <em>Pré-Blé-Fusée</em>,  3 spectacles indépendants et déjantés qui déplacent les limites de la  normalité et qui se jouent de nos répulsions-fascinations.</p>
+</div>
+
+<div class="texte" style="width: 16.8%; height: 170px ">
+<p>Aussi, après <em>Pré</em> au Varia, <em>Blé</em> au Manège.Mons , voici <em>Fusée</em> à la Balsa, vers l’insoutenable et au-delà&thinsp;!</p>
+</div>
+
+<div class="texte" style="width: 28%; height: 170px ">
+<p><em>Fusée</em> sera ensuite jouée au Grand Bleu à Lille et au PBA+ Eden à Charleroi. <em>Pré</em>  et <em>Blé</em>, les deux premiers opus de la trilogie,  seront à nouveau visibles au Théâtre Varia en février 2014.</p>
+</div>
+    
+<div class="bible" style="width: 35%; ">
+    <dl>
+    <dt>Conception</dt>
+    <dd>Ludovic Barth et Claire Deville</dd>
+    <dt>Mise en Scène</dt>
+    <dd>Ludovic Barth</dd>
+    <dt>Collaboration artistique</dt>
+    <dd>Mathylde Demarez</dd>
+    <dt>Musique</dt>
+    <dd>Rodolphe Coster</dd>
+    <dt>Lumière</dt>
+    <dd>Marc Lhommel</dd>
+    <dt>Son</dt>
+    <dd>Benjamin Dandoy</dd>
+    <dt>Interprétation</dt>
+    <dd>Rodolphe
+</div>
+        
+<div class="production" style="width: 13%; margin-bottom: 200px ">
+<p>Une  production de la Clinic Orgasm Society en coproduction avec la  Balsamine, le  Théâtre Varia, le manège.mons / Centres Dramatiques de la  Fédération Wallonie-Bruxelles, le PBA + Eden (Charleroi), Le Grand Bleu  – ENPDA Lille Nord/Pas-de-Calais. Avec le soutien du Centre des Arts  Scéniques (CAS) et de la SACD. Avec l’aide du Conseil de l’aide aux  projets théâtraux (CAPT).</p>
+</div>
+
+    <div class="transition" style="height: 400px; outline: none;">
+    <img class="noir" src="../materials/extract/geometrie-240.gif" style="margin-top: -630px; margin-left: -270px; width: 180%;" />
+    </div>
+
+</article>
+
+<!--------------------------------------------------------------------------------------------------
+-  L E S  M O U T O N S  -
 -->
 <article id="les-moutons">
-<div class="content">
 
-<h2>Les Moutons</h2>
+<div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+<h1 style="text-align: center;">L e s</h1>
+</div>
+<div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+<h1 style="text-align: center;">M o u t o n s</h1>
+</div>
+<div class="type" style="width:30%;">
+<div class="type" style="width:100%;">
 <h3>Re-création Théâtre ­­­­­­­­­­</h3>
+</div>
+<div class="artiste" style="width:100%;">
 <h4>Schieve Compagnie­</h4>
-<p class="date">
-Du 15 au 26 octobre à 20h30
+</div>
+</div>
+<div class="date" style="width:30%;">
+<p>
+Du 15 au 26 octobre à 20h30 <br /> Foyer
 </p>
-<p class="lieu">
-Foyer
-</p>
+</div>
 
-<p id="moutons" class="shape-hexagone">
-Et si on revenait à nos moutons?  <br />
-Et si les moutons parlaient, que diraient-ils?  <br />
-Et si les moutons chantaient, chanteraient-ils du Michel Berger?<br />
-Et  voilou, les revoilà, toujours plus animales, toujours aussi  attachantes, Corinne et Corinne, nos moutonnes noire et blanche  reprennent du service et s’installent dans le foyer de la Balsamine.  Cette fois, c’est décidé,  elles veulent  jouir, vivre, penser  et, même  si leurs utopies et leurs goûts musicaux (ah oui, elles chantent des  tubes !) semblent avoir pris quelques décennies de retard, elles ne se  perdent pas dans des identités virtuelles désincarnées compensant la  morosité de leurs existences. En gros, riches de leur expérience et pour  leur retour exceptionnel, elles prennent des risques, des gros risques  !<br />
-Corinne  a dit (même procédé que pour Ludovic Barth, isoler la tête d’une de nos  deux moutonnes pour la relier à  un phylactère) : « Tu sais quoi  Corinne? L'intelligence commence par la verticalité. Le mouton se  redresse et en se redressant il voit le monde et ses concitoyens. Le  cerveau se repositionne. L'imagination est enfin parmi nous! »
-</p>
 
-<p class="production">
+
+
+<div class="blockquote" style="width:40%;margin-left:280px;margin-top:-180px;">
+<blockquote>
+Corinne  a dit &thinsp;: 
+</blockquote>
+<blockquote>
+«&thinsp;Tu sais quoi  Corinne&thinsp;? L'intelligence commence par la verticalité. Le mouton se  redresse et en se redressant il voit le monde et ses concitoyens. Le  cerveau se repositionne. L'imagination est enfin parmi nous&thinsp;!&thinsp;»
+</blockquote>
+</div>
+<div class="texte" style="width:40%;margin-left:90px;">
+<p>
+Et  voilou, les revoilà, toujours plus animales, toujours aussi  attachantes, Corinne et Corinne, nos moutonnes noire et blanche  reprennent du service et s’installent dans le foyer de la Balsamine. Cette fois, c’est décidé, elles veulent  jouir, vivre, penser  et, même  si leurs utopies et leurs goûts musicaux (ah oui, elles chantent des tubes&thinsp;!) semblent avoir pris quelques décennies de retard, elles ne se  perdent pas dans des identités virtuelles désincarnées compensant la  morosité de leurs existences.
+</p>
+</div>
+<div class="texte" style="width:17%;margin-left:100px;margin-top:0px;;">
+<p>
+En gros, riches de leur expérience et pour  leur retour exceptionnel, elles prennent des risques, des gros risques&thinsp;!
+</p>
+</div>
+
+
+<div class="production" style="width:9%;clear:left;margin-top:-430px;margin-left:140px;">
+<p>
 Une  production de la Schieve Compagnie en coproduction avec la Balsamine,  avec l’aide de la Fédération Wallonie-Bruxelles Service du Théâtre 
 </p>
 </div>
 
-<dl class="bible">
+<div class="bible" style="width:30%;height:250px;clear:left;margin-top:-185px;margin-left:500px;">
+<dl>
 <dt>Concept, écriture</dt>
 <dd>Elena Perez et Lise Wittamer</dd>
 <dt>Avec</dt>
@@ -723,158 +1065,246 @@ Une  production de la Schieve Compagnie en coproduction avec la Balsamine,  avec
 <dt>Diffusion</dt>
 <dd>Cora-line Lefèvre, Julien Sigard (Habemus Papam)</dd>
 </dl>
+</div>
+
+<div class="if" style="width:40%;margin-left:220px;margin-top:-245px;">
+<p>Et si les moutons chantaient, chanteraient-ils du Michel Berger&thinsp;?
+</p>
+</div>
+<div class="if" style="width:10%;margin-top:-500px;margin-left:500px;clear:left;">
+<p>Et si on revenait à nos moutons?
+</p>
+</div>
+<div class="if" style="width:15%;margin-top:115px;margin-left:370px;clear:left;">
+<p>Et si les moutons parlaient, que diraient-ils&thinsp;? 
+</p>
+</div>
+
+<div class="transition" style="height: 500px; outline: none;">
+<img class="noir" src="../materials/extract/aspiration.gif" style="width: 100%;" />
+</div>
 </article>
 
 <!--------------------------------------------------------------------------------------------------
-*-  J ' A I    E N D U R É    V O S    D I S C O U R S  -
+-  J ' A I    E N D U R É    V O S    D I S C O U R S  -
 -------------------------------------------------------------------------------------------------->
 <article id="jai-endure-vos-discours-et-jai-loreille-en-feu">
-    <div class="titre" style="width: 70%;">
-	<h2>«J'ai enduré vos discours et j'ai l'oreille en feu»</h2>
-    </div>
-    <div class="texte" style="width: 30%;">
+
+<div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+<h1>«</h1>
+</div>
+<div style="width: 10%;">
+<div class="titre" style="width:100%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+<h1>J' a i  </h1>
+</div>
+<div class="titre" style="width:100%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+<h1>  e n d u r é</h1>
+</div>
+</div>
+<div style="width: 10%;">
+<div class="titre" style="width: 100%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+<h1>  v o s </h1>
+</div>
+<div class="titre" style="width: 100%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+<h1>  d i s c o u r s</h1>
+</div>
+</div>
+<div style="width: 10%;">
+<div class="titre" style="width: 100%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+<h1>e t</h1>
+ </div>
+<div class="titre" style="width: 100%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;position:relative;">
+<h1>j' a i</h1>
+ </div>
+</div>
+<div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+<h1>l' o r e i l l e</h1>
+ </div>
+<div style="width: 10%;">
+<div class="titre" style="width: 100%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+<h1>e n</h1>
+ </div>
+<div class="titre" style="width: 100%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+<h1>f e u </h1>
+ </div>
+</div>
+<div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+<h1>»</h1>
+ </div>
+
+<div class="type" style="width:30%;">
+    <div class="type" style="width: 100%;">
     <h3>Création Théâtre</h3>
     </div>
-    <div class="texte" style="width: 30%;">
+
+    <div class="artiste" style="width: 100%;">
     <h4>Anne Thuot</h4>
     </div>
-    <div class="texte date" style="width: 20%;">
-	    <p class>
-			Du 6 au 16 novembre à 20h30
-		</p>
-		<p >
-			Amphithéâtre
-		</p>
+</div>
+
+    <div class="date" style="width: 20%;">
+    <p>
+Du 6 au 16 novembre à 20h30
+<br />
+Amphithéâtre
+</p>
     </div>
-    <div class="if" style="width: 50%; height: 68px; clear:left;">
-	<p>
-		Et si la vengeance était un plat qui se réchauffait? 
-	</p>
-    </div>
-    <div class="if" style="width: 40%;">
-	<p>
-		Et si tu t’appelais  Mélancolie ? (encore Joe Dassin, et si c’était un signe ?) 
-	</p>
+
+<div class="image-cmjn" style="width: 55%; height: 159px; outline-width: 15px;">
+<img class="preview" src="../photos/retable_anne.jpg" style="width: 100%" />
+</div>
+
+<div class="image-cmjn"  style="width: 20%; height: 120px; clear: left; margin-top: -40px;">
+<img class="noir" src="../photos/layers/annedroite/anne_Calque8.png" style=""/>
+</div>
+
+    <div class="if" style="width: 30%; height: 68px; ">
+<p>
+Et si la vengeance était un plat qui se réchauffait&thinsp;? 
+</p>
     </div>
 
     <div class="if" style="width: 40%;">
-	<p>
-		Et si on  dansait avec la mort? 
-	</p>
+<p>
+Et si tu t’appelais  Mélancolie&thinsp;? (encore Joe Dassin, et si c’était un signe&thinsp;?) 
+</p>
     </div>
+
+    <div class="if" style="width: 40%;">
+<p>
+Et si on  dansait avec la mort&thinsp;? 
+</p>
+    </div>
+
     <div class="if" style="width: 55%;">
-	<p>
-		Et si Vendice se foutait de la gueule de Hamlet?  
-	</p>
+<p>
+Et si Vendice se foutait de la gueule de Hamlet&thinsp;?  
+</p>
     </div>
 
-    <div class="image" style="width: 100%; height:200px;outline:none;">
-	<div class="image-cmjn">
-		<img class="noir" src="../materials/extract/nuagessales.gif" style="width: 100%" />
-	</div>
-	    </div>
-	
-	    <div class="if" style="width: 100%; text-align:center; margin auto;">
-	 <p style="text-align:center; margin: auto; float:none; width:50%;">
-		What if there was no google?
-	</p>
-	    </div>
+
+<div class="image-cmjn" style="width: 100%; height:200px;outline:none;">
+<img class="noir" src="../materials/extract/nuagessales.gif" style="width: 100%" />
+</div>
+
+
+    <div class="if" style="width: 100%; text-align:center; margin auto;">
+ <p style="text-align:center; margin: auto; float:none; width:50%;">
+What if there was no google&thinsp;?
+</p>
+    </div>
 
     <div class="texte" style="width: 35%;">
-	<p>
-		<em>La Tragédie de la vengeance</em>,   pièce écrite et jouée pour la première fois en 1606 , a longtemps été   attribuée à Cyril Tourneur mais la critique pense dorénavant que Thomas   Middleton en serait l’auteur.
-	</p>
+<p>
+<em>La Tragédie de la vengeance</em>,   pièce écrite et jouée pour la première fois en 1606 , a longtemps été   attribuée à Cyril Tourneur mais la critique pense dorénavant que Thomas   Middleton en serait l’auteur.
+</p>
+    </div>
 
-    </div>
+
+
     <div class="texte" style="width: 50%;">
-    
-	<p>
-		Elle est constituée de 5 actes, 21 scènes:
-	</p>
-	<ul style="width: 325px; height: 100px;">
-		<li>4 scènes au I<sup>er</sup> acte</li>
-		<li>4 scènes au II<sup>e</sup> acte</li>
-		<li>6 scènes au III<sup>e</sup> acte</li>
-		<li>4 scènes au IV<sup>e</sup> acte</li>
-		<li>3 scènes au V<sup>e</sup> acte</li>
-	</ul>
+<p>
+Elle est constituée de 5 actes, 21 scènes:
+</p>
+<ul style="width: 325px; height: 100px;">
+<li>4 scènes au I<sup>er</sup> acte</li>
+<li>4 scènes au II<sup>e</sup> acte</li>
+<li>6 scènes au III<sup>e</sup> acte</li>
+<li>4 scènes au IV<sup>e</sup> acte</li>
+<li>3 scènes au V<sup>e</sup> acte</li>
+</ul>
     </div>
+
+
     <div class="texte" style="width: 30%; clear: left;">
-	<p>
-		La pièce compte 12 personnages principaux, 7 lieux d’action différents.
-	</p>
+<p>
+La pièce compte 12 personnages principaux, 7 lieux d’action différents.
+</p>
 </div>
-    <div class="numbers" style="width: 40%;">
-	<p>
-		Elle se décompose en: 
-	</p>
-	<ul style="width: 325px; height: 100px;">
-		<li>657 vers au I<sup>er</sup> acte</li>
-		<li>624 vers au II<sup>e</sup> acte</li>
-		<li>518 vers au III<sup>e</sup> acte</li>
-		<li>551 vers au IV<sup>e</sup> acte</li>
-		<li>396 vers au V<sup>e</sup> acte</li>
-		</ul>
-	<p>
-		Pour un total de 2746 vers.
-	</p>
+
+
+    <div class="numbers" style="width: 60%;">
+<p>
+Elle se décompose en: 
+</p>
+<ul style="width: 450px; height: 100px;">
+<li>657 vers au I<sup>er</sup> acte</li>
+<li>624 vers au II<sup>e</sup> acte</li>
+<li>518 vers au III<sup>e</sup> acte</li>
+<li>551 vers au IV<sup>e</sup> acte</li>
+<li>396 vers au V<sup>e</sup> acte</li>
+</ul>
+<p>
+Pour un total de 2746 vers.
+</p>
     </div>
-    
-    
-    <div class="image" style="width: 70%; height: 390px; margin-top: 5em;">
-		<div class="image-cmjn">
-			<img class="cyan" src="../photos/couches-test/extrait_anne_c.gif"/>
-			<img class="magenta" src="../photos/couches-test/extrait_anne_m.gif"/>
-			<img class="jaune" src="../photos/couches-test/extrait_anne_j.gif"/>
-			<img class="noir" src="../photos/couches-test/extrait_anne_n.gif"/>
-			<img class="preview" src="../photos/extrait_anne1.jpg"/>
-		</div>
+
+
+<div class="image-cmjn"   style="width: 70%; height: 390px; margin-top: 5em;">
+<img class="cyan" src="../photos/couches-test/extrait_anne_c.gif"/>
+<img class="magenta" src="../photos/couches-test/extrait_anne_m.gif"/>
+<img class="jaune" src="../photos/couches-test/extrait_anne_j.gif"/>
+<img class="noir" src="../photos/couches-test/extrait_anne_n.gif"/>
+<img class="preview" src="../photos/extrait_anne1.jpg"/>
+</div>
+
+    <div class="blockquote" style="width: 60%;">
+<blockquote style="width: 340px;">
+Anne  Thuot&thinsp;: «&thinsp;Cette complexité de nos grandes passions humaines, celles   d’hier et d’aujourd’hui, est un luxe&thinsp;: celui de notre liberté.&thinsp;»
+</blockquote>
     </div>
-    <div class="texte" style="width: 60%;">
-	<blockquote style="width: 340px;">
-		Anne  Thuot: « Cette complexité de nos grandes passions humaines, celles   d’hier et d’aujourd’hui, est un luxe : celui de notre liberté. »
-	</blockquote>
-    </div>
+
+
+<div class="image-cmjn"  style="width: 30%; height: 200px;">
+<img class="noir" src="../photos/layers/annedroite/anne__MG_5248.CR2.png" style="margin-left: -250px; margin-top: -50px;"/>
+</div>
+
     <div class="texte" style="width: 50%;">
-	<p>
-		<em>«   J’ai enduré vos discours et j’ai l’oreille en feu »</em> est une   réécriture libre sur ce texte original Mélancolie, mort, sexe, inceste   et meurtre en sont les grands thèmes tragiques, un nœud d’intrigues qui  naissent et se décomposent en un fabuleux kaléidoscope. 
-	</p>
+<p>
+<em>«&thinsp;J’ai enduré vos discours et j’ai l’oreille en feu&thinsp;»</em> est une   réécriture libre sur ce texte original Mélancolie, mort, sexe, inceste   et meurtre en sont les grands thèmes tragiques, un nœud d’intrigues qui  naissent et se décomposent en un fabuleux kaléidoscope. 
+</p>
     </div>
-    <div class="texte" style="width: 50%;">
-	<blockquote>
-		Un personnage dit : « Et à la fin, tout le monde meurt, c’est comme dans la vie. »
-	</blockquote>
+
+    <div class="blockquote" style="width: 50%;">
+<blockquote>
+Un personnage dit&thinsp;: «&thinsp;Et à la fin, tout le monde meurt, c’est comme dans la vie.&thinsp;»
+</blockquote>
     </div>
-	<div class="texte" style="width: 100%;">
-		<p class="production">
-			Une   coproduction du Théâtre de l’Ancre et de la Balsamine. Avec l’aide de   la Fédération Wallonie-Bruxelles, service Théâtre et le soutien de WBTD   (aide à la diffusion). En partenariat avec le Centre des Arts  Scéniques.  Anne Thuot est artiste en Compagnie au Théâtre de l’Ancre.
-		</p>
+
+<div class="production" style="width: 100%;">
+<p>
+Une   coproduction du Théâtre de l’Ancre et de la Balsamine. Avec l’aide de   la Fédération Wallonie-Bruxelles, service Théâtre et le soutien de WBTD   (aide à la diffusion). En partenariat avec le Centre des Arts  Scéniques.  Anne Thuot est artiste en Compagnie au Théâtre de l’Ancre.
+</p>
         </div>
 
-    <div class="image" style="width: 30%; height: 200px;">
-	<div class="image-cmjn">
-		<img class="noir" src="../photos/layers/annedroite/anne_Calque 14.png"/>
-	</div>
-    </div>
 
-	<div class="image-cmjn"  style="width: 30%; height: 200px;">
-		<img class="noir" src="../photos/layers/annedroite/anne__MG_5248.CR2.png" style="margin-left: -250px; margin-top: -50px;"/>
-	</div>
+<div class="image-cmjn" style="width: 30%; height: 200px;">
+<img class="noir" src="../photos/layers/annedroite/anne_Calque 14.png"/>
+</div>
 
 
-    
+<div class="image-cmjn"  style="width: 30%; height: 200px;">
+<img class="noir" src="../photos/layers/annedroite/anne_Calque8" style="margin-left: -250px; margin-top: -50px;"/>
+</div>
+
+
     <div class="bible" style="width: 25%; ">
-	<dl class="bible">
-		<dt>Mise en scène</dt>
-		<dd>Anne Thuot</dd>
-		<dt>Texte</dt>
-		<dd>Caroline Lamarche</dd>
-		<dt>Avec</dt>
-		<dd>Marie Bos, Alice Hubball, Francesco Italiano, Natacha Nicora, Hervé Piron</dd>
-		<dt>Création lumière</dt>
-		<dd>Raphaël Noël</dd>
-	</dl>
+<dl>
+<dt>Mise en scène</dt>
+<dd>Anne Thuot</dd>
+<dt>Texte</dt>
+<dd>Caroline Lamarche</dd>
+<dt>Avec</dt>
+<dd>Marie Bos, Alice Hubball, Francesco Italiano, Natacha Nicora, Hervé Piron</dd>
+<dt>Création lumière</dt>
+<dd>Raphaël Noël</dd>
+</dl>
     </div>
+
+
+<div class="transition" style="height: 470px; outline: none;">
+<img class="noir" src="../materials/extract/gruyere-224.gif" style="width: 100%;" />
+</div>
 
 </article>
 
@@ -882,744 +1312,1415 @@ Une  production de la Schieve Compagnie en coproduction avec la Balsamine,  avec
 *-  S T A G E    C I F A S  -
 -->
 <article id="stage-cifas">
-<div class="content">
-<h2>Stage CIFAS</h2>
-<h4>Oliver Frljic</h4>
-
-<p class="date">
-Du 19 au 25 novembre
-</p>
-<p class="lieu">
-Amphithéâtre
-</p>
-
-<blockquote>
-<p>
-"Malgré  la présence extrême de la politique dans le monde aujourd’hui, nous  vivons paradoxalement dans des sociétés très dépolitisées. Il est de  plus en plus difficile de réfléchir au-delà des concepts politiques  connus et de sortir des rôles sociaux prédéterminés. Dans cette  situation, l'art doit réinventer une façon de politiser l'espace public  qu'il représente.
-</p>
-<p>
-Le  Cifas, structure de formation pour artistes professionnels invite  Oliver Frljic, jeune metteur en scène croate controversé qui n’hésite  pas à toucher aux sujets qui fâchent. Représentant du renouveau de la  scène théâtrale post-yougoslave, il oscille entre scènes alternatives et  institutions officielles, réalisations classiques et performances.
-</p>
-<p>
-Olivier  Frljic vient mener un atelier pour une dizaine d'artistes à la  Balsamine. Il y présentera sa méthodologie et les stratégies qu'il met  en place pour réintroduire la notion du politique au théâtre, des points  de vue du contenu et de la représentation."
-</p>
-</blockquote>
-
-<p>Ouverture au public, + de précision ultérieurement</p>
-
-<b>Photos: cf lien wetransfer</b>
-</div>
+        
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>S t a g e </h1>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>C I F A S</h1>
+        </div>
+        
+        <div class="artiste" style="width:50%;">
+                <h4>Oliver Frljic</h4>
+        </div>
+        
+        <div class="date" style="width:30%; height: 60px;">
+                <p>
+                        Du 19 au 25 novembre <br /> Amphithéâtre
+                </p>
+        </div>
+        
+        <div class="texte" style="width:50%;">
+                <p>
+                        «&thinsp;Malgré  la présence extrême de la politique dans le monde aujourd’hui, nous  vivons paradoxalement dans des sociétés très dépolitisées. Il est de  plus en plus difficile de réfléchir au-delà des concepts politiques  connus et de sortir des rôles sociaux prédéterminés. Dans cette  situation, l'art doit réinventer une façon de politiser l'espace public  qu'il représente.
+                </p>
+        </div>
+        <div class="texte" style="width:45%;">
+                <p>
+                                Le  Cifas, structure de formation pour artistes professionnels invite  Oliver Frljic, jeune metteur en scène croate controversé qui n’hésite  pas à toucher aux sujets qui fâchent. Représentant du renouveau de la  scène théâtrale post-yougoslave, il oscille entre scènes alternatives et  institutions officielles, réalisations classiques et performances.
+                </p>
+        </div>
+        <div class="texte" style="width:35%;">
+                        <p>
+                                Olivier  Frljic vient mener un atelier pour une dizaine d'artistes à la  Balsamine. Il y présentera sa méthodologie et les stratégies qu'il met  en place pour réintroduire la notion du politique au théâtre, des points  de vue du contenu et de la représentation.&thinsp;»
+                        </p>
+        </div>
+        
+        <div class="production" style="width:30%;">
+                <p>Ouverture au public (plus de précision ultérieurement)</p>
+        </div>
+        
+                <div class="transition" style="height: 470px; outline: none; margin-top: 150px;">
+                        <img class="noir" src="../materials/extract/grand-canyon-à--ciel-courbé.gif" style="width: 100%;" />
+                </div>
+        
 </article>
 
 <!--------------------------------------------------------------------------------------------------
 *-  G A R A G E   2 9  -
 -->
 
-<article id="garage-29">
-<div class="content">
-<h2>Carte Blanche au studio Garage 29</h2>
-<h3>Danses Performances/Installation/Atelier/Spectacle/Dîner-Concert</h3>
-
-<p class="date">Les 29 et 30 novembre</p>
-
-<p>
-Et si nos sacs poubelles étaient précieux ?  
-</p>
-<p>
-Et si les voies de garage n’étaient pas sans issue? 
-</p>
-<p>
-Et si la Balsa invitait le collectif Garage 29 à créer une carte blanche tout en noirceur?
-</p>
-<p>
-Une  carte blanche festive pour découvrir un collectif d’artistes résidant à  Schaerbeek qui ouvre et partage son lieu à l’expérimentation. Cirque,  danse, musique sont leurs matières de prédilection.  Souvent, ils  questionnent l’espace public et souvent ils obtiennent des réponses.  Venez découvrir ces mécaniciens du corps à corps, ces personnalités  artistiques fougueuses et généreuses, folles selon leur dire mais  engagées dans leur art selon le nôtre.  Deux jours d’investigation dans  et autour de la Balsa où concert, repas, petits pas et tralalas sont au  programme.
-</p>
-
-<p class="date>Le 29 novembre à 20h30</p>
-<h3>Danse/performances</h3>
-<h4>Compagnie Tupperware</h4>
-
-<p>
-3 performances successives dans 3 espaces différents de la Balsamine
-</p>
-
-
-<p class="production">
-Une production du GARAGE29 et de la Compagnie Tupperware, en coproduction avec la Balsamine.
-</p>
-
-
-<p class="date">Le 30 novembre</p>
-
-<p>
-14h  :  2 ateliers (1 pour enfants à partir de 6 ans  et 1 pour adultes) à  partir de la matière plastique et autour de thèmes tels que l’obscurité  et le monstrueux.
-</p>
-
-<p>
-16h : <em>«Monsters»</em> Spectacle de danse pour jeune public à partir de 5 ans Amphithéâtre
-</p>
-<p>
-<em>«Monsters»</em> est  un acte d'amour envers les restes poétiques de nos vies logiques et  pragmatiques, une intention de révéler la beauté dans les détails.
-</p>
-
-<p>
-19h : The Black Dinner and the sweet dark concert : un dîner entièrement noir et concert avec « invités surprises».
-</p>
-</div>
-
-<dl class="bible">
-<dt>Avec</dt>
-<dd>Sabina Scarlat, Laida Arietta Aldaz, Tiziano Lavornatornovi, Jorge Jauregui, Nicanor de Elia</dd>
-<dt>Costumes et régie</dt>
-<dd>Sari Brunel, Sylvain Formatche</dd>
-<dt>Coordination</dt>
-<dd>Nicanor de Elia</dd>
-<dt>Vidéo</dt>
-<dd>Guillaume Bautista</dd>
-<dt>Diffusion-Communication</dt>
-<dd>Flavia Ceglie</dd>
-</dl>
+<article id="garage-29" style="padding-top: 150px;">
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>C a r t e </h1>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>B l a n c h e </h1>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>a u </h1>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>s t u d i o </h1>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>G a r a g e29</h1>
+        </div>
+        
+        
+        <div class="type" style="width:30%;">
+                <h3>Danses Performances / Installation / Atelier / Spectacle / Dîner-Concert</h3>
+        </div>
+        
+        <div class="date" style="width:30%;">
+                <p>Les 29 et 30 novembre</p>
+        </div>
+        
+        <div class="if" style="width:30%;">
+                <p>
+                        Et si nos sacs poubelles étaient précieux&thinsp;?  
+                </p>
+        </div>
+        
+        <div class="if" style="width:30%;">
+                <p>
+                        Et si les voies de garage n’étaient pas sans issue&thinsp;? 
+                </p>
+        </div>
+        
+        <div class="if" style="width:30%;">
+                <p>
+                        Et si la Balsa invitait le collectif Garage 29 à créer une carte blanche tout en noirceur&thinsp;?
+                </p>
+        </div>
+        
+        <div class="texte" style="width:60%;">
+                <p>
+                        Une  carte blanche festive pour découvrir un collectif d’artistes résidant à  Schaerbeek qui ouvre et partage son lieu à l’expérimentation. Cirque,  danse, musique sont leurs matières de prédilection.  Souvent, ils  questionnent l’espace public et souvent ils obtiennent des réponses.  Venez découvrir ces mécaniciens du corps à corps, ces personnalités  artistiques fougueuses et généreuses, folles selon leur dire mais  engagées dans leur art selon le nôtre.  Deux jours d’investigation dans  et autour de la Balsa où concert, repas, petits pas et tralalas sont au  programme.
+                </p>
+        </div>
+        
+        <div class="date" style="width:30%;">
+                <p class="date>Le 29 novembre à 20h30</p>
+        </div>
+        
+        <div class="type" style="width:30%;">
+                <h3>Danse/performances</h3>
+        </div>
+        
+        <div class="artiste" style="width:30%;">
+                <h4>Compagnie Tupperware</h4>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        3 performances successives dans 3 espaces différents de la Balsamine
+                </p>
+        </div>
+        
+        <div class="production" style="width:30%;">
+                <p>
+                        Une production du GARAGE29 et de la Compagnie Tupperware, en coproduction avec la Balsamine.
+                </p>
+        </div>
+        
+        <div class="date" style="width:30%;">
+                <p class="date">Le 30 novembre</p>
+        </div>
+        
+        <div class="texte" style="width:30%; height: 211px;">
+                <p>
+                        14h&thinsp;:  2 ateliers (1 pour enfants à partir de 6 ans  et 1 pour adultes) à  partir de la matière plastique et autour de thèmes tels que l’obscurité  et le monstrueux.
+                </p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        16h&thinsp;: <em>«&thinsp;Monsters&thinsp;»</em> Spectacle de danse pour jeune public à partir de 5 ans Amphithéâtre
+                </p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        <em>«&thinsp;Monsters»</em> est  un acte d'amour envers les restes poétiques de nos vies logiques et  pragmatiques, une intention de révéler la beauté dans les détails.
+                </p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        19h&thinsp;: The Black Dinner and the sweet dark concert&thinsp;: un dîner entièrement noir et concert avec «&thinsp;invités surprises&thinsp;».
+                </p>
+        </div>
+        
+        <div class="bible" style="width:30%;">
+                <dl class="bible">
+                        <dt>Avec</dt>
+                        <dd>Sabina Scarlat, Laida Arietta Aldaz, Tiziano Lavornatornovi, Jorge Jauregui, Nicanor de Elia</dd>
+                                <dt>Costumes et régie</dt>
+                                <dd>Sari Brunel, Sylvain Formatche</dd>
+                        <dt>Coordination</dt>
+                        <dd>Nicanor de Elia</dd>
+                                <dt>Vidéo</dt>
+                                <dd>Guillaume Bautista</dd>
+                        <dt>Diffusion-Communication</dt>
+                        <dd>Flavia Ceglie</dd>
+                </dl>
+        </div>
+        
+                
+                <div class="transition" style="height: 470px; outline: none; margin-top: 150px;">
+                        <img class="noir" src="../materials/extract/hallucinogene-338.gif" style="margin-top: -380px; width: 100%;" />
+                </div>
+        
 </article>
 
 <!--------------------------------------------------------------------------------------------------
 *-  I N D I A  -
 -->
-<article id="balsa-en-mode-india">
-<div class="content">
-<h2>Balsa en mode India</h2>
-<h3>Soirée « Bollywood et chapatis »</h3>
-
-<p class="date">Le 14 décembre</p>
-<p class="lieu">Foyer</p>
-
-<p>
-De 16 à 18h : Cours d’initiation de danse indienne
-</p>
-<p>
-Dès 19h :Indian Food ! 
-</p>
-<p>
-20h30 Projection d’un film bollywoodien + soirée dansante
-</p>
-</div>
+<article id="balsa-en-mode-india" style="padding-top: 150px;">
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>B a l s a </h1>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>e n </h1>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>m o d e</h1>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>I n d i a</h1>
+        </div>
+        
+        <div class="type" style="width:30%;">
+                <h3>Soirée «&thinsp;Bollywood et chapatis&thinsp;»</h3>
+        </div>
+        
+        <div class="date" style="width:30%;">
+                <p>Le 14 décembre <br /> Foyer</p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        De 16 à 18h&thinsp;: Cours d’initiation de danse indienne
+                </p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        Dès 19h&thinsp;: Indian Food&thinsp;! 
+                </p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        20h30&thinsp;: Projection d’un film bollywoodien + soirée dansante
+                </p>
+        </div>
+        
+                
+                <div class="transition" style="height: 335px; outline: none; margin-top: 150px;">
+                        <img class="noir" src="../materials/extract/fire-crackers.gif" style="width: 100%;" />
+                </div>
+        
 </article>
 
 <!--------------------------------------------------------------------------------------------------
 *-  N O E L    A U    T H E A T R E  -
 -->
-<article id="noel-au-theatre">
-<div class="content">
-<h2>Noël au Théâtre – Le Courrier des enfants (titre provisoire)</h2>
-<h3>Création théâtre</h3>
-<h4>Le Théâtre du Tilleul</h4>
+<article id="noel-au-theatre"style="padding-top: 150px;">
 
-<p class="date">Fin décembre</p>
-<p class="lieu">Studio et Foyer</p>
-
-<p>
-Et  si on prenait tout au pied de la lettre, en combinant la reprise d’un  classique : Le Bureau des Histoires (voir plus loin), avec une création  en cours : Le Courrier des enfants. 
-</p>
-<p>
-Ces deux spectacles sont intimement liés dans leur relation à l’enfant, à l’enfance.  
-</p>
-<p>
-Face  à la densité de la correspondance envoyée par les enfants aux artistes  du Bureau des Histoires, le Théâtre du Tilleul a d’abord archivé  l’entièreté des courriers reçus. Aujourd’hui, ces multiples échanges  épistolaires s’imposent et demandent à se faire entendre et connaître.  Des lettres pour rêver, des lettres pour convoquer le théâtre,  des   lettres à partager sans compter.
-</p>
-
-
-
-<p class="production">
-Une production du Théâtre du Tilleul  En coproduction avec le Théâtre de la Balsamine.  
-Avec le soutien de la Fédération Wallonie-Bruxelles, Service du Théâtre 
-et l’aide de La Roseraie, du Foyer culturel de Saint-Ghislain, du Pôle Jeune Public Le Revest-les-Eaux.
-</p>
-
-<b>(photo Serge Verheylewegen)</b>
-
-<p>
-Le  Courrier des enfants sera dans le studio et il y aura des ateliers dans  le foyer. (Mais laissons un flou artistique! C'est très bien comme ça)
-</p>
-
-<p>
-Cette  création aura lieu dans le cadre du Festival Noël au théâtre en  collaboration avec le CTEJ. L’heure des représentations vous sera  communiquée dès septembre sur notre site <a href="http://balsamine.be/">www.balsamine.be</a>.
-</p>
-</div>
-
-<dl class="bible">
-	<dt>Conception du spectacle et travail autour des lettres d’enfants</dt>
-	<dd>Carine Ermans et Sylvain Geoffray</dd>
-	<dt>Mise en scène</dt>
-	<dd>Sabine Durand</dd>
-	<dt>Musique</dt>
-	<dd>Alain Gilbert</dd>
-	<dt>Scénographie/Lumière</dt>
-	<dd>Mark Elst, Benjamin van Thiel</dd>
-	<dt>Images animées</dt>
-	<dd>Patrick Theunen et l’Atelier Graphoui (atelier de production de films d’animation)</dd>
-	<dt>Costumes</dt>
-	<dd>Silvia Hasenclever</dd>
-	<dt>Distribution</dt>
-	<dd>en cours…</dd>
-</dl>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>N o ë l </h1>
+        </div>
+        
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>a u </h1>
+        </div>
+        
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>T h é â t r e</h1>
+        </div>
+        <div style="width: 5%;">
+                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                        <h2>L e</h2>
+                </div>
+                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                        <h2>C o u r r i e r</h2>
+                </div>
+        </div>
+        <div style="width: 5%;">
+                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                        <h2>d e s</h2>
+                </div>
+                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                        <h2>e n f a n t s
+                        (titre&nbsp;provisoire)</h2>
+                </div>
+        </div>
+        
+        <div class="type" style="width:30%;">
+                <div class="type" style="width:100%;">
+                        <h3>Création théâtre</h3>
+                </div>
+                
+                <div class="artiste" style="width:100%;">
+                        <h4>Le Théâtre du Tilleul</h4>
+                </div>
+        </div>
+        <div class="date" style="width:30%;">
+                <p>Fin décembre <br /> Studio et Foyer</p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        Et  si on prenait tout au pied de la lettre, en combinant la reprise d’un  classique&thinsp;: Le Bureau des Histoires (voir plus loin), avec une création  en cours&thinsp;: Le Courrier des enfants. 
+                </p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        Ces deux spectacles sont intimement liés dans leur relation à l’enfant, à l’enfance.  
+                </p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        Face  à la densité de la correspondance envoyée par les enfants aux artistes  du Bureau des Histoires, le Théâtre du Tilleul a d’abord archivé  l’entièreté des courriers reçus. Aujourd’hui, ces multiples échanges  épistolaires s’imposent et demandent à se faire entendre et connaître.  Des lettres pour rêver, des lettres pour convoquer le théâtre,  des   lettres à partager sans compter.
+                </p>
+        </div>
+        
+        <div class="production" style="width:30%;">
+                <p>
+                        Une production du Théâtre du Tilleul  En coproduction avec le Théâtre la Balsamine.  
+                        Avec le soutien de la Fédération Wallonie-Bruxelles, Service du Théâtre 
+                        et l’aide de La Roseraie, du Foyer culturel de Saint-Ghislain, du Pôle Jeune Public Le Revest-les-Eaux.
+                </p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        Le  Courrier des enfants sera dans le studio et il y aura des ateliers dans  le foyer. (Mais laissons un flou artistique&thinsp;! C'est très bien comme ça.)
+                </p>
+        </div>
+        
+        <div class="out" style="width:30%;">
+                <p>
+                        Cette  création aura lieu dans le cadre du Festival Noël au théâtre en  collaboration avec le CTEJ. L’heure des représentations vous sera  communiquée dès septembre sur notre site <a href="http://balsamine.be/">www.balsamine.be</a>.
+                </p>
+        </div>
+        
+        <div class="bible" style="width:30%;">
+                <dl>
+                        <dt>Conception du spectacle et travail autour des lettres d’enfants</dt>
+                        <dd>Carine Ermans et Sylvain Geoffray</dd>
+                                <dt>Mise en scène</dt>
+                                <dd>Sabine Durand</dd>
+                        <dt>Musique</dt>
+                        <dd>Alain Gilbert</dd>
+                                <dt>Scénographie/Lumière</dt>
+                                <dd>Mark Elst, Benjamin van Thiel</dd>
+                        <dt>Images animées</dt>
+                        <dd>Patrick Theunen et l’Atelier Graphoui (atelier de production de films d’animation)</dd>
+                                <dt>Costumes</dt>
+                                <dd>Silvia Hasenclever</dd>
+                        <dt>Distribution</dt>
+                        <dd>en cours…</dd>
+                </dl>
+        </div>
+        
+                <div class="transition" style="height: 470px; outline: none; margin-top: 150px;">
+                        <img class="noir" src="../materials/extract/blow1.gif" style="width: 100%;" />
+                </div>
+        
 </article>
 
 <!--------------------------------------------------------------------------------------------------
 *-  L E   B U R E A U   D E S   H I S T O I R E S  -
 -->
 <article id="le-bureau-des-histoires">
-<div class="content">
-<h2>Le Bureau des Histoires</h2>
-<h3Reprise Théâtre Jeune public</h3>
-<h4>Le Théâtre du Tilleul</h4>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>L e</h1>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>B u r e a u</h1>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+        <h1>d e s</h1>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>H i s t o i r e s</h1>
+        </div>
+        
+        <div class="type" style="width:30%;">
+                <div class="type" style="width:100%;">
+                        <h3>Reprise Théâtre Jeune public</h3>
+                </div>
+                
+                <div class="artiste" style="width:100%;">
+                        <h4>Le Théâtre du Tilleul</h4>
+                </div>
+        </div>
 
-<p class="date">
-Le samedi 4 janvier à 16h00 et 20h30 <br />
-Le dimanche 5 janvier à 16h00
-</p>
-<p class="lieu">Studio</p>
-
-<p>
-Et si on se repassait un classique? 
-</p>
-<p>
-Et si on se racontait des histoires jusqu’au bout de la nuit ? 
-</p>
-<p>
-Quatre  personnages se retrouvent dans un «Bureau» hors du temps pour accomplir  une tâche de la plus haute importance: celle de répondre aux appels  pressants de personnes en demande d’histoires avant d’aller dormir… Avec  pour toute palette chromatique le Noir et le Blanc, le Théâtre du  Tilleul plonge et nous entraîne dans cet univers de fantaisie et  d’humour qu’il affectionne. 
-</p>
-<p>
-<em>Le  Bureau des Histoires</em> (qu'on raconte avant d'aller dormir le  soir...) créé à La Balsamine en décembre 2009, nous revient après avoir  tourné en France et en Belgique (plus de 500 représentations).
-</p>
-
-<b>Images à télécharger ici: http://pro.theatredutilleul.be/</b>
-
-<p class="production">
-Une production du Théâtre du Tilleul, en coproduction avec la Balsamine. Avec le soutien de la Communauté française de Belgique Direction générale de la Culture - Service général des Arts de la Scène. Avec l’aide de La Roseraie. 
-</p>
-</div>
-
-<dl class="bible">
-<dt>Texte et conception du spectacle</dt>
-<dd>Carine Ermans</dd>
-
-<dt>Collaboration dramaturgique</dt>
-<dd>Marie Kateline Rutten et Louis-Dominique Lavigne</dd>
-
-<dt>D’après les albums des auteurs américains</dt>
-<dd>Uri Shulevitz, Donald Crews, Peter Neumeyer, Mary Hall Ets et Margaret Wise Brown </dd>
-
-<dt>Mise en scène</dt>
-<dd>Sabine Durand</dd>
-
-<dt>Distribution</dt>
-<dd>Carine Ermans, Jean-Dominique Kerignard, Alain Gilbert, Benjamin van Thiel et l’ombre de Simon Elst</dd>
-
-<dt>Scénographie</dt>
-<dd>Pierre-François Limbosch, Alexandre Obolensky</dd>
-
-<dt>Silhouettes</dt>
-<dd>Carine  Ermans, Christophe Morisset, Nicolas Bovesse, Julie Michaud, Mélanie  Rutten, Michel Liégeois, Eugénie Obolensky</dd>
-
-<dt>Musique</dt>
-<dd>Alain Gilbert</dd>
-
-<dt>Éclairages</dt>
-<dd>Nathalie Borlée</dd>
-
-<dt>Régie</dt>
-<dd>Sylvain Geoffray</dd>
-
-<dt>Film animation</dt>
-<dd>Travail collectif encadré par Caroline Nugues (Zorobabel)</dd>
-
-<dt>Accessoires</dt>
-<dd>Elisabeth Houtart, Michel Vinck</dd>
-
-<dt>Travail du mouvement</dt>
-<dd>Isabelle Lamouline</dd>
-
-<dt>Costumes</dt>
-<dd>Sylvia Hasenclever</dd>
-</dl>
+        <div class="date" style="width:30%;">
+                <p>
+                        Le samedi 4 janvier à 16h00 et 20h30 <br />
+                        Le dimanche 5 janvier à 16h00 <br />
+                        Studio
+                </p>
+        </div>
+        
+        <div class="if" style="width:30%;">
+                <p>
+                        Et si on se repassait un classique? 
+                </p>
+        </div>
+        
+        <div class="if" style="width:30%;">
+                <p>
+                        Et si on se racontait des histoires jusqu’au bout de la nuit&thinsp;? 
+                </p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        Quatre  personnages se retrouvent dans un «&thinsp;Bureau&thinsp;» hors du temps pour accomplir  une tâche de la plus haute importance&thinsp;: celle de répondre aux appels  pressants de personnes en demande d’histoires avant d’aller dormir… Avec  pour toute palette chromatique le Noir et le Blanc, le Théâtre du  Tilleul plonge et nous entraîne dans cet univers de fantaisie et  d’humour qu’il affectionne. 
+                </p>
+        </div>
+        
+        <div class="out" style="width:30%;">
+                <p>
+                        <em>Le  Bureau des Histoires (qu'on raconte avant d'aller dormir le  soir…)</em> créé à La Balsamine en décembre 2009, nous revient après avoir  tourné en France et en Belgique (plus de 250 représentations).
+                </p>
+        </div>
+        
+        <div class="production" style="width:30%;">
+                <p>
+                        Une production du Théâtre du Tilleul, en coproduction avec la Balsamine. Avec le soutien de la Communauté française de Belgique Direction générale de la Culture–Service général des Arts de la Scène. Avec l’aide de La Roseraie. 
+                </p>
+        </div>
+        
+        <div class="bible" style="width:30%;">
+                <dl>
+                        <dt>Texte et conception du spectacle</dt>
+                        <dd>Carine Ermans</dd>
+                                <dt>Collaboration dramaturgique</dt>
+                                <dd>Marie Kateline Rutten et Louis-Dominique Lavigne</dd>
+                        <dt>D’après les albums des auteurs américains</dt>
+                        <dd>Uri Shulevitz, Donald Crews, Peter Neumeyer, Mary Hall Ets et Margaret Wise Brown </dd>
+                                <dt>Mise en scène</dt>
+                                <dd>Sabine Durand</dd>
+                        <dt>Distribution</dt>
+                        <dd>Carine Ermans, Jean-Dominique Kerignard, Alain Gilbert, Benjamin van Thiel et l’ombre de Simon Elst</dd>
+                                <dt>Scénographie</dt>
+                                <dd>Pierre-François Limbosch, Alexandre Obolensky</dd>
+                        <dt>Silhouettes</dt>
+                        <dd>Carine  Ermans, Christophe Morisset, Nicolas Bovesse, Julie Michaud, Mélanie  Rutten, Michel Liégeois, Eugénie Obolensky</dd>
+                                <dt>Musique</dt>
+                                <dd>Alain Gilbert</dd>
+                        <dt>Éclairages</dt>
+                        <dd>Nathalie Borlée</dd>
+                                <dt>Régie</dt>
+                                <dd>Sylvain Geoffray</dd>
+                        <dt>Film animation</dt>
+                        <dd>Travail collectif encadré par Caroline Nugues (Zorobabel)</dd>
+                                <dt>Accessoires</dt>
+                                <dd>Elisabeth Houtart, Michel Vinck</dd>
+                        <dt>Travail du mouvement</dt>
+                        <dd>Isabelle Lamouline</dd>
+                                <dt>Costumes</dt>
+                                <dd>Sylvia Hasenclever</dd>
+                </dl>
+        </div>
+        
+        
+                <div class="transition" style="height: 423px; outline: none; margin-top: 150px;">
+                        <img class="noir" src="../materials/extract/flammes.gif" style="width: 100%;" />
+                </div>
 </article>
 
 <!--------------------------------------------------------------------------------------------------
 *-  T R I L O G I E  D E  L ' E N F E R  -
 -->
+<article id="trilogie-de-lenfer" style="padding-top: 150px;">
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+            <h1>T r i l o g i e</h1>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+            <h1> d e </h1>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+            <h1>l’ E n f e r</h1>
+        </div>
+        
+        <div style="width: 5%;">
+                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                    <h2>s u r</h2>
+                 </div>
+                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                    <h2> l e</h2>
+                 </div>
+                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                    <h2>t h è m e</h2>
+                 </div>
+        </div>
+        <div style="width: 5%;">
+                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                    <h2>d e</h2>
+                 </div>
+                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                    <h2>l a</h2>
+                 </div>
+                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                    <h2>g a v o t t e</h2>
+                 </div>
+        </div>
+        <div style="width: 5%;">
+                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                    <h2>a v e c</h2>
+                 </div>
+                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                    <h2>s e s</h2>
+                 </div>
+        </div>
+        <div style="width: 5%;">
+                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                    <h2>d o u b l e s</h2>
+                 </div>
+                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                    <h2>d e</h2>
+                 </div>
+        </div>
+        <div style="width: 5%;">
+                <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                    <h2> J e a n - P h i l i p p e</h2>
+                 </div>
+                <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                    <h2> R a m e a u</h2>
+                 </div>
+        </div>
+        
+        <div class="type" style="width: 30%; ">
+            <div class="type" style="width: 100%; ">
+                    <h3>Création Théâtre</h3>
+            </div>
+        
+            <div class="artiste" style="width: 100%; ">
+                    <h4>Martine Wijckaert</h4>
+            </div>
+        </div>
+    <div class="date" style="width: 80%;">
+            <p>Du 24 janvier au 15 février <br /> Amphithéâtre</p>
+    </div>
+    
+    
+    
+                <div class="image-cmjn" style="width: 55%; height: 212px; outline-width: 15px;">
+                        <img class="preview" src="../photos/retable_martine.jpg" style="width: 100%" />
+                </div>
+    
+
+    <div class="if" style="width: 30%; ">
+            <p>
+                        Et si l’enfer Wijckartien nous était conté&thinsp;?  
+                </p>
+    </div>
+
+    <div class="image-cmjn" style="width: 40%; height: 400px; ">
+                <img src="../manga/strips/2_180635.jpg" width="500px" style="position:absolute; clip:rect(40px,40px,40px,40px)" />
+        </div>
+        
+        <div class="image-cmjn" style="width: 40%; height: 400px; ">
+                <img src="../manga/strips/783270c7564f62f88a06794ef1921044.jpg"  width="400px" style="position:absolute; clip:rect(0px,100px,50px,50px)" />
+        </div>
+        
+    <div class="texte" style="width: 30%; >
+            <p>
+                        Depuis  1981, Martine Wickaert fait trembler les scènes et les murs de la  Balsamine. Auteur et metteur en scène virtuose et figure emblématique de  la scène belge, elle traverse le temps sans prendre une ride et en se  permettant d’oser toujours plus loin la descente en ses propres enfers,  au plus près d’une vérité inépuisée en elle.
+                </p>
+    </div>
+
+    <div class="texte" style="width: 30%; ">
+            <p>
+                        <em>Trilogie de l’enfer</em> se divise en trois géographies&thinsp;: «&thinsp;En dessous de l’enfer, l’amour&thinsp;», «&thinsp;L’enfer, l’alcool&thinsp;» et «&thinsp;Au-dessus de l’enfer, la  guerre&thinsp;». C’est philosophiquement et physiquement, un voyage des sens,  une humanité qui vous renverse cul par-dessus tête.
+                </p>
+    </div>
+
+    <div class="texte" style="width: 100%; ">
+            <p>
+                        Petit  préambule, trois femmes, la mère morte, la fille sous influence, la  fillette sauvage, trois figures dans un espace «&thinsp;en évolution&thinsp;». On  passe de la 3D à la 2D dans un espace théâtral basé sur un point de  fuite qui n’en finirait jamais. 
+                </p>
+    </div>
+
+    <div class="texte" style="width: 30%; ">
+            <p>
+                        1 2 3, je m’en vais au bois
+                </p>
+    </div>
+
+    <div class="texte" style="width: 50%; ">
+            <p>
+                        « &thinsp;En dessous de l’enfer, l’amour&thinsp;» où la Mère, placée en majesté, ouvre  le bal. La question de l’amour y est centrale, autant que dérisoire et  historique. La mère dans un écrin, à la primitive flamande, avec des  canaris aux chants lancinants et répétitifs. C’est en soi une peinture  qui parle. «&thinsp;Regarde Béatrice, Regarde,… ,ce céleste acrobate, ce singe  héroïque sorti tout droit de la pénombre du quotidien, c’était ton père. &thinsp;»
+                </p>
+    </div>
+
+    <div class="texte" style="width: 45%; ">
+            <p>
+                        « &thinsp;Au-dessus de l’enfer, la guerre&thinsp;», la question de l’amour ressurgit  pleinement sous forme d’un hymne à l’amour proféré par une toute jeune  fille sauvage. 
+                </p>
+    </div>
+
+    <div class="texte" style="width: 45%; ">
+            <p>
+                        <em>Trilogie  de l’enfer</em>, à travers ce déploiement de trois paroles solitaires au  sein d’un même espace en mutation, se penche sur la transmission pour  laisser se déployer une sorte de cartographie existentielle relative aux  solitudes et aux dépendances.
+                </p>
+    </div>
+
+    <div class="blockquote" style="width: 45%; ">
+            <blockquote>
+                        Martine dit&thinsp;: «&thinsp;Ce  sont des fresques épiques où l’histoire d’une structure familiale  fantasmée se pulvérise dans l’ogre de l’Histoire&thinsp;; cette Famille devient  en quelque sorte un temps mythique dont je ne cesse d’interroger le  cours.&thinsp;»
+                </blockquote>
+    </div>
+
+    <div class="production" style="width: 45%; ">
+            <p>
+                        Une production de la Balsamine en coproduction avec le Théâtre de la Place (Liège).
+                </p>
+    </div>
+
+    <div class="out" style="width: 45%; ">
+            <p>
+                        Représentations du 11 au 15 mars au théâtre de la Place de Liège.
+                </p>
+    </div>
+
+ 
+
+    <div class="bible" style="width: 45%; ">
+                <dl>
+                        <dt>Avec</dt>
+                        <dd>Yvette Poirier, Véronique Dumont et Héloïse Jadoul</dd>
+                                <dt>Écriture et mise en scène</dt>
+                                <dd>Martine Wijckaert</dd>
+                        <dt>Assistance à la mise en scène</dt>
+                        <dd>Astrid Howard</dd>
+                                <dt>Scénographie</dt>
+                                <dd>Valérie Jung </dd>
+                        <dt>Lumières</dt>
+                        <dd>Stéphanie Daniel </dd>
+                                <dt>Costumes et accessoires</dt>
+                                <dd>Laurence Villerot </dd>
+                        <dt>Création son</dt>
+                        <dd>Thomas Turine </dd>
+                                <dt>Création vidéo</dt>
+                                <dd>Jacques André</dd>
+                        <dt>Direction technique</dt>
+                        <dd>Nathalie Borlée</dd>
+                                <dt>Oiseleur</dt>
+                                <dd>Tristan Plot </dd>
+                        <dt>Régie spectacle</dt>
+                        <dd>Mathieu Bastyns</dd>
+                </dl>
+    </div>
 
 
-
-
-
-<article id="trilogie-de-lenfer">
-    <div class="texte" style="width: 90%; height: 322px; "></div>
-    <div class="texte" style="width: 48%; height: 51px; "></div>
-    <div class="texte" style="width: 200px; height: 97px; "></div>
-    <div class="texte" style="width: 80%; height: 192px; "></div>
-    <div class="texte" style="width: 400px; height: 150px; "></div>
-    <div class="image" style="width: 40%; height: 401px; "></div>
-    <div class="image" style="width: 40%; height: 401px; "></div>
-    <div class="texte" style="width: 288px; height: 213px; "></div>
-    <div class="texte" style="width: 379px; height: 254px; "></div>
-    <div class="texte" style="width: 99%; height: 147px; "></div>
-    <div class="texte" style="width: 673px; height: 162px; "></div>
-    <div class="texte" style="width: 50%; height: 193px; "></div>
-    <div class="bible" style="width: 45%; height: 440px; "></div>
-
-<div class="image-cmjn">
-	<img src="../manga/strips/2_180635.jpg" width="500px" style="position:absolute; clip:rect(40px,40px,40px,40px)" />
-</div>
-
-<div class="image-cmjn">
-	<img src="../manga/strips/783270c7564f62f88a06794ef1921044.jpg"  width="400px" style="position:absolute; clip:rect(0px,100px,50px,50px)" />
-</div>
-
-
-<div class="content">
-<h2>Trilogie de l’Enfer (sur le thème de la gavotte avec ses doubles de Jean-Philippe Rameau)</h2
-<h3>Création Théâtre</h3>
-<h4>Martine Wijckaert</h4>
-<p class="date">Du 24 janvier au 15 février</p>
-<p class="lieu">Amphithéâtre</p>
-<p>
-Et si l’enfer Wijckartien nous était conté?  
-</p>
-<p>
-Depuis  1981, Martine Wickaert fait trembler les scènes et les murs de la  Balsamine. Auteur et metteur en scène virtuose et figure emblématique de  la scène belge, elle traverse le temps sans prendre une ride et en se  permettant d’oser toujours plus loin la descente en ses propres enfers,  au plus près d’une vérité inépuisée en elle.
-</p>
-<p>
-«  Trilogie de l’enfer » se divise en trois géographies: « En dessous de  l’enfer, l’amour », « L’enfer, l’alcool » et « Au-dessus de l’enfer, la  guerre ». C’est philosophiquement et physiquement, un voyage des sens,  une humanité qui vous renverse cul par-dessus tête.
-</p>
-<p>
-Petit  préambule, trois femmes, la mère morte, la fille sous influence, la  fillette sauvage, trois figures dans un espace « en évolution ». On  passe de la 3D à la 2D dans un espace théâtral basé sur un point de  fuite qui n’en finirait jamais. 
-</p>
-<p>
-1 2 3, je m’en vais au bois
-</p>
-<p>
-«  En dessous de l’enfer, l’amour » où la Mère, placée en majesté, ouvre  le bal. La question de l’amour y est centrale, autant que dérisoire et  historique. La mère dans un écrin, à la primitive flamande, avec des  canaris aux chants lancinants et répétitifs. C’est en soi une peinture  qui parle. « Regarde Béatrice, Regarde,…,ce céleste acrobate, ce singe  héroïque sorti tout droit de la pénombre du quotidien, c’était ton père.  »
-</p>
-<p>
-«  L’enfer, l’alcool » se fonde exclusivement sur la transmission de  l’être au monde. Des verres partout, un éléphant rose, un espace  métaphorique, une grande galaxie où la parole est pénétrée et inspirée. 
-</p>
-<p>
-«  Au-dessus de l’enfer, la guerre », la question de l’amour ressurgit  pleinement sous forme d’un hymne à l’amour proféré par une toute jeune  fille sauvage. 
-</p>
-<p>
-Trilogie  de l’enfer, à travers ce déploiement de trois paroles solitaires au  sein d’un même espace en mutation, se penche sur la transmission pour  laisser se déployer une sorte de cartographie existentielle relative aux  solitudes et aux dépendances.
-</p>
-<p>
-Martine dit : « Ce  sont des fresques épiques où l’histoire d’une structure familiale  fantasmée se pulvérise dans l’ogre de l’Histoire ; cette Famille devient  en quelque sorte un temps mythique dont je ne cesse d’interroger le  cours. »
-</p>
-
-
-
-<p class="production">
-Une production de la Balsamine en coproduction avec le Théâtre de la Place (Liège).
-</p>
-<p>
-Représentations Du 11 au 15 mars – Théâtre de la Place - Liège
-</p>
-</div>
-
-<div class="image">
-    <img src="../materials/plateafull.jpg" width="50%" style="position:absolute; clip:rect(0px,700px,300px,20px)"/>
-</div>
-
-<dl class="bible">
-<dt>Avec</dt>
-<dd>Yvette Poirier, Véronique Dumont et Héloïse Jadoul</dd>
-
-<dt>Écriture et mise en scène</dt>
-<dd>Martine Wijckaert</dd>
-
-<dt>Assistance à la mise en scène</dt>
-<dd>Astrid Howard</dd>
-
-<dt>Scénographie</dt>
-<dd>Valérie Jung </dd>
-
-<dt>Lumières</dt>
-<dd>Stéphanie Daniel </dd>
-
-<dt>Costumes et accessoires</dt>
-<dd>Laurence Villerot </dd>
-
-<dt>Création son</dt>
-<dd>Thomas Turine </dd>
-
-<dt>Création vidéo</dt>
-<dd>Jacques André</dd>
-
-<dt>Direction technique</dt>
-<dd>Nathalie Borlée</dd>
-
-<dt>Oiseleur</dt>
-<dd>Tristan Plot </dd>
-
-<dt>Régie spectacle</dt>
-<dd>Mathieu Bastyns</dd>
-</dl>
+                <div class="transition" style="height: 515px; outline: none;margin-top: 150px;">
+                        <img class="noir" src="../materials/extract/moutons-207.gif" style="width: 110%; margin-left: -22px; margin-top:-420px;" />
+                </div>
 </article>
 
 <!--------------------------------------------------------------------------------------------------
 *-  V I S I O N  -
 -->
-<article id="vision">
-<div class="content">
-<h2>Vision</h2>
-<h3>Reprise Théâtre/Cinéma</h3>
-<h4>Pierre Megos</h4>
-
-<p class="date">Du 25 février au 1er mars à 20h30</p>
-<p class="lieu">Amphithéâtre</p>
-
-<p>
-Et  si Pierre Megos débarquait sur la planète interdite?  Et si c’était lui  l’élu ? Et si ce monde parallèle n’était en fait qu’un monde  perpendiculaire. Et si cette vision était vraie? 
-</p>
-<p>
-Après  Washington et Avignon, avant Metz et bien d’autres villes encore,   Vision revient à son lieu de naissance pour briller, encore un peu plus,  dans les yeux de ceux qui ne l’auraient pas vu. Une reprise, donc, du  mythique Hollywood selon Pierre Megos, époustouflant dans sa  performance,  vivifiant dans son procédé, exaltant dans sa poétique.   
-</p>
-<p>
-Catherine M. a dit : « Dans  Vision, à l’affiche à la Balsamine, il se dédouble, jouant sur le  plateau et dans un film, les deux en temps réel, histoire de mettre en  scène et en parallèle le sentiment d’être « ici réellement » mais «  là-bas en rêve ». Mêlant réel et imaginaire, il propose au spectateur de  regarder simultanément un film et sa fabrication en direct. Le résultat  est soufflant ! » in <em>le Soir</em> du 30/01/2013
-</p>
-
-
-
-<p class="production">
-Une  production de Mothership asbl, en coproduction de la Balsamine avec  l'aide du Service général des Arts de la Scène de la Fédération  Wallonie-Bruxelles, Service Théâtre et le soutien du WBTD (aide à la  diffusion).
-</p>
-</div>
-
-<dl class="bible">
-<dt>Concept, écriture et mise en scène</dt>
-<dd>Pierre Megos</dd>
-<dt>Avec</dt>
-<dd>Pierre Megos, Florence Minder, Kian Cardoen, Lucas Bierlair</dd>
-<dt>Assistant/Doublure</dt>
-<dd>Alessandro de Pascale</dd>
-<dt>Administration</dt>
-<dd>Manon Faure</dd>
-<dt>Création vidéo</dt>
-<dd>Caroline De Decker</dd>
-<dt>Création son</dt>
-<dd>Iannis Heaulme</dd>
-<dt>Scénographe «cinéma»</dt>
-<dd>Thomas Delord</dd>
-<dt>Scénographie</dt>
-<dd>Christine Grégoire, en collaboraion avec Ledicia Garcia</dd>
-<dt>Création lumières</dt>
-<dd>Julie Petit-Étienne</dd>
-<dt>Aide à la construction</dt>
-<dd>Dimitri Megos & Herbert Schüller</dd>
-</dl>
+<article id="vision" style="padding-top: 150px;">
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>V i s i o n</h1>
+        </div>
+        
+        <div class="type" style="width:30%;">
+                <div class="type" style="width:100%;">
+                        <h3>Reprise Théâtre/Cinéma</h3>
+                </div>
+                <div class="artiste" style="width:100%;">
+                        <h4>Pierre Megos</h4>
+                </div>
+        </div>
+        <div class="date" style="width:30%;">
+                <p>Du 25 février au 1<sup>er</sup> mars à 20h30 <br /> Amphithéâtre</p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        Et  si Pierre Megos débarquait sur la planète interdite&thinsp;?
+                </p>
+        </div>
+        <div class="if" style="width:30%;">
+                          Et si c’était lui  l’élu&thinsp;? 
+                </p>
+        </div>
+        <div class="if" style="width:30%;">
+                        Et si ce monde parallèle n’était en fait qu’un monde  perpendiculaire. 
+                </p>
+        </div>
+        <div class="if" style="width:30%;">
+                        Et si cette vision était vraie&thinsp;? 
+                </p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        Après  Washington et Avignon, avant Metz et bien d’autres villes encore,  <em>Vision</em> revient à son lieu de naissance pour briller, encore un peu plus,  dans les yeux de ceux qui ne l’auraient pas vu. Une reprise, donc, du  mythique Hollywood selon Pierre Megos, époustouflant dans sa  performance,  vivifiant dans son procédé, exaltant dans sa poétique.   
+                </p>
+        </div>
+        
+        <div class="blockquote" style="width:30%;">
+                <blockquote>
+                        Catherine M. a dit&thinsp;: «&thinsp;Dans  Vision, à l’affiche à la Balsamine, il se dédouble, jouant sur le  plateau et dans un film, les deux en temps réel, histoire de mettre en  scène et en parallèle le sentiment d’être “ici réellement” mais “là-bas en rêve”. Mêlant réel et imaginaire, il propose au spectateur de  regarder simultanément un film et sa fabrication en direct. Le résultat  est soufflant&thinsp;!&thinsp;» in <em>le Soir</em> du 30/01/2013
+                </blockquote>
+        </div>
+        
+        <div class="production" style="width:30%;">
+                <p>
+                        Une  production de Mothership asbl, en coproduction de la Balsamine avec  l'aide du Service général des Arts de la Scène de la Fédération  Wallonie-Bruxelles, Service Théâtre et le soutien du WBTD (aide à la  diffusion).
+                </p>
+        </div>
+        
+        <div class="bible" style="width:30%;">
+                <dl>
+                        <dt>Concept, écriture et mise en scène</dt>
+                        <dd>Pierre Megos</dd>
+                                <dt>Avec</dt>
+                                <dd>Pierre Megos, Florence Minder, Kian Cardoen, Lucas Bierlair</dd>
+                        <dt>Assistant/Doublure</dt>
+                        <dd>Alessandro de Pascale</dd>
+                                <dt>Administration</dt>
+                                <dd>Manon Faure</dd>
+                        <dt>Création vidéo</dt>
+                        <dd>Caroline De Decker</dd>
+                                <dt>Création son</dt>
+                                <dd>Iannis Heaulme</dd>
+                        <dt>Scénographe «&thinsp;cinéma&thinsp;»</dt>
+                        <dd>Thomas Delord</dd>
+                                <dt>Scénographie</dt>
+                                <dd>Christine Grégoire, en collaboraion avec Ledicia Garcia</dd>
+                        <dt>Création lumières</dt>
+                        <dd>Julie Petit-Étienne</dd>
+                                <dt>Aide à la construction</dt>
+                                <dd>Dimitri Megos & Herbert Schüller</dd>
+                </dl>
+        </div>
+        
+        
+                <div class="transition" style="height: 515px; outline: none; margin-top: 150px;">
+                        <img class="noir" src="../materials/extract/eponge-219.gif" style="width: 200%; margin-left: -332px; margin-top:-1390px;" />
+                </div>
 </article>
 
 <!--------------------------------------------------------------------------------------------------
 *-  K   B A R R É  -
 -->
 <article id="k-barre">
-<div class="content">
-<h2>K Barré #1</h2>
-<h3>Création Danse + Concert</h3>
-<h4>Barbara Mavro Thalassitis</h4>
-
-<p class="date">Du 19 au 22 mars à 20h30
-<p class="lieu">Amphithéâtre + Foyer</p>
-
-<p>
-Et si Ève pétait les plombs pour de bon ? 
-</p>
-<p>
-Et si parler des femmes en 2013, c’était forcément parler DES femmes et de leur multiplicité ? 
-</p>
-<p>
-C’est  pour cela que nous avons choisi de les célébrer et de les présentifier…  Pas « toutes » évidemment, car elles ne sont pas « toutes » identiques  et semblables, mais certaines, triées sur le volet d’un monde barré. De  Lydia Lunch et ses textes prophétiques, poétiques et politiques, à  Simone elle est bonne en passant par Barbara Mavro Thalassitis, on vous  propose trois visions de la féminité par des femmes issues de  différentes cultures, pratiques et générations.
-</p>
-<p>
-À  l’heure où les femmes représentent un danger « imaginaire » pour  certains ou, pire encore peut-être, le seul avenir possible – les  célébrer nous semblait incontournable. 
-</p>
-
-<p class="production">
-Une production de Roberta DC, en coproduction avec la Balsamine et le Théâtre de l’Ancre.
-Avec l’aide de la Fédération Wallonie-Bruxelles, Service de la Danse, et le soutien de Charleroi-Danses.
-</p>
-</div>
-
-<dl class="bible">
-<dt>Création</dt>
-<dd>Barbara Mavro Thalassitis, en collaboration avec  Lydia Lunch, Maria Clara Villa Lobos, …</dd>
-
-<dt>Avec</dt>
-<dd>Lydia Lunch, Maria Clara Villa Lobos, … (distribution en cours) </dd>
-
-<dt>Chorégraphie, scénographie et costumes</dt>
-<dd>Barbara Mavro Thalassitis </dd>
-
-<dt>Lumière</dt>
-<dd>Laurence Halloy</dd>
-
-<dt>After</dt>
-<dd>Peggy Lee Cooper, Simone elle est bonne, Kinky Frogs</dd>
-</dl>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>K </h1>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>B a r r é#1</h1>
+        </div>
+        <div class="type" style="width:30%;">
+                <div class="type" style="width:100%;">
+                        <h3>Création Danse + Concert</h3>
+                </div>
+                
+                <div class="artiste" style="width:100%;">
+                        <h4>Barbara Mavro Thalassitis</h4>
+                </div>
+        </div>
+        
+        <div class="date" style="width:30%;">
+                <p>Du 19 au 22 mars à 20h30 <br /> Amphithéâtre + Foyer</p>
+        </div>
+        
+        
+                <div class="image-cmjn" style="width: 55%; height: 256px; outline-width: 15px;">
+                        <img class="preview" src="../photos/retable_barbara-nb.jpg" style="width: 100%" />
+                </div>
+        
+        
+        <div class="if" style="width:30%;">
+                <p>
+                        Et si Ève pétait les plombs pour de bon&thinsp;? 
+                </p>
+        </div>
+        
+        <div class="if" style="width:30%;">
+                <p>
+                        Et si parler des femmes en 2013, c’était forcément parler DES femmes et de leur multiplicité&thinsp;? 
+                </p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        C’est  pour cela que nous avons choisi de les célébrer et de les présentifier…  Pas «&thinsp;toutes&thinsp;» évidemment, car elles ne sont pas «&thinsp;toutes&thinsp;» identiques  et semblables, mais certaines, triées sur le volet d’un monde barré. De  Lydia Lunch et ses textes prophétiques, poétiques et politiques, à  Simone elle est bonne en passant par Barbara Mavro Thalassitis, on vous  propose trois visions de la féminité par des femmes issues de  différentes cultures, pratiques et générations.
+                </p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        À  l’heure où les femmes représentent un danger «&thinsp;imaginaire&thinsp;» pour  certains ou, pire encore peut-être, le seul avenir possible – les  célébrer nous semblait incontournable. 
+                </p>
+        </div>
+        
+        <div class="production" style="width:30%;">
+                <p>
+                        Une production de Roberta DC, en coproduction avec la Balsamine et le Théâtre de l’Ancre.
+                        Avec l’aide de la Fédération Wallonie-Bruxelles, Service de la Danse, et le soutien de Charleroi-Danses.
+                </p>
+        </div>
+        
+        <div class="bible" style="width:30%;">
+                <dl>
+                        <dt>Création</dt>
+                        <dd>Barbara Mavro Thalassitis, en collaboration avec  Lydia Lunch, Maria Clara Villa Lobos, …</dd>
+                                <dt>Avec</dt>
+                                <dd>Lydia Lunch, Maria Clara Villa Lobos, … (distribution en cours) </dd>
+                        <dt>Chorégraphie, scénographie et costumes</dt>
+                        <dd>Barbara Mavro Thalassitis </dd>
+                                <dt>Lumière</dt>
+                                <dd>Laurence Halloy</dd>
+                        <dt>After</dt>
+                        <dd>Peggy Lee Cooper, Simone elle est bonne, Kinky Frogs</dd>
+                </dl>
+        </div>
+        
+        
+                <div class="transition" style="height: 419px; outline: none; margin-top: 150px;">
+                        <img class="noir" src="../materials/extract/feuillages-239.gif" style="width: 200%; margin-left: -332px; margin-top:-757px;" />
+                </div>
 </article>
 
 <!--------------------------------------------------------------------------------------------------
 *-  L A   F O R Ê T  -
 -->
-<article id="la-foret">
-<div class="content">
-<h2>La Forêt</h2>
-<h3>Création/Opéra de chambre</h3>
-<h4>Baudouin de Jaer et Stéphane Arcas</h4>
+<article id="la-foret" style="padding-top: 150px;">
+        
+                <div class=" titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px; ">
+                        <h1 style="text-align: center;">L a  </h1>
+                </div>
+                <div class=" titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px; ">
+                        <h1 style="text-align: center;">F o r ê t  </h1>
+                </div>
+                
+                <div class="date" style="height:50px;">
+                        <p>Du 2 au 5 avril<br /> à 20h30 <br /> Amphithéâtre</p>
+                </div>
+                
+                
 
-<p class="date">Du 2 au 5 avril à 20h30</p>
-<p class="lieu">Amphithéâtre</p>
-<div><img class="cyan" src="../photos/retable_arcas_baudouin.jpg" style="margin-top: -110px; margin-left: -60px; z-index:0;" /></div>
+                <div class="type" style="width: 30%; ">
+                        <h3 >Création/Opéra de chambre</h3>
+                </div>
+                <div class="artiste" style="width: 30%; ">
+                        <h4>Baudouin de Jaer et Stéphane Arcas</h4>
+                </div>
+                
+                
+                <div class="image-cmjn" style="width: 55%; height: 258px; outline-width: 15px;">
+                        <img class="preview" src="../photos/retable_arcas_baudouin.jpg" style="width: 100%" />
+                </div>
+                <div class="if" style=" width: 15% ; margin-top:10px;">
+                        <p class=" texte"  style="background-color:white; padding:5px; ">
+                                <img width="70px" src="materials/etsi3.svg" align="right">l’arbre ne cachait plus la forêt&thinsp;? 
+                        </p>
+                </div>
+                
+                <div style="width:30%;">
+                        <div>
+                                <img src="../materials/extract/soleil.gif" style="width:100%;"/>
+                        </div>
+                        <div class="if" style="position:absolute;">
+                                <p class=" texte "  style="width:30%;padding-left:30px;padding-top:65px;text-align:center;">
+                                        ET SI</br> Marie ne s’appelait plus Laforet&thinsp;?  
+                                </p>
+                        </div>
+                </div>
+                
+                <div style="width:30%;">
+                        <div>
+                                <img src="../materials/extract/angle-radiant.gif" style="width:100%;"/>
+                        </div>
+                        <div class="if" style=" text-align:center;position:absolute;">
+                                <p  style="width: 80% ; padding:5px;margin-top:20px; ">
+                                        ET SI tout se jouait la nuit&thinsp;? 
+                                </p>
+                        </div>
+                </div>
+                
+                <div class="if" style=" width: 15% ;">
+                <p style="background-color:white; padding:5px; ">
+                                ET SI l’origine de tout cela  se situait à Forest&thinsp;? (Private Joke 2) 
+                        </p>
+                </div>
 
+                <div class="texte" style="width:29%; height: 154px;">
+                        <p>
+                                La  forêt est le premier opéra composé par Baudouin de Jaer, opéra de  chambre d’une durée de 45 minutes, sur un livret de Stéphane Arcas, adapté pour l’occasion.
+                        <p> 
+                </div>
+                        
+                
+                <div class="texte" style="width:32%; height: 154px;">
+                        <p>
+                                Dans un décor sobre, trois personnages occupent la scène&thinsp;: le couple – l’homme <em>A</em>, un ténor, et une femme <em>B</em>, une mezzo soprano&thinsp;; le rôle de <em>C</em>, la  narratrice, est tenu par une comédienne.
+                        </p>
+                </div>
+                
+                <div class="texte" style="width:14%; height: 154px;">
+                        <p>
+                                Tous trois déambulent dans la forêt des arbres «&thinsp;comme ça&thinsp;».
+                        </p>
+                </div>
+                
+                <div class="image"  style="width:30%; height:154px; outline-width: 5px;">
+                                <img src="../photos/retable_arcas_baudouin-nb.jpg" style="margin-top: -10px; margin-left: -30px;"/>
+                        </div>
+                
+                <div class="texte" style="width:35%; height:154px;">
+                        <p>
+                                La  précision, la complexité de la nature et l’absence totale de réponses  alimentent l’inspiration musicale de Baudouin de Jaer. Venez voir et  dites-nous quelle est cette faille, cette perte dont on nous parle si  intensément…
+                        </p>
+                </div>
+        
+                <div class="blockquote"  style="width:21%; height:154px;">
+                        <blockquote>
+                                <em>A</em> dit&thinsp;: «&thinsp;Cet arbre-là. Je l’ai déjà vu, je suis sûr qu’on est déjà passé ici.&thinsp;»
+                        </blockquote>
+                </div>
+        
+                <div class="production"  style="width:30%; height:154px;">
+                        <p>
+                                Une production de Noodik Productions, en coproduction avec la Balsamine. Avec le soutien de la Fédération Wallonie-Bruxelles.
+                        </p>
+                </div>
+        
+                <!-- <div class="bible" style="width:30%;"> -->
+                        <dl style="background-color:white;">
+                                <dt>Livret</dt>
+                                <dd>Stéphane Arcas</dd>
+                                        <dt>Musique</dt>
+                                        <dd>Baudouin de Jaer</dd>
+                                <dt>Direction musicale</dt>
+                                <dd>Martijn Dendivel</dd>
+                                        <dt>Mise en scène et scénographie</dt>
+                                        <dd>Stéphane Arcas</dd>
+                                <dt>Avec</dt>
+                                <dd>l’ensemble BESIDES, Cécile Chèvre, distribution en cours…</dd>
+                        </dl>
+                <!-- </div> -->
+        
+                <div class="image-cmjn">
+                        <img src="photos/imagemagick/meteor/meteor_Calque2re.png" width="300px">
+                </div>
+        
+                <div class="transition" style="height: 406px; outline: none; position: relative; z-index: -10; margin-top: 150px;">
+                        <img class="noir" src="../materials/extract/vagues-trouees-236.gif" style="margin-top: -1320px; margin-left: -270px; width: 180%;" />
+                </div>
 
-<div class="if">
-Et  si l’arbre ne cachait plus la forêt ? Et si Marie ne s’appelait plus  Laforet ?  Et si tout se jouait la nuit ? Et si l’origine de tout cela  se situait à Forest? (Private Joke 2) 
-</div>
-
-<div>
-La  forêt est le premier opéra composé par Baudouin de Jaer, opéra de  chambre d’une durée de 45 minutes, sur un livret de Stéphane Arcas -  adapté pour l’occasion,  
-</div>
-<div>
-Dans  undécor sobre, trois personnages occupent la scène : le couple :  l’homme A– un ténor et une femme B - une mezzo soprano. Le rôle de C, la  narratrice, est tenu par une comédienne.
-</div>
-<div>
-Tous trois déambulent dans la forêt des arbres « comme ça ».
-</div>
-<div>
-La  précision, la complexité de la nature et l’absence totale de réponses  alimentent l’inspiration musicale de Baudouin de Jaer. Venez voir et  dites-nous quelle est cette faille, cette perte dont on nous parle si  intensément...
-</div>
-<p>
-<em>A</em>  dit : « Cet arbre-là. Je l’ai déjà vu, je suis sûr qu’on est déjà passé ici. »
-</p>
-
-
-<p class="production">
-	Une production de Noodik Productions, en coproduction avec la Balsamine. Avec le soutien de la Fédération Wallonie-Bruxelles.
-</p>
-</div>
-
-<dl class="bible">
-<dt>Livret</dt>
-<dd>Stéphane Arcas</dd>
-
-<dt>Musique</dt>
-<dd>Baudouin de Jaer</dd>
-
-<dt>Direction musicale</dt>
-<dd>Martijn Dendivel</dd>
-
-<dt>Mise en scène et scénographie</dt>
-<dd>Stéphane Arcas</dd>
-
-<dt>Avec</dt>
-<dd>l’ensemble BESIDES, Cécile Chèvre, distribution en cours…</dd>
-</dl>
 </article>
 
 <!--------------------------------------------------------------------------------------------------
 *-  S O R T I R   L A   T Ê T E   D E   L ' E A U  -
 -->
 <article id="quest-ce-qui-me-fait-sortir-la-tete-de-leau">
-<div class="content">
-<h2>Qu’est-ce qui me fait sortir la tête de l’eau?</h2>
-
-<p class="date">Le 26 avril dès 18h</p>
-
-<p>
-18h: Installation à la Balsa et/ou dans l’espace public
-</p>
-<p>
-19h: Performance danse - Foyer
-</p>
-<p>
-20h30: Performance théâtre - Amphithéâtre
-</p>
-</div>
-</article>
-
-<!--------------------------------------------------------------------------------------------------
-*-  K D F A  -
--->
-<article id="kunstenfestivaldesarts">
-<div class="content">
-<h2>Kunstenfestivaldesarts</h2>
-<h3>Accueil</h3>
-
-<p class="date">Mai</p>
-<p class="lieu">Amphithéâtre</p>
-
-<p>
-Et si le Kunstenfestivaldesarts n’existait pas, pourquoi le mois de mai existerait? 
-</p>
-Et  si «KFDA» signifiait en fait «Ke faire dès Avril»? Attendre, attendre  ce moment incontournable…voici le joli mois de mai où les fleurs volent  au vent. 
-</p>
-<p>
-Le  Kunstenfestivaldesarts en mai est partout, et aussi chez nous, et on  fête cette fois son 20<sup>e</sup> anniversaire.
-</p>
-</div>
+        
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>Q u’ e s t - c e </h1>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>q u i </h1>
+        </div>
+        <div style="width: 10%;">
+                <div class="titre" style="width: 100%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                        <h1>m e </h1>
+                </div>
+                <div class="titre" style="width: 100%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                        <h1>f a i t </h1>
+                </div>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>s o r t i r</h1>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>l a </h1>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>t ê t e</h1>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>d e</h1>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>l’ e a u ?</h1>
+        </div>
+        
+        <div class="date" style="width:30%;">
+                <p>Le 26 avril dès 18h</p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        18h: Installation à la Balsa et/ou dans l’espace public
+                </p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        19h: Performance danse — Foyer
+                </p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        20h30: Performance théâtre — Amphithéâtre
+                </p>
+        </div>
+        
+                <div class="transition" style="height: 385px; outline: none; position: relative; z-index: -10; margin-top: 150px;">
+                        <img class="noir" src="../materials/extract/waouh.gif" style="margin-top: -33px; margin-left: -37px; width: 107%;" />
+                </div>
 </article>
 
 <!--------------------------------------------------------------------------------------------------
 *-  G E N E S I S  -
 -->
-<article id="genesis">
-<div class="content">
-<h2>Genesis(I, II, III)</h2>
-<h3>Création Théâtre </h3>
-<h4>Thomas Ryckewaert</h4>
-
-<p>Genesis III</p>
-<p class="date">Les 27, 28 et 31 mai à 20h30</p>
-<p class="date">Amphithéâtre Balsamine </p>
-
-<p>Genesis(I, II)</p>
-<p class="date">le 31 mai</p>
-<p  class="lieu">« Hors les murs » dans une église et dans une  université (les lieux précis seront communiqués  ultérieurement)</p>
-
-<p>
-Et si le pommier avait été un cocotier ? 
-</p>
-<p>
-Et si l’ignorance était enrichissante ? 
-</p>
-
-<blockquote>
-Mais l'Éternel Dieu appela l'homme, et lui dit : Où es-tu ? – Genèse 3:9 
-</blockquote>
-<p>
-C’est  un endroit cruel et déroutant, où l’homme banni trouve refuge. Il y est  confronté à des forces qui dépassent son entendement. Tantôt c’est une  pluie de feu et de soufre qui tombe du ciel, tantôt de simples gouttes  d’eau, mais des semaines durant, jusqu’à ce que tout soit englouti. Il  n’y a rien de plus déconcertant, cependant, que les forces que l’homme  découvre en lui-même : jalousie, érotisme, soif de sang. Mais la force  la plus insaisissable de toutes est l’amour.
-</p>
-<p>
-Avec  sa nouvelle création, Thomas Ryckewaert s’attaque à un des  chefs-d’œuvre les plus paradoxaux de la littérature mondiale : la  Genèse, le premier livre de la Bible. Un spectacle qui traite de notre  désir incessant de maîtriser le chaos.
-</p>
-<p>
-Cette  production est la troisième partie d’un triptyque dans lequel ce texte  poétique et choquant est présenté à partir de différentes perspectives.  <em>Genesis I – Science</em> initie le public au savoir des philosophes, théologiens et traducteurs bibliques. <em>Genesis II – Religion</em>  consiste en une célébration eucharistique dirigée par Ryckewaert. Les  fidèles de la messe et du théâtre sont les témoins collectifs d’un  rituel vieux de 2000 ans, subtilement retravaillé, qui fait intervenir  des sons et lumières, des chants, des textes comme du silence. Dans  <em>Genesis III – Théâtre</em>, Ryckewaert met en scène sa propre version du livre de la Genèse. En quête d’un rituel contemporain.
-</p>
-<p>
-Dans <em>Genesis (I, II, III)</em>,  Ryckewaert dirige successivement le scientifique, le prêtre et  l’acteur. Une recherche de l’origine du théâtre, de l’essence du rituel.  La liturgie est-elle du théâtre ? Le théâtre est-il une liturgie ?
-</p>
-
-<blockquote>
-En fait je ne crois rien, <br />
-Et je doute de tout, même de Vous.<br />
-Mais parfois, lorsque je pense que Vous existez réellement,<br />
-Je pense que Vous êtes l’Amour, et que vous êtes seul,<br />
-Et que, partageant mon désespoir, Vous me cherchez<br />
-Comme je Vous cherche.
-</blockquote>
-<p>Gerard Reve</p>
-
-
-<p class="production">
-Une  coproduction de Vooruit (Gent) et du théâtre la Balsamine. En  coopération avec STUK (Leuven), BUDA (Kortrijk), WP Zimmer (Antwerpen).  Avec le soutien du de Vlaamse Overheid, Provincie Antwerpen.
-</p>
-
-<p>
-19/10/2013                Genesis (I, II, III)                Vooruit, Gent (BE) Première
-15/02/2014                Genesis (I, II, III)                 De Warande, Turnhout (BE)
-25/02/2014                Genesis (III)                       Het Toneelhuis, Antwerpen (BE)
-22/03/2014                Genesis (I, II, III)                  STUK, Leuven (BE)
-27+28/05/2014                Genesis (III)                       Théâtre la Balsamine, Brussel (BE)
-31/05/2014                Genesis (I, II, III)                Théâtre la Balsamine, Brussel (BE)
-</p>
-</div>
-<dl class="bible">
-<dt>Concept & direction</dt>
-<dd>Thomas Ryckewaert</dd>
-
-<dt>Décor sonore</dt>
-<dd>Tim Vets</dd>
-
-<dt>Lumières</dt>
-<dd>Luc Schaltin</dd>
-
-<dt>Costumes</dt>
-<dd>Bert Gillet</dd>
-
-<dt>Dramaturgie</dt>
-<dd>Marnix Rummens</dd>
-
-<dt>Assistance direction</dt>
-<dd>Tineke De Meyer</dd>
-
-<dt>Production</dt>
-<dd>Margarita Production</dd>
-</dl>
+<article id="genesis" style="padding-top: 150px;">
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;text-align:left !important;">
+                <h1>G e n e s i s</h1>
+        </div>
+        <div style="width: 5%;">
+                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2 style="font-family:UmePMincho ! important;margin-left:-2px;">&#8544,</h2>
+                </div>
+                <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px ;">
+                        <h2 style="font-family:UmePMincho ! important;margin-left:-2px;">Ⅱ</h2>
+                </div>
+                <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px ;">
+                        <h2 >e t</h2>
+                </div>
+                <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px;">
+                        <h2 style="font-family:UmePMincho ! important;margin-left:-2px;">Ⅲ</h2>
+                </div>
+        </div>
+        <div class="type" style="width:30%;">
+                <div class="type" style="width:100%;">
+                        <h3>Création Théâtre</h3>
+                </div>
+                
+                <div class="artiste" style="width:100%;">
+                        <h4>Thomas Ryckewaert</h4>
+                </div>
+        </div>
+        <div class="date" style="width:30%;">
+                <p>Genesis III</p>
+                <p>Les 27, 28 et 31 mai à 20h30 <br />Amphithéâtre </p>
+        </div>
+        
+        <div class="date" style="width:30%;">
+                <p>Genesis (I, II)</p>
+                <p>le 31 mai <br />«&thinsp;Hors les murs&thinsp;» dans une église et dans une  université (les lieux précis seront communiqués  ultérieurement)</p>
+        </div>
+        
+        
+                <div class="image-cmjn" style="width: 55%; height: 236px; outline-width: 15px;">
+                        <img class="preview" src="../photos/retable_thomas-nb.jpg" style="width: 100%" />
+                </div>
+                
+        
+        <div class="if" style="width:30%;">
+                <p>
+                        Et si le pommier avait été un cocotier&thinsp;? 
+                </p>
+        </div>
+        
+        <div class="if" style="width:30%;">
+                <p>
+                        Et si l’ignorance était enrichissante&thinsp;? 
+                </p>
+        </div>
+        
+        <div class="blockquote" style="width:30%;">
+                <blockquote >
+                        Mais l'Éternel Dieu appela l'homme, et lui dit&thinsp;: Où es-tu&thinsp;? – Genèse 3:9 
+                </blockquote>
+        </div>
+        
+        <div class="blockquote" style="width:30%;">
+                <blockquote class="nl">
+                        Dan roept de ENE, God, tot de roodbloedige mens en zegt tot hem&thinsp;: waar ben je&thinsp;? – Gen. 3,9
+                </blockquote>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        C’est  un endroit cruel et déroutant, où l’homme banni trouve refuge. Il y est  confronté à des forces qui dépassent son entendement. Tantôt c’est une  pluie de feu et de soufre qui tombe du ciel, tantôt de simples gouttes  d’eau, mais des semaines durant, jusqu’à ce que tout soit englouti. Il  n’y a rien de plus déconcertant, cependant, que les forces que l’homme  découvre en lui-même&thinsp;: jalousie, érotisme, soif de sang. Mais la force  la plus insaisissable de toutes est l’amour.
+                </p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        Avec  sa nouvelle création, Thomas Ryckewaert s’attaque à un des  chefs-d’œuvre les plus paradoxaux de la littérature mondiale&thinsp;: la  Genèse, le premier livre de la Bible. Un spectacle qui traite de notre  désir incessant de maîtriser le chaos.
+                </p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p class="nl">
+                        Thomas  Ryckewaert waagt zich in zijn nieuwe creatie aan een van de meest  paradoxale meesterwerken uit de wereldliteratuur&thinsp;: Genesis, het eerste  boek van de Bijbel. Een voorstelling over onze levenslange poging de  chaos te bedwingen.
+                </p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        Cette  production est la troisième partie d’un triptyque dans lequel ce texte  poétique et choquant est présenté à partir de différentes perspectives.  <em>Genesis I – Science</em> initie le public au savoir des philosophes, théologiens et traducteurs bibliques. <em>Genesis II – Religion</em>  consiste en une célébration eucharistique dirigée par Ryckewaert. Les  fidèles de la messe et du théâtre sont les témoins collectifs d’un  rituel vieux de 2000 ans, subtilement retravaillé, qui fait intervenir  des sons et lumières, des chants, des textes comme du silence. Dans  <em>Genesis III – Théâtre</em>, Ryckewaert met en scène sa propre version du livre de la Genèse. En quête d’un rituel contemporain.
+                </p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p  class="nl">
+                        In <em>Genesis I — Wetenschap</em> wordt het publiek ingewijd in de expertise van filosofen, theologen en bijbelvertalers. <em>Genesis II – Religie</em> is  een door Ryckewaert geregisseerde eucharistieviering. In een compositie  van licht, geluid, zang, tekst en stilte worden kerk- en theatergangers  samen getuige van een 2000 jaar oud ritueel waaraan subtiel is  geschaafd. In <em>Genesis III – Theater</em> brengt Ryckewaert zijn versie van het boek Genesis op scène. Op zoek naar een hedendaags ritueel.
+                </p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        Dans <em>Genesis (I, II, III)</em>,  Ryckewaert dirige successivement le scientifique, le prêtre et  l’acteur. Une recherche de l’origine du théâtre, de l’essence du rituel.  La liturgie est-elle du théâtre ? Le théâtre est-il une liturgie&thinsp;?
+                </p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p  class="nl">
+                        In <em>Genesis (I, II, III)</em>  regisseert Ryckewaert achtereenvolgens de wetenschapper, de priester en  de acteur. Een zoektocht naar de oorsprong van performance, naar de  kern van het ritueel. Is liturgie theater&thinsp;? Is theater liturgie&thinsp;?
+                </p>
+        </div>
+        
+        <div class="blockquote" style="width:30%;">
+                <blockquote>
+                        En fait je ne crois rien, <br />
+                        Et je doute de tout, même de Vous.<br />
+                        Mais parfois, lorsque je pense que Vous existez réellement,<br />
+                        Je pense que Vous êtes l’Amour, et que vous êtes seul,<br />
+                        Et que, partageant mon désespoir, Vous me cherchez<br />
+                        Comme je Vous cherche.
+                </blockquote>
+                <p>Gerard Reve</p>
+        </div>
+        
+        <div class="blockquote" style="width:30%;">
+                <blockquote  class="nl">
+                        Eigenlijk geloof ik niets,<br />
+                        En twijfel ik aan alles, zelfs aan U.<br />
+                        Maar soms, wanneer ik denk dat Gij waarachtig leeft,<br />
+                        Dan denk ik dat Gij Liefde zijt, en eenzaam,<br />
+                        En dat, in zelfde wanhoop, Gij mij zoekt<br />
+                        Zoals ik U.
+                </blockquote>
+                <p>Gerard Reve</p>
+        </div>
+        
+        <div class="production" style="width:30%;">
+                <p>
+                        Une  coproduction de Vooruit (Gent) et du théâtre la Balsamine. En  coopération avec STUK (Leuven), BUDA (Kortrijk), WP Zimmer (Antwerpen).  Avec le soutien du de Vlaamse Overheid, Provincie Antwerpen.
+                </p>
+        </div>
+        
+        <div class="out" style="width:30%;">
+                <p>
+                        19/10/2013                Genesis (I, II, III)                Vooruit, Gent (BE) Première
+                        15/02/2014                Genesis (I, II, III)                 De Warande, Turnhout (BE)
+                        25/02/2014                Genesis (III)                       Het Toneelhuis, Antwerpen (BE)
+                        22/03/2014                Genesis (I, II, III)                  STUK, Leuven (BE)
+                        27+28/05/2014                Genesis (III)                       Théâtre la Balsamine, Brussel (BE)
+                        31/05/2014                Genesis (I, II, III)                Théâtre la Balsamine, Brussel (BE)
+                </p>
+        </div>
+        
+        <div class="bible" style="width:30%;">
+                <dl>
+                        <dt>Concept & direction</dt>
+                        <dd>Thomas Ryckewaert</dd>
+                                <dt>Décor sonore</dt>
+                                <dd>Tim Vets</dd>
+                        <dt>Lumières</dt>
+                        <dd>Luc Schaltin</dd>
+                                <dt>Costumes</dt>
+                                <dd>Bert Gillet</dd>
+                        <dt>Dramaturgie</dt>
+                        <dd>Marnix Rummens</dd>
+                                <dt>Assistance direction</dt>
+                                <dd>Tineke De Meyer</dd>
+                        <dt>Production</dt>
+                        <dd>Margarita Production</dd>
+                </dl>
+        </div>
+        
+        
+                <div class="transition" style="height: 263px; outline: none; position: relative; z-index: -10; margin-top: 150px;">
+                        <img class="noir" src="../materials/extract/oiseaux-a-decouper-272.gif" style="margin-top: -538px; margin-left: -37px; width: 110%;" />
+                </div>
 </article>
-
-<!--------------------------------------------------------------------------------------------------
-*-  L A B O R É A L E S  -
--->
-<article id="les-laboreales">
-<div class="content">
-<h2>Les Laboréales</h2>
-
-<p class="date">Du 4 au 6 juin</p>
-<p class="lieu">Foyer et studio</p>
-
-<p>
-Dispositif  d’accompagnement de jeunes artistes, « Les Laboréales » visent à  soutenir l’émergence de nouvelles formes mêlant différentes disciplines,  comme à favoriser la recherche et la création artistique. Les 6  lauréats, récemment diplômés d’écoles d’art de Belgique, seront  accueillis en résidence dans les différentes structures partenaires et  bénéficieront d’une aide financière, d’un encadrement technique et  logistique et de l’accompagnement d’un « mentor » de leur choix pour  leur apporter un regard critique.
-</p>
-
-<p class="production">
-Une  coproduction du manège.mons, La Bellone-Maison du Spectacle  (Bruxelles), la Balsamine (Bruxelles), Buda Kunstcentrum (Courtrai), le  Centre des Arts Scéniques et le CIFAS. En partenariat avec les écoles  d’art de Belgique.
-</p>
-</div>
-</article>
-
 
 <!--------------------------------------------------------------------------------------------------
 *-  B É A T I T U D E S  -
 -->
-<article id="les-beatitudes-de-lamour">
-<div class="content">
-<h2>Les Béatitudes de l’Amour</h2>
-<h4>Claude Schmitz</h4>
-
-<p class="date">Du 10 au 14 juin à 20h30</p>
-<p class="lieu">Amphithéâtre</p>
-
-<p>
-Et si les feux de l’amour étaient inextinguibles ?  
-</p>
-<p>
-<em>Les Béatitudes de l’Amour</em> est un projet de cinéma, en cours d’écriture, dont le tournage est rêvé pour l’été deux mille quatorze. 
-</p>
-<blockquote>
-Trois  hommes (Gabriel, Darius, Stanislas) débarquent dans la propriété d’un  château en vue de rendre visite à un ami (Jean) qui s'y est établit avec  la fille (Julie) du châtelain (Le Père).  Bientôt, l'histoire commune  unissant les personnages entre eux, va provoquer la mort de Jean.
-</blockquote>
-<p>
-La  forme proposée en vue de ces quelques soirées de juin ne sera ni un  spectacle, ni réellement une lecture mais plutôt une forme hybride et  intermédiaire qui tout en interrogeant les codes de représentations sera  configurée comme une réunion de production publique, comme l’exposition  d’un travail en cours, avec néanmoins - comme agrément - un jet-ski,  une épée, quelques feux d’artifices, cinq hommes et une jeune femme  célèbrant sur les ruines de l'amour qui unissait Jean à Julie, les  béatitudes de l'amour.
-<p>
-
-
-
-<p class="production">
-Une production de Paradies en coproduction avec la Balsamine
-</p>
-</div>
-
-<dl class="bible">
-<dt>Scénario</dt>
-<dd>Arthur Egloff et Claude Schmitz</dd>
-
-<dt>Mise en scène</dt>
-<dd>Claude Schmitz</dd>
-
-<dt>Distribution</dt>
-<dd>en cours</dd>
-</dl>
+<article id="les-beatitudes-de-lamour" style="padding-top: 150px;">
+        
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>L e s </h1>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>B é a t i t u d e s</h1>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>d e</h1>
+        </div>
+        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+                <h1>l’ A m o u r</h1>
+        </div>
+        
+        <div class="artiste" style="width:30%;">
+                <h4>Claude Schmitz</h4>
+        </div>
+        
+        <div class="date" style="width:30%;">
+                <p>Du 10 au 14 juin à 20h30 <br />Amphithéâtre</p>
+        </div>
+        
+        
+        
+                <div class="image-cmjn" style="width: 55%; height: 253px; outline-width: 15px;">
+                        <img class="preview" src="../photos/retable_claude-nb.jpg" style="width: 100%" />
+                </div>
+                
+        
+        <div class="if" style="width:30%;">
+                <p>
+                        Et si les feux de l’amour étaient inextinguibles&thinsp;?  
+                </p>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        <em>Les Béatitudes de l’Amour</em> est un projet de cinéma, en cours d’écriture, dont le tournage est rêvé pour l’été deux mille quatorze. 
+                </p>
+        </div>
+        
+        <div class="blockquote" style="width:30%;">
+                <blockquote>
+                        Trois  hommes (Gabriel, Darius, Stanislas) débarquent dans la propriété d’un  château en vue de rendre visite à un ami (Jean) qui s'y est établit avec  la fille (Julie) du châtelain (Le Père).  Bientôt, l'histoire commune  unissant les personnages entre eux, va provoquer la mort de Jean.
+                </blockquote>
+        </div>
+        
+        <div class="texte" style="width:30%;">
+                <p>
+                        La  forme proposée en vue de ces quelques soirées de juin ne sera ni un  spectacle, ni réellement une lecture mais plutôt une forme hybride et  intermédiaire qui tout en interrogeant les codes de représentations sera  configurée comme une réunion de production publique, comme l’exposition  d’un travail en cours, avec néanmoins —comme agrément— un jet-ski,  une épée, quelques feux d’artifices, cinq hommes et une jeune femme  célèbrant sur les ruines de l'amour qui unissait Jean à Julie, les  béatitudes de l'amour.
+                <p>
+        </div>
+        
+        <div class="production" style="width:30%;">
+                <p>
+                        Une production de Paradies en coproduction avec la Balsamine.
+                </p>
+        </div>
+        
+        <div class="bible" style="width:30%;">
+                <dl>
+                        <dt>Scénario</dt>
+                        <dd>Arthur Egloff et Claude Schmitz</dd>
+                                <dt>Mise en scène</dt>
+                                <dd>Claude Schmitz</dd>
+                        <dt>Distribution</dt>
+                        <dd>en cours</dd>
+                </dl>
+        </div>
 </article>
 
+<!--------------------------------------------------------------------------------------------------
+*-  I N F O S   P R A T I Q U E S  -
+-->
+
+<article id="infos-pratiques">
+            <h1>Public /Rencontres</h1>
+        
+            <h2>Les After-Shows</h2>
+        
+            <div class="texte" style="width:24%;">
+                <p>
+                    Toutes les deuxièmes représentations, en après-spectacle, nous vous proposons une rencontre avec l’équipe artistique.
+                    Petite particularité, cette rencontre est menée par un autre artiste de la saison.
+                </p>
+            </div>
+        
+            <div class="texte" style="width:72%; height: 182px;">
+                <ul>
+                    <li><em>Fusée</em>, le jeudi 26 septembre</li>
+                    <li><em>Les moutons</em>, le mercredi 16 octobre</li>
+                    <li><em>«&thinsp;J’ai enduré vos discours et j’ai l’oreille en feu&thinsp;»</em>, le jeudi 7 novembre</li>
+                    <li><em>Trilogie de l’enfer</em>, le samedi 25 janvier</li>
+                    <li><em>Vision</em>, le mercredi 26 février</li>
+                    <li><em>K Barré</em>, le jeudi 20 mars</li>
+                    <li><em>La forêt</em>, le jeudi 3 avril</li>
+                    <li><em>Genesis</em>, le mercredi 28 mai</li>
+                    <li><em>Les béatitudes de l’amour</em>, le mercredi 11 juin</li>
+                </ul>
+            </div>
+        
+            <h2 style="clear: left">Les ateliers Balsa&thinsp;: les slowdatings</h2>
+        
+            <div class="texte" style="width:13%;">
+                <p>Des rendez-vous privilégiés artistes/public</p>
+            </div>
+            <div class="texte" style="width:28%;">
+                <p>
+                    Nous vous invitons certains samedis de 17h00 à 19h00 à participer à un atelier pratique mené par un artiste de la saison. Il vous sera ensuite possible de vous restaurer et d’assister à une représentation dès 20h30. La participation à ces ateliers est gratuite mais nécessite une réservation. 
+                </p>
+            </div>
+            <div class="texte" style="width:59%;">
+                <ul>
+                    <li>Le 28 septembre, atelier avec Ludovic Barth</li>
+                    <li>Le 19 octobre, atelier avec Lise Wittamer et Elena Perez</li>
+                    <li>Le 9 novembre, atelier avec Anne Thuot</li>
+                    <li>Le 1<sup>er</sup> février, atelier avec Martine Wijckaert</li>
+                    <li>Le 1<sup>er</sup> mars, atelier avec Pierre Megos</li>
+                    <li>Le 22 mars, atelier avec Barbara Mavro Thalassitis</li>
+                    <li>Le 5 avril, atelier avec Baudouin de Jaer</li>
+                </ul>
+            </div>
+        
+
+
+
+        <h1>Informations pratiques</h1>
+
+        
+        <h2>Prix des places</h2>
+        (faire un petit tableau)
+        
+        Tarif plein 14€ - Prévente 12€
+        
+        Tarifs réduits* 8€ - prévente 6€
+        *étudiants, +de 60 ans, demandeurs d’emploi, schaerbeekois
+        
+        Tarifs étudiants en écoles supérieures artistiques 4€
+        
+        Les samedis Balsa 6€ tous les samedis toute la saison&thinsp;!
+        
+        Art. 27 et Arsène 50
+        
+        Tarifs de groupe
+        Groupe adulte (à partir de 10 personnes) : 10€ la place+ 1 place offerte à l’organisateur
+        Groupe étudiant (à partir de 10 personnes) : 6€ la place + 1 place offerte à l’enseignant
+        Le paiement des réservations de groupe doit s’effectuer 10 jours avant la date de représentation choisie.
+        
+        
+        
+        <h2>Nos pass</h2>
+        
+        Et si vous tentiez un pass&thinsp;?  
+        Et si en plus les pass donnaient accès à des surprises&thinsp;? Et si vous appeliez Fanny A. au 02 735 64 68 pour plus de renseignements&thinsp;?
+        
+        (faire un petit tableau)
+        Pass quand tu veux, donne accès aux 12 spectacles de la saison (hors Noël au théâtre et KunstenFestivaldesArts)
+        Tarif plein 90€ (soit 7,50€ la place)
+        Tarif réduit 60€ (soit 5€ la place)
+        + Cadeau&thinsp;: la Balsamine offre un verre de bienvenue aux détenteurs du pass avant chaque représentation choisie.
+        
+        Pass à l’occas', donne accès à 3 spectacles de la saison au choix  (hors Noël au théâtre, Kunstenfestivaldesarts)
+        Tarif plein 30€
+        Tarif réduit 18€
+        + Cadeau&thinsp;: la Balsamine offre un verre de bienvenue aux détenteurs du pass avant chaque représentation choisie.
+
+Les pass sont nominatifs, réservation des places à tout moment au cours de la saison (sous réserve des places disponibles)
+La personne accompagnant le détenteur d’un Pass bénéficie du tarif réduit 8€ / prévente 6€.
+
+Pass interlieux
+
+<h2>Infos et réservations</h2>
+
+- Via notre site internet (réservation possible 24h/24)&thinsp;: www.balsamine.be
+
+- Au 02 735 64 68
+Du lundi au vendredi, de 14h à 18h, Fanny Arvieu prend vos réservations ou vous donne des renseignements complémentaires.
+En dehors de ces heures et le week-end, un répondeur prend vos réservations.
+
+- via notre adresse e-mail&thinsp;: reservation@balsamine.be
+
+- Administration&thinsp;: 02 732 96 18
+
+
+<h2>Moyens de paiement et retrait des places</h2>
+
+<h3>Préventes et ventes</h3>
+- par virement bancaire au numéro de compte suivant&thinsp;: IBAN  BE15 0680 6267 2030 &mdash; BIC GKCCBEBB
+Attention, pour bénéficier du tarif prévente, votre virement doit nous être parvenu 48h avant la date de représentation choisie. Il est donc vivement conseillé de faire le virement 5 jours avant cette date.
+
+- à la billetterie, ouverte tous les soirs de représentations, dès 19h.
+Paiement cash, Bancontact, Visa et Proton.
+
+<h3>Retrait des places</h3>
+Les places (jetons d’entrée) sont à retirer le soir-même de la représentation.
+Les places réservées doivent être retirées avant 20h15. Au-delà de cette limite, elles pourront être remises en  vente.
+
+
+
+
+<h2>Bar et restauration</h2>
+Le bar est ouvert à 19h chaque soir de représentation. 
+Une petite restauration délicieuse et faite sur place vous est proposée avant et après chaque spectacle.
+
+<h2>Tous les chemins mènent à la Balsa</h2>
+Plan 
+(Faire un zoom en plus? que l’on voit la place dailly, la chaussée de louvain…)
+
+
+<h2>L’équipe</h2>
+<dl>
+        <dt>Monica Gomes & Fabien Dehasseler</dt>
+        <dd>Co-directeurs artistiques</dd>
+        <dt>Laurent Henry</dt>
+        <dd>Directeur financier et administratif</dd>
+        <dt>Fanny Arvieu</dt>
+        <dd>Coordination générale/ Réservations / Accueil Compagnies</dd>
+        <dt>Isabelle Colassin</dt>
+        <dd>Relations publiques / Médiation artistique  écoles et associations</dd>
+        <dt>Delphine Neuprez</dt>
+        <dd>Presse et communication</dd>
+        <dt>Martine Wijckaert</dt>
+        <dd>Artiste associée</dd>
+        <dt>Jef Philips</dt>
+        <dd>Directeur technique</dd>
+        <dt>Olivier Vincent</dt>
+        <dd>Régisseur</dd>
+        <dt>Hichem Dahes</dt>
+        <dd>Photographe associé</dd>
+        <dt>Open Source Publishing <sup>Speculoos</sup></dt>
+        <dd>Designers graphiques associés</dd>
+</dl>
+
+
+<h2>Partenaires</h2>
+La Balsamine est subventionnée par la Fédération Wallonie-Bruxelles et fait partie du réseau des Scènes chorégraphiques de la Commission Communautaire française de la Région de Bruxelles-Capitale.
+La Balsamine reçoit aussi le soutien de Wallonie-Bruxelles Théâtre/Danse, de Wallonie-Bruxelles International et du Centre des Arts Scéniques.
+
+(Fédération Wallonie-Bruxelles, Culture.be, CoCof, WBI, WBTD, Loterie Nationale, Centre des Arts scéniques, Gracq, Article 27, Arsène 50, La ligue des familles, Dioxyde de Gambettes, Noël au théâtre, Insas, Manège, Buda, Cifas, Bellone, ctej, la médiathèque, la Première, musiq’3)
+</article>
 </section>
-
-
 
 <!--
 *-  J A V A S C R I P T  -
@@ -1630,101 +2731,104 @@ Une production de Paradies en coproduction avec la Balsamine
         
 <script type="text/javascript">
 
-// REMET LES HAUTEURS AUTO EN HAUTEUR FIXE → POUR FIXER BUG CHROMIUM CHEZ LUDI
-(function($) {
-    $.fn.whatsTheHeight=function()
-    {
-        return this.each(function(){
-            haut = parseInt($(this).height());
-            console.log(haut);
-            $(this).css("height", haut);
+        // INSÈRE DES <WBR> ENTRE CHAQUE LETTRE
+        (function($) {
+            $.fn.bainesify=function()
+            {
+                return this.each(function(){
+            text = $(this).text().split("");
+            html = text.join("<wbr>");
+                    console.log(text + html);
+            $(this).html(html);
+                });
+            };
+        })(jQuery);
+        
+        // TITRAGE -> DUPLIQUE L'ÉLÉMENT POUR LE PLACER EN-DESSOUS, CHANGER LE CLONE EN CSS
+        (function($) {
+            $.fn.titrage=function()
+            {
+                return this.each(function(){
+                    $(this).wrapInner('<span />');
+                    span = $("span", $(this));
+                        span.clone().css({'position': 'absolute',}).insertBefore(span);
+                });
+            };
+        })(jQuery);
+        
+        // FAIT COULER UN CONTENU DANS UN FLUX
+        (function($) {
+            $.fn.flowText=function()
+            {
+                return this.each(function(){
+                    id = $(this).attr("id");
+                    $("section#grille-" +id + " div.texte").css("-webkit-flow-from", "Text-" + id);
+                    $("div.content", this).css("-webkit-flow-into", "Text-" + id);
+                    
+                    $("section#grille-" + id + " div.image").css("-webkit-flow-from", "Image-" + id);
+                    $("div.image-cmjn", $(this)).css("-webkit-flow-into", "Image-" + id);
+                    $("section#grille-" + id + " div.bible").css("-webkit-flow-from", "Bible-" + id);
+                    $("dl.bible", $(this)).css("-webkit-flow-into", "Bible-" + id);
+                });
+            };
+        })(jQuery);
+        
+        // CADRES LOSANGES
+        (function($) {
+            $.fn.cadre=function()
+            {
+                return this.each(function(){
+                    w = $(this).width();
+                    h = $(this).height();
+                    t = $(this).offset().top;
+                    l = $(this).offset().left;
+          $(this).clone().css({'position': 'absolute', "top": t, "left": l, "width": h, "height":w, "border": "3px solid black", "-webkit-  transform":"rotateY(10deg)"}).text("").insertBefore($(this));
+                });
+            };
+        })(jQuery);
+
+
+        $(document).ready(function(){
+
+                // TITRAGES
+                //$("h2").titrage();
+                //$("h3").cadre();
+                
+                // FAKE PAGES
+                doc_height = $("body").height();
+                page_height = $("#fakepage").height(); 
+                //page_height = 22; 
+                nb_page = Math.ceil(doc_height/page_height);
+                //gutter = parseInt($("#fakepage").css("top"));  // = 1cm
+                
+                
+                for (i = 0; i <= nb_page; i++){
+                        $("#fakepage").clone().css({'outline': '1px solid red', 'outline-offset': '-1cm', 'display': 'block'}).attr("id","fakepage-p"+i).insertBefore($("#fakepage"));
+                        
+                        // TABLE DES MATIÈRES
+                        $("ul#toc").append("<li> <a>")
+                        $("ul#toc li:last-child a").attr("href", "#fakepage-p" + i).html("page" + i);
+                }
+                
+                
+                // BAINESIFY
+                $("div.if p").bainesify();
+                
+                        
+                // TEST  SVG  RAPHAELJS
+                //hauteur = $("#moutons").offset().top;
+                //console.log(hauteur);
+                    
+                // Creates canvas 320 × 200 at 10, 50
+                //var paper = Raphael(10, hauteur, 320, 200);
+                // Creates circle at x = 50, y = 40, with radius 10
+                //var circle = paper.circle(50, 40, 10);
+                // Sets the fill attribute of the circle to red (#f00)
+                //circle.attr("fill", "#f00");
+                // Sets the stroke attribute of the circle to white
+                //circle.attr("stroke", "#fff");
+                
         });
-    };
-})(jQuery);
-
-// TITRAGE -> DUPLIQUE L'ÉLÉMENT POUR LE PLACER EN-DESSOUS, CHANGER LE CLONE EN CSS
-(function($) {
-    $.fn.titrage=function()
-    {
-        return this.each(function(){
-            $(this).wrapInner('<span />');
-            span = $("span", $(this));
-		span.clone().css({'position': 'absolute',}).insertBefore(span);
-        });
-    };
-})(jQuery);
-
-// FAIT COULER UN CONTENU DANS UN FLUX
-(function($) {
-    $.fn.flowText=function()
-    {
-        return this.each(function(){
-            id = $(this).attr("id");
-            $("section#grille-" +id + " div.texte").css("-webkit-flow-from", "Text-" + id);
-            $("div.content", this).css("-webkit-flow-into", "Text-" + id);
-            
-            $("section#grille-" + id + " div.image").css("-webkit-flow-from", "Image-" + id);
-            $("div.image-cmjn", $(this)).css("-webkit-flow-into", "Image-" + id);
-            $("section#grille-" + id + " div.bible").css("-webkit-flow-from", "Bible-" + id);
-            $("dl.bible", $(this)).css("-webkit-flow-into", "Bible-" + id);
-        });
-    };
-})(jQuery);
-
-// CADRES LOSANGES
-(function($) {
-    $.fn.cadre=function()
-    {
-        return this.each(function(){
-            w = $(this).width();
-            h = $(this).height();
-            t = $(this).offset().top;
-            l = $(this).offset().left;
-  $(this).clone().css({'position': 'absolute', "top": t, "left": l, "width": h, "height":w, "border": "3px solid black", "-webkit-  transform":"rotateY(10deg)"}).text("").insertBefore($(this));
-        });
-    };
-})(jQuery);
-
-	$(document).ready(function(){
-
-	
-	
-		// TITRAGES
-		//$("h2").titrage();
-		//$("h3").cadre();
-		
-		// BRANCHONS LES TUYAUX DE FLUX
-		//$("article#fusee").flowText();
-		//$("article#jai-endure-vos-discours-et-jai-loreille-en-feu").flowText();
-		$("article#trilogie-de-lenfer").flowText();
-		
-		
-		// FAKE PAGES
-		doc_height = $("body").height();
-		page_height = $("#fakepage").height(); 
-		nb_page = Math.ceil(doc_height/page_height) +1;
-		for (i = 0; i <= nb_page; i++){
-			$("#fakepage").clone().css({'top': i*page_height + 18.90 + (18.90*2.5*i), 'position': 'absolute', 'border': '1px solid white', 'display': 'block'}).insertBefore($("#fakepage"));
-		}
-		
-	
-	// REMET LES HAUTEURS AUTO EN HAUTEUR FIXE → POUR FIXER BUG CHROMIUM CHEZ LUDI
-	$("section.grille div").whatsTheHeight();
-		
-	// TEST  SVG  RAPHAELJS
-	
-	hauteur = $("#moutons").offset().top;
-	console.log(hauteur);
-	    
-	// Creates canvas 320 × 200 at 10, 50
-	//var paper = Raphael(10, hauteur, 320, 200);
-	// Creates circle at x = 50, y = 40, with radius 10
-	//var circle = paper.circle(50, 40, 10);
-	// Sets the fill attribute of the circle to red (#f00)
-	//circle.attr("fill", "#f00");
-	// Sets the stroke attribute of the circle to white
-	//circle.attr("stroke", "#fff");
-	});
 </script>
 *
 </body>
