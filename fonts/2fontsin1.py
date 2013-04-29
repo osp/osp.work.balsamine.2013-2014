@@ -22,5 +22,6 @@ for glyph in font1.glyphs():
     font1.copy()
     font2.selection.select(glyph.glyphname)
     font2.pasteInto()
+    font2.removeOverlap()
 
 font2.generate(sys.argv[3])
