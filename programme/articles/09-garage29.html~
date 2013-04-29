@@ -104,7 +104,7 @@
                 </p>
         </div>
         
-        <div class="bible" style="width:30%; margin-top:-100px; margin-bottom:-120px;">
+        <div class="bible" style="width:30%;">
                 <dl class="bible">
                         <dt>Avec</dt>
                         <dd>Sabina Scarlat, Laida Arietta Aldaz, Tiziano Lavornatornovi, Jorge Jauregui, Nicanor de Elia</dd>
@@ -120,7 +120,7 @@
         </div>
         
                 
-                <div class="transition" style="height: 470px; outline: none; margin-top: 107px;">
+                <div class="transition" style="height: 470px; outline: none; margin-top: 150px;">
                         <img class="noir" src="../materials/extract/hallucinogene-338.gif" style="margin-top: -380px; width: 100%;" />
                 </div>
         
