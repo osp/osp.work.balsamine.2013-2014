@@ -1,7 +1,7 @@
 <!--------------------------------------------------------------------------------------------------
 *-  T R I L O G I E  D E  L ' E N F E R  -
 -->
-<article id="trilogie-de-lenfer" style="padding-top: 20px;">
+<article id="trilogie-de-lenfer" style="padding-top: 150px;">
         <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
             <h1>T r i l o g i e</h1>
         </div>
@@ -74,7 +74,7 @@
     
     
     
-                <div class="image-cmjn" style="width: 55%; height: 212px; outline-width: 0px;">
+                <div class="image-cmjn" style="width: 55%; height: 212px; outline-width: 15px;">
                         <img class="preview" src="../photos/retable_martine-nb.jpg" style="width: 100%" />
                 </div>
     
