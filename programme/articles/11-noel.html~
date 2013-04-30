@@ -66,7 +66,7 @@
                 <p>
                         Une production du Théâtre du Tilleul, en coproduction avec le Théâtre la Balsamine.  
                         Avec le soutien de la Fédération Wallonie-Bruxelles, Service du Théâtre 
-                        et l’aide de La Roseraie, du Foyer culturel de Saint-Ghislain, du Pôle Jeune Public Le Revest-les-Eaux (France).
+                        et l’aide de La Roseraie, du Foyer culturel de Saint-Ghislain, du PJP - Pôle Jeune Public Le Revest-les-Eaux (France).
                 </p>
         </div>
         
@@ -102,7 +102,8 @@
         </div>
         
                 <div class="transition" style="height: 470px; outline: none; margin-top: 30px;">
-                        <img class="noir" src="../materials/extract/blow1.gif" style="width: 100%;" />
+                	<img class="noir" src="../materials/extract/blow1.gif" style="width: 100%;" />
+        		<img class="preview" src='../materials/extract-G/blow1.gif' style="width: 100%;">
                 </div>
         
 </article>
