@@ -17,8 +17,11 @@ border-bottom-width: 7px; border-radius: 15px;">
                 </div>
         </div>
         <div class="date" style="width:30%;">
-                <p>Du 25 février au 1<sup>er</sup> mars à 20h30 <br />
-Amphithéâtre</p>
+                <p>Du 25 février au 1<sup>er</sup> mars 2014 à 20h30 <br />
+Amphithéâtre <br />
+En anglais surtitré FR/NL.
+
+</p>
         </div>
         
     <div class="full" style="width: 90%; margin-top: 20px; overflow:visible">
@@ -74,7 +77,7 @@ sentiment d’être “ici réellement” mais “là-bas en rêve”.
         
                 
                  
-    <div class="full" style="width: 60%; margin-top: 20px; overflow:visible; margin-left: -92px; margin-right:150px">
+    <div class="full" style="width: 55%; margin-top: 20px; overflow:visible; margin-left: -92px; margin-right:165px">
         <img class="preview" src="../photos/reprises/Béguinage d'Anderlecht9.jpg" style="width: 140%" />
     </div>  
     

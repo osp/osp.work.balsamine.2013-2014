@@ -13,50 +13,50 @@
         </div>
         
         <div style="width: 5%;">
-                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2>s u r</h2>
-                 </div>
-                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2> l e</h2>
-                 </div>
-                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2>t h è m e</h2>
-                 </div>
+             <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2>s u r</h2>
+             </div>
+             <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2> l e</h2>
+             </div>
+             <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2>t h è m e</h2>
+             </div>
         </div>
         <div style="width: 5%;">
-                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2>d e</h2>
-                 </div>
-                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2>l a</h2>
-                 </div>
-                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2>g a v o t t e</h2>
-                 </div>
+             <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2>d e</h2>
+             </div>
+             <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2>l a</h2>
+             </div>
+             <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2>g a v o t t e</h2>
+             </div>
         </div>
         <div style="width: 5%;">
-                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2>a v e c</h2>
-                 </div>
-                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2>s e s</h2>
-                 </div>
+             <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2>a v e c</h2>
+             </div>
+             <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2>s e s</h2>
+             </div>
         </div>
         <div style="width: 5%;">
-                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2>d o u b l e s</h2>
-                 </div>
-                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2>d e</h2>
-                 </div>
+             <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2>d o u b l e s</h2>
+             </div>
+             <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2>d e</h2>
+             </div>
         </div>
         <div style="width: 5%;">
-                <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2> J e a n - P h i l i p p e</h2>
-                 </div>
-                <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2> R a m e a u</h2>
-                 </div>
+            <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2> J e a n - P h i l i p p e</h2>
+             </div>
+            <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2> R a m e a u</h2>
+             </div>
         </div>
         
         <div class="type" style="width: 30%; ">
@@ -68,123 +68,125 @@
                     <h4>Martine Wijckaert</h4>
             </div>
         </div>
-    <div class="date" style="width: 80%;">
-            <p>Du 24 janvier au 15 février <br /> Amphithéâtre</p>
+    <div class="date" style="width: 20%;">
+            <p>Du 24 janvier au 15 février 2014, du mercredi au samedi à 20h30<br /> Amphithéâtre</p>
+    </div>
+   
+    <div class="if" style="width: 10%; height: 248px;">
+        <p>
+            Et si l’enfer Wijckaertien nous était conté&thinsp;?  
+        </p>
     </div>
     
     
-    
-                <div class="image-cmjn" style="width: 55%; height: 212px; outline-width: 0px;">
-                        <img class="preview" src="../photos/retable_martine-nb.jpg" style="width: 100%" />
-                </div>
+    <div class="image-cmjn vignette" style="width: 371px; margin-right: 3%;">
+        <img class="preview" src="../photos/retable_martine-nb.jpg" />
+    </div>
     
 
-    <div class="if" style="width: 30%; ">
-            <p>
-                        Et si l’enfer Wijckartien nous était conté&thinsp;?  
-                </p>
+
+    <div class="texte" style="width: 34%; height: 271px; margin-top: -23px;" >
+        <p>
+            Depuis 1981, Martine Wijckaert fait trembler les scènes et les murs de la Balsamine. Auteur et metteur en scène virtuose et figure emblématique de la scène belge, elle traverse le temps sans prendre une ride et en se permettant d’oser toujours plus loin la descente en ses propres enfers, au plus près d’une vérité inépuisée en elle.
+        </p>
     </div>
 
-    <div class="image-cmjn" style="width: 40%; height: 400px; ">
-                <img src="../manga/strips/2_180635.jpg" width="500px" style="position:absolute; clip:rect(40px,40px,40px,40px)" />
+    <div class="texte" style="width: 45%; ">
+        <p>
+            <em>Trilogie de l’enfer</em> se divise en trois géographies&thinsp;: «&thinsp;En dessous de l’enfer, l’amour&thinsp;», «&thinsp;L’enfer, l’alcool&thinsp;» et «&thinsp;Au-dessus de l’enfer, la guerre&thinsp;». C’est philosophiquement et physiquement, un voyage des sens,  une humanité qui vous renverse cul par-dessus tête.
+        </p>
+    </div>
+
+    <div class="texte" style="width: 55%; height: 156px; ">
+        <p>
+            Petit préambule, trois femmes, la mère morte, la fille sous influence, la  fillette sauvage, trois figures dans un espace «&thinsp;en évolution&thinsp;». On  passe de la 3D à la 2D dans un espace théâtral basé sur un point de  fuite qui n’en finirait jamais. 
+        </p>
+    </div>
+
+
+        <div style="background-image: url('../materials/extract/vloush.gif'); background-size: 88%; background-position: 9px -9px;background-repeat: no-repeat; height: 108px; width: 100%;">
         </div>
-        
-        <div class="image-cmjn" style="width: 40%; height: 400px; ">
-                <img src="../manga/strips/783270c7564f62f88a06794ef1921044.jpg"  width="400px" style="position:absolute; clip:rect(0px,100px,50px,50px)" />
-        </div>
-        
-    <div class="texte" style="width: 30%; >
-            <p>
-                        Depuis  1981, Martine Wickaert fait trembler les scènes et les murs de la  Balsamine. Auteur et metteur en scène virtuose et figure emblématique de  la scène belge, elle traverse le temps sans prendre une ride et en se  permettant d’oser toujours plus loin la descente en ses propres enfers,  au plus près d’une vérité inépuisée en elle.
-                </p>
-    </div>
-
-    <div class="texte" style="width: 30%; ">
-            <p>
-                        <em>Trilogie de l’enfer</em> se divise en trois géographies&thinsp;: «&thinsp;En dessous de l’enfer, l’amour&thinsp;», «&thinsp;L’enfer, l’alcool&thinsp;» et «&thinsp;Au-dessus de l’enfer, la  guerre&thinsp;». C’est philosophiquement et physiquement, un voyage des sens,  une humanité qui vous renverse cul par-dessus tête.
-                </p>
-    </div>
-
-    <div class="texte" style="width: 100%; ">
-            <p>
-                        Petit  préambule, trois femmes, la mère morte, la fille sous influence, la  fillette sauvage, trois figures dans un espace «&thinsp;en évolution&thinsp;». On  passe de la 3D à la 2D dans un espace théâtral basé sur un point de  fuite qui n’en finirait jamais. 
-                </p>
-    </div>
-
-    <div class="texte" style="width: 30%; ">
-            <p>
-                        1 2 3, je m’en vais au bois
-                </p>
     </div>
 
     <div class="texte" style="width: 50%; ">
-            <p>
-                        « &thinsp;En dessous de l’enfer, l’amour&thinsp;» où la Mère, placée en majesté, ouvre  le bal. La question de l’amour y est centrale, autant que dérisoire et  historique. La mère dans un écrin, à la primitive flamande, avec des  canaris aux chants lancinants et répétitifs. C’est en soi une peinture  qui parle. «&thinsp;Regarde Béatrice, Regarde,… ,ce céleste acrobate, ce singe  héroïque sorti tout droit de la pénombre du quotidien, c’était ton père. &thinsp;»
-                </p>
+        <p>
+            «&thinsp;En dessous de l’enfer, l’amour&thinsp;» où la Mère, placée en majesté, ouvre  le bal. La question de l’amour y est centrale, autant que dérisoire et historique. La mère dans un écrin, façon primitifs flamands, avec des canaris aux chants lancinants et répétitifs. C’est en soi une peinture qui parle. On dira ici que le mort saisit le vif.
+        </p>
+    </div>
+    
+            <div class="texte" style="width: 38%; ">
+        <p>
+    « L’enfer, l’alcool » se fonde exclusivement sur la transmission de l’être au monde. Des verres partout, un éléphant rose, un espace métaphorique, une grande galaxie où la parole est pénétrée et inspirée. On dira ici que le vif saisit le néant. 
+            </p>
     </div>
 
-    <div class="texte" style="width: 45%; ">
-            <p>
-                        « &thinsp;Au-dessus de l’enfer, la guerre&thinsp;», la question de l’amour ressurgit  pleinement sous forme d’un hymne à l’amour proféré par une toute jeune  fille sauvage. 
-                </p>
+    <div style="width:38%; background-image: url('../materials/extract/fausse-peau-de-mouton.gif'); background-size: 186%; background-position: -203px -280px;background-repeat: no-repeat; height: 108px;">
     </div>
 
-    <div class="texte" style="width: 45%; ">
-            <p>
-                        <em>Trilogie  de l’enfer</em>, à travers ce déploiement de trois paroles solitaires au  sein d’un même espace en mutation, se penche sur la transmission pour  laisser se déployer une sorte de cartographie existentielle relative aux  solitudes et aux dépendances.
-                </p>
+    <div class="texte" style="width: 38%; ">
+        <p>
+            «&thinsp;Au-dessus de l’enfer, la guerre&thinsp;», la question de l’amour ressurgit  pleinement sous forme d’un hymne à l’amour proféré par une toute jeune  fille sauvage. On dira ici que le néant saisit l'être. 
+        </p>
+    </div>
+    
+
+    <div class="texte" style="width: 45%; height: 180px;">
+        <p>
+            <em>Trilogie  de l’enfer</em>, à travers ce déploiement de trois paroles solitaires au  sein d’un même espace en mutation, se penche sur la transmission pour  laisser se déployer une sorte de cartographie existentielle relative aux  solitudes et aux dépendances.
+        </p>
     </div>
 
-    <div class="blockquote" style="width: 45%; ">
-            <blockquote>
-                        Martine dit&thinsp;: «&thinsp;Ce  sont des fresques épiques où l’histoire d’une structure familiale  fantasmée se pulvérise dans l’ogre de l’Histoire&thinsp;; cette Famille devient  en quelque sorte un temps mythique dont je ne cesse d’interroger le  cours.&thinsp;»
-                </blockquote>
+    <div class="blockquote" style="width: 55%; height: 180px;">
+        <blockquote>
+            Martine dit&thinsp;: «&thinsp;Ce  sont des fresques épiques où l’histoire d’une structure familiale  fantasmée se pulvérise dans l’ogre de l’Histoire&thinsp;; cette Famille devient  en quelque sorte un temps mythique dont je ne cesse d’interroger le  cours.&thinsp;»
+        </blockquote>
     </div>
 
-    <div class="production" style="width: 45%; ">
-            <p>
-                        Une production de la Balsamine en coproduction avec le Théâtre de la Place (Liège).
-                </p>
-    </div>
 
-    <div class="out" style="width: 45%; ">
+    <div style="width: 25%;">
+        <div class="out">
             <p>
-                        Représentations du 11 au 15 mars au théâtre de la Place de Liège.
-                </p>
+                Représentations du 11 au 15 mars 2014 au Théâtre de Liège.
+            </p>
+        </div>
+        <div class="production">
+            <p>
+                Une production de la Balsamine en coproduction avec le Théâtre de Liège.
+            </p>
+        </div>
     </div>
 
  
-
-    <div class="bible" style="width: 45%; ">
-                <dl>
-                        <dt>Avec</dt>
-                        <dd>Yvette Poirier, Véronique Dumont et Héloïse Jadoul</dd>
-                                <dt>Écriture et mise en scène</dt>
-                                <dd>Martine Wijckaert</dd>
-                        <dt>Assistance à la mise en scène</dt>
-                        <dd>Astrid Howard</dd>
-                                <dt>Scénographie</dt>
-                                <dd>Valérie Jung </dd>
-                        <dt>Lumières</dt>
-                        <dd>Stéphanie Daniel </dd>
-                                <dt>Costumes et accessoires</dt>
-                                <dd>Laurence Villerot </dd>
-                        <dt>Création son</dt>
-                        <dd>Thomas Turine </dd>
-                                <dt>Création vidéo</dt>
-                                <dd>Jacques André</dd>
-                        <dt>Direction technique</dt>
-                        <dd>Nathalie Borlée</dd>
-                                <dt>Oiseleur</dt>
-                                <dd>Tristan Plot </dd>
-                        <dt>Régie spectacle</dt>
-                        <dd>Mathieu Bastyns</dd>
-                </dl>
+    <div class="bible" style="width: 75%; -webkit-column-count: 2; ">
+        <dl>
+            <dt>Avec</dt>
+            <dd>Yvette Poirier, Véronique Dumont et Héloïse Jadoul</dd>
+                <dt>Écriture et mise en scène</dt>
+                <dd>Martine Wijckaert</dd>
+            <dt>Assistance à la mise en scène</dt>
+            <dd>Astrid Howard</dd>
+                <dt>Scénographie</dt>
+                <dd>Valérie Jung </dd>
+            <dt>Lumières</dt>
+            <dd>Stéphanie Daniel <br /><br /></dd>
+                <dt>Costumes et accessoires</dt>
+                <dd>Laurence Villerot </dd>
+            <dt>Création son</dt>
+            <dd>Thomas Turine </dd>
+                <dt>Création vidéo</dt>
+                <dd>Jacques André</dd>
+            <dt>Direction technique</dt>
+            <dd>Nathalie Borlée</dd>
+                <dt>Oiseleur</dt>
+                <dd>Tristan Plot </dd>
+            <dt>Régie spectacle</dt>
+            <dd>Mathieu Bastyns</dd>
+        </dl>
     </div>
 
 
-                <div class="transition" style="height: 515px; outline: none;margin-top: 150px;">
-                        <img class="noir" src="../materials/extract/moutons-207.gif" style="width: 110%; margin-left: -22px; margin-top:-420px;" />
-                </div>
+    <div class="transition" style="height: 515px; outline: none;margin-top: -100px; z-index: -5;">
+        <img class="noir" src="../materials/extract/moutons-207.gif" style="width: 110%; margin-left: -22px; margin-top:-420px;" />
+    </div>
 </article>
 
