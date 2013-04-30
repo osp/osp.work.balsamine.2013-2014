@@ -31,23 +31,23 @@ Du 25 septembre au 5 octobre à 20h30
     </div>    
 
 
-<div class="image-cmjn" style="width: 55%; height: 207px; outline-width: 0px;">
+<div class="image-cmjn vignette" style="width: 380px;">
 <!--
 <img class="cyan" src="../photos/couches-test/extrait_clinic_c.gif" style="margin-top: -110px; margin-left: -60px;" />
 <img class="magenta" src="../photos/couches-test/extrait_clinic_m.gif" style="margin-top: -110px; margin-left: -60px;" />
 <img class="jaune" src="../photos/couches-test/extrait_clinic_j.gif" style="margin-top: -110px; margin-left: -60px;" />
 <img class="noir" src="../photos/couches-test/extrait_clinic_n.gif" style="margin-top: -110px; margin-left: -60px;" />
 -->
-<img class="preview" src="../photos/retable_clinic_orgasm-nb.jpg" style="width: 100%" />
+    <img class="preview" src="../photos/retable_clinic_orgasm-nb.jpg" />
 </div>
 
 
 <div class="image-cmjn" style="width: 100%; height: 200px; outline: none; position: relative; z-index: -10;">
-<img class="noir" src="../materials/extract/wouuuuhhhhh.gif" style="width: 140%;" />
+    <img class="noir" src="../materials/extract/wouuuuhhhhh.gif" style="width: 140%;" />
 </div>
 
 <div class="image-cmjn" style="width: 30%; height: 170px; ">
-<img class="noir" src="../materials/extract/pingdansloreille.gif" style="margin-top: -45px; width:100%; " />
+    <img class="noir" src="../materials/extract/pingdansloreille.gif" style="margin-top: -45px; width:100%; " />
 </div>
 
   <div class="texte" style="width: 30%;  height: 170px">
@@ -94,10 +94,10 @@ Ne serait-ce pas leur rendre la monnaie de leur pièce que de les torturer à le
 
 
 <div class="numbers" style="width: 100%; text-align:center; margin auto; height:135px; ">
-<div style="text-align:center; float:none;">Les extraterrestres sont-ils nos amis?</div>
+<p style="text-align:center; float:none;">Les extraterrestres sont-ils nos amis?</p>
 </div>
 <div class="numbers" style="width: 51%;  text-align:center; margin auto; height:135px; ">
-<div style="text-align:center; float:none;">Oui, les extra&shy;terrestres sont nos amis<br />17%</div>
+<p style="text-align:center; float:none;">Oui, les extra&shy;terrestres sont nos amis<br />17%</p>
 </div>
 <div class="numbers" style="width: 23%; text-align:center; margin auto; height:135px;">
 <p style="text-align:center; float:none;">Non, les extra&shy;terrestres sont ennemis<br />4%</p> 
@@ -119,11 +119,9 @@ Ne serait-ce pas leur rendre la monnaie de leur pièce que de les torturer à le
 </div>
 
 <div class="blockquote" style="width: 18%; outline: none; clear: left">
-<blockquote>«&thinsp;Quoi de plus beau et de plus troublant que de torturer en direct un  Glöörgh, </blockquote>
-</div>
+<blockquote>«&thinsp;Quoi de plus beau et de plus troublant que de torturer en direct un  Glöörgh,
 
-<div class="blockquote" style="width: 20%; outline: none;">
-<blockquote>fleur mutante extra-terrestre aussi mystérieuse que redoutable&thinsp;?&thinsp;»</blockquote>
+fleur mutante extra-terrestre aussi mystérieuse que redoutable&thinsp;?&thinsp;»</blockquote>
 </div>
 
 <div style="width: 12%; height: 188px;">
@@ -136,15 +134,25 @@ Ne serait-ce pas leur rendre la monnaie de leur pièce que de les torturer à le
 </div>
 
 <div class="texte" style="width: 36%; height: 188px;">
-<p>Après les succès de <em>J’ai gravé le nom de ma grenouille dans ton foie</em> et de <em>DTC (on est bien)</em>, la jeune compagnie Clinic Orgasm Society s’est lancée dans un triptyque : <em>Pré-Blé-Fusée</em>,  3 spectacles indépendants et déjantés qui déplacent les limites de la  normalité et qui se jouent de nos répulsions-fascinations.</p>
+    <p>Après les succès de <em>J’ai gravé le nom de ma grenouille dans ton foie</em> et de <em>DTC (on est bien)</em>, la jeune compagnie Clinic Orgasm Society s’est lancée dans un triptyque&thinsp;: <em>Pré-Blé-Fusée</em>,  3 spectacles indépendants et déjantés qui déplacent les limites de la  normalité et qui se jouent de nos répulsions-fascinations.</p>
+
+    <p>Aussi, après <em>Pré</em> au Varia, <em>Blé</em> au Manège.Mons , voici <em>Fusée</em> à la Balsa, vers l’insoutenable et au-delà&thinsp;!</p>
 </div>
 
-<div class="texte" style="width: 16.8%; height: 170px ">
-<p>Aussi, après <em>Pré</em> au Varia, <em>Blé</em> au Manège.Mons , voici <em>Fusée</em> à la Balsa, vers l’insoutenable et au-delà&thinsp;!</p>
+<div class="out" style="width: 28%; height: 170px ">
+    <p><em>Fusée</em> sera ensuite jouée au Grand Bleu à Lille les 8, 9 et 10 octobre.</p>
+    <p>
+        <em>Pré</em> et <em>Blé</em>, les deux premiers opus de la trilogie, seront eux à nouveau visibles au Théâtre Varia en février et mars 2014. Mais l’ordre de présentation a peu d’importance. Chaque spectacle est une pièce détachée, une proposition scénique autonome et déviante… Chacun peut être vu séparément des autres, mais vous pouvez aussi opter pour la formule des trois réunis&thinsp;: «&thinsp;Fusée-Pré-Blé&thinsp;», en partenariat avec le Théâtre Varia. 
+    </p>
 </div>
 
-<div class="texte" style="width: 28%; height: 170px ">
-<p><em>Fusée</em> sera ensuite jouée au Grand Bleu à Lille et au PBA+ Eden à Charleroi. <em>Pré</em>  et <em>Blé</em>, les deux premiers opus de la trilogie,  seront à nouveau visibles au Théâtre Varia en février 2014.</p>
+<div class="texte" style="width: 30%;">
+    <p>
+        <span class="lettrine">Pass Balsa/Varia</span> Prix plein&thinsp;: 30€ / prix réduit&thinsp;: 18€
+        <span class="lettrine">Fusée</span>   Du 25 septembre au 5 octobre à 20h30 à la Balsamine
+        <span class="lettrine">Pré</span>  Les 21 et  22 février, et du 27 février au 1<sup>er</sup> mars à 20h au  Petit Varia
+        <span class="lettrine">Blé</span> Du 11 au 14 mars à 20h30, le 15 mars à 19h30  au Grand Varia 
+    </p>
 </div>
     
 <div class="bible" style="width: 35%; ">
