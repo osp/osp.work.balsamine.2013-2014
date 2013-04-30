@@ -1,0 +1,7 @@
+[Dolphin]
+PreviewsShown=true
+SortOrder=1
+SortRole=type
+Timestamp=2013,4,30,20,21,27
+Version=3
+VisibleRoles=Details_text,Details_size,Details_date,Details_type,CustomizedDetails
