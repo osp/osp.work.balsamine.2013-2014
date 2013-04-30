@@ -1,25 +1,23 @@
 <!DOCTYPE HTML>
-<!-- curl http://osp.constantvzw.org:9001/p/balsa2014/export/txt > balsa2014.html -->
-<!--activer les options Webkit expérimentales : "chrome://flags/"   >  "webkit"   >  activer "Enable experimental WebKit features"-->
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Balsamine 2013-2014</title>
     
   <link rel="stylesheet" type="text/css" href=" http://meyerweb.com/eric/tools/css/reset/reset.css" />
-   
+  
 
     <style type="text/less">
 /*
-*-  F O N T S  -
+*-  F O N T S  ---------------------------------------------------------------------------------------------
 */
 @font-face {
     font-family: 'UmeMinchoLatin';
     src: url('http://balsamine.be/pub/skins/balsamine/fonts/UmeMinchoLatin/ume-mincho-latin-webfont.eot');
     src: url('http://balsamine.be/pub/skins/balsamine/fonts/UmeMinchoLatin/ume-mincho-latin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://balsamine.be/pub/skins/balsamine/fonts/UmeMinchoLatin/ume-mincho-latin-webfont.woff') format('woff'),
-         url('http://balsamine.be/pub/skins/balsamine/fonts/UmeMinchoLatin/ume-mincho-latin-webfont.ttf') format('truetype'),
-         url('http://balsamine.be/pub/skins/balsamine/fonts/UmeMinchoLatin/ume-mincho-latin-webfont.svg#UmePGothicBalsaRegular') format('svg');
+    url('http://balsamine.be/pub/skins/balsamine/fonts/UmeMinchoLatin/ume-mincho-latin-webfont.woff') format('woff'),
+    url('http://balsamine.be/pub/skins/balsamine/fonts/UmeMinchoLatin/ume-mincho-latin-webfont.ttf') format('truetype'),
+    url('http://balsamine.be/pub/skins/balsamine/fonts/UmeMinchoLatin/ume-mincho-latin-webfont.svg#UmePGothicBalsaRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -33,9 +31,9 @@
     font-family: 'UmePGothicBalsaRegular';
     src: url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicBalsaRegular/ume-p-gothic_balsa-webfont.eot');
     src: url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicBalsaRegular/ume-p-gothic_balsa-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicBalsaRegular/ume-p-gothic_balsa-webfont.woff') format('woff'),
-         url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicBalsaRegular/ume-p-gothic_balsa-webfont.ttf') format('truetype'),
-         url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicBalsaRegular/ume-p-gothic_balsa-webfont.svg#UmePGothicBalsaRegular') format('svg');
+    url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicBalsaRegular/ume-p-gothic_balsa-webfont.woff') format('woff'),
+    url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicBalsaRegular/ume-p-gothic_balsa-webfont.ttf') format('truetype'),
+    url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicBalsaRegular/ume-p-gothic_balsa-webfont.svg#UmePGothicBalsaRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -49,9 +47,9 @@
     font-family: 'UmePGothicVerticalRegular';
     src: url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicVerticalRegular/ume-p-gothic-vertical-webfont.eot');
     src: url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicVerticalRegular/ume-p-gothic-vertical-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicVerticalRegular/ume-p-gothic-vertical-webfont.woff') format('woff'),
-         url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicVerticalRegular/ume-p-gothic-vertical-webfont.ttf') format('truetype'),
-         url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicVerticalRegular/ume-p-gothic-vertical-webfont.svg#UmePGothicVerticalRegular') format('svg');
+    url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicVerticalRegular/ume-p-gothic-vertical-webfont.woff') format('woff'),
+    url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicVerticalRegular/ume-p-gothic-vertical-webfont.ttf') format('truetype'),
+    url('http://balsamine.be/pub/skins/balsamine/fonts/UmePGothicVerticalRegular/ume-p-gothic-vertical-webfont.svg#UmePGothicVerticalRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -78,11 +76,13 @@ font-family:"Oswald";
 src: url('fonts/Oswald-Bold.ttf') format('truetype');
 }
 /*
-*-  V A R I A B L E S  -
+*-  V A R I A B L E S  ---------------------------------------------------------------------------------------------
 */
 
 @font-size-99: 10pt;
 @line-height-99: 13pt;
+@font-size-98: 13pt;
+@line-height-98: 15pt;
 @font-size-0: 12pt;
 @line-height-0: 14pt;
 @font-size-1: 16pt;
@@ -93,11 +93,12 @@ src: url('fonts/Oswald-Bold.ttf') format('truetype');
 @line-height-3: 34pt;
 @font-size-4: 40pt;
 @line-height-4: 44pt;
-@border: 2px solid @color-N;
+@border: 2px solid @color-C;
 
 @color-link: green;
 @color-C: rgb(255, 0, 82);  // magenta/rouge fluo
 @color-N: #00aa5a;   // green U
+@color-W: white;
 
 @color-0: mix(@color-N, @color-C, 0%);
 @color-10: mix(@color-N, @color-C, 10%);
@@ -111,15 +112,55 @@ src: url('fonts/Oswald-Bold.ttf') format('truetype');
 @color-90: mix(@color-N, @color-C, 90%);
 @color-100: mix(@color-N, @color-C, 100%);
 
+@colorG-0: mix(@color-N, @color-W, 0%);
+@colorG-10: mix(@color-N, @color-W, 10%);
+@colorG-20: mix(@color-N, @color-W, 20%);
+@colorG-30: mix(@color-N, @color-W, 30%);
+@colorG-40: mix(@color-N, @color-W, 40%);
+@colorG-50: mix(@color-N, @color-W, 50%);
+@colorG-60: mix(@color-N, @color-W, 60%);
+@colorG-70: mix(@color-N, @color-W, 70%);
+@colorG-80: mix(@color-N, @color-W, 80%);
+@colorG-90: mix(@color-N, @color-W, 90%);
+@colorG-100: mix(@color-N, @color-W, 100%);
+
+@colorC-0: mix(@color-C, @color-W, 0%);
+@colorC-10: mix(@color-C, @color-W, 10%);
+@colorC-20: mix(@color-C, @color-W, 20%);
+@colorC-30: mix(@color-C, @color-W, 30%);
+@colorC-40: mix(@color-C, @color-W, 40%);
+@colorC-50: mix(@color-C, @color-W, 50%);
+@colorC-60: mix(@color-C, @color-W, 60%);
+@colorC-70: mix(@color-C, @color-W, 70%);
+@colorC-80: mix(@color-C, @color-W, 80%);
+@colorC-90: mix(@color-C, @color-W, 90%);
+@colorC-100: mix(@color-C, @color-W, 100%);
+
+
 div#nuancier {
     width: 100%; 
+    
     div {
-        float: left;
-        height: 100px;
-        width: 8%;
-        margin-right: 5px;
+	    float: left;
+	    height: 50px;
+	    width: 8%;
+	    margin-right: 5px;
+	margin-top: 5px;
     }
 }
+
+div#colorC-0 { background-color: @colorC-0;}
+div#colorC-10 { background-color: @colorC-10;}
+div#colorC-20 { background-color: @colorC-20;}
+div#colorC-30 { background-color: @colorC-30;}
+div#colorC-40 { background-color: @colorC-40;}
+div#colorC-50 { background-color: @colorC-50;}
+div#colorC-60 { background-color: @colorC-60;}
+div#colorC-70 { background-color: @colorC-70;}
+div#colorC-80 { background-color: @colorC-80;}
+div#colorC-90 { background-color: @colorC-90;}
+div#colorC-100 { background-color: @colorC-100;}
+
 div#color-0 { background-color: @color-0;}
 div#color-10 { background-color: @color-10;}
 div#color-20 { background-color: @color-20;}
@@ -132,6 +173,21 @@ div#color-80 { background-color: @color-80;}
 div#color-90 { background-color: @color-90;}
 div#color-100 { background-color: @color-100;}
 
+div#colorG-0 { background-color: @colorG-0;}
+div#colorG-10 { background-color: @colorG-10;}
+div#colorG-20 { background-color: @colorG-20;}
+div#colorG-30 { background-color: @colorG-30;}
+div#colorG-40 { background-color: @colorG-40;}
+div#colorG-50 { background-color: @colorG-50;}
+div#colorG-60 { background-color: @colorG-60;}
+div#colorG-70 { background-color: @colorG-70;}
+div#colorG-80 { background-color: @colorG-80;}
+div#colorG-90 { background-color: @colorG-90;}
+div#colorG-100 { background-color: @colorG-100;}
+
+
+
+
 //@color-M: rgb(255, 56, 56);
 //@color-J: rgb(249, 255, 98);
 //@color-C: white;
@@ -140,10 +196,11 @@ div#color-100 { background-color: @color-100;}
 //@color-N: black;
 
 img.preview {
-//display: none;
+	//display: none;
+	border: 0px;
 }
 img.cyan {
-//display: none;
+	//display: none;
 }
 img.magenta {
     //display: none;
@@ -156,25 +213,25 @@ img.noir {
 }
 
 /*
-*-  P R I N T  --
+*-  P R I N T  ------------------------------------------------------------
 */
 
 @page {
     //size:14,8cm 20cm; // format coupé : soit 559 x 756 px
-size:16,8cm 22cm;  // format avec cropmarks => 6.60 inches * 8.70 inches ou 635 x 831,5 px
-margin: 0;
-        //margin-left: 0.5cm;
-        //margin-right: 0cm;
-        //margin-top: 0.5cm;
-        //margin-bottom: 0.5cm;
-        //margin: 0 1cm;
-border: 1px solid @color-N;
-orphans:4; widows:2; /* ça n'a pas l'air de marcher ce truc ? */
+	size:16,8cm 22cm;  // format avec cropmarks => 6.60 inches * 8.70 inches ou 635 x 831,5 px
+	margin: 0;
+    //margin-left: 0.5cm;
+    //margin-right: 0cm;
+    //margin-top: 0.5cm;
+    //margin-bottom: 0.5cm;
+    //margin: 0 1cm;
+	border: 1px solid @color-N;
+	orphans:4; widows:2; /* ça n'a pas l'air de marcher ce truc ? */
 
 }
 div#virtual {
-position: absolute;
-z-index: -100;
+	position: absolute;
+	z-index: -100;
     width: 100%; 
 }
 div.fakepage {
@@ -195,10 +252,10 @@ div.crop-tl,
 div.crop-tr,
 div.crop-br,
 div.crop-bl {
-     height: 1cm;
-width: 1cm;
-     position: absolute;
-box-sizing: border-box;
+    height: 1cm;
+	width: 1cm;
+    position: absolute;
+	box-sizing: border-box;
 }
 
 div.crop-tl {
@@ -210,8 +267,8 @@ div.crop-tr {
     top: 0cm;
 }
 div.crop-br {
-        right: 0;
-        bottom: 0;
+    right: 0;
+    bottom: 0;
 }
 div.crop-bl {
     left: 0;
@@ -221,10 +278,10 @@ div.crop-top,
 div.crop-right,
 div.crop-bottom,
 div.crop-left, {
-        width: 0.5cm;
-        height: 0.5cm;
-        position: absolute;
-        box-sizing: border-box;
+    width: 0.5cm;
+    height: 0.5cm;
+    position: absolute;
+    box-sizing: border-box;
 }
 div.crop-top {
     border-top: 1px solid black;
@@ -240,30 +297,30 @@ div.crop-left {
 }
 
 /*
-*-  G E N E R A L   --
+*-  G E N E R A L   ------------------------------------------------------------
 */
 
 * {
 color: @color-N;
--webkit-print-color-adjust: exact;  /* Allows printing of background colors */
+	-webkit-print-color-adjust: exact;  /* Allows printing of background colors */
 }
 html {
     width: 870.55px;
     //width: 16.5cm;
 }
 body {
-width: 100%;
-font-family: UmePMincho;
-font-size : @font-size-0;
-line-height: @line-height-0;
-color: @color-N;
-
+	width: 100%;
+	font-family: UmePMincho;
+	font-size : @font-size-0;
+	line-height: @line-height-0;
+	color: @color-C;
 }
+
 @media screen {
-ul#toc { display: block;}
+	ul#toc { display: block;}
 }
 @media print {
-ul#toc { display: none;}
+	ul#toc { display: none;}
 }
 
 ul#toc {
@@ -275,78 +332,92 @@ ul#toc {
 }
 
 /*
-*-  B L O C K S   -
+*-  B L O C K S   -----------------------------------------
 */
 section#body {
-margin-left: 3cm;
-margin-right: 1.5cm;
+	margin-left: 3cm;
+	margin-right: 1.5cm;
 }
 article {
-width: 100%;
-//page-break-before: always;  
-//margin: 0 0.25cm;
+	width: 100%;
+	//page-break-before: always;  
+	//margin: 0 0.25cm;
+	margin-top: 1cm;
+	background-color: white;
+	clear: both;
 
-margin-top: 1cm;
-background-color: white;
-clear: both;
+	div {
+		float: left;
+		/*box-sizing: border-box;
+		outline-offset: -10px;*/
+	}
 
-div {
-float: left;
-/*box-sizing: border-box;
-outline-offset: -10px;*/
-}
+	div.texte {
+		/*background-color: mix(@color-C, @color-N, 50%);*/
+		padding: 2px 10px 0px 5px;
+		height: auto;
+		box-sizing: border-box;
+		outline-offset: -5px;
+		outline: @border;
+		line-height: 110%;
+		color: @color-C;
+		font-size:@font-size-98;
+		
+	}
 
-div.texte {
-/*background-color: mix(@color-C, @color-N, 50%);*/
-padding: 2px 10px 0px 5px;
-height: auto;
-box-sizing: border-box;
-outline-offset: -5px;
-outline: @border;
-line-height: 110%;
-}
+	div.image {
+		/*background-color: mix(@color-C, @color-C, 33%);*/
+		border: @border;
+		overflow: hidden;
+		box-sizing: border-box;
+		margin-right: 5px;
+		margin-bottom: 5px;
+	}
 
-div.image {
-/*background-color: mix(@color-C, @color-C, 33%);*/
-border: @border;
-overflow: hidden;
-box-sizing: border-box;
-margin-right: 5px;
-margin-bottom: 5px;
-}
+	div.imagesimple {
+		outline: 0px solid @color-N;
+		overflow: hidden;
+		box-sizing: border-box;
+	}
 
-div.imagesimple {
-outline: 0px solid @color-N;
-overflow: hidden;
-box-sizing: border-box;
-}
+	div.bible {
+		padding: 0 10px;
+		//outline: 3px solid @color-N;
+		box-sizing: border-box;
+		outline-offset: -10px;
+		height: auto;
+		width:15%;
+		font-size: @font-size-99;
+		line-height: @line-height-99;
+		
+	}
 
-div.bible {
-     padding: 0 10px;
-//outline: 3px solid @color-N;
-box-sizing: border-box;
-outline-offset: -10px;
-height: auto;
-width:15%;
-}
-
-div.artiste {
-outline: none !important;
-}
+	div.artiste {
+		outline: none !important;
+	}
 }
 
 div.image-cmjn {
-position: relative;
-width: 100%;
-overflow: hidden;
-outline-color: @color-C;
-outline-style: solid;
-outline-width: 0;
-
-img {
-position: absolute;
-//opacity: 0.9;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	outline-color: @color-C;
+	outline-style: solid;
+	outline-width: 0px;
+	
+	img {
+		position: absolute;
+		//opacity: 0.9;
+	}
 }
+
+div.vignette {
+    height: 225px;
+    outline-width: 15px;
+
+	img {
+		height: 100%;
+	}
 }
 
 div.transition {
@@ -357,10 +428,10 @@ div.transition {
 }
 
 .shape-hexagone {
--webkit-shape-inside: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
-width: 200px;
-height: 200px;
-text-align: justify;
+	-webkit-shape-inside: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+	width: 200px;
+	height: 200px;
+	text-align: justify;
 }
 
 div.page-break {
@@ -369,10 +440,10 @@ div.page-break {
 }
 
 
-article { display : block;}
+
 
 /*
-*-  P A R A G R A P H E S  &  C H A R A C T E R S --
+*-  P A R A G R A P H E S  &  C H A R A C T E R S ----------------------------------------------
 */
 
 sup {
@@ -382,7 +453,7 @@ sup {
 }
 
 h1, h2, h3, h4, h5, h6 {
-font-weight: normal;     /* Enlève le bold, car sinon il est forcé par le navigateur */
+	font-weight: normal;     /* Enlève le bold, car sinon il est forcé par le navigateur */
 }
 
 h1 {
@@ -395,103 +466,88 @@ h1 {
 }
 
 h2 {
-font-family: UmeMinchoLatin;
-text-transform: uppercase;
-font-size: @font-size-0;
-line-height : @line-height-0;
- color:@color-C;
-text-align: center;
-
-
-/*span {
-color: mix(@color-C, @color-N, 70%);
-.shape-hexagone
-}/*
-/*span + span {
-font-family: UmeMinchoLatin;
-color: @color-N;
-font-size: 1.3em;r
-// -webkit-transform: rotatey(54deg) rotateX(35deg) skew(10deg,10deg);
-display: block;
-//margin-left: 2em;
-max-width: 200px;
-z-index: 100;
-position: relative;
-}*/
+	font-family: UmeMinchoLatin;
+	text-transform: uppercase;
+	font-size: @font-size-0;
+	line-height : @line-height-0;
+	color:@color-C;
+	text-align: center;
 }
+
 h3 {
-font-size: @font-size-1;
-display: inline-block;
-line-height : @line-height-1;
+	font-size: @font-size-99;
+	line-height : @line-height-99;
+	display: inline-block;
+	text-transform:uppercase;
 }
 h4 {
-font-size: @font-size-2;
-line-height :@line-height-2;
+	font-size: @font-size-2;
+	line-height :@line-height-2;
 }
 
 p {
-width: 100%;
-padding : 5px;
-/*page-break-inside: avoid;*/   /* ça évite que les paragraphes soient coupés par la fin de page ou de bloc*/
+	width: 100%;
+	padding : 5px;
+	/*page-break-inside: avoid;*/   /* ça évite que les paragraphes soient coupés par la fin de page ou de bloc*/
 }
 
- blockquote {
-font-family: UmeMinchoLatin;
-font-size: @font-size-1;
-outline: none;
--webkit-region-break-before: always;
-line-height: 110%;
-text-align:center;
+blockquote {
+	font-family: UmeMinchoLatin;
+	font-size: @font-size-1;
+	outline: none;
+	-webkit-region-break-before: always;
+	line-height: 110%;
+	text-align:center;
 }
 .blockquote {
-     color: @color-30;
+    color: @color-30;
 }
 .nl {
-color: @color-70;
+	color: @colorG-60;
 }
 ul {
     //.shape-hexagone;
     
     li {
-        list-style-type: none;
+	    list-style-type: none;
     }
 }
 
-
 dl {
     font-family:UmeMinchoLatin;
-   font-size: 10pt;
+  font-size: 10pt;
+  line-height: 13pt;
     text-align: left;
-   padding: 0px;
+  padding: 0px;
+  }
   
-   }
-   
 dt {
-font-size: 7pt;
-text-transform: uppercase;
-line-height: 10pt;
-color: inherit;
-font-weight: bold;
-letter-spacing: 1px;
+	font-size: 10pt;
+	text-transform: uppercase;
+	color: inherit;
+	letter-spacing: 1px;
 }
 
 dd {
-color: inherit;
-line-height: 13px;
-margin-bottom: 1px;
+	color: inherit;
+	line-height: 13px;
+	margin-bottom: 1px;
 }
 
+dd + dt {
+	margin-top: 5px;
+}
 
 div.titre{
-padding: 10px;
-outline:none !important;
-border-color: mix(@color-C, @color-C, 20%);
-border-style: solid;
-box-sizing: border-box;
-margin: 0 0 0 -3px;
+	padding: 10px;
+	outline:none !important;
+	border-color: mix(@color-C, @color-C, 20%);
+	border-style: solid;
+	box-sizing: border-box;
+	margin: 0 0 0 -3px;
 }
 div.titre:first-child {
-clear: left;
+	clear: left;
 }
 
 div.type {
@@ -499,28 +555,38 @@ div.type {
 }
 
 div.artiste {
-    padding: 10px;
+    padding-left: 5px;
 }
 
 div.date {
-font-family: UmePGothicBalsaRegular;
-//text-align: center;
-outline: none;
-padding: 0px;
-//-webkit-transform: rotate(-15deg);
+	 font-family: UmeGothicShadow;
+	text-transform : uppercase;
+	font-size: @font-size-99;
+	line-height : @line-height-99;
+	text-align: center;
+	outline: none;
+	padding: 0px;
+	//-webkit-transform: rotate(-15deg);
+	color: @color-C;
 }
 div.horaire {
-    font-family: UmePGothicBalsaRegular;
+	font-family: UmeGothicShadow;
+     font-size: @font-size-99;
+    line-height : @line-height-99;
     text-transform: uppercase;
-    font-weight: bold;
+    text-align: center;
+    color: @color-C;
 
 }
 div.production {
     font-family: UmePGothicBalsaRegular;
-    line-height: 10px;
-    font-size: 8px;
+    line-height: 12pt;
+    font-size: 9pt;
 }
 
+div.bible {
+    
+}
 
 em {
     font-family: UmePGothicBalsaRegular;
@@ -533,42 +599,45 @@ b {
 .numbers{
     font-family: UmePGothicBalsaRegular;
     font-size: @font-size-1;
+    line-height: 25px;
     color: @color-N;
     text-transform: uppercase;
     outline: 2px solid @color-N;
-padding: 8px 10px 0px 5px;
-box-sizing: border-box;
-outline-offset: -5px;
-background-image: url('../materials/extract/aspiration.gif');
-background-position:-100px -50px;
+	padding: 8px 10px 0px 5px;
+	box-sizing: border-box;
+	outline-offset: -5px;
+	background-image: url('../materials/extract/aspiration.gif');
+	background-position:-100px -50px;
 }
 
 div.if {
     font-family: UmePGothicBalsaRegular;
     font-weight: bold;
-    font-size: @font-size-0;
+    font-size: @font-size-1;
     line-height: 16pt;
     outline: none !important;
     box-sizing: border-box;
     padding: 0 5px;
     text-transform: uppercase;
+    text-align: left;
 }
- 
+
 span.lettrine {
-        text-transform: uppercase;
-        letter-spacing: 1px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
- 
+
 div.out{
     font-family: UmePGothicVerticalRegular;
     line-height: @line-height-0;
     font-size: @font-size-99;
-    background-color: @color-50;
+    background-color: @colorG-30;
     box-sizing: border-box;
     padding: 0.75em;
+    font-weight: bold; // forcé par le navigateur, mais nécessaire si texte en défonce
 
-<!--    * {
-    color: white !important;-->
+	* {
+	    color: white !important;
     }
 }
 
@@ -582,8 +651,6 @@ div.border {
     width: 80%; /* largeur obligatoire pour être centré */
 }
 </style>
-
-
 </head>
 
 <body>
@@ -612,6 +679,18 @@ div.border {
     <ul id="toc"></ul>
 
     <div id="nuancier">
+        <div id="colorC-100"></div>
+        <div id="colorC-90"></div>
+        <div id="colorC-80"></div>
+        <div id="colorC-70"></div>
+        <div id="colorC-60"></div>
+        <div id="colorC-50"></div>
+        <div id="colorC-40"></div>
+        <div id="colorC-30"></div>
+        <div id="colorC-20"></div>
+        <div id="colorC-10"></div>
+        <div id="colorC-0"></div>
+
         <div id="color-0"></div>
         <div id="color-10"></div>
         <div id="color-20"></div>
@@ -623,11 +702,23 @@ div.border {
         <div id="color-80"></div>
         <div id="color-90"></div>
         <div id="color-100"></div>
+
+        <div id="colorG-0"></div>
+        <div id="colorG-10"></div>
+        <div id="colorG-20"></div>
+        <div id="colorG-30"></div>
+        <div id="colorG-40"></div>
+        <div id="colorG-50"></div>
+        <div id="colorG-60"></div>
+        <div id="colorG-70"></div>
+        <div id="colorG-80"></div>
+        <div id="colorG-90"></div>
+        <div id="colorG-100"></div>
     </div>
 
     <section id="body">
 
-<!--
+<!--------------------------------------------------------------------------------------------------
 -  F A U X   T I T R E  -
 -->
 <article id="faux-titre">
@@ -661,11 +752,11 @@ div.border {
 </div>
 
 <div class="transition" style="height: 1060px; outline: none; margin-top: 50px; margin-bottom: -120px;">
-<img class="noir" src="../photos/layers/meteor/meteor_Calque 10-nb.png" style="width: 81%;" />
+<img class="noir" src="../photos/layers/meteor/meteor_Calque 10-nb.png" style="width: 100%;" />
 </div>
 </article>
 
-<!--
+<!--------------------------------------------------------------------------------------------------
 -  E D I T O  -
 -->
 <article id="edito">
@@ -774,54 +865,54 @@ Et si le dictionnaire, avec lequel elle  recherchait le nom du lieu, en tombant 
 
 </article>
 
-<!--
+<!--------------------------------------------------------------------------------------------------
 -  O U V E R T U R E  -
 -->
 
 <article id="ouverture" style="padding-top: 100px;">
-    <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
-        <h1 style="text-align: center;">O u v e r t u r e</h1>
+<div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+    <h1 style="text-align: center;">O u v e r t u r e</h1>
     </div>
-    <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
-        <h1 style="text-align: center;">d e</h1>
+<div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+    <h1 style="text-align: center;">d e</h1>
     </div>
     
-    <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
-        <h1 style="text-align: center;">s a i s o n</h1>
+<div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+    <h1 style="text-align: center;">s a i s o n</h1>
     </div>
     <div class="titre" style="width: 5%;   border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-        <h2 style="text-align: center;">2 0 1 3 &ndash; 2 0 1 4</h2>
+    <h2 style="text-align: center;">2 0 1 3 &ndash; 2 0 1 4</h2>
     </div>
 
-    <div class="date" style="width: 50%;">
-        <p>Le 19 septembre</p>
-    </div>
-    <div class="horaire" style="width:20%; background-image: url('../materials/extract/allo.gif'); background-size: 100%; height: 130px;">
-        <p style="padding: 50px 55px;">
-        Dès <br /> 19h
-        </p>
-    </div>
+<div class="date" style="width: 50%;">
+<p>Le 19 septembre</p>
+</div>
+<div class="horaire" style="width:20%; background-image: url('../materials/extract/allo.gif'); background-size: 100%; height: 130px;">
+<p style="padding: 50px 55px;">
+Dès <br /> 19h
+</p>
+</div>
 
 <div class="texte" style="width: 15%;height: 97px;margin: 10px 0; height: 115px; margin-right: 120px;">
-    <p>Vernissage des photos de saison 2013&mdash;2014 d'Hichem Dahes </p>
+<p>Vernissage des photos de saison 2013&mdash;2014 d'Hichem Dahes </p>
 </div>
 
 <div class="horaire" style="width:20%; background-image: url('../materials/extract/DSC_6516.gif'); height: 190px; background-size: 100%;margin-left: -35px;z-index: -10;position: relative;">
-    <p style="padding: 95px 33px;">
-    À 20h30
-    </p>
+<p style="padding: 95px 33px;">
+À 20h30
+</p>
 </div>
 
 <div class="texte" style="width: 18%;height: 165px;margin: 20px 0;">
-    <p>Conférence d’Isabelle Stengers, «&thinsp;Dis-moi comment tu racontes,  je te dirai à la construction de quoi tu participes.&thinsp;» </p>
+<p>Conférence d’Isabelle Stengers, «&thinsp;Dis-moi comment tu racontes,  je te dirai à la construction de quoi tu participes.&thinsp;» </p>
 </div>
 
 <div class="transition" style="height: 400px; outline: none; margin-top: 256px;">
-    <img class="noir" src="../materials/extract/hairs.gif" style="width: 100%;" />
+<img class="noir" src="../materials/extract/hairs.gif" style="width: 100%;" />
 </div>
 </article>
 
-<!--
+<!--------------------------------------------------------------------------------------------------
 -  F U S E E  -
 -->
 <article id="fusee" style="padding-top: 30px;">
@@ -854,23 +945,23 @@ Du 25 septembre au 5 octobre à 20h30
     </div>    
 
 
-<div class="image-cmjn" style="width: 55%; height: 207px; outline-width: 0px;">
+<div class="image-cmjn vignette" style="width: 380px;">
 <!--
 <img class="cyan" src="../photos/couches-test/extrait_clinic_c.gif" style="margin-top: -110px; margin-left: -60px;" />
 <img class="magenta" src="../photos/couches-test/extrait_clinic_m.gif" style="margin-top: -110px; margin-left: -60px;" />
 <img class="jaune" src="../photos/couches-test/extrait_clinic_j.gif" style="margin-top: -110px; margin-left: -60px;" />
 <img class="noir" src="../photos/couches-test/extrait_clinic_n.gif" style="margin-top: -110px; margin-left: -60px;" />
 -->
-<img class="preview" src="../photos/retable_clinic_orgasm-nb.jpg" style="width: 100%" />
+    <img class="preview" src="../photos/retable_clinic_orgasm-nb.jpg" />
 </div>
 
 
 <div class="image-cmjn" style="width: 100%; height: 200px; outline: none; position: relative; z-index: -10;">
-<img class="noir" src="../materials/extract/wouuuuhhhhh.gif" style="width: 140%;" />
+    <img class="noir" src="../materials/extract/wouuuuhhhhh.gif" style="width: 140%;" />
 </div>
 
 <div class="image-cmjn" style="width: 30%; height: 170px; ">
-<img class="noir" src="../materials/extract/pingdansloreille.gif" style="margin-top: -45px; width:100%; " />
+    <img class="noir" src="../materials/extract/pingdansloreille.gif" style="margin-top: -45px; width:100%; " />
 </div>
 
   <div class="texte" style="width: 30%;  height: 170px">
@@ -942,11 +1033,9 @@ Ne serait-ce pas leur rendre la monnaie de leur pièce que de les torturer à le
 </div>
 
 <div class="blockquote" style="width: 18%; outline: none; clear: left">
-<blockquote>«&thinsp;Quoi de plus beau et de plus troublant que de torturer en direct un  Glöörgh, </blockquote>
-</div>
+<blockquote>«&thinsp;Quoi de plus beau et de plus troublant que de torturer en direct un  Glöörgh,
 
-<div class="blockquote" style="width: 20%; outline: none;">
-<blockquote>fleur mutante extra-terrestre aussi mystérieuse que redoutable&thinsp;?&thinsp;»</blockquote>
+fleur mutante extra-terrestre aussi mystérieuse que redoutable&thinsp;?&thinsp;»</blockquote>
 </div>
 
 <div style="width: 12%; height: 188px;">
@@ -962,35 +1051,35 @@ Ne serait-ce pas leur rendre la monnaie de leur pièce que de les torturer à le
 <p>Après les succès de <em>J’ai gravé le nom de ma grenouille dans ton foie</em> et de <em>DTC (on est bien)</em>, la jeune compagnie Clinic Orgasm Society s’est lancée dans un triptyque : <em>Pré-Blé-Fusée</em>,  3 spectacles indépendants et déjantés qui déplacent les limites de la  normalité et qui se jouent de nos répulsions-fascinations.</p>
 </div>
 
-<div class="texte" style="width: 16.8%; height: 170px ">
+<div class="out" style="width: 16.8%; height: 170px ">
 <p>Aussi, après <em>Pré</em> au Varia, <em>Blé</em> au Manège.Mons , voici <em>Fusée</em> à la Balsa, vers l’insoutenable et au-delà&thinsp;!</p>
 </div>
 
-<div class="texte" style="width: 28%; height: 170px ">
+<div class="out" style="width: 28%; height: 170px ">
 <p><em>Fusée</em> sera ensuite jouée au Grand Bleu à Lille et au PBA+ Eden à Charleroi. <em>Pré</em>  et <em>Blé</em>, les deux premiers opus de la trilogie,  seront à nouveau visibles au Théâtre Varia en février 2014.</p>
 </div>
     
 <div class="bible" style="width: 35%; ">
     <dl>
-    <dt>Conception</dt>
-    <dd>Ludovic Barth et Claire Deville</dd>
-    <dt>Mise en Scène</dt>
-    <dd>Ludovic Barth</dd>
-    <dt>Collaboration artistique</dt>
-    <dd>Mathylde Demarez</dd>
-    <dt>Musique</dt>
-    <dd>Rodolphe Coster</dd>
-    <dt>Lumière</dt>
-    <dd>Marc Lhommel</dd>
-    <dt>Son</dt>
-    <dd>Benjamin Dandoy</dd>
-    <dt>Interprétation</dt>
-    <dd>Rodolphe
-</dl>
+        <dt>Conception</dt>
+        <dd>Ludovic Barth et Claire Deville</dd>
+        <dt>Mise en Scène</dt>
+        <dd>Ludovic Barth</dd>
+        <dt>Collaboration artistique</dt>
+        <dd>Mathylde Demarez</dd>
+        <dt>Musique</dt>
+        <dd>Rodolphe Coster</dd>
+        <dt>Lumière</dt>
+        <dd>Marc Lhommel</dd>
+        <dt>Son</dt>
+        <dd>Benjamin Dandoy</dd>
+        <dt>Interprétation</dt>
+        <dd>Rodolphe
+    </dl>
 </div>
         
 <div class="production" style="width: 13%; margin-bottom: 200px ">
-    <p>Une  production de la Clinic Orgasm Society en coproduction avec la  Balsamine, le  Théâtre Varia, le manège.mons / Centres Dramatiques de la  Fédération Wallonie-Bruxelles, le PBA + Eden (Charleroi), Le Grand Bleu  – ENPDA Lille Nord/Pas-de-Calais. Avec le soutien du Centre des Arts  Scéniques (CAS) et de la SACD. Avec l’aide du Conseil de l’aide aux  projets théâtraux (CAPT).</p>
+<p>Une  production de la Clinic Orgasm Society en coproduction avec la  Balsamine, le  Théâtre Varia, le manège.mons / Centres Dramatiques de la  Fédération Wallonie-Bruxelles, le PBA + Eden (Charleroi), Le Grand Bleu  – ENPDA Lille Nord/Pas-de-Calais. Avec le soutien du Centre des Arts  Scéniques (CAS) et de la SACD. Avec l’aide du Conseil de l’aide aux  projets théâtraux (CAPT).</p>
 </div>
 
     <div class="transition" style="height: 400px; outline: none; margin-top: 200px; margin-bottom: 85px;">
@@ -999,7 +1088,7 @@ Ne serait-ce pas leur rendre la monnaie de leur pièce que de les torturer à le
 
 </article>
 
-<!--
+<!--------------------------------------------------------------------------------------------------
 -  L E S  M O U T O N S  -
 -->
 <article id="les-moutons">
@@ -1018,20 +1107,13 @@ Ne serait-ce pas leur rendre la monnaie de leur pièce que de les torturer à le
 <h4>Schieve Compagnie­</h4>
 </div>
 </div>
-<div class="date" style="width:30%;">
-<p>
+<div class="date" style="width:30%;background-image :url('../materials/extract/soleil.gif');background-size: 120%;height:245px;">
+<p style="width:50%;text-align:center;padding-top:100px;padding-left:80px;">
 Du 15 au 26 octobre à 20h30 <br /> Foyer
 </p>
 </div>
 
-<div class="blockquote" style="width:40%;margin-left:280px;margin-top:-100px;">
-<blockquote>
-Corinne  a dit &thinsp;: 
-</blockquote>
-<blockquote>
-«&thinsp;Tu sais quoi  Corinne&thinsp;? L'intelligence commence par la verticalité. Le mouton se  redresse et en se redressant il voit le monde et ses concitoyens. Le  cerveau se repositionne. L'imagination est enfin parmi nous&thinsp;!&thinsp;»
-</blockquote>
-</div>
+
 <div class="texte" style="width:40%;margin-left:90px;">
 <p>
 Et  voilou, les revoilà, toujours plus animales, toujours aussi  attachantes, Corinne et Corinne, nos moutonnes noire et blanche  reprennent du service et s’installent dans le foyer de la Balsamine. Cette fois, c’est décidé, elles veulent  jouir, vivre, penser  et, même  si leurs utopies et leurs goûts musicaux (ah oui, elles chantent des tubes&thinsp;!) semblent avoir pris quelques décennies de retard, elles ne se  perdent pas dans des identités virtuelles désincarnées compensant la  morosité de leurs existences.
@@ -1080,11 +1162,19 @@ Une  production de la Schieve Compagnie en coproduction avec la Balsamine,  avec
 <div class="transition" style="height: 500px; outline: none; margin-top: -197px; margin-bottom: 72px; z-index:-5;">
 <img class="noir" src="../materials/extract/aspiration.gif" style="width: 100%;" />
 </div>
+<div class="blockquote" style="width:40%;margin-left:280px;margin-top:-100px;">
+<blockquote>
+Corinne  a dit &thinsp;: 
+</blockquote>
+<blockquote>
+«&thinsp;Tu sais quoi  Corinne&thinsp;? L'intelligence commence par la verticalité. Le mouton se  redresse et en se redressant il voit le monde et ses concitoyens. Le  cerveau se repositionne. L'imagination est enfin parmi nous&thinsp;!&thinsp;»
+</blockquote>
+</div>
 </article>
 
-<!--
+<!--------------------------------------------------------------------------------------------------
 -  J ' A I    E N D U R É    V O S    D I S C O U R S  -
--->
+-------------------------------------------------------------------------------------------------->
 <article id="jai-endure-vos-discours-et-jai-loreille-en-feu">
 
 <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
@@ -1147,8 +1237,8 @@ Amphithéâtre
 </p>
     </div>
 
-<div class="image-cmjn" style="width: 55%; height: 159px; outline-width: 0px;">
-<img class="preview" src="../photos/retable_anne-nb.jpg" style="width: 100%" />
+<div class="image-cmjn vignette" style="width: 495px;">
+    <img class="preview" src="../photos/retable_anne-nb.jpg" />
 </div>
 
 <div class="image-cmjn"  style="width: 20%; height: 120px; clear: left; margin-top: -40px;">
@@ -1301,7 +1391,7 @@ Une   coproduction du Théâtre de l’Ancre et de la Balsamine. Avec l’aide d
 
 </article>
 
-<!--
+<!--------------------------------------------------------------------------------------------------
 *-  S T A G E    C I F A S  -
 -->
 <article id="stage-cifas" style="padding-top: 100px;">
@@ -1349,7 +1439,7 @@ Une   coproduction du Théâtre de l’Ancre et de la Balsamine. Avec l’aide d
         
 </article>
 
-<!--
+<!--------------------------------------------------------------------------------------------------
 *-  G A R A G E   2 9  -
 -->
 
@@ -1477,7 +1567,7 @@ Une   coproduction du Théâtre de l’Ancre et de la Balsamine. Avec l’aide d
         
 </article>
 
-<!--
+<!--------------------------------------------------------------------------------------------------
 *-  I N D I A  -
 -->
 <article id="balsa-en-mode-india" style="padding-top: 150px;">
@@ -1527,7 +1617,7 @@ Une   coproduction du Théâtre de l’Ancre et de la Balsamine. Avec l’aide d
         
 </article>
 
-<!--
+<!--------------------------------------------------------------------------------------------------
 *-  N O E L    A U    T H E A T R E  -
 -->
 <article id="noel-au-theatre" style="padding-top: 60px;">
@@ -1637,8 +1727,8 @@ Une   coproduction du Théâtre de l’Ancre et de la Balsamine. Avec l’aide d
         
 </article>
 
-<!--
---
+<!------------------------------------------------------------------------------
+--------------------
 *-  L E   B U R E A U   D E S   H I S T O I R E S  -
 -->
 <article id="le-bureau-des-histoires">
@@ -1773,7 +1863,7 @@ style="width: 100%;" />
                 </div>
 </article>
 
-<!--
+<!--------------------------------------------------------------------------------------------------
 *-  T R I L O G I E  D E  L ' E N F E R  -
 -->
 <article id="trilogie-de-lenfer" style="padding-top: 20px;">
@@ -1849,9 +1939,9 @@ style="width: 100%;" />
     
     
     
-                <div class="image-cmjn" style="width: 55%; height: 212px; outline-width: 0px;">
-                        <img class="preview" src="../photos/retable_martine-nb.jpg" style="width: 100%" />
-                </div>
+    <div class="image-cmjn vignette" style="width: 371px;">
+            <img class="preview" src="../photos/retable_martine-nb.jpg" />
+    </div>
     
 
     <div class="if" style="width: 30%; ">
@@ -1861,7 +1951,7 @@ style="width: 100%;" />
     </div>
 
     <div class="image-cmjn" style="width: 40%; height: 400px; ">
-                <img src="../manga/strips/2_180635.jpg"  style="position:absolute; clip:rect(40px,40px,40px,40px)" />
+                <img src="../manga/strips/2_180635.jpg" style="position:absolute; clip:rect(40px,40px,40px,40px)" />
         </div>
         
         <div class="image-cmjn" style="width: 40%; height: 400px; ">
@@ -1963,8 +2053,8 @@ style="width: 100%;" />
                 </div>
 </article>
 
-<!--
---
+<!------------------------------------------------------------------------------
+--------------------
 *-  V I S I O N  -
 -->
 <article id="vision" style="padding-top: 30px;">
@@ -2027,6 +2117,9 @@ film, les deux en temps réel, histoire de mettre en  scène et en parallèle le
 sentiment d’être “ici réellement” mais “là-bas en rêve”.
                 </blockquote>
         </div>
+        <div style="height: 345px; margin-left: -18px;">
+            <img src="../materials/lien.svg" style="height: 345px";/>
+        </div>
         
                 <div class="blockquote" style="width:30%; ">
                 <blockquote>
@@ -2085,7 +2178,7 @@ src="../materials/extract/eponge-219.gif" style="width: 201%; margin-left: -326p
                 </div>
 </article>
 
-<!--
+<!--------------------------------------------------------------------------------------------------
 *-  K   B A R R É  -
 -->
 <article id="k-barre">
@@ -2110,9 +2203,9 @@ src="../materials/extract/eponge-219.gif" style="width: 201%; margin-left: -326p
         </div>
         
         
-                <div class="image-cmjn" style="width: 55%; height: 256px; outline-width: 15px;">
-                        <img class="preview" src="../photos/retable_barbara-nb.jpg" style="width: 100%" />
-                </div>
+        <div class="image-cmjn vignette" style="width: 306px;">
+                <img class="preview" src="../photos/retable_barbara-nb.jpg" />
+        </div>
         
         
         <div class="if" style="width:30%;">
@@ -2167,7 +2260,7 @@ src="../materials/extract/eponge-219.gif" style="width: 201%; margin-left: -326p
                 </div>
 </article>
 
-<!--
+<!--------------------------------------------------------------------------------------------------
 *-  L A   F O R Ê T  -
 -->
 <article id="la-foret" style="padding-top: 150px;">
@@ -2193,8 +2286,8 @@ src="../materials/extract/eponge-219.gif" style="width: 201%; margin-left: -326p
                 </div>
                 
                 
-                <div class="image-cmjn" style="width: 55%; height: 258px; outline-width: 15px;">
-                        <img class="preview" src="../photos/retable_arcas_baudouin-nb.jpg" style="width: 100%" />
+                <div class="image-cmjn vignette" style="width: 305px;">
+                    <img class="preview" src="../photos/retable_arcas_baudouin-nb.jpg" />
                 </div>
                 <div class="if" style=" width: 15% ; margin-top:10px;">
                         <p class=" texte"  style="background-color:white; padding:5px; ">
@@ -2296,7 +2389,7 @@ src="../materials/extract/eponge-219.gif" style="width: 201%; margin-left: -326p
 
 </article>
 
-<!--
+<!--------------------------------------------------------------------------------------------------
 *-  S O R T I R   L A   T Ê T E   D E   L ' E A U  -
 -->
 <article id="quest-ce-qui-me-fait-sortir-la-tete-de-leau" style="padding-top: 100px;">
@@ -2358,7 +2451,7 @@ src="../materials/extract/eponge-219.gif" style="width: 201%; margin-left: -326p
                 </div>
 </article>
 
-<!--
+<!--------------------------------------------------------------------------------------------------
 *-  G E N E S I S  -
 -->
 <article id="genesis" style="padding-top: 150px;">
@@ -2399,8 +2492,8 @@ src="../materials/extract/eponge-219.gif" style="width: 201%; margin-left: -326p
         </div>
         
         
-                <div class="image-cmjn" style="width: 55%; height: 236px; outline-width: 15px;">
-                        <img class="preview" src="../photos/retable_thomas-nb.jpg" style="width: 100%" />
+                <div class="image-cmjn vignette" style="width: 333px;">
+                    <img class="preview" src="../photos/retable_thomas-nb.jpg" />
                 </div>
                 
         
@@ -2536,7 +2629,7 @@ src="../materials/extract/eponge-219.gif" style="width: 201%; margin-left: -326p
                 </div>
 </article>
 
-<!--
+<!--------------------------------------------------------------------------------------------------
 *-  B É A T I T U D E S  -
 -->
 <article id="les-beatitudes-de-lamour" style="padding-top: 150px;">
@@ -2564,9 +2657,9 @@ src="../materials/extract/eponge-219.gif" style="width: 201%; margin-left: -326p
         
         
         
-                <div class="image-cmjn" style="width: 55%; height: 253px; outline-width: 15px;">
-                        <img class="preview" src="../photos/retable_claude-nb.jpg" style="width: 100%" />
-                </div>
+        <div class="image-cmjn vignette" style="width: 310px;">
+            <img class="preview" src="../photos/retable_claude-nb.jpg" />
+        </div>
                 
         
         <div class="if" style="width:30%;">
@@ -2611,7 +2704,7 @@ src="../materials/extract/eponge-219.gif" style="width: 201%; margin-left: -326p
         </div>
 </article>
 
-<!--
+<!--------------------------------------------------------------------------------------------------
 *-  I N F O S   P R A T I Q U E S  -
 -->
 
@@ -3027,7 +3120,7 @@ src="../materials/extract/eponge-219.gif" style="width: 201%; margin-left: -326p
                 
                 
                 // BAINESIFY
-                $("div.if p").bainesify();
+                //$("div.if p").bainesify();
                 
                         
                 // TEST  SVG  RAPHAELJS
