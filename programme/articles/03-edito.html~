@@ -27,19 +27,19 @@
 </div>
 
 
-<div class="texte" style="width:25%;  height: 147px;">
+<div class="texte" style="width:25%;  height: 207px;">
 <p>Et  si la Balsamine se réinventait pour vous, chaque saison&thinsp;? 2013-2014,  c’est la Balsa au pays de l’uchronie, au sens le plus strict, celui de  l’altération.  </p>
 </div>
 
-<div class="texte" style="width:12%; height: 147px;" >
+<div class="texte" style="width:12%; height: 207px;" >
 <p>Un exemple&thinsp;? </p>
 </div>
 
-<div class="texte" style="width:40%; height: 147px;">
+<div class="texte" style="width:40%; height: 207px;">
 <p>Et  si Martine Wijckaert (fondatrice de la Balsamine) n’était pas entrée  dans cette friche, dans cette caserne à l’abandon&thinsp;? Et si elle n’avait  pas, avec ses petits bassinets, recueilli les fuites de ce lieu  abandonné&thinsp;? Et si elle n’avait pas décidé de rester dans ce lieu comme  dans une seconde maison&thinsp;? 
 </div>
 
-<div class="if" style="width:17%; height: 147px;">
+<div class="if" style="width:17%; height: 207px;">
 <p>Et si  les poules avaient des dents, les traiterions-nous autrement&thinsp;?
 </p>
 </div>
@@ -61,7 +61,7 @@ Et si le dictionnaire, avec lequel elle  recherchait le nom du lieu, en tombant 
 <p>Et si en se sortant la  tête de l’eau, on parvenait à respirer&thinsp;? 
 </p>
 </div>
-<div class="if" style="width:36%;">
+<div class="if" style="width:36%; height: 71px;">
 <p>Et si on arrêtait de se mettre sous pression&thinsp;? 
 </p>
 </div>
@@ -101,8 +101,8 @@ Et si le dictionnaire, avec lequel elle  recherchait le nom du lieu, en tombant 
 <p>Fabien Dehasseler et Monica Gomes, <br />co-directeurs artistiques</p>
 </div>
 
-<div class="transition" style="height: 360px; outline: none; margin-top: -64px; z-index: -10;">
-<img class="noir" src="../materials/extract/lignes.gif" style="width: 120%;" />
+<div class="transition" style="height: 360px; outline: none; margin-top: 766px; margin-bottom: -60px; z-index: -10;">
+    <img class="noir" src="../materials/extract/lignes.gif" style="width: 120%;" />
 </div>
 
 </article>
