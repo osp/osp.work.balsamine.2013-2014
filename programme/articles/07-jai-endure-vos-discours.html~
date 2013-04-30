@@ -57,14 +57,14 @@
 
     <div class="date" style="width: 20%;">
     <p>
-Du 6 au 16 novembre à 20h30
+Du 6 au 16 novembre 2013, du mercredi au samedi, à 20h30
 <br />
 Amphithéâtre
 </p>
     </div>
 
-<div class="image-cmjn" style="width: 55%; height: 159px; outline-width: 15px;">
-<img class="preview" src="../photos/retable_anne-nb.jpg" style="width: 100%" />
+<div class="image-cmjn vignette" style="width: 495px; margin-bottom: 10px;">
+    <img class="preview" src="../photos/retable_anne-nb.jpg" />
 </div>
 
 <div class="image-cmjn"  style="width: 20%; height: 120px; clear: left; margin-top: -40px;">
@@ -119,7 +119,7 @@ What if there was no google&thinsp;?
 <p>
 Elle est constituée de 5 actes, 21 scènes:
 </p>
-<ul style="width: 325px; height: 100px;">
+<ul style="width: 325px;">
 <li>4 scènes au I<sup>er</sup> acte</li>
 <li>4 scènes au II<sup>e</sup> acte</li>
 <li>6 scènes au III<sup>e</sup> acte</li>
@@ -128,19 +128,17 @@ Elle est constituée de 5 actes, 21 scènes:
 </ul>
     </div>
 
-
     <div class="texte" style="width: 30%; clear: left;">
 <p>
 La pièce compte 12 personnages principaux, 7 lieux d’action différents.
 </p>
 </div>
 
-
     <div class="numbers" style="width: 60%;">
 <p>
 Elle se décompose en: 
 </p>
-<ul style="width: 450px; height: 100px;">
+<ul style="width: 450px;">
 <li>657 vers au I<sup>er</sup> acte</li>
 <li>624 vers au II<sup>e</sup> acte</li>
 <li>518 vers au III<sup>e</sup> acte</li>
@@ -152,8 +150,7 @@ Pour un total de 2746 vers.
 </p>
     </div>
 
-
-<div class="image-cmjn"   style="width: 70%; height: 390px; margin-top: 5em;">
+<div class="image-cmjn" style="width: 70%; height: 390px; margin-top: 5em; margin-bottom: 500px;">
 <img class="cyan" src="../photos/couches-test/extrait_anne_c.gif"/>
 <img class="magenta" src="../photos/couches-test/extrait_anne_m.gif"/>
 <img class="jaune" src="../photos/couches-test/extrait_anne_j.gif"/>
@@ -166,7 +163,6 @@ Pour un total de 2746 vers.
 Anne  Thuot&thinsp;: «&thinsp;Cette complexité de nos grandes passions humaines, celles   d’hier et d’aujourd’hui, est un luxe&thinsp;: celui de notre liberté.&thinsp;»
 </blockquote>
     </div>
-
 
 <div class="image-cmjn"  style="width: 30%; height: 200px;">
 <img class="noir" src="../photos/layers/annedroite/anne__MG_5248.CR2.png" style="margin-left: -250px; margin-top: -50px;"/>
@@ -215,7 +211,7 @@ Une   coproduction du Théâtre de l’Ancre et de la Balsamine. Avec l’aide d
     </div>
 
 
-<div class="transition" style="height: 470px; outline: none;">
+<div class="transition" style="height: 470px; outline: none; margin-top: 165px; margin-bottom: -32px;">
 <img class="noir" src="../materials/extract/gruyere-224.gif" style="width: 100%;" />
 </div>
 

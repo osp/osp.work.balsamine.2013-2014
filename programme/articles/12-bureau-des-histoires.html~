@@ -26,13 +26,14 @@ border-bottom-width: 7px; border-radius: 15px;">
                 </div>
                 
                 <div class="artiste" style="width:100%;">
-                        <h4>Le Théâtre du Tilleul</h4>
+                        <h4>Théâtre du Tilleul</h4>
                 </div>
         </div>
 
         <div class="date" style="width:30%;">
                 <p>
-                        Le samedi 4 janvier à 16h00 et 20h30 <br />
+                        Du 3 au 4 janvier 2014 <br/>
+                        Le samedi 4 janvier à 15h00 et 20h00 <br />
                         Le dimanche 5 janvier à 16h00 <br />
                         Studio
                 </p>
@@ -60,11 +61,11 @@ dans cet univers de fantaisie et  d’humour qu’il affectionne.
                 </p>
         </div>
         
-     <div class="full" style="width: 25%; margin-top: 10px;">
+     <div class="full" style="width: 15%; margin-top: 10px;">
         <img class="preview" src="materials/bureau-histoires/BH09_100713.jpg" style="width: 100%" />
     </div>  
       
-     <div class="full" style="width: 25%; margin-top: 10px;">
+     <div class="full" style="width: 15%; margin-top: 10px;">
         <img class="preview" src="materials/bureau-histoires/BH06_100713.jpg " style="width: 100%" />
     </div>   
      
