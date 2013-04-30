@@ -469,6 +469,7 @@ h1 {
     line-height: @line-height-4;
     color:@color-C;
     text-align: center;
+    background: white;
 }
 
 h2 {
@@ -526,25 +527,32 @@ dl {
   }
   
 dt {
-	font-size: 10pt;
+	font-family: UmePGothicBalsaRegular;
+	font-size: 7pt;
 	text-transform: uppercase;
 	color: inherit;
 	letter-spacing: 1px;
+	border: solid 1px @color-N;
+	display: inline;
+	padding: 3px 3px 1px 3px;
+	margin: 0 -5px 0 0;
 }
 
 dd {
 	color: inherit;
 	line-height: 13px;
 	margin-bottom: 1px;
+	border: solid 1px @color-N;
+	display: inline;
+padding: 0px 3px 1px 3px;
+margin: 0 2px 0 0;
 }
+
+dd:after {   content:"\3006";   margin: 0 12px 0 0;       }
 
 dd + dt {
 	margin-top: 5px;
 }
-
-span dd {border: solid 1px black;}
-
-.avecborder {border: solid 1px red;}
 
 div.titre{
 	padding: 10px;
@@ -553,6 +561,7 @@ div.titre{
 	border-style: solid;
 	box-sizing: border-box;
 	margin: 0 0 0 -3px;
+	background-color: white;
 }
 div.titre:first-child {
 	clear: left;
@@ -912,7 +921,10 @@ Dès <br /> 19h
 </div>
 
 <div class="texte" style="width: 18%;height: 165px;margin: 20px 0;">
-<p>Conférence d’Isabelle Stengers, «&thinsp;Dis-moi comment tu racontes,  je te dirai à la construction de quoi tu participes.&thinsp;» </p>
+    <p>
+        What if all the artists would be there to inaugurate this new season&thinsp;? 
+        Ouverture de saison en compagnie des artistes qui la feront&thinsp;!
+    </p>
 </div>
 
 <div class="transition" style="height: 400px; outline: none; margin-top: 256px;">
@@ -1056,15 +1068,25 @@ fleur mutante extra-terrestre aussi mystérieuse que redoutable&thinsp;?&thinsp;
 </div>
 
 <div class="texte" style="width: 36%; height: 188px;">
-<p>Après les succès de <em>J’ai gravé le nom de ma grenouille dans ton foie</em> et de <em>DTC (on est bien)</em>, la jeune compagnie Clinic Orgasm Society s’est lancée dans un triptyque : <em>Pré-Blé-Fusée</em>,  3 spectacles indépendants et déjantés qui déplacent les limites de la  normalité et qui se jouent de nos répulsions-fascinations.</p>
-</div>
+    <p>Après les succès de <em>J’ai gravé le nom de ma grenouille dans ton foie</em> et de <em>DTC (on est bien)</em>, la jeune compagnie Clinic Orgasm Society s’est lancée dans un triptyque&thinsp;: <em>Pré-Blé-Fusée</em>,  3 spectacles indépendants et déjantés qui déplacent les limites de la  normalité et qui se jouent de nos répulsions-fascinations.</p>
 
-<div class="out" style="width: 16.8%; height: 170px ">
-<p>Aussi, après <em>Pré</em> au Varia, <em>Blé</em> au Manège.Mons , voici <em>Fusée</em> à la Balsa, vers l’insoutenable et au-delà&thinsp;!</p>
+    <p>Aussi, après <em>Pré</em> au Varia, <em>Blé</em> au Manège.Mons , voici <em>Fusée</em> à la Balsa, vers l’insoutenable et au-delà&thinsp;!</p>
 </div>
 
 <div class="out" style="width: 28%; height: 170px ">
-<p><em>Fusée</em> sera ensuite jouée au Grand Bleu à Lille et au PBA+ Eden à Charleroi. <em>Pré</em>  et <em>Blé</em>, les deux premiers opus de la trilogie,  seront à nouveau visibles au Théâtre Varia en février 2014.</p>
+    <p><em>Fusée</em> sera ensuite jouée au Grand Bleu à Lille les 8, 9 et 10 octobre.</p>
+    <p>
+        <em>Pré</em> et <em>Blé</em>, les deux premiers opus de la trilogie, seront eux à nouveau visibles au Théâtre Varia en février et mars 2014. Mais l’ordre de présentation a peu d’importance. Chaque spectacle est une pièce détachée, une proposition scénique autonome et déviante… Chacun peut être vu séparément des autres, mais vous pouvez aussi opter pour la formule des trois réunis&thinsp;: «&thinsp;Fusée-Pré-Blé&thinsp;», en partenariat avec le Théâtre Varia. 
+    </p>
+</div>
+
+<div class="texte" style="width: 30%;">
+    <p>
+        <span class="lettrine">Pass Balsa/Varia</span> Prix plein&thinsp;: 30€ / prix réduit&thinsp;: 18€
+        <span class="lettrine">Fusée</span>   Du 25 septembre au 5 octobre à 20h30 à la Balsamine
+        <span class="lettrine">Pré</span>  Les 21 et  22 février, et du 27 février au 1<sup>er</sup> mars à 20h au  Petit Varia
+        <span class="lettrine">Blé</span> Du 11 au 14 mars à 20h30, le 15 mars à 19h30  au Grand Varia 
+    </p>
 </div>
     
 <div class="bible" style="width: 35%; ">
@@ -1438,7 +1460,7 @@ Une   coproduction du Théâtre de l’Ancre et de la Balsamine. Avec l’aide d
         </div>
         
         <div class="production" style="width:30%;">
-                <p>Ouverture au public (plus de précision ultérieurement)</p>
+            <p>Ce stage s’adresse aux artistes professionnels mais nous prévoyons  un moment d’ouverture au public. Plus de précisions suivront sur www.balsamine.be.</p>
         </div>
         
                 <div class="transition" style="height: 470px; outline: none; margin-top: 260px;">
@@ -1457,12 +1479,6 @@ Une   coproduction du Théâtre de l’Ancre et de la Balsamine. Avec l’aide d
         </div>
         <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
                 <h1>B l a n c h e </h1>
-        </div>
-        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
-                <h1>a u </h1>
-        </div>
-        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
-                <h1>s t u d i o </h1>
         </div>
         <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
                 <h1>G a r a g e29</h1>
@@ -1775,6 +1791,13 @@ border-bottom-width: 7px; border-radius: 15px;">
                 </p>
         </div>
         
+             <div class="full" style="width: 60%; margin-top: 10px; margin-left:-50px; overflow:visible; z-index:-50">
+        <img class="preview" src="materials/bureau-histoires/BH13_110325.jpg" style="width: 120%" />
+    </div> 
+      
+
+      
+      
         <div class="texte" style="width:30%;">
                 <p>Quatre  personnages se retrouvent dans un
 «&thinsp;Bureau&thinsp;» hors du temps pour accomplir  une tâche de la plus
@@ -1789,6 +1812,15 @@ chromatique le Noir et le Blanc, le Théâtre du  Tilleul plonge et nous entraî
 dans cet univers de fantaisie et  d’humour qu’il affectionne. 
                 </p>
         </div>
+        
+     <div class="full" style="width: 15%; margin-top: 10px;">
+        <img class="preview" src="materials/bureau-histoires/BH09_100713.jpg" style="width: 100%" />
+    </div>  
+      
+     <div class="full" style="width: 15%; margin-top: 10px;">
+        <img class="preview" src="materials/bureau-histoires/BH06_100713.jpg " style="width: 100%" />
+    </div>   
+     
         
         <div class="out" style="width:30%;">
                 <p>
@@ -1840,7 +1872,7 @@ Obolensky</dd>
                 </dl>
         </div>
         
-                <div class="bible" style="width:30%; margin-left: 264px;">
+                <div class="bible" style="width:30%; margin-top: -219px; margin-left: 264px;">
                 <dl>
                         <dt>Silhouettes</dt>
                         <dd>Carine  Ermans, Christophe Morisset, Nicolas
@@ -1886,50 +1918,50 @@ style="width: 100%;" />
         </div>
         
         <div style="width: 5%;">
-                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2>s u r</h2>
-                 </div>
-                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2> l e</h2>
-                 </div>
-                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2>t h è m e</h2>
-                 </div>
+             <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2>s u r</h2>
+             </div>
+             <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2> l e</h2>
+             </div>
+             <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2>t h è m e</h2>
+             </div>
         </div>
         <div style="width: 5%;">
-                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2>d e</h2>
-                 </div>
-                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2>l a</h2>
-                 </div>
-                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2>g a v o t t e</h2>
-                 </div>
+             <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2>d e</h2>
+             </div>
+             <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2>l a</h2>
+             </div>
+             <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2>g a v o t t e</h2>
+             </div>
         </div>
         <div style="width: 5%;">
-                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2>a v e c</h2>
-                 </div>
-                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2>s e s</h2>
-                 </div>
+             <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2>a v e c</h2>
+             </div>
+             <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2>s e s</h2>
+             </div>
         </div>
         <div style="width: 5%;">
-                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2>d o u b l e s</h2>
-                 </div>
-                 <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2>d e</h2>
-                 </div>
+             <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2>d o u b l e s</h2>
+             </div>
+             <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2>d e</h2>
+             </div>
         </div>
         <div style="width: 5%;">
-                <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2> J e a n - P h i l i p p e</h2>
-                 </div>
-                <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
-                    <h2> R a m e a u</h2>
-                 </div>
+            <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2> J e a n - P h i l i p p e</h2>
+             </div>
+            <div class="titre" style="width: 100%;  border-width: 2px; border-bottom-width: 4px; border-radius: 10px;margin-left:1px; ">
+                <h2> R a m e a u</h2>
+             </div>
         </div>
         
         <div class="type" style="width: 30%; ">
@@ -1941,124 +1973,125 @@ style="width: 100%;" />
                     <h4>Martine Wijckaert</h4>
             </div>
         </div>
-    <div class="date" style="width: 80%; margin-bottom: 10px;">
+    <div class="date" style="width: 20%;">
             <p>Du 24 janvier au 15 février <br /> Amphithéâtre</p>
     </div>
+   
+    <div class="if" style="width: 10%; height: 248px;">
+        <p>
+            Et si l’enfer Wijckartien nous était conté&thinsp;?  
+        </p>
+    </div>
     
     
-    
-    <div class="image-cmjn vignette" style="width: 371px;">
-            <img class="preview" src="../photos/retable_martine-nb.jpg" />
+    <div class="image-cmjn vignette" style="width: 371px; margin-right: 3%;">
+        <img class="preview" src="../photos/retable_martine-nb.jpg" />
     </div>
     
 
-    <div class="if" style="width: 30%; margin-left: 10px;">
+
+    <div class="texte" style="width: 34%; height: 271px; margin-top: -23px;" >
+        <p>
+            Depuis 1981, Martine Wickaert fait trembler les scènes et les murs de la Balsamine. Auteur et metteur en scène virtuose et figure emblématique de la scène belge, elle traverse le temps sans prendre une ride et en se permettant d’oser toujours plus loin la descente en ses propres enfers, au plus près d’une vérité inépuisée en elle.
+        </p>
+    </div>
+
+    <div class="texte" style="width: 45%; ">
+        <p>
+            <em>Trilogie de l’enfer</em> se divise en trois géographies&thinsp;: «&thinsp;En dessous de l’enfer, l’amour&thinsp;», «&thinsp;L’enfer, l’alcool&thinsp;» et «&thinsp;Au-dessus de l’enfer, la guerre&thinsp;». C’est philosophiquement et physiquement, un voyage des sens,  une humanité qui vous renverse cul par-dessus tête.
+        </p>
+    </div>
+
+    <div class="texte" style="width: 55%; height: 156px; ">
+        <p>
+            Petit préambule, trois femmes, la mère morte, la fille sous influence, la  fillette sauvage, trois figures dans un espace «&thinsp;en évolution&thinsp;». On  passe de la 3D à la 2D dans un espace théâtral basé sur un point de  fuite qui n’en finirait jamais. 
+        </p>
+    </div>
+
+    <div style="width: 12%;">
+        <div class="texte">
             <p>
-                        Et si l’enfer Wijckartien nous était conté&thinsp;?  
-                </p>
-    </div>
-
-    <div class="image-cmjn" style="width: 40%; height: 400px; ">
-                <img src="../manga/strips/2_180635.jpg" style="position:absolute; clip:rect(40px,40px,40px,40px)" />
+                1 2 3, je m’en vais au bois
+            </p>
         </div>
-        
-        <div class="image-cmjn" style="width: 40%; height: 400px; ">
-                <img src="../manga/strips/783270c7564f62f88a06794ef1921044.jpg"  style="position:absolute; clip:rect(0px,100px,50px,50px)" />
+
+        <div style="background-image: url('../materials/extract/vloush.gif'); background-size: 88%; background-position: 9px -9px;background-repeat: no-repeat; height: 108px; width: 100%;">
         </div>
-        
-    <div class="texte" style="width: 30%;" >
-            <p>
-                        Depuis  1981, Martine Wickaert fait trembler les scènes et les murs de la  Balsamine. Auteur et metteur en scène virtuose et figure emblématique de  la scène belge, elle traverse le temps sans prendre une ride et en se  permettant d’oser toujours plus loin la descente en ses propres enfers,  au plus près d’une vérité inépuisée en elle.
-                </p>
-    </div>
-
-    <div class="texte" style="width: 30%; ">
-            <p>
-                        <em>Trilogie de l’enfer</em> se divise en trois géographies&thinsp;: «&thinsp;En dessous de l’enfer, l’amour&thinsp;», «&thinsp;L’enfer, l’alcool&thinsp;» et «&thinsp;Au-dessus de l’enfer, la  guerre&thinsp;». C’est philosophiquement et physiquement, un voyage des sens,  une humanité qui vous renverse cul par-dessus tête.
-                </p>
-    </div>
-
-    <div class="texte" style="width: 100%; ">
-            <p>
-                        Petit  préambule, trois femmes, la mère morte, la fille sous influence, la  fillette sauvage, trois figures dans un espace «&thinsp;en évolution&thinsp;». On  passe de la 3D à la 2D dans un espace théâtral basé sur un point de  fuite qui n’en finirait jamais. 
-                </p>
-    </div>
-
-    <div class="texte" style="width: 30%; ">
-            <p>
-                        1 2 3, je m’en vais au bois
-                </p>
     </div>
 
     <div class="texte" style="width: 50%; ">
-            <p>
-                        « &thinsp;En dessous de l’enfer, l’amour&thinsp;» où la Mère, placée en majesté, ouvre  le bal. La question de l’amour y est centrale, autant que dérisoire et  historique. La mère dans un écrin, à la primitive flamande, avec des  canaris aux chants lancinants et répétitifs. C’est en soi une peinture  qui parle. «&thinsp;Regarde Béatrice, Regarde,… ,ce céleste acrobate, ce singe  héroïque sorti tout droit de la pénombre du quotidien, c’était ton père. &thinsp;»
-                </p>
+        <p>
+            «&thinsp;En dessous de l’enfer, l’amour&thinsp;» où la Mère, placée en majesté, ouvre  le bal. La question de l’amour y est centrale, autant que dérisoire et historique. La mère dans un écrin, à la primitive flamande, avec des canaris aux chants lancinants et répétitifs. C’est en soi une peinture qui parle. «&thinsp;Regarde Béatrice, Regarde,… , ce céleste acrobate, ce singe héroïque sorti tout droit de la pénombre du quotidien, c’était ton père. &thinsp;»
+        </p>
     </div>
 
-    <div class="texte" style="width: 45%; ">
-            <p>
-                        « &thinsp;Au-dessus de l’enfer, la guerre&thinsp;», la question de l’amour ressurgit  pleinement sous forme d’un hymne à l’amour proféré par une toute jeune  fille sauvage. 
-                </p>
+    <div style="width:38%; background-image: url('../materials/extract/fausse-peau-de-mouton.gif'); background-size: 186%; background-position: -203px -280px;background-repeat: no-repeat; height: 108px;">
     </div>
 
-    <div class="texte" style="width: 45%; ">
-            <p>
-                        <em>Trilogie  de l’enfer</em>, à travers ce déploiement de trois paroles solitaires au  sein d’un même espace en mutation, se penche sur la transmission pour  laisser se déployer une sorte de cartographie existentielle relative aux  solitudes et aux dépendances.
-                </p>
+    <div class="texte" style="width: 38%; ">
+        <p>
+            «&thinsp;Au-dessus de l’enfer, la guerre&thinsp;», la question de l’amour ressurgit  pleinement sous forme d’un hymne à l’amour proféré par une toute jeune  fille sauvage. 
+        </p>
     </div>
 
-    <div class="blockquote" style="width: 45%; ">
-            <blockquote>
-                        Martine dit&thinsp;: «&thinsp;Ce  sont des fresques épiques où l’histoire d’une structure familiale  fantasmée se pulvérise dans l’ogre de l’Histoire&thinsp;; cette Famille devient  en quelque sorte un temps mythique dont je ne cesse d’interroger le  cours.&thinsp;»
-                </blockquote>
+    <div class="texte" style="width: 45%; height: 180px;">
+        <p>
+            <em>Trilogie  de l’enfer</em>, à travers ce déploiement de trois paroles solitaires au  sein d’un même espace en mutation, se penche sur la transmission pour  laisser se déployer une sorte de cartographie existentielle relative aux  solitudes et aux dépendances.
+        </p>
     </div>
 
-    <div class="production" style="width: 45%; ">
-            <p>
-                        Une production de la Balsamine en coproduction avec le Théâtre de la Place (Liège).
-                </p>
+    <div class="blockquote" style="width: 55%; height: 180px;">
+        <blockquote>
+            Martine dit&thinsp;: «&thinsp;Ce  sont des fresques épiques où l’histoire d’une structure familiale  fantasmée se pulvérise dans l’ogre de l’Histoire&thinsp;; cette Famille devient  en quelque sorte un temps mythique dont je ne cesse d’interroger le  cours.&thinsp;»
+        </blockquote>
     </div>
 
-    <div class="out" style="width: 45%; ">
+
+    <div style="width: 25%;">
+        <div class="out">
             <p>
-                        Représentations du 11 au 15 mars au théâtre de la Place de Liège.
-                </p>
+                Représentations du 11 au 15 mars au théâtre de la Place de Liège.
+            </p>
+        </div>
+        <div class="production">
+            <p>
+                Une production de la Balsamine en coproduction avec le Théâtre de la Place (Liège).
+            </p>
+        </div>
     </div>
 
  
-
-    <div class="bible" style="width: 45%; ">
-                <dl>
-                        <dt>Avec</dt>
-                        <dd>Yvette Poirier, Véronique Dumont et Héloïse Jadoul</dd>
-                                <dt>Écriture et mise en scène</dt>
-                                <dd>Martine Wijckaert</dd>
-                        <dt>Assistance à la mise en scène</dt>
-                        <dd>Astrid Howard</dd>
-                                <dt>Scénographie</dt>
-                                <dd>Valérie Jung </dd>
-                        <dt>Lumières</dt>
-                        <dd>Stéphanie Daniel </dd>
-                                <dt>Costumes et accessoires</dt>
-                                <dd>Laurence Villerot </dd>
-                        <dt>Création son</dt>
-                        <dd>Thomas Turine </dd>
-                                <dt>Création vidéo</dt>
-                                <dd>Jacques André</dd>
-                        <dt>Direction technique</dt>
-                        <dd>Nathalie Borlée</dd>
-                                <dt>Oiseleur</dt>
-                                <dd>Tristan Plot </dd>
-                        <dt>Régie spectacle</dt>
-                        <dd>Mathieu Bastyns</dd>
-                </dl>
+    <div class="bible" style="width: 75%; -webkit-column-count: 2; ">
+        <dl>
+            <dt>Avec</dt>
+            <dd>Yvette Poirier, Véronique Dumont et Héloïse Jadoul</dd>
+                <dt>Écriture et mise en scène</dt>
+                <dd>Martine Wijckaert</dd>
+            <dt>Assistance à la mise en scène</dt>
+            <dd>Astrid Howard</dd>
+                <dt>Scénographie</dt>
+                <dd>Valérie Jung </dd>
+            <dt>Lumières</dt>
+            <dd>Stéphanie Daniel <br /><br /></dd>
+                <dt>Costumes et accessoires</dt>
+                <dd>Laurence Villerot </dd>
+            <dt>Création son</dt>
+            <dd>Thomas Turine </dd>
+                <dt>Création vidéo</dt>
+                <dd>Jacques André</dd>
+            <dt>Direction technique</dt>
+            <dd>Nathalie Borlée</dd>
+                <dt>Oiseleur</dt>
+                <dd>Tristan Plot </dd>
+            <dt>Régie spectacle</dt>
+            <dd>Mathieu Bastyns</dd>
+        </dl>
     </div>
 
 
-                <div class="transition" style="height: 515px; outline: none;margin-top: -100px; z-index: -5;">
-                        <img class="noir" src="../materials/extract/moutons-207.gif" style="width: 110%; margin-left: -22px; margin-top:-420px;" />
-                </div>
+    <div class="transition" style="height: 515px; outline: none;margin-top: -100px; z-index: -5;">
+        <img class="noir" src="../materials/extract/moutons-207.gif" style="width: 110%; margin-left: -22px; margin-top:-420px;" />
+    </div>
 </article>
 
 <!------------------------------------------------------------------------------
@@ -2137,7 +2170,7 @@ sentiment d’être “ici réellement” mais “là-bas en rêve”.
         
                 
                  
-    <div class="full" style="width: 60%; margin-top: 20px; overflow:visible; margin-left: -92px; margin-right:150px">
+    <div class="full" style="width: 55%; margin-top: 20px; overflow:visible; margin-left: -92px; margin-right:165px">
         <img class="preview" src="../photos/reprises/Béguinage d'Anderlecht9.jpg" style="width: 140%" />
     </div>  
     
@@ -2396,7 +2429,7 @@ src="../materials/extract/eponge-219.gif" style="width: 201%; margin-left: -326p
                                         <dt>Mise en scène et scénographie</dt>
                                         <dd>Stéphane Arcas</dd>
                                 <dt>Avec</dt>
-                                <dd>l’ensemble BESIDES, Cécile Chèvre, distribution en cours…</dd>
+                                <dd>Avec l’ensemble BESIDES, Patrick Kabongo (Ténor), Pauline Claes (Mezzo soprano), Cécile Chèvre, distribution en cours…</dd>
                         </dl>
                 <!-- </div> -->
         
