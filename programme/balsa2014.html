@@ -354,10 +354,10 @@ article {
 
 	div.texte {
 		/*background-color: mix(@color-C, @color-N, 50%);*/
-		padding: 2px 10px 0px 5px;
 		height: auto;
 		box-sizing: border-box;
-		outline-offset: -5px;
+		padding: 15px;
+		outline-offset: -10px;
 		outline: @border;
 		line-height: 110%;
 		color: @color-C;
@@ -427,6 +427,12 @@ div.transition {
     overflow: hidden;
 }
 
+div.full {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+
 .shape-hexagone {
 	-webkit-shape-inside: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
 	width: 200px;
@@ -487,7 +493,6 @@ h4 {
 
 p {
 	width: 100%;
-	padding : 5px;
 	/*page-break-inside: avoid;*/   /* ça évite que les paragraphes soient coupés par la fin de page ou de bloc*/
 }
 
@@ -518,7 +523,6 @@ dl {
   font-size: 10pt;
   line-height: 13pt;
     text-align: left;
-  padding: 0px;
   }
   
 dt {
@@ -537,6 +541,10 @@ dd {
 dd + dt {
 	margin-top: 5px;
 }
+
+span dd {border: solid 1px black;}
+
+.avecborder {border: solid 1px red;}
 
 div.titre{
 	padding: 10px;
@@ -565,7 +573,6 @@ div.date {
 	line-height : @line-height-99;
 	text-align: center;
 	outline: none;
-	padding: 0px;
 	//-webkit-transform: rotate(-15deg);
 	color: @color-C;
 }
@@ -603,7 +610,7 @@ b {
     color: @color-N;
     text-transform: uppercase;
     outline: 2px solid @color-N;
-	padding: 8px 10px 0px 5px;
+	/*padding: 8px 10px 0px 5px;*/
 	box-sizing: border-box;
 	outline-offset: -5px;
 	background-image: url('../materials/extract/aspiration.gif');
@@ -613,8 +620,8 @@ b {
 div.if {
     font-family: UmePGothicBalsaRegular;
     font-weight: bold;
-    font-size: @font-size-1;
-    line-height: 16pt;
+    font-size: @font-size-99;
+    line-height: @line-height-99;
     outline: none !important;
     box-sizing: border-box;
     padding: 0 5px;
@@ -629,12 +636,13 @@ span.lettrine {
 
 div.out{
     font-family: UmePGothicVerticalRegular;
-    line-height: @line-height-0;
+    line-height: @line-height-99;
     font-size: @font-size-99;
     background-color: @colorG-30;
     box-sizing: border-box;
-    padding: 0.75em;
-    font-weight: bold; // forcé par le navigateur, mais nécessaire si texte en défonce
+    /*padding: 0.75em;*/
+    padding: 20px;
+    /*font-weight: bold; // forcé par le navigateur, mais nécessaire si texte en défonce*/
 
 	* {
 	    color: white !important;
@@ -751,8 +759,8 @@ div.border {
 <h2>Wat als…</h2>
 </div>
 
-<div class="transition" style="height: 1060px; outline: none; margin-top: 50px; margin-bottom: -120px;">
-<img class="noir" src="../photos/layers/meteor/meteor_Calque 10-nb.png" style="width: 100%;" />
+<div class="transition" style="height: 944px; outline: none; margin-top: -40px; margin-bottom: -14px;">
+    <img class="noir" src="../photos/layers/meteor/meteor_Calque 10-nb.png" style="width: 100%;" />
 </div>
 </article>
 
@@ -785,19 +793,19 @@ div.border {
 </div>
 
 
-<div class="texte" style="width:25%;  height: 147px;">
+<div class="texte" style="width:25%;  height: 207px;">
 <p>Et  si la Balsamine se réinventait pour vous, chaque saison&thinsp;? 2013-2014,  c’est la Balsa au pays de l’uchronie, au sens le plus strict, celui de  l’altération.  </p>
 </div>
 
-<div class="texte" style="width:12%; height: 147px;" >
+<div class="texte" style="width:12%; height: 207px;" >
 <p>Un exemple&thinsp;? </p>
 </div>
 
-<div class="texte" style="width:40%; height: 147px;">
+<div class="texte" style="width:40%; height: 207px;">
 <p>Et  si Martine Wijckaert (fondatrice de la Balsamine) n’était pas entrée  dans cette friche, dans cette caserne à l’abandon&thinsp;? Et si elle n’avait  pas, avec ses petits bassinets, recueilli les fuites de ce lieu  abandonné&thinsp;? Et si elle n’avait pas décidé de rester dans ce lieu comme  dans une seconde maison&thinsp;? 
 </div>
 
-<div class="if" style="width:17%; height: 147px;">
+<div class="if" style="width:17%; height: 207px;">
 <p>Et si  les poules avaient des dents, les traiterions-nous autrement&thinsp;?
 </p>
 </div>
@@ -819,14 +827,14 @@ Et si le dictionnaire, avec lequel elle  recherchait le nom du lieu, en tombant 
 <p>Et si en se sortant la  tête de l’eau, on parvenait à respirer&thinsp;? 
 </p>
 </div>
-<div class="if" style="width:36%;">
+<div class="if" style="width:36%; height: 71px;">
 <p>Et si on arrêtait de se mettre sous pression&thinsp;? 
 </p>
 </div>
 
 <div class="page-break">&nbsp;</div>
 
-<div class="texte" style="width:30%; margin-bottom: 300px;">
+<div class="texte" style="width:30%;">
 <p>Quelle  serait l’Histoire de ce temps qui n’existe pas&thinsp;? Une autre question  nous brûle les lèvres&thinsp;: et si le bras de Martine Wijckaert avait été  plus long, comme celui d’un des 4 fantastiques, combien d’autres portes  aurait-elle pu ouvrir sur son imaginarium&thinsp;? Tout ceci confine à  l’émerveillement. </p>
 </div>
 
@@ -1125,13 +1133,13 @@ En gros, riches de leur expérience et pour  leur retour exceptionnel, elles pre
 </p>
 </div>
 
-<div class="production" style="width:9%;clear:left;margin-top:-430px;margin-left:140px;">
+<div class="production" style="width: 11%;clear:left;margin-top:-430px;margin-left:140px;">
 <p>
 Une  production de la Schieve Compagnie en coproduction avec la Balsamine,  avec l’aide de la Fédération Wallonie-Bruxelles Service du Théâtre 
 </p>
 </div>
 
-<div class="bible" style="width:30%;height:250px;clear:left;margin-top:-185px;margin-left:500px;">
+<div class="bible" style="width:30%;height:260px;clear:left;margin-top:-185px;margin-left:500px;">
 <dl>
 <dt>Concept, écriture</dt>
 <dd>Elena Perez et Lise Wittamer</dd>
@@ -1162,7 +1170,7 @@ Une  production de la Schieve Compagnie en coproduction avec la Balsamine,  avec
 <div class="transition" style="height: 500px; outline: none; margin-top: -197px; margin-bottom: 72px; z-index:-5;">
 <img class="noir" src="../materials/extract/aspiration.gif" style="width: 100%;" />
 </div>
-<div class="blockquote" style="width:40%;margin-left:280px;margin-top:-100px;">
+<div class="blockquote" style="width:40%;margin-left:280px;margin-top:-70px;">
 <blockquote>
 Corinne  a dit &thinsp;: 
 </blockquote>
@@ -1237,7 +1245,7 @@ Amphithéâtre
 </p>
     </div>
 
-<div class="image-cmjn vignette" style="width: 495px;">
+<div class="image-cmjn vignette" style="width: 495px; margin-bottom: 10px;">
     <img class="preview" src="../photos/retable_anne-nb.jpg" />
 </div>
 
@@ -1293,7 +1301,7 @@ What if there was no google&thinsp;?
 <p>
 Elle est constituée de 5 actes, 21 scènes:
 </p>
-<ul style="width: 325px; height: 100px;">
+<ul style="width: 325px;">
 <li>4 scènes au I<sup>er</sup> acte</li>
 <li>4 scènes au II<sup>e</sup> acte</li>
 <li>6 scènes au III<sup>e</sup> acte</li>
@@ -1312,7 +1320,7 @@ La pièce compte 12 personnages principaux, 7 lieux d’action différents.
 <p>
 Elle se décompose en: 
 </p>
-<ul style="width: 450px; height: 100px;">
+<ul style="width: 450px;">
 <li>657 vers au I<sup>er</sup> acte</li>
 <li>624 vers au II<sup>e</sup> acte</li>
 <li>518 vers au III<sup>e</sup> acte</li>
@@ -1481,7 +1489,7 @@ Une   coproduction du Théâtre de l’Ancre et de la Balsamine. Avec l’aide d
                 </p>
         </div>
         
-        <div class="if" style="width:30%;">
+        <div class="if" style="width:30%; margin-left: 40px;">
                 <p>
                         Et si la Balsa invitait le collectif Garage 29 à créer une carte blanche tout en noirceur&thinsp;?
                 </p>
@@ -1545,7 +1553,7 @@ Une   coproduction du Théâtre de l’Ancre et de la Balsamine. Avec l’aide d
                 </p>
         </div>
         
-        <div class="bible" style="width:30%; margin-top:-100px; margin-bottom:-120px;">
+        <div class="bible" style="width:30%; margin-bottom:-120px;">
                 <dl class="bible">
                         <dt>Avec</dt>
                         <dd>Sabina Scarlat, Laida Arietta Aldaz, Tiziano Lavornatornovi, Jorge Jauregui, Nicanor de Elia</dd>
@@ -1832,7 +1840,7 @@ Obolensky</dd>
                 </dl>
         </div>
         
-                <div class="bible" style="width:30%; margin-top: -219px; margin-left: 264px;">
+                <div class="bible" style="width:30%; margin-left: 264px;">
                 <dl>
                         <dt>Silhouettes</dt>
                         <dd>Carine  Ermans, Christophe Morisset, Nicolas
@@ -1933,7 +1941,7 @@ style="width: 100%;" />
                     <h4>Martine Wijckaert</h4>
             </div>
         </div>
-    <div class="date" style="width: 80%;">
+    <div class="date" style="width: 80%; margin-bottom: 10px;">
             <p>Du 24 janvier au 15 février <br /> Amphithéâtre</p>
     </div>
     
@@ -1944,7 +1952,7 @@ style="width: 100%;" />
     </div>
     
 
-    <div class="if" style="width: 30%; ">
+    <div class="if" style="width: 30%; margin-left: 10px;">
             <p>
                         Et si l’enfer Wijckartien nous était conté&thinsp;?  
                 </p>
@@ -2076,6 +2084,11 @@ border-bottom-width: 7px; border-radius: 15px;">
 Amphithéâtre</p>
         </div>
         
+    <div class="full" style="width: 90%; margin-top: 20px; overflow:visible">
+        <img class="preview" src="../photos/reprises/Béguinage d'Anderlecht8.jpg" style="width: 115%" />
+    </div>
+        
+        
         <div class="if" style="width:30%;">
                 <p>Et  si Pierre Megos débarquait sur la planète
 interdite&thinsp;?
@@ -2085,6 +2098,8 @@ interdite&thinsp;?
         <p>Et si c’était lui  l’élu&thinsp;? 
                 </p>
         </div>
+        
+        
         <div class="if" style="width:30%;">
         <p>Et si ce monde parallèle n’était en fait qu’un monde 
 perpendiculaire. 
@@ -2094,6 +2109,8 @@ perpendiculaire.
         <p>Et si cette vision était vraie&thinsp;? 
                 </p>
         </div>
+        
+
         
         <div class="texte" style="width:30%;">
                 <p>Après  Washington et Avignon, avant Metz et bien d’autres
@@ -2109,7 +2126,7 @@ performance,  vivifiant dans son procédé, exaltant dans sa poétique.
                 </p>
         </div>
         
-        <div class="blockquote" style="width:30%; clear: left;">
+        <div class="blockquote" style="width:74%; clear: left;">
                 <blockquote>
                         Catherine M. a dit&thinsp;: «&thinsp;Dans  Vision, à
 l’affiche à la Balsamine, il se dédouble, jouant sur le  plateau et dans un
@@ -2117,11 +2134,14 @@ film, les deux en temps réel, histoire de mettre en  scène et en parallèle le
 sentiment d’être “ici réellement” mais “là-bas en rêve”.
                 </blockquote>
         </div>
-        <div style="height: 345px; margin-left: -18px;">
-            <img src="../materials/lien.svg" style="height: 345px";/>
-        </div>
         
-                <div class="blockquote" style="width:30%; ">
+                
+                 
+    <div class="full" style="width: 60%; margin-top: 20px; overflow:visible; margin-left: -92px; margin-right:150px">
+        <img class="preview" src="../photos/reprises/Béguinage d'Anderlecht9.jpg" style="width: 140%" />
+    </div>  
+    
+                <div class="blockquote" style="width:30%;">
                 <blockquote>
 Mêlant réel et
 imaginaire, il propose au spectateur de  regarder simultanément un film et sa
@@ -2129,7 +2149,8 @@ fabrication en direct. Le résultat  est soufflant&thinsp;!&thinsp;» in <em>le
 Soir</em> du 30/01/2013
                 </blockquote>
         </div>
-        
+     
+
         <div class="production" style="width:30%;">
                 <p>
                         Une  production de Mothership asbl, en coproduction de
@@ -2198,12 +2219,12 @@ src="../materials/extract/eponge-219.gif" style="width: 201%; margin-left: -326p
                 </div>
         </div>
         
-        <div class="date" style="width:30%;">
+        <div class="date" style="width:30%; margin-bottom: 10px;">
                 <p>Du 19 au 22 mars à 20h30 <br /> Amphithéâtre + Foyer</p>
         </div>
         
         
-        <div class="image-cmjn vignette" style="width: 306px;">
+        <div class="image-cmjn vignette" style="width: 306px; margin-bottom: 20px;">
                 <img class="preview" src="../photos/retable_barbara-nb.jpg" />
         </div>
         
@@ -2286,7 +2307,7 @@ src="../materials/extract/eponge-219.gif" style="width: 201%; margin-left: -326p
                 </div>
                 
                 
-                <div class="image-cmjn vignette" style="width: 305px;">
+                <div class="image-cmjn vignette" style="width: 305px; margin-right: 20px;">
                     <img class="preview" src="../photos/retable_arcas_baudouin-nb.jpg" />
                 </div>
                 <div class="if" style=" width: 15% ; margin-top:10px;">
@@ -2486,13 +2507,13 @@ src="../materials/extract/eponge-219.gif" style="width: 201%; margin-left: -326p
                 <p>Les 27, 28 et 31 mai à 20h30 <br />Amphithéâtre </p>
         </div>
         
-        <div class="date" style="width:30%;">
+        <div class="date" style="width:30%; height: 140px;">
                 <p>Genesis (I, II)</p>
                 <p>le 31 mai <br />«&thinsp;Hors les murs&thinsp;» dans une église et dans une  université (les lieux précis seront communiqués  ultérieurement)</p>
         </div>
         
         
-                <div class="image-cmjn vignette" style="width: 333px;">
+                <div class="image-cmjn vignette" style="width: 333px; margin-right: 10px;">
                     <img class="preview" src="../photos/retable_thomas-nb.jpg" />
                 </div>
                 
@@ -2657,7 +2678,7 @@ src="../materials/extract/eponge-219.gif" style="width: 201%; margin-left: -326p
         
         
         
-        <div class="image-cmjn vignette" style="width: 310px;">
+        <div class="image-cmjn vignette" style="width: 310px; margin-bottom: 20px;">
             <img class="preview" src="../photos/retable_claude-nb.jpg" />
         </div>
                 
@@ -2724,7 +2745,7 @@ src="../materials/extract/eponge-219.gif" style="width: 201%; margin-left: -326p
        </p>
    </div>
 
-   <div class="texte" style="width:54%; height: 182px; padding: 10px;">
+   <div class="texte" style="width:54%; height: 192px; padding: 10px;">
        <ul>
            <li><em>Fusée</em>, le jeudi 26 septembre</li>
            <li><em>Les moutons</em>, le mercredi 16 octobre</li>
@@ -3111,7 +3132,7 @@ src="../materials/extract/eponge-219.gif" style="width: 201%; margin-left: -326p
                 
                 
                 for (i = 0; i <= nb_page; i++){
-                        $("#fakepage").clone().css({'outline': '1px solid red', 'outline-offset': '-1cm', 'display': 'block'}).attr("id","fakepage-p"+i).insertBefore($("#fakepage"));
+                        $("#fakepage").clone().css({'outline': '1px solid white', 'outline-offset': '-1cm', 'display': 'block'}).attr("id","fakepage-p"+i).insertBefore($("#fakepage"));
                         
                         // TABLE DES MATIÈRES
                         $("ul#toc").append("<li> <a>")
