@@ -7,6 +7,16 @@
         
 <script type="text/javascript">
 
+        // INSÈRE UN CARACTÈRE UNICODE APRÈS <DD>
+        (function($) {
+            $.fn.postDD=function()
+            {
+                return this.each(function(){
+                    $(this).after("<span>BLA</span>");
+                });
+            };
+        })(jQuery);
+
         // INSÈRE DES <WBR> ENTRE CHAQUE LETTRE
         (function($) {
             $.fn.bainesify=function()
@@ -85,7 +95,9 @@
                         $("ul#toc").append("<li> <a>")
                         $("ul#toc li:last-child a").attr("href", "#fakepage-p" + i).html("page" + i);
                 }
-                
+
+                // AJOUTE UN UNICODE APRÈS <DD>
+                $("dd").postDD();
                 
                 // BAINESIFY
                 //$("div.if p").bainesify();
