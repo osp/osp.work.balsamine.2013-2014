@@ -30,24 +30,25 @@ border-bottom-width: 7px; border-radius: 15px;">
                 </div>
         </div>
 
-        <div class="date" style="width:30%;">
+        <div class="date" style="width:30%;margin-top:230px;margin-left:-30px;">
                 <p>
                         Du 3 au 4 janvier 2014 <br/>
-                        Le vendredi 3 janvier à 20h
-                        Le samedi 4 janvier à 15h et 20h <br />
-                        Le dimanche 5 janvier à 15h et 20h <br />
                         Studio
                 </p>
-        </div>
+	  </div>
+	  <div class="image-cmjn" style="width: 40%; height: 200px; outline: none; position: absolute; z-index: -10;  overflow: visible; margin-top:130px;margin-left:220px;z-index:-101;">
+		<img class="preview" src="../materials/extract-G/bang-miroir.gif" style="width: 100%" />
+		<img class="noir" src="../materials/extract/bang-miroir.gif" style="width: 100%" />
+	  </div>
         
-             <div class="full" style="width: 60%; margin-top: 10px; margin-left:-50px; overflow:visible; z-index:-50">
-        <img class="preview" src="materials/bureau-histoires/BH13_110325.jpg" style="width: 120%" />
+     <div class="full" style="width: 38%; margin-top: 200px; overflow:visible; z-index:-50; height: 510px;position:absolute;margin-top:200px;margin-left:210px;">
+        <img class="preview" src="materials/bureau-histoires/BH13_110325.jpg" style="padding-top:220px;width: 100%" />
     </div> 
       
 
       
       
-        <div class="texte" style="width:30%;">
+        <div class="texte" style="width:30%;margin-top:820px;margin-left:-667px;">
                 <p>Quatre  personnages se retrouvent dans un
 «&thinsp;Bureau&thinsp;» hors du temps pour accomplir  une tâche de la plus
 haute importance&thinsp;: celle de répondre aux appels  pressants de personnes
@@ -55,23 +56,23 @@ en demande d’histoires avant d’aller dormir…
                 </p>
         </div>
         
-                <div class="texte" style="width:30%;">
+                <div class="texte" style="width:30%;margin-left:-667px;margin-top:1067px;">
                 <p>Avec  pour toute palette
 chromatique le Noir et le Blanc, le Théâtre du  Tilleul plonge et nous entraîne
 dans cet univers de fantaisie et  d’humour qu’il affectionne. 
                 </p>
         </div>
         
-     <div class="full" style="width: 15%; margin-top: 10px;">
+     <div class="full" style="width: 20%; margin-top: 1074px;margin-left:-457px; height: 255px;">
         <img class="preview" src="materials/bureau-histoires/BH09_100713.jpg" style="width: 100%" />
     </div>  
       
-     <div class="full" style="width: 15%; margin-top: 10px;">
+     <div class="full" style="width: 20%; margin-top: 1074px;margin-left:-311px; height: 255px;">
         <img class="preview" src="materials/bureau-histoires/BH06_100713.jpg " style="width: 100%" />
     </div>   
      
         
-        <div class="out" style="width:30%;">
+        <div class="out" style="width:30%;margin-left:-660px;margin-top:1285px;">
                 <p>
                         <em>Le  Bureau des Histoires (qu'on raconte avant
 d'aller dormir le  soir…)</em> créé à La Balsamine en décembre 2009, nous
@@ -80,7 +81,13 @@ représentations).
                 </p>
         </div>
         
-        <div class="production" style="width:30%;">
+      <div class="production" style="width:90%;margin-top:10px;">
+      <p>   
+      photo : Samuel DEFOURNY (noir et blanc) et Danielle PIERRE (couleur)  
+        </p>
+        </div>
+        
+        <div class="production" style="width:90%;margin-top:10px;">
                 <p>
                         Une production du Théâtre du Tilleul, en coproduction
 avec la Balsamine. Avec le soutien de la Communauté française de Belgique
@@ -89,18 +96,18 @@ l’aide de La Roseraie.
                 </p>
         </div>
         
-         <div class="if" style="width:30%;">
+         <div class="if" style="width:20%;margin-top:-474px;margin-left:500px;">
                 <p>Et si on se repassait un classique? 
                 </p>
         </div>
         
-        <div class="if" style="width:30%;">
+        <div class="if" style="width:20%;margin-top:-257px;margin-left:355px;">
                 <p>Et si on se racontait des histoires jusqu’au bout de la
 nuit&thinsp;? 
                 </p>
         </div>
         
-        <div class="bible" style="width:90%;">
+        <div class="bible" style="width:90%; margin-top: 20px;">
                 <dl>
                         <dt>Texte et conception du spectacle</dt>
                         <dd>Carine Ermans</dd>
@@ -121,7 +128,7 @@ Obolensky</dd>
                 </dl>
         </div>
         
-                <div class="bible" style="width:90%; margin-top: 20px; margin-left: 264px;">
+                <div class="bible" style="width:90%; margin-top: 20px;">
                 <dl>
                         <dt>Silhouettes</dt>
                         <dd>Carine  Ermans, Christophe Morisset, Nicolas
@@ -145,10 +152,9 @@ Bovesse, Julie Michaud, Mélanie  Rutten, Michel Liégeois, Eugénie Obolensky</
         </div>
         
         
-                <div class="transition" style="height: 423px; outline: none;
-margin-top: 0px;">
-                        <img class="noir" src="../materials/extract/flammes.gif"
-style="width: 100%;" />
-                </div>
+    <div class="transition" style="height: 423px; outline: none; margin-top: 0px;">
+        <img class="preview" src="../materials/extract-G/flammes.gif" style="width: 100%;" />
+        <img class="noir" src="../materials/extract/flammes.gif" style="width: 100%;" />
+    </div>
 </article>
 
