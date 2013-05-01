@@ -31,8 +31,9 @@
 <h2>Wat als…</h2>
 </div>
 
-<div class="transition" style="height: 1060px; outline: none; margin-top: 50px; margin-bottom: -150px;">
-<img class="noir" src="../photos/layers/meteor/meteor_Calque 10-nb.png" style="width: 100%;" />
+<div class="transition" style="height: 944px; outline: none; margin-top: -40px; margin-bottom: -14px;">
+    <img class="preview" src="../photos/layers/meteor/meteor_Calque 10-nb.png" style="width: 100%;" />
+    <img class="noir" src="../photos/layers/meteor/meteor_Calque 10-nb.png" style="width: 100%;" />
 </div>
 </article>
 
