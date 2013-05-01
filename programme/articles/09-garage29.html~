@@ -11,7 +11,7 @@
         </div>
 
         <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
-                <h1>G a r a g e29</h1>
+                <h1>G a r a g e 2 9</h1>
         </div>
    
         <div class="artiste" style="width:30%;">
@@ -51,7 +51,7 @@
         </div>
         
         <div class="date" style="width:30%;">
-                <p class="date">Le 29 novembre à 20h30</p>
+                <p class="date">Le 29 novembre <br />à 20h30</p>
         </div>
         
         <div class="type" style="width:30%;">
@@ -67,29 +67,27 @@
         
 
         
-        <div class="date" style="width:10%; clear:left;">
+        <div class="date" style="width:30%; clear:left;">
                 <p class="date">Le 30 novembre</p>
         </div>
         
         <div class="texte" style="width:30%; height: 211px;">
                 <p>
-                        14h&thinsp;:  2 ateliers (1 pour enfants à partir de 6 ans  et 1 pour adultes) à  partir de la matière plastique et autour de thèmes tels que l’obscurité  et le monstrueux.
+                        <span class="under">14h&thinsp;</span>:  2 ateliers (1 pour enfants à partir de 6 ans  et 1 pour adultes) à  partir de la matière plastique et autour de thèmes tels que l’obscurité  et le monstrueux.
                 </p>
         </div>
         
-        <div class="texte" style="width:60%;">
+        <div class="texte" style="width:40%;">
                 <p>
-                        16h&thinsp;: <em>«&thinsp;Monsters&thinsp;»</em> Spectacle de danse pour jeune public à partir de 5 ans Amphithéâtre
+                        <span class="under">16h&thinsp;</span>: <em>«&thinsp;Monsters&thinsp;»</em> Spectacle de danse pour jeune public à partir de 5 ans Amphithéâtre
                 </p>
-        </div>
-        
-        <div class="texte" style="width:55%; margin-left: 30px;">
+
                 <p>
                         <em>«&thinsp;Monsters»</em> est  un acte d'amour envers les restes poétiques de nos vies logiques et  pragmatiques, une intention de révéler la beauté dans les détails.
                 </p>
         </div>
         
-        <div class="texte" style="width:60%; margin-left: 281px;">
+        <div class="texte" style="width:70%; margin-left: 212px;">
                 <p>
                         19h&thinsp;: The Black Dinner and the sweet dark concert&thinsp;: un dîner entièrement noir et concert avec «&thinsp;invités surprises&thinsp;».
                 </p>
@@ -104,7 +102,7 @@
         <div class="bible" style="width:75%; margin-top:0px; margin-bottom:-30px;">
                 <dl class="bible">
                         <dt>Avec</dt>
-                        <dd>Sabina Scarlat, Laida Arietta Aldaz, Tiziano Lavornatornovi, Jorge Jauregui, Nicanor de Elia</dd>
+                        <dd>Sabina Scarlat, Laida Arietta Aldaz, Tiziano Lavornatornovi, Jorge Jauregui Allue, Nicanor de Elia</dd>
                                 <dt>Costumes et régie</dt>
                                 <dd>Sari Brunel, Sylvain Formatche</dd>
                         <dt>Coordination</dt>

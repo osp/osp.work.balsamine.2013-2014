@@ -33,8 +33,9 @@ border-bottom-width: 7px; border-radius: 15px;">
         <div class="date" style="width:30%;">
                 <p>
                         Du 3 au 4 janvier 2014 <br/>
-                        Le samedi 4 janvier à 15h00 et 20h00 <br />
-                        Le dimanche 5 janvier à 16h00 <br />
+                        Le vendredi 3 janvier à 20h
+                        Le samedi 4 janvier à 15h et 20h <br />
+                        Le dimanche 5 janvier à 15h et 20h <br />
                         Studio
                 </p>
         </div>
@@ -99,7 +100,7 @@ nuit&thinsp;?
                 </p>
         </div>
         
-        <div class="bible" style="width:30%;">
+        <div class="bible" style="width:90%;">
                 <dl>
                         <dt>Texte et conception du spectacle</dt>
                         <dd>Carine Ermans</dd>
@@ -120,7 +121,7 @@ Obolensky</dd>
                 </dl>
         </div>
         
-                <div class="bible" style="width:30%; margin-top: -219px; margin-left: 264px;">
+                <div class="bible" style="width:90%; margin-top: 20px; margin-left: 264px;">
                 <dl>
                         <dt>Silhouettes</dt>
                         <dd>Carine  Ermans, Christophe Morisset, Nicolas
