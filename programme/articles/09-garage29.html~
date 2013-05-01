@@ -3,14 +3,14 @@
 -->
 
 <article id="garage-29" style="padding-top: 40px;">
-        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
-                <h1>C a r t e </h1>
-        </div>
-        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
-                <h1>B l a n c h e </h1>
-        </div>
+    <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+        <h1>C a r t e </h1>
+    </div>
+    <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+        <h1>B l a n c h e </h1>
+    </div>
 
-        <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
+     <div class="titre" style="width: 10%; border-width: 3px ; border-bottom-width: 7px; border-radius: 15px;">
                 <h1>G a r a g e 2 9</h1>
         </div>
    
@@ -26,19 +26,19 @@
                 <p>Les 29 et 30 novembre</p>
         </div>
         
-        <div class="if" style="width:30%;">
+        <div class="if" style="width:30%; margin-bottom:14px; margin-top:28px;">
                 <p>
                         Et si nos sacs poubelles étaient précieux&thinsp;?  
                 </p>
         </div>
         
-        <div class="if" style="width:30%;">
+        <div class="if" style="width:50%; margin-bottom:14px; margin-left:105px;">
                 <p>
                         Et si les voies de garage n’étaient pas sans issue&thinsp;? 
                 </p>
         </div>
         
-        <div class="if" style="width:30%;">
+        <div class="if" style="width:22%; margin-left:45px;">
                 <p>
                         Et si la Balsa invitait le collectif Garage 29 à créer une carte blanche tout en noirceur&thinsp;?
                 </p>
@@ -89,7 +89,7 @@
         
         <div class="texte" style="width:70%; margin-left: 212px;">
                 <p>
-                        19h&thinsp;: The Black Dinner and the sweet dark concert&thinsp;: un dîner entièrement noir et concert avec «&thinsp;invités surprises&thinsp;».
+                        <span class="under">19h&thinsp;</span>: The Black Dinner and the sweet dark concert&thinsp;: un dîner entièrement noir et concert avec «&thinsp;invités surprises&thinsp;».
                 </p>
         </div>
    
@@ -117,6 +117,7 @@
                 
                 <div class="transition" style="height: 470px; outline: none; margin-top: 57px;">
                         <img class="noir" src="../materials/extract/hallucinogene-338.gif" style="margin-top: -380px; width: 100%;" />
+  			<img class="preview" src="../materials/extract-G/hallucinogene-338.gif" style="margin-top: -380px; width: 100%;" />
                 </div>
         
 </article>
