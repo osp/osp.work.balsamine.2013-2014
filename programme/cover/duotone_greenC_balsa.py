@@ -46,13 +46,13 @@ HKS15K_text="""%%DocumentCustomColors:
 %%+ 0.05 1.0 0.8 0 (HKS 15 K)
 """
 
-PANTONE_GREEN_U_text="""%%DocumentCustomColors: 
+PANTONE_GREEN_C_text="""%%DocumentCustomColors: 
 %%+ (Pantone_Green-C)
 %%CMYKCustomColor: 
 %%+ 1. 0 0.65 0 (Pantone_Green-C)
 """
 
-PANTONE_GREEN_U_colorspace="""
+PANTONE_GREEN_C_colorspace="""
 [ /DeviceN
   [ (Pantone_Green-C) /Black ]
   /DeviceCMYK
