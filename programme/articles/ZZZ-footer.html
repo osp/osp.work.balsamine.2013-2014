@@ -100,6 +100,10 @@
 
                 // AJOUTE UN UNICODE APRÈS <DD>
                 $("dd").postDD();
+
+                $.each($("img"), function(){
+                        console.log("path: " + $(this).attr("src") + " ; width: " + $(this).width()+ " ; height: " + $(this).height());
+                });
                 
                 // BAINESIFY
                 //$("div.if p").bainesify();
