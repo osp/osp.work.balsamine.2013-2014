@@ -5,6 +5,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="306.75537"
@@ -12,7 +13,7 @@
    viewBox="0 0 245.4043 270.97495"
    version="1.1"
    id="svg2"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.48.3.1 r9886"
    sodipodi:docname="map2.svg">
   <metadata
      id="metadata4653">
@@ -35,23 +36,27 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1276"
-     inkscape:window-height="775"
+     inkscape:window-width="1391"
+     inkscape:window-height="876"
      id="namedview4651"
      showgrid="false"
-     inkscape:zoom="0.46712067"
-     inkscape:cx="942.27398"
-     inkscape:cy="-45.206295"
-     inkscape:window-x="0"
-     inkscape:window-y="21"
+     inkscape:zoom="1.8584721"
+     inkscape:cx="206.50236"
+     inkscape:cy="163.05782"
+     inkscape:window-x="49"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g15107"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0" />
   <defs
      id="defs4">
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect6757"
+       effect="spiro" />
     <g
        id="g6">
       <symbol
@@ -6304,7 +6309,7 @@
      style="display:inline"
      transform="translate(-204.7485,-572.97302)">
     <g
-       transform="matrix(-0.54255811,-1.1134098,-0.65303364,0.64944057,822.52472,972.90097)"
+       transform="matrix(-0.32929535,-1.1939913,-0.76100403,0.51874739,782.5835,1052.3785)"
        id="g3830">
       <path
          sodipodi:nodetypes="cccc"
@@ -6689,7 +6694,7 @@
        clip-path="none"
        inkscape:connector-curvature="0"
        id="path15109"
-       d="m 350.77271,763.04565 7.56064,-2.82468 4.72925,-1.76954 2.66267,-0.99497 7.19497,-2.62599 22.09593,-9.04614 16.96953,-6.64266"
+       d="m 350.77271,763.04565 7.56064,-2.82468 4.72925,-1.76954 2.66267,-0.99497 7.19497,-2.62599 22.09593,-9.04614 29.76953,-11.44266"
        style="fill:none;stroke:#ffffff;stroke-width:3.11999989;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
        sodipodi:nodetypes="ccccccc" />
     <path
@@ -6707,21 +6712,48 @@
      style="display:inline"
      transform="translate(-204.7485,-572.97302)">
     <path
-       sodipodi:type="arc"
-       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
-       id="path4195"
-       sodipodi:cx="1415.3036"
-       sodipodi:cy="650.64368"
-       sodipodi:rx="2.1973662"
-       sodipodi:ry="2.1973662"
-       d="m 1417.501,650.64368 c 0,1.21357 -0.9838,2.19736 -2.1974,2.19736 -1.2136,0 -2.1974,-0.98379 -2.1974,-2.19736 0,-1.21358 0.9838,-2.19737 2.1974,-2.19737 1.2136,0 2.1974,0.98379 2.1974,2.19737 z"
-       transform="matrix(0.8,0,0,0.8,-735.0327,116.4951)" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       d="m 387.54234,624.01526 8.98832,-13.67697"
-       id="path4081"
+       sodipodi:nodetypes="cccc"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       id="path7396"
+       d="m 312.60647,589.84767 -22.76253,56.29179 -36.8248,56.12402 0,0"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+    <path
+       style="opacity:0.93999999;fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 288.34794,649.80304 c 2.46091,-0.31779 5.0506,0.60464 6.75646,2.40661 1.70587,1.80197 2.48512,4.43828 2.03306,6.8781 -0.33629,1.815 -1.30159,3.48653 -1.4856,5.32323 -0.15903,1.58736 0.29892,3.21986 1.21781,4.52395 0.91888,1.3041 2.28462,2.27694 3.80173,2.77027 1.51712,0.49333 3.17697,0.51274 4.71984,0.10706 1.54287,-0.40568 2.96679,-1.22942 4.12582,-2.32563 1.022,-0.9666 1.83319,-2.12953 2.72344,-3.21869 3.4022,-4.16235 8.05607,-7.28799 13.19611,-8.86282 5.14005,-1.57482 10.7461,-1.59264 15.89605,-0.0505"
+       id="path6056"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect6058"
+       inkscape:original-d="m 288.34794,649.80304 c 3.46632,1.52682 7.7644,5.1481 8.78952,9.28471 0.44312,1.78812 -2.32624,3.68401 -1.4856,5.32323 2.24592,4.37936 9.10744,6.33528 13.8652,5.07565 1.35864,-0.3597 1.55008,-2.44505 2.72344,-3.21869 8.46736,-5.58304 21.74696,-7.0564 29.09216,-8.91334"
+       sodipodi:nodetypes="caaaac" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.40000009999999975px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0.03200000000000000px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#ffffff;display:inline;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa;stroke-opacity:1;stroke-linejoin:round;stroke-linecap:round;stroke-width:1.96000002;stroke-miterlimit:4;stroke-dasharray:none"
+       x="296.33344"
+       y="671.5437"
+       id="text6762"
+       sodipodi:linespacing="100%"><tspan
+         id="tspan6764"
+         sodipodi:role="line"
+         x="296.34943"
+         y="671.5437"
+         style="font-size:6.40000009999999975px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa;stroke:#ffffff;stroke-opacity:1;stroke-linejoin:round;stroke-linecap:round;stroke-width:1.96000002;stroke-miterlimit:4;stroke-dasharray:none">Gare</tspan><tspan
+         id="tspan6766"
+         sodipodi:role="line"
+         x="296.34943"
+         y="677.94373"
+         style="font-size:6.40000009999999975px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa;stroke:#ffffff;stroke-opacity:1;stroke-linejoin:round;stroke-linecap:round;stroke-width:1.96000002;stroke-miterlimit:4;stroke-dasharray:none">Centrale</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text6768"
+       y="657.70911"
+       x="294.17239"
+       style="font-size:6.40000009999999975px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0.03200000000000000px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#ffffff;display:inline;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa;stroke-opacity:1;stroke-linejoin:round;stroke-linecap:round;stroke-width:1.96000002;stroke-miterlimit:4;stroke-dasharray:none"
+       xml:space="preserve"><tspan
+         id="tspan6770"
+         style="font-size:6.40000009999999975px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa;stroke:#ffffff;stroke-opacity:1;stroke-linejoin:round;stroke-linecap:round;stroke-width:1.96000002;stroke-miterlimit:4;stroke-dasharray:none"
+         y="657.70911"
+         x="294.18839"
+         sodipodi:role="line">De Brouckère</tspan></text>
     <path
        inkscape:connector-curvature="0"
        id="path3847"
@@ -6730,6 +6762,29 @@
        sodipodi:nodetypes="caaacc"
        inkscape:path-effect="#path-effect5705"
        inkscape:original-d="m 339.48746,659.40063 c 0,0 8.66224,-5.32182 13.55064,-5.75901 1.26872,-0.11347 2.49144,1.1592 3.7264,0.84692 1.16376,-0.29428 1.69739,-1.72689 2.71008,-2.37136 7.59053,-4.83058 20.8178,-9.21387 24.70423,-10.87458 8.39158,-3.5858 12.83604,-3.87601 12.83604,-3.87601" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.625;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 512.08291,788.88958 -16.01371,7.47307"
+       id="path15113"
+       inkscape:connector-curvature="0"
+       transform="scale(0.8,0.8)"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       id="path4195"
+       sodipodi:cx="1415.3036"
+       sodipodi:cy="650.64368"
+       sodipodi:rx="2.1973662"
+       sodipodi:ry="2.1973662"
+       d="m 1417.501,650.64368 a 2.1973662,2.1973662 0 1 1 -4.3948,0 2.1973662,2.1973662 0 1 1 4.3948,0 z"
+       transform="matrix(1.1321944,0,0,1.1321944,-1205.1887,-99.482501)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 387.54234,624.01526 8.98832,-13.67697"
+       id="path4081"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
@@ -6746,12 +6801,6 @@
        inkscape:connector-curvature="0"
        id="path7394"
        d="m 335.5441,601.73214 2.58136,12.132 -26.51392,75.36202 -20.62184,22.25884 22.86234,33.14447"
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
-    <path
-       sodipodi:nodetypes="cccc"
-       inkscape:connector-curvature="0"
-       id="path7396"
-       d="m 312.60647,589.84767 -22.76253,56.29179 -36.8248,56.12402 0,0"
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
     <text
        sodipodi:linespacing="125%"
@@ -6991,35 +7040,6 @@
     </g>
     <text
        sodipodi:linespacing="100%"
-       id="text4083"
-       y="671.5437"
-       x="296.33344"
-       style="font-size:6.4000001px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0.032px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
-       xml:space="preserve"><tspan
-         style="font-size:6.4000001px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
-         y="671.5437"
-         x="296.34943"
-         sodipodi:role="line"
-         id="tspan4087">Gare</tspan><tspan
-         style="font-size:6.4000001px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
-         y="677.94373"
-         x="296.34943"
-         sodipodi:role="line"
-         id="tspan4091">Centrale</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:6.4000001px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0.032px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
-       x="294.17239"
-       y="657.70911"
-       id="text4093"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         x="294.18839"
-         y="657.70911"
-         style="font-size:6.4000001px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
-         id="tspan4101">De Brouckère</tspan></text>
-    <text
-       sodipodi:linespacing="100%"
        id="text4105"
        y="651.78815"
        x="427.34631"
@@ -7057,14 +7077,6 @@
            y="720.0592"
            style="font-size:6px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa">64</tspan></text>
     </g>
-    <path
-       style="opacity:0.93999999;fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       d="m 288.34794,649.80304 c 2.46091,-0.31779 5.0506,0.60464 6.75646,2.40661 1.70587,1.80197 2.48512,4.43828 2.03306,6.8781 -0.33629,1.815 -1.30159,3.48653 -1.4856,5.32323 -0.15903,1.58736 0.29892,3.21986 1.21781,4.52395 0.91888,1.3041 2.28462,2.27694 3.80173,2.77027 1.51712,0.49333 3.17697,0.51274 4.71984,0.10706 1.54287,-0.40568 2.96679,-1.22942 4.12582,-2.32563 1.022,-0.9666 1.83319,-2.12953 2.72344,-3.21869 3.4022,-4.16235 8.05607,-7.28799 13.19611,-8.86282 5.14005,-1.57482 10.7461,-1.59264 15.89605,-0.0505"
-       id="path6056"
-       inkscape:connector-curvature="0"
-       inkscape:path-effect="#path-effect6058"
-       inkscape:original-d="m 288.34794,649.80304 c 3.46632,1.52682 7.7644,5.1481 8.78952,9.28471 0.44312,1.78812 -2.32624,3.68401 -1.4856,5.32323 2.24592,4.37936 9.10744,6.33528 13.8652,5.07565 1.35864,-0.3597 1.55008,-2.44505 2.72344,-3.21869 8.46736,-5.58304 21.74696,-7.0564 29.09216,-8.91334"
-       sodipodi:nodetypes="caaaac" />
     <rect
        y="654.75916"
        x="336.34967"
@@ -7451,7 +7463,7 @@
     <g
        style="display:inline"
        id="g3150"
-       transform="matrix(0.93368904,0,0,0.93368904,-1054.9765,66.510516)">
+       transform="matrix(0.93368904,0,0,0.93368904,-1054.0269,66.510516)">
       <g
          id="g3143">
         <path
@@ -7487,13 +7499,6 @@
          sodipodi:nodetypes="ccccc"
          style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0.04px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa" />
     </g>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.625;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 512.08291,788.88958 -16.01371,7.47307"
-       id="path15113"
-       inkscape:connector-curvature="0"
-       transform="scale(0.8,0.8)"
-       sodipodi:nodetypes="cc" />
     <rect
        y="757.79608"
        x="351.70291"
@@ -7602,7 +7607,7 @@
       </g>
     </g>
     <g
-       transform="matrix(0.8,0,0,0.8,-795.287,210.05463)"
+       transform="matrix(0.8,0,0,0.8,-784.95593,206.18048)"
        id="g15173"
        style="display:inline">
       <rect
@@ -7628,61 +7633,134 @@
     <text
        xml:space="preserve"
        style="font-size:6.4000001px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0.032px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
-       x="157.41251"
-       y="834.40729"
+       x="168.44043"
+       y="834.05383"
        id="text15181"
        sodipodi:linespacing="100%"
        transform="matrix(0.9470966,-0.32094864,0.32094864,0.9470966,0,0)"
        inkscape:transform-center-x="-1.7123807"><tspan
          id="tspan15183"
          sodipodi:role="line"
-         x="157.42851"
-         y="834.40729"
+         x="168.45644"
+         y="834.05383"
          style="font-size:6.4000001px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa">…</tspan></text>
     <text
        inkscape:transform-center-x="-1.7123807"
        transform="matrix(0.9470966,-0.32094864,0.32094864,0.9470966,0,0)"
        sodipodi:linespacing="100%"
        id="text15185"
-       y="839.58118"
-       x="48.910912"
+       y="839.45276"
+       x="38.560951"
        style="font-size:6.4000001px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0.032px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
        xml:space="preserve"><tspan
          style="font-size:6.4000001px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
-         y="839.58118"
-         x="48.92691"
+         y="839.45276"
+         x="38.57695"
          sodipodi:role="line"
          id="tspan15187">…</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:6.4000001px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0.032px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
-       x="290.80154"
-       y="788.9696"
+       x="280.95782"
+       y="792.16956"
        id="text15189"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan15191"
-         x="290.80154"
-         y="788.9696"
+         x="280.95782"
+         y="792.16956"
          style="font-size:6.4000001px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa">Madou</tspan></text>
     <rect
        style="fill:#ffffff;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;display:inline"
        id="rect15193"
        width="7.2113585"
        height="7.0186453"
-       x="303.01013"
-       y="776.82013" />
+       x="293.16641"
+       y="780.02008" />
     <text
        sodipodi:linespacing="125%"
        id="text15195"
-       y="782.14819"
-       x="304.8439"
+       y="785.34814"
+       x="295.00018"
        style="font-size:4.80000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0.032px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
        xml:space="preserve"><tspan
          style="font-size:4.80000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
-         y="782.14819"
-         x="304.8439"
+         y="785.34814"
+         x="295.00018"
          id="tspan15197"
          sodipodi:role="line">M</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text6739"
+       y="834.38751"
+       x="73.186317"
+       style="font-size:6.4000001px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0.032px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.63999999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
+       xml:space="preserve"
+       transform="matrix(0.92908019,-0.36987835,0.36987835,0.92908019,0,0)"><tspan
+         style="font-size:6.4000001px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.63999999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
+         y="834.38751"
+         x="73.202316"
+         sodipodi:role="line"
+         id="tspan6743">Ch. de Louvain</tspan></text>
+    <text
+       transform="matrix(0.92908019,-0.36987835,0.36987835,0.92908019,0,0)"
+       xml:space="preserve"
+       style="font-size:6.4000001px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0.032px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
+       x="73.186317"
+       y="834.38751"
+       id="text6747"
+       sodipodi:linespacing="100%"><tspan
+         id="tspan6749"
+         sodipodi:role="line"
+         x="73.202316"
+         y="834.38751"
+         style="font-size:6.4000001px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa">Ch. de Louvain</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text6751"
+       style="font-size:6.4000001px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0.032px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
+       xml:space="preserve"
+       transform="translate(-83.77827,-27.345563)"><textPath
+         xlink:href="#path6755"
+         startOffset="50%"
+         id="textPath6759"
+         style="font-size:4.80000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa">Ch. de Louvain</textPath></text>
+    <path
+       inkscape:original-d="m 439.86665,685.18607 c 1.26872,-0.11347 2.49144,1.1592 3.7264,0.84692 1.16376,-0.29428 1.69739,-1.72689 2.71008,-2.37136 7.59053,-4.83058 20.8178,-9.21387 24.70423,-10.87458 8.39158,-3.5858 12.83604,-3.87601 12.83604,-3.87601"
+       inkscape:path-effect="#path-effect6757"
+       sodipodi:nodetypes="caacc"
+       style="fill:none;stroke:none;stroke-width:0.50000000000000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:none;display:inline"
+       d="m 439.86665,685.18607 c 0.45631,0.50155 1.06889,0.85886 1.73009,1.00914 0.6612,0.15027 1.36804,0.0928 1.99631,-0.16222 0.56153,-0.22796 1.05153,-0.60516 1.48604,-1.02764 0.43451,-0.42248 0.81939,-0.89256 1.22404,-1.34372 3.05289,-3.40374 7.18978,-5.67575 11.4832,-7.24806 4.29341,-1.57231 8.78955,-2.50067 13.22103,-3.62652 4.33331,-1.10091 8.61763,-2.39461 12.83604,-3.87601"
+       id="path6755"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text4083"
+       y="671.5437"
+       x="296.33344"
+       style="font-size:6.4000001px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0.032px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
+       xml:space="preserve"><tspan
+         style="font-size:6.4000001px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
+         y="671.5437"
+         x="296.34946"
+         sodipodi:role="line"
+         id="tspan4087">Gare</tspan><tspan
+         style="font-size:6.4000001px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
+         y="677.94373"
+         x="296.34946"
+         sodipodi:role="line"
+         id="tspan4091">Centrale</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.4000001px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0.032px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
+       x="294.17239"
+       y="657.70911"
+       id="text4093"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="294.18842"
+         y="657.70911"
+         style="font-size:6.4000001px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
+         id="tspan4101">De Brouckère</tspan></text>
   </g>
 </svg>
