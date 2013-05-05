@@ -56,10 +56,9 @@ page-break-after: always; left: -100px; top: -20px;">
         une résille au rectangle pointe d'autres potentiels. Un document du
         temps&nbsp;qui coule.</p> 
 
-        <div style="float: left; margin-right: 10px; text-align: center">
-        <img class="preview rose" alt src="../lgm-talk/30a.png" width="200px" height="150px" border="0" style="position: absolute;" />
-        <img class="noir rose" alt src="../lgm-talk/30a.png" width="200px" height="150px" border="0" style="position: absolute;" />
-        <p style="font-family: 'Ume P Gothic Balsa'; font-size: 10px; letter-spacing: 1px;">fig 1 
+        <div style="float: right; margin-top: 5px; margin-left: 10px; text-align: center"; width="200px">
+        <img class="noir rose" alt src="../lgm-talk/30a.png" width="200px" height="150px" border="0" >
+        <p style="font-family: 'Ume P Gothic Balsa'; font-size: 10px; line-height: 12px">fig 1 
         — figures extraites d'un lightning talk au Libre Graphics Meeting à Madrid, 12 avril 2013</p>
         </div>
         
@@ -78,10 +77,9 @@ page-break-after: always; left: -100px; top: -20px;">
         Cette page est imprimée vers des pdf en fonction de leurs couleurs,
         séparées.</p>
         
-	<div style="float: left; margin-right: 10px; text-align: center">
-        <img class="preview rose" alt src="../lgm-talk/50a.png" width="200px" height="150px" border="0" style="position: absolute;" />
-        <img class="noir rose" alt src="../lgm-talk/50a.png" width="200px" height="150px" border="0" style="position: absolute;" />
-        <p style="font-family: 'Ume P Gothic Balsa'; font-size: 10px; letter-spacing: 1px;">fig 2.</p>
+	<div style="float: left; margin-top: 5px; margin-right: 10px; text-align: center">
+	<img class="noir rose" alt src="../lgm-talk/50a.png" width="200px" height="150px" border="0" >
+        <p style="font-family: 'Ume P Gothic Balsa'; font-size: 10px;">fig 2.</p>
         </div>
         
         <p>L'écologie HTML ↔ CSS ↔ navigateur ↔ système de fichier
@@ -99,10 +97,9 @@ page-break-after: always; left: -100px; top: -20px;">
         <span style="font-family: 'Ume P Gothic Balsa'; font-size: 12px; letter-spacing: 1px;">chrome://flags/</span>
         - <a href="http://osp.constantvzw.org/work/balsamine.2013-2014/tree/master/programme/programme.html">http://osp.constantvzw.org/work/balsamine.2013-2014/tree/master/programme/programme.html</a></p>
 
-        <div style="float: left; margin-right: 10px; text-align: center">
-        <img class="preview rose" alt src="../lgm-talk/55a.png" width="200px" height="150px" border="0" border="0" style="position: absolute;" />
-        <img class="noir rose" alt src="../lgm-talk/55a.png" width="200px" height="150px" border="0" border="0" style="position: absolute;" />
-        <p style="font-family: 'Ume P Gothic Balsa'; font-size: 10px; letter-spacing: 1px;">fig 3.</p>
+        <div style="float: right; margin-top: 5px; margin-left: 10px; text-align: center">
+        <img class="noir rose" alt src="../lgm-talk/55a.png" width="200px" height="150px" border="0" border="0" >
+        <p style="font-family: 'Ume P Gothic Balsa'; font-size: 10px;">fig 3.</p>
         </div>
 
         <p>Les fichiers de ce programme, et une vision méritocratique de leur
