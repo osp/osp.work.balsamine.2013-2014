@@ -88,35 +88,13 @@
                 //gutter = parseInt($("#fakepage").css("top"));  // = 1cm
                 
                 
-                for (i = 0; i <= nb_page; i++){
-                    $("#fakepage").clone().css({'outline': '1px solid white', 'outline-offset': '-1cm', 'display': 'block'}).attr("id","fakepage-p"+i).insertBefore($("#fakepage"));
+                for (i = 44; i <= nb_page+44; i++){
+                    $("#fakepage").clone().css({'display': 'block'}).attr("id","fakepage-p"+i).insertBefore($("#fakepage"));
                         
-                    // TABLE DES MATIÈRES
-                    $("ul#toc").append("<li> <a>")
-                    $("ul#toc li:last-child a").attr("href", "#fakepage-p" + i).html("page" + i);
                     // FOLIO
-                    $("#fakepage-p" + i + " .folio").html("<p>page " + (i+1) + "</p>");
+                    //$("#fakepage-p" + i + " .folio").html("<p>page " + (i+1) + "</p>");
                 }
 
-                // AJOUTE UN UNICODE APRÈS <DD>
-                $("dd").postDD();
-                
-                // BAINESIFY
-                //$("div.if p").bainesify();
-                
-                        
-                // TEST  SVG  RAPHAELJS
-                //hauteur = $("#moutons").offset().top;
-                //console.log(hauteur);
-                    
-                // Creates canvas 320 × 200 at 10, 50
-                //var paper = Raphael(10, hauteur, 320, 200);
-                // Creates circle at x = 50, y = 40, with radius 10
-                //var circle = paper.circle(50, 40, 10);
-                // Sets the fill attribute of the circle to red (#f00)
-                //circle.attr("fill", "#f00");
-                // Sets the stroke attribute of the circle to white
-                //circle.attr("stroke", "#fff");
 
 var $containermason = $('#containermason');
 $containermason.imagesLoaded(function(){
@@ -131,7 +109,6 @@ $containermason.imagesLoaded(function(){
                 
         });
 </script>
-*
 </body>
 </html>
 
