@@ -56,7 +56,7 @@ page-break-after: always; left: -100px; top: -20px;">
         une résille au rectangle pointe d'autres potentiels. Un document du
         temps&nbsp;qui coule.</p> 
 
-        <div style="float: right; margin-top: 5px; margin-left: 10px; text-align: center; width:200px">
+        <div style="float: right; margin-top: 5px; margin-left: 10px; text-align: center"; width="200px">
         <img class="noir rose" alt src="../lgm-talk/30a.png" width="200px" height="150px" border="0" >
         <p style="font-family: 'Ume P Gothic Balsa'; font-size: 10px; line-height: 12px">fig 1 
         — figures extraites d'un lightning talk au Libre Graphics Meeting à Madrid, 12 avril 2013</p>
