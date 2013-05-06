@@ -1,0 +1,1232 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Balsamine 2013-2014</title>
+    
+  <link rel="stylesheet" type="text/css" href=" http://meyerweb.com/eric/tools/css/reset/reset.css" />
+  
+ 
+    <style type="text/less">
+/*
+-  V A R I A B L E S  ---------------------------------------------------------------------------------------------
+*/
+ 
+@font-size-100: 10pt;
+@line-height-100: 13pt;
+ 
+@font-size-98: 14pt;
+@line-height-98: 17pt;
+ 
+@font-size-97: 13pt;
+@line-height-97: 15pt;
+ 
+@font-size-0: 12pt;
+@line-height-0: 14pt;
+ 
+@font-size-1: 16pt;
+@line-height-1: 18pt;
+ 
+@font-size-12: 18pt;
+@line-height-12: 20pt;
+ 
+@font-size-2: 27pt;
+@line-height-2: 27pt;
+ 
+@font-size-3: 30pt;
+@line-height-3: 34pt;
+ 
+@font-size-4: 40pt;
+@line-height-4: 44pt;
+ 
+@border: 2px solid @color-C;
+@border-vert: 2px solid @color-N;
+ 
+/*
+-  C O U L E U R S  ---------------------------------------------------------------------------------------------
+*/
+ 
+@color-link: green; 
+@color-C: rgb(255, 0, 82);  // magenta/rouge fluo
+@color-N: #00aa5a;   // green U vert
+@color-W: white;
+
+//@color-C: black;
+//@color-N: white;
+
+img.preview {
+    // display: none;
+    border: 0px;
+    z-index: 9;
+}
+img.noir {
+    // display: none;
+    z-index: 8;
+}
+img.vert {
+    display: none;
+}
+img.rose {
+    display: none;
+}
+
+
+ 
+@color-0: mix(@color-N, @color-C, 0%);
+@color-10: mix(@color-N, @color-C, 10%);
+@color-20: mix(@color-N, @color-C, 20%);
+@color-30: mix(@color-N, @color-C, 30%);
+@color-40: mix(@color-N, @color-C, 40%);
+@color-50: mix(@color-N, @color-C, 50%);
+@color-60: mix(@color-N, @color-C, 60%);
+@color-70: mix(@color-N, @color-C, 70%);
+@color-80: mix(@color-N, @color-C, 80%);
+@color-90: mix(@color-N, @color-C, 90%);
+@color-100: mix(@color-N, @color-C, 100%);
+ 
+@colorG-0: mix(@color-N, @color-W, 0%);
+@colorG-10: mix(@color-N, @color-W, 10%);
+@colorG-20: mix(@color-N, @color-W, 20%);
+@colorG-30: mix(@color-N, @color-W, 30%);
+@colorG-40: mix(@color-N, @color-W, 40%);
+@colorG-50: mix(@color-N, @color-W, 50%);
+@colorG-60: mix(@color-N, @color-W, 60%);
+@colorG-70: mix(@color-N, @color-W, 70%);
+@colorG-80: mix(@color-N, @color-W, 80%);
+@colorG-90: mix(@color-N, @color-W, 90%);
+@colorG-100: mix(@color-N, @color-W, 100%);
+ 
+@colorC-0: mix(@color-C, @color-W, 0%);
+@colorC-10: mix(@color-C, @color-W, 10%);
+@colorC-20: mix(@color-C, @color-W, 20%);
+@colorC-30: mix(@color-C, @color-W, 30%);
+@colorC-40: mix(@color-C, @color-W, 40%);
+@colorC-50: mix(@color-C, @color-W, 50%);
+@colorC-60: mix(@color-C, @color-W, 60%);
+@colorC-70: mix(@color-C, @color-W, 70%);
+@colorC-80: mix(@color-C, @color-W, 80%);
+@colorC-90: mix(@color-C, @color-W, 90%);
+@colorC-100: mix(@color-C, @color-W, 100%);
+ 
+ 
+div#nuancier {
+    width: 100%; 
+    
+    div {
+        float: left;
+        height: 50px;
+        width: 8%;
+        margin-right: 5px;
+	    margin-top: 5px;
+    }
+}
+ 
+div#colorC-0 { background-color: @colorC-0;}
+div#colorC-10 { background-color: @colorC-10;}
+div#colorC-20 { background-color: @colorC-20;}
+div#colorC-30 { background-color: @colorC-30;}
+div#colorC-40 { background-color: @colorC-40;}
+div#colorC-50 { background-color: @colorC-50;}
+div#colorC-60 { background-color: @colorC-60;}
+div#colorC-70 { background-color: @colorC-70;}
+div#colorC-80 { background-color: @colorC-80;}
+div#colorC-90 { background-color: @colorC-90;}
+div#colorC-100 { background-color: @colorC-100;}
+ 
+div#color-0 { background-color: @color-0;}
+div#color-10 { background-color: @color-10;}
+div#color-20 { background-color: @color-20;}
+div#color-30 { background-color: @color-30;}
+div#color-40 { background-color: @color-40;}
+div#color-50 { background-color: @color-50;}
+div#color-60 { background-color: @color-60;}
+div#color-70 { background-color: @color-70;}
+div#color-80 { background-color: @color-80;}
+div#color-90 { background-color: @color-90;}
+div#color-100 { background-color: @color-100;}
+ 
+div#colorG-0 { background-color: @colorG-0;}
+div#colorG-10 { background-color: @colorG-10;}
+div#colorG-20 { background-color: @colorG-20;}
+div#colorG-30 { background-color: @colorG-30;}
+div#colorG-40 { background-color: @colorG-40;}
+div#colorG-50 { background-color: @colorG-50;}
+div#colorG-60 { background-color: @colorG-60;}
+div#colorG-70 { background-color: @colorG-70;}
+div#colorG-80 { background-color: @colorG-80;}
+div#colorG-90 { background-color: @colorG-90;}
+div#colorG-100 { background-color: @colorG-100;}
+ 
+ 
+
+
+ 
+/*
+-  P R I N T  ------------------------------------------------------------
+*/
+ 
+@page {
+    //size:14,8cm 20cm; // format coupé : soit 559 x 756 px
+    size:16,8cm 22cm;  // format avec cropmarks => 6.60 inches * 8.70 inches ou 635 x 831,5 px
+    margin: 0;
+
+    //margin-left: 0.5cm;
+    //margin-right: 0cm;
+    //margin-top: 0.5cm;
+    //margin-bottom: 0.5cm;
+    //margin: 0 1cm;
+    border: 1px solid @color-N;
+    orphans:4; widows:2; /* ça n'a pas l'air de marcher ce truc ? */ 
+}
+div#virtual {
+    position: absolute;
+    z-index: 1000;
+    width: 100%; 
+}
+div.fakepage {
+    //position: absolute; 
+    position: relative;
+    height: 1220px;
+    width: 926px; 
+    z-index: -10;
+}
+ 
+div.crop-tl,
+div.crop-tr,
+div.crop-br,
+div.crop-bl {
+    height: 1cm;
+    width: 1cm;
+    position: absolute;
+    box-sizing: border-box;
+}
+ 
+div.crop-tl {
+    left: 0;
+    top: 0;
+}
+div.crop-tr {
+    right: 0cm;
+    top: 0cm;
+}
+div.crop-br {
+    right: 0;
+    bottom: 0;
+}
+div.crop-bl {
+    left: 0;
+    bottom: 0;
+}
+div.crop-top,
+div.crop-right,
+div.crop-bottom,
+div.crop-left, {
+    width: 0.5cm;
+    height: 0.5cm;
+    position: absolute;
+    box-sizing: border-box;
+}
+div.crop-top {
+    border-top: 1px solid black;
+}
+div.crop-right {
+    border-right: 1px solid black;
+}
+div.crop-bottom {
+    border-bottom: 1px solid black;
+}
+div.crop-left {
+    border-left: 1px solid black;
+}
+ 
+div.folio {
+    position: absolute;
+    bottom: 1.9cm;
+    font-family: Ume P Gothic Balsa;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+    p { color: @color-C; font-size: 10pt;}
+}
+ 
+/*
+-  G E N E R A L   ------------------------------------------------------------
+*/
+ 
+* {
+	color: @color-N;
+    -webkit-print-color-adjust: exact;  /* Allows printing of background colors */
+}
+html {
+    width: 870.55px;
+    //width: 16.5cm;
+}
+body {
+    width: 100%;
+    font-family: Ume P Mincho;
+    font-size : @font-size-0;
+    line-height: @line-height-0;
+    color: @color-C;
+}
+ 
+@media screen {
+    ul#toc { display: block;}
+}
+@media print {
+    ul#toc { display: none;}
+}
+ 
+ul#toc {
+    position: fixed;
+    right: 1cm;
+    bottom: 1cm;
+    height: auto; 
+    width: auto;
+}
+ 
+/*
+-  B L O C K S   -----------------------------------------
+*/
+section#body {
+    margin-left: 3cm;
+    margin-right: 1.5cm;
+}
+article {
+    width: 100%;
+    //page-break-before: always;  
+    //margin: 0 0.25cm;
+    margin-top: 1cm;
+    background-color: white;
+    clear: both; 
+
+    div {
+    float: left;
+    /*box-sizing: border-box;
+    outline-offset: -10px;*/
+    }
+
+ 
+
+    div.texte {
+    /*background-color: mix(@color-C, @color-N, 50%);*/
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px;
+    outline-offset: -10px;
+    outline: @border;
+    color: @color-C;
+    font-size:@font-size-98;
+    line-height: @line-height-98;
+    page-break-inside: avoid;
+    }
+
+ 
+
+    div.image {
+    /*background-color: mix(@color-C, @color-C, 33%);*/
+    border: @border;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    }
+
+ 
+
+    div.imagesimple {
+    outline: 0px solid @color-N;
+    overflow: hidden;
+    box-sizing: border-box;
+    }
+
+ 
+
+    div.bible {
+    padding: 10px;
+    //outline: 3px solid @color-N;
+    box-sizing: border-box;
+    outline-offset: -10px;
+    height: auto;
+    width:15%;
+    font-size: @font-size-0;
+    line-height: @line-height-0;
+    }
+
+ 
+
+    div.artiste {
+
+    outline: none !important;
+
+    }
+
+}
+ 
+div.image-cmjn {
+
+    position: relative;
+
+    width: 100%;
+
+    overflow: hidden;
+
+    outline-color: @color-C;
+
+    outline-style: solid;
+
+    outline-width: 0px;
+
+    z-index:90;
+
+     
+
+     
+
+    img {
+
+    position: absolute;
+
+    left: 0;
+
+    //opacity: 0.9;
+
+    }
+
+     
+
+    p {
+
+    position: relative;
+
+    z-index: 10;
+
+    }
+
+}
+ 
+div.vignette {
+    height: 225px;
+    outline-width: 15px;
+    margin: 25px;
+    margin-left: 0;
+    margin-bottom: 5px;
+    z-index: 100;
+ 
+
+    img {
+
+    height: 100%;
+
+    }
+
+}
+ 
+div.transition {
+    position: relative;
+    width: 886px;
+    margin-left: -93px;
+    overflow: hidden;
+ 
+    img {
+        position: absolute;
+    }
+}
+ 
+div.full {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    
+    img {
+        position: absolute;
+    }
+}
+ 
+div#flux-container div.flux  {
+    -webkit-flow-from: article-flow;
+    //outline:1px solid blue;
+    height:30px;
+    float:left;
+
+}
+article#artcolophon {
+    -webkit-flow-into: article-flow;
+    
+    dd {
+        font-family: Ume P Mincho;
+        font-size: 16px;
+        border-bottom: none;
+        }
+}
+  
+.demi-tour {
+     -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+}
+ 
+.turn-right {
+     -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+}
+ 
+.turn-left{
+     -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+}
+ 
+ 
+ 
+.shape-hexagone {
+
+    -webkit-shape-inside: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+
+    width: 200px;
+
+    height: 200px;
+
+    text-align: justify;
+
+}
+ 
+div.page-break {
+    page-break-before: always;
+    height: 1em;
+    width: 100%;
+    position: relative;
+}
+ 
+div.clip {
+    -webkit-mask-image: url('http://www.ludi.be/logo-boutt.svg');
+    -webkit-mask-clip: padding;
+}
+ 
+div.cach{
+    position: relative;
+    z-index: 100px;
+    }
+    
+div.cuted{
+    position: relative;
+        }
+ 
+/*
+-  P A R A G R A P H E S  &  C H A R A C T E R S ----------------------------------------------
+*/
+ 
+sup {
+    font-size: 0.7em;
+    line-height: 0;
+    vertical-align: 0.3em;
+}
+ 
+h1, h2, h3, h4, h5, h6 {
+
+    font-weight: normal;     /* Enlève le bold, car sinon il est forcé par le navigateur */
+
+}
+ 
+h1 {
+    font-family: Ume P Gothic Shadow;
+    text-transform : uppercase;
+    font-size: @font-size-4;
+    line-height: @line-height-4;
+    color:@color-C;
+    text-align: center;
+    background: white !important;
+    z-index: 100;
+
+     
+
+}
+ 
+h2 {
+
+    font-family: Ume Mincho Balsa;
+
+    text-transform: uppercase;
+
+    font-size: @font-size-0;
+
+    line-height : @line-height-0;
+
+    color:@color-C;
+
+    text-align: center;
+
+}
+ 
+h3 {
+
+    font-size: @font-size-97;
+
+    line-height : @line-height-97;
+
+    display: inline-block;
+
+    text-transform:uppercase;
+
+}
+h4 {
+
+    font-size: @font-size-2;
+
+    line-height :@line-height-2;
+
+}
+ 
+p {
+
+    width: 100%;
+
+    /*page-break-inside: avoid;*/   /* ça évite que les paragraphes soient coupés par la fin de page ou de bloc*/
+
+}
+ 
+blockquote {
+
+    font-family: Ume Mincho Balsa;
+
+    font-size: @font-size-12;
+
+    line-height : @line-height-12;
+
+    outline: none;
+
+    -webkit-region-break-before: always;
+
+    text-align:center;
+
+    text-transform:uppercase;
+
+    }
+
+.blockquote {
+    color: @color-N;
+    page-break-inside: avoid;
+    padding: 20px 10px;
+}
+.nl {
+
+    color: @color-C;
+
+}
+ul {
+    //.shape-hexagone;
+    
+    li {
+
+        list-style-type: none;
+
+    }
+}
+ 
+dl {
+
+    font-family:Ume Mincho Balsa;
+
+    font-size: 10pt;
+
+    line-height: 13pt;
+
+    text-align: left;
+
+}
+  
+dt {
+
+    font-family: Ume P Gothic Balsa;
+
+    font-size: 8pt;
+
+    text-transform: uppercase;
+
+    color: inherit;
+
+    letter-spacing: 1px;
+
+    border: solid thin @color-N;
+
+    border-top: none;
+
+    border-right: none;
+
+    display: inline;
+
+    padding: 3px 3px 1px 3px;
+
+    margin: 0 -5px 0 0;
+font-weight: normal !important;
+}
+ 
+dd {
+
+    color: inherit;
+
+    line-height: 13px;
+
+    margin-bottom: 1px;
+
+    border: solid thin @color-N;
+
+    border-top: none;
+
+    border-left: none;
+
+    display: inline;
+
+    padding: 0px 3px 1px 3px;
+
+    margin: 0 2px 0 0;
+
+}
+ 
+dd + span { 
+
+    font-size: 11pt;
+
+    line-height: 0;
+
+    vertical-align: -6px;
+
+    margin: 0 -6.3px 0 -1.2px;
+
+}
+dl span:last-child {
+
+    display: none;
+
+}
+ 
+dd + dt {
+
+    margin-top: 5px;
+
+}
+ 
+div.titre{
+
+    padding: 10px;
+
+    outline:none !important;
+
+    border-color: mix(@color-C, @color-C, 20%);
+
+    border-style: solid;
+
+    box-sizing: border-box;
+
+    margin: 0 0 0 -3px;
+
+  background: white !important;
+    z-index: 100;
+    position:relative;
+    page-break-inside: avoid;
+}
+div.titre:first-child {
+
+    clear: left;
+
+}
+ 
+div.type {
+    padding: 5px;
+}
+ 
+div.artiste {
+    padding-left: 5px;
+}
+ 
+div.date {
+
+     font-family: Ume P Gothic Shadow;
+
+    text-transform : uppercase;
+
+    font-size: @font-size-0;
+
+    line-height : @line-height-0;
+
+    text-align: center;
+
+    outline: none;
+
+    //-webkit-transform: rotate(-15deg);
+
+    color: @color-C;
+
+}
+div.horaire {
+
+    font-family: Ume P Gothic Shadow;
+
+     font-size: @font-size-0;
+    line-height : @line-height-0;
+    text-transform: uppercase;
+    text-align: center;
+    color: @color-C;
+}
+ 
+div.relax{
+    font-family: Ume P Gothic Balsa;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    
+    }
+ 
+div.production {
+    font-family: Ume P Gothic Balsa;
+    font-size: @font-size-100;
+    line-height : @line-height-100;
+    page-break-inside: avoid;
+
+     padding: 10px;
+
+    box-sizing: border-box;
+
+}
+ 
+div.bible {
+    page-break-inside: avoid;
+}
+ 
+em {
+    font-family: Ume P Gothic Balsa;
+}
+ 
+b {
+    color: @color-C;
+}
+ 
+.under {
+    text-transform : uppercase;
+     text-decoration: underline;
+
+    color: @color-C;
+
+    font-family: Ume P Gothic Balsa;
+
+}
+    
+    
+.numbers{
+    font-family: Ume P Gothic Balsa;
+    font-size: @font-size-1;
+    line-height: 25px;
+    color: @color-N;
+    text-transform: uppercase;
+    /*outline: 2px solid @color-N;*/
+
+    padding: 8px 10px 0px 5px;
+
+    box-sizing: border-box;
+
+    outline-offset: -5px;
+
+    background-image: url('../materials/extract/aspiration.gif');
+
+    background-position:-100px -50px;
+
+}
+.fusee-numbers {
+    font-family: Ume P Gothic Balsa;
+    font-size: @font-size-1;
+    line-height: 25px;
+    color: @color-N;
+    text-transform: uppercase;
+    outline: 2px solid @color-N;
+
+    padding: 8px 10px 0px 5px;
+
+    box-sizing: border-box;
+
+    outline-offset: -5px;
+
+    background-image: url('../materials/extract/aspiration.gif');
+
+    background-position:-100px -50px;
+
+}
+article#infos-pratiques .numbers {
+    padding: 20px;
+    }
+ 
+div.if {
+    font-family: Ume P Gothic Balsa;
+    font-weight: bold;
+    font-size: @font-size-1;
+    line-height: @line-height-1;
+    outline: none !important;
+    box-sizing: border-box;
+    padding: 0 5px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 10px;
+ 
+
+    p {
+
+    color: @color-C;
+
+    }
+
+}
+ 
+span.lettrine {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+ 
+.occas{
+     color: @color-N;
+    }
+ 
+div.out{
+    font-family: Ume P Gothic Vertical;
+    line-height: @line-height-0;
+    font-size: 11pt;
+    box-sizing: border-box;
+    border-top:@border-vert;
+   border-left:@border-vert;
+   color: @color-N;
+    /*font-weight: bold; // forcé par le navigateur, mais nécessaire si texte en défonce*/
+
+    padding:  12px 0 0 15px;
+
+    margin-top: 9px;
+
+    border-color: @color-N;
+
+}
+
+div#pass-varia p, div#pass-varia sup {
+    color: @color-C;
+    }
+ 
+ div#making-of p+p {
+     text-indent: 1.5em;
+}
+ 
+ 
+div.border {
+    border: @border;
+}
+ 
+.centrer {   
+    margin-left: auto;   
+    margin-right: auto;   
+    width: 80%; /* largeur obligatoire pour être centré */
+}
+ 
+.item {
+  width: 50px;
+  margin: 10px;
+  float: left;
+}
+ 
+ div#commit-container div {
+     -webkit-flow-from: CommitFlow;
+     width: 25%;
+     height: 1000px;
+     }
+ 
+.commit-list {
+    width: 100%;
+    //-webkit-column-count: 4;
+    -webkit-flow-into: CommitFlow;
+    //margin-left: 77px;
+    
+    div {
+        float: left;
+        }
+}
+.ellipse {
+      clear: both;
+      width: 5px;
+      margin: auto;
+      margin-left: 50px;
+      border-left: 1px solid black;
+}
+.commit p {
+      margin-bottom: 0;
+}
+.commit-author {
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-size: 8px;
+      border: solid 1px;
+      padding: 2px;
+      margin-bottom: -1px;
+      margin-right: -1px;
+      position: relative;
+}
+.commit-author-said {
+      text-transform: none;
+      letter-spacing: 0.05em;
+      font-size: 9px;
+      border: solid 1px;
+      padding: 2px;
+      margin-bottom: -1px;
+      margin-right: -1px;
+      position: relative;
+      top: 0px;
+      margin-left: 0px;
+}
+.commit-spacer {
+              display: none;
+      width: 19px;
+      height: 12px;
+      float: left;
+      border-top: 1px solid black;
+      position: relative;
+}
+.commit-message {
+      float: left;
+      text-indent: -18px;
+      font-size: 10px;
+      line-height: 10.5px;
+      border: solid 1px;
+      display: inline-block;
+      padding: 2px 2px 2px 22px;
+      width: 120px;
+      margin-left: 15px;
+      margin-top: -4px;
+      background-color: white;
+      background-image:url('../materials/extract/aspiration.gif');
+      background-position: -470px -257px;
+      background-size: 400px 300px;
+}
+
+.commit-message1 {
+      float: left;
+      text-indent: -18px;
+      font-size: 10px;
+      line-height: 10.5px;
+      border: solid 1px;
+      display: inline-block;
+      padding: 2px 2px 2px 22px;
+      width: 120px;
+      margin-left: 15px;
+      margin-top: -4px;
+      background-color: white;
+      background-image:url('../materials/extract/cloud-light.gif');
+      background-position: 465px -865px;
+background-size: 205px 211px;
+}
+
+.commit-message2 {
+      float: left;
+      text-indent: -18px;
+      font-size: 10px;
+      line-height: 10.5px;
+      border: solid 1px;
+      display: inline-block;
+      padding: 2px 2px 2px 22px;
+      width: 120px;
+      margin-left: 15px;
+      margin-top: -4px;
+      background-color: white;
+      background-image:url('../materials/extract/cloud-light.gif');
+      background-position: 165px -265px;
+background-size: 205px 211px;
+}
+
+.commit-date {
+          display: none;
+      float: left;
+      font-size: 8px;
+      margin-left: 18px;
+      margin-top: -1px;
+      padding: 0 2px;
+      padding-right: 4px;
+      border: solid 1px;
+      padding: 1px 3px 1px 3px;
+      margin-bottom: -1px;
+      margin-right: -1px;
+      background-color: @colorC-40;
+      border-top-color: @colorC-40;
+      margin-top: -2px;
+}
+.commit-source {
+      font-size: 8px;
+      margin-left: 18px;
+}
+ 
+ .itemmason {
+    font-family: Ume P Gothic Balsa;
+    font-size: 10px;
+    line-height: 12px;
+border; solid 1px;
+    padding: 0 0 0 0;
+    text-align: center;
+    margin: -1px 0px 10px 0px;
+ }
+ 
+</style>
+</head>
+
+<body>
+    <div id="virtual">
+        <div id="fakepage" class="fakepage" style="display: none;">
+            <img src="../materials/cale-page.png" />
+            <div class="crop-tl">
+                <div class="crop-right" style="top: 0; right: 0;"></div>
+                <div class="crop-bottom" style="bottom: 0cm; left: 0;"></div>
+            </div>
+            <div class="crop-tr">
+                <div class="crop-left" style="top: 0; left: 0;"></div>
+                <div class="crop-bottom" style="bottom: 0; right: 0;"></div>
+            </div>
+            <div class="crop-br">
+                <div class="crop-left" style="left: 0; bottom: 0;"></div>
+                <div class="crop-top" style="right: 0cm; top: 0;"></div>
+            </div>
+            <div class="crop-bl">
+                <div class="crop-right" style="bottom: 0cm; right: 0;"></div>
+                <div class="crop-top" style="left: 0cm; top: 0"></div>
+            </div>
+            <div class="folio">
+            </div>
+        </div>
+    </div>
+
+    <section id="body">
+
+<!--
+-  M E T E O R  -
+-->
+<article id="meteor1" style="margin-top: 0px;">
+
+<div class="transition" style="height: 1500px; outline: none; margin-top: 400px; margin-bottom: 0;">
+<img alt="" class="noir vert" src="../photos/layers/meteor/meteor_Calque 4-nbhi.png" style="width: 100%;" />
+<img alt="" class="preview" src="../photos/layers/meteor/meteor_Calque 4-nbhi.png" style="width: 100%;" />
+</div>
+
+</article>
+
+<article id="meteor2">
+
+<div>
+</div>
+
+</article>
+
+<article id="meteor3">
+
+<div>
+</div>
+
+</article>
+<!--
+*-  J A V A S C R I P T  -
+-->
+        <script type="text/javascript" src="https://lesscss.googlecode.com/files/less-1.3.0.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.masonry.min.js"></script>
+        
+<script type="text/javascript">
+
+        // INSÈRE UN CARACTÈRE UNICODE APRÈS <DD>
+        (function($) {
+            $.fn.postDD=function()
+            {
+                return this.each(function(){
+                    $(this).after("<span>⁀</span>");
+                });
+            };
+        })(jQuery);
+
+        // INSÈRE DES <WBR> ENTRE CHAQUE LETTRE
+        (function($) {
+            $.fn.bainesify=function()
+            {
+                return this.each(function(){
+            text = $(this).text().split("");
+            html = text.join("<wbr>");
+                    console.log(text + html);
+            $(this).html(html);
+                });
+            };
+        })(jQuery);
+        
+        // TITRAGE -> DUPLIQUE L'ÉLÉMENT POUR LE PLACER EN-DESSOUS, CHANGER LE CLONE EN CSS
+        (function($) {
+            $.fn.titrage=function()
+            {
+                return this.each(function(){
+                    $(this).wrapInner('<span />');
+                    span = $("span", $(this));
+                        span.clone().css({'position': 'absolute',}).insertBefore(span);
+                });
+            };
+        })(jQuery);
+        
+        // FAIT COULER UN CONTENU DANS UN FLUX
+        (function($) {
+            $.fn.flowText=function()
+            {
+                return this.each(function(){
+                    id = $(this).attr("id");
+                    $("section#grille-" +id + " div.texte").css("-webkit-flow-from", "Text-" + id);
+                    $("div.content", this).css("-webkit-flow-into", "Text-" + id);
+                    
+                    $("section#grille-" + id + " div.image").css("-webkit-flow-from", "Image-" + id);
+                    $("div.image-cmjn", $(this)).css("-webkit-flow-into", "Image-" + id);
+                    $("section#grille-" + id + " div.bible").css("-webkit-flow-from", "Bible-" + id);
+                    $("dl.bible", $(this)).css("-webkit-flow-into", "Bible-" + id);
+                });
+            };
+        })(jQuery);
+        
+        // CADRES LOSANGES
+        (function($) {
+            $.fn.cadre=function()
+            {
+                return this.each(function(){
+                    w = $(this).width();
+                    h = $(this).height();
+                    t = $(this).offset().top;
+                    l = $(this).offset().left;
+          $(this).clone().css({'position': 'absolute', "top": t, "left": l, "width": h, "height":w, "border": "3px solid black", "-webkit-  transform":"rotateY(10deg)"}).text("").insertBefore($(this));
+                });
+            };
+        })(jQuery);
+
+
+        $(document).ready(function(){
+
+                // TITRAGES
+                //$("h2").titrage();
+                //$("h3").cadre();
+                
+                // FAKE PAGES
+                doc_height = $("body").height();
+                page_height = $("#fakepage").height(); 
+                //page_height = 22; 
+                nb_page = Math.ceil(doc_height/page_height);
+                //gutter = parseInt($("#fakepage").css("top"));  // = 1cm
+                
+                
+                for (i = 44; i <= nb_page+44; i++){
+                    $("#fakepage").clone().css({'display': 'block'}).attr("id","fakepage-p"+i).insertBefore($("#fakepage"));
+                        
+                    // FOLIO
+                    //$("#fakepage-p" + i + " .folio").html("<p>page " + (i+1) + "</p>");
+                }
+
+
+var $containermason = $('#containermason');
+$containermason.imagesLoaded(function(){
+  $containermason.masonry({
+    itemSelector : '.itemmason',
+    columnWidth : 130
+  });
+});
+
+
+
+                
+        });
+</script>
+</body>
+</html>
+
