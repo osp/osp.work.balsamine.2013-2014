@@ -1,0 +1,18 @@
+-- superimpose.plan
+-- source: Pierre Marchand/Prince Charmand
+
+-- Required
+PageWidth = 475pt
+PageHeight = 626.4pt
+
+nb_pages = 48 
+
+-- Records
+i = 1
+while i <= 48
+do
+        -- PushRecord(sourcepage, targetpage, rotation, x, y)
+        PushRecord(i , i , 0, 0, 0)
+        PushRecord(i + 48 , i , 0, 0, 0)
+        i = i + 1
+end

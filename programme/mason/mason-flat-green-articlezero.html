@@ -1,0 +1,1060 @@
+<!DOCTYPE HTML>
+<html><head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Balsamine 2013-2014</title>
+    
+  <link rel="stylesheet" type="text/css" href=" http://meyerweb.com/eric/tools/css/reset/reset.css">
+  
+ 
+    <style type="text/css">/*
+-  V A R I A B L E S  ---------------------------------------------------------------------------------------------
+*/
+/*
+-  C O U L E U R S  ---------------------------------------------------------------------------------------------
+*/
+img.preview {
+  border: 0px;
+  z-index: 9;
+}
+img.noir {
+  display: none;
+  z-index: 8;
+}
+img.rose {
+  visibility: hidden;
+}
+div#nuancier {
+  width: 100%;
+}
+div#nuancier div {
+  float: left;
+  height: 50px;
+  width: 8%;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+div#colorC-0 {
+  background-color: #ffffff;
+}
+div#colorC-10 {
+  background-color: #ffffff;
+}
+div#colorC-20 {
+  background-color: #ffffff;
+}
+div#colorC-30 {
+  background-color: #ffffff;
+}
+div#colorC-40 {
+  background-color: #ffffff;
+}
+div#colorC-50 {
+  background-color: #ffffff;
+}
+div#colorC-60 {
+  background-color: #ffffff;
+}
+div#colorC-70 {
+  background-color: #ffffff;
+}
+div#colorC-80 {
+  background-color: #ffffff;
+}
+div#colorC-90 {
+  background-color: #ffffff;
+}
+div#colorC-100 {
+  background-color: #ffffff;
+}
+div#color-0 {
+  background-color: #ffffff;
+}
+div#color-10 {
+  background-color: #e6e6e6;
+}
+div#color-20 {
+  background-color: #cccccc;
+}
+div#color-30 {
+  background-color: #b3b3b3;
+}
+div#color-40 {
+  background-color: #999999;
+}
+div#color-50 {
+  background-color: #808080;
+}
+div#color-60 {
+  background-color: #666666;
+}
+div#color-70 {
+  background-color: #4d4d4d;
+}
+div#color-80 {
+  background-color: #333333;
+}
+div#color-90 {
+  background-color: #191919;
+}
+div#color-100 {
+  background-color: #000000;
+}
+div#colorG-0 {
+  background-color: #ffffff;
+}
+div#colorG-10 {
+  background-color: #e6e6e6;
+}
+div#colorG-20 {
+  background-color: #cccccc;
+}
+div#colorG-30 {
+  background-color: #b3b3b3;
+}
+div#colorG-40 {
+  background-color: #999999;
+}
+div#colorG-50 {
+  background-color: #808080;
+}
+div#colorG-60 {
+  background-color: #666666;
+}
+div#colorG-70 {
+  background-color: #4d4d4d;
+}
+div#colorG-80 {
+  background-color: #333333;
+}
+div#colorG-90 {
+  background-color: #191919;
+}
+div#colorG-100 {
+  background-color: #000000;
+}
+/*
+-  P R I N T  ------------------------------------------------------------
+*/
+@page  {
+  size: 16,8cm 22cm;
+  margin: 0;
+  border: 1px solid #000000;
+  orphans: 4;
+  widows: 2;/* ça n'a pas l'air de marcher ce truc ? */
+}
+div#virtual {
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+}
+div.fakepage {
+  position: relative;
+  height: 1220px;
+  width: 926px;
+  z-index: -10;
+}
+div.crop-tl,
+div.crop-tr,
+div.crop-br,
+div.crop-bl {
+  height: 1cm;
+  width: 1cm;
+  position: absolute;
+  box-sizing: border-box;
+}
+div.crop-tl {
+  left: 0;
+  top: 0;
+}
+div.crop-tr {
+  right: 0cm;
+  top: 0cm;
+}
+div.crop-br {
+  right: 0;
+  bottom: 0;
+}
+div.crop-bl {
+  left: 0;
+  bottom: 0;
+}
+div.crop-top,
+div.crop-right,
+div.crop-bottom,
+div.crop-left {
+  width: 0.5cm;
+  height: 0.5cm;
+  position: absolute;
+  box-sizing: border-box;
+}
+div.crop-top {
+  border-top: 1px solid black;
+}
+div.crop-right {
+  border-right: 1px solid black;
+}
+div.crop-bottom {
+  border-bottom: 1px solid black;
+}
+div.crop-left {
+  border-left: 1px solid black;
+}
+div.folio {
+  position: absolute;
+  bottom: 1.9cm;
+  font-family: Ume P Gothic Balsa;
+  width: 100%;
+  text-align: center;
+  z-index: 1000;
+}
+div.folio p {
+  color: #ffffff;
+  font-size: 10pt;
+}
+/*
+-  G E N E R A L   ------------------------------------------------------------
+*/
+* {
+  color: #000000;
+  -webkit-print-color-adjust: exact;
+  /* Allows printing of background colors */
+
+}
+html {
+  width: 870.55px;
+}
+body {
+  width: 100%;
+  font-family: Ume P Mincho;
+  font-size: 12pt;
+  line-height: 14pt;
+  color: #ffffff;
+}
+@media screen {
+  ul#toc {
+    display: block;
+  }
+}
+@media print {
+  ul#toc {
+    display: none;
+  }
+}
+ul#toc {
+  position: fixed;
+  right: 1cm;
+  bottom: 1cm;
+  height: auto;
+  width: auto;
+}
+/*
+-  B L O C K S   -----------------------------------------
+*/
+section#body {
+  margin-left: 3cm;
+  margin-right: 1.5cm;
+}
+article {
+  width: 100%;
+  margin-top: 0cm;
+  background-color: white;
+  clear: both;
+}
+article div {
+  float: left;
+  /*box-sizing: border-box;
+    outline-offset: -10px;*/
+
+}
+article div.texte {
+  /*background-color: mix(@color-C, @color-N, 50%);*/
+
+  height: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  outline-offset: -10px;
+  outline: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 14pt;
+  line-height: 17pt;
+  page-break-inside: avoid;
+}
+article div.image {
+  /*background-color: mix(@color-C, @color-C, 33%);*/
+
+  border: 2px solid #ffffff;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+article div.imagesimple {
+  outline: 0px solid #000000;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+article div.bible {
+  padding: 10px;
+  box-sizing: border-box;
+  outline-offset: -10px;
+  height: auto;
+  width: 15%;
+  font-size: 12pt;
+  line-height: 14pt;
+}
+article div.artiste {
+  outline: none !important;
+}
+div.image-cmjn {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  outline-color: #ffffff;
+  outline-style: solid;
+  outline-width: 0px;
+  z-index: 90;
+}
+div.image-cmjn img {
+  position: absolute;
+  left: 0;
+}
+div.image-cmjn p {
+  position: relative;
+  z-index: 10;
+}
+div.vignette {
+  height: 225px;
+  outline-width: 15px;
+  margin: 25px;
+  margin-left: 0;
+  margin-bottom: 5px;
+  z-index: 100;
+}
+div.vignette img {
+  height: 100%;
+}
+div.transition {
+  position: relative;
+  width: 886px;
+  margin-left: -93px;
+  overflow: hidden;
+}
+div.transition img {
+  position: absolute;
+}
+div.full {
+  position: relative;
+  overflow: hidden;
+  height: auto;
+}
+div.full img {
+  position: absolute;
+}
+div#flux-container div.flux {
+  -webkit-flow-from: article-flow;
+  height: 30px;
+  float: left;
+}
+article#artcolophon {
+  -webkit-flow-into: article-flow;
+}
+article#artcolophon dd {
+  font-family: Ume P Mincho;
+  font-size: 16px;
+  border-bottom: none;
+}
+.demi-tour {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+}
+.turn-right {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+}
+.turn-left {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+}
+.shape-hexagone {
+  -webkit-shape-inside: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+  width: 200px;
+  height: 200px;
+  text-align: justify;
+}
+div.page-break {
+  page-break-before: always;
+  height: 1em;
+  width: 100%;
+  position: relative;
+}
+div.clip {
+  -webkit-mask-image: url('http://www.ludi.be/logo-boutt.svg');
+  -webkit-mask-clip: padding;
+}
+div.cach {
+  position: relative;
+  z-index: 100px;
+}
+div.cuted {
+  position: relative;
+}
+/*
+-  P A R A G R A P H E S  &  C H A R A C T E R S ----------------------------------------------
+*/
+sup {
+  font-size: 0.7em;
+  line-height: 0;
+  vertical-align: 0.3em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  /* Enlève le bold, car sinon il est forcé par le navigateur */
+
+}
+h1 {
+  font-family: Ume P Gothic Shadow;
+  text-transform: uppercase;
+  font-size: 40pt;
+  line-height: 44pt;
+  color: #ffffff;
+  text-align: center;
+  background: white !important;
+  z-index: 100;
+}
+h2 {
+  font-family: Ume Mincho Balsa;
+  text-transform: uppercase;
+  font-size: 12pt;
+  line-height: 14pt;
+  color: #ffffff;
+  text-align: center;
+}
+h3 {
+  font-size: 13pt;
+  line-height: 15pt;
+  display: inline-block;
+  text-transform: uppercase;
+}
+h4 {
+  font-size: 27pt;
+  line-height: 27pt;
+}
+p {
+  width: 100%;
+  /*page-break-inside: avoid;*/
+  /* ça évite que les paragraphes soient coupés par la fin de page ou de bloc*/
+
+}
+blockquote {
+  font-family: Ume Mincho Balsa;
+  font-size: 18pt;
+  line-height: 20pt;
+  outline: none;
+  -webkit-region-break-before: always;
+  text-align: center;
+  text-transform: uppercase;
+}
+.blockquote {
+  color: #000000;
+  page-break-inside: avoid;
+  padding: 20px 10px;
+}
+.nl {
+  color: #ffffff;
+}
+ul li {
+  list-style-type: none;
+}
+dl {
+  font-family: Ume Mincho Balsa;
+  font-size: 10pt;
+  line-height: 13pt;
+  text-align: left;
+}
+dt {
+  font-family: Ume P Gothic Balsa;
+  font-size: 8pt;
+  text-transform: uppercase;
+  color: inherit;
+  letter-spacing: 1px;
+  border: solid thin #000000;
+  border-top: none;
+  border-right: none;
+  display: inline;
+  padding: 3px 3px 1px 3px;
+  margin: 0 -5px 0 0;
+  font-weight: normal !important;
+}
+dd {
+  color: inherit;
+  line-height: 13px;
+  margin-bottom: 1px;
+  border: solid thin #000000;
+  border-top: none;
+  border-left: none;
+  display: inline;
+  padding: 0px 3px 1px 3px;
+  margin: 0 2px 0 0;
+}
+dd + span {
+  font-size: 11pt;
+  line-height: 0;
+  vertical-align: -6px;
+  margin: 0 -6.3px 0 -1.2px;
+}
+dl span:last-child {
+  display: none;
+}
+dd + dt {
+  margin-top: 5px;
+}
+div.titre {
+  padding: 10px;
+  outline: none !important;
+  border-color: #ffffff;
+  border-style: solid;
+  box-sizing: border-box;
+  margin: 0 0 0 -3px;
+  background: white !important;
+  z-index: 100;
+  position: relative;
+  page-break-inside: avoid;
+}
+div.titre:first-child {
+  clear: left;
+}
+div.type {
+  padding: 5px;
+}
+div.artiste {
+  padding-left: 5px;
+}
+div.date {
+  font-family: Ume P Gothic Shadow;
+  text-transform: uppercase;
+  font-size: 12pt;
+  line-height: 14pt;
+  text-align: center;
+  outline: none;
+  color: #ffffff;
+}
+div.horaire {
+  font-family: Ume P Gothic Shadow;
+  font-size: 12pt;
+  line-height: 14pt;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+div.relax {
+  font-family: Ume P Gothic Balsa;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+div.production {
+  font-family: Ume P Gothic Balsa;
+  font-size: 10pt;
+  line-height: 13pt;
+  page-break-inside: avoid;
+  padding: 10px;
+  box-sizing: border-box;
+}
+div.bible {
+  page-break-inside: avoid;
+}
+em {
+  font-family: Ume P Gothic Balsa;
+}
+b {
+  color: #ffffff;
+}
+.under {
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #ffffff;
+  font-family: Ume P Gothic Balsa;
+}
+.numbers {
+  font-family: Ume P Gothic Balsa;
+  font-size: 16pt;
+  line-height: 25px;
+  color: #000000;
+  text-transform: uppercase;
+  /*outline: 2px solid @color-N;*/
+
+  padding: 8px 10px 0px 5px;
+  box-sizing: border-box;
+  outline-offset: -5px;
+  background-image: url('../materials/extract/aspiration.gif');
+  background-position: -100px -50px;
+}
+.fusee-numbers {
+  font-family: Ume P Gothic Balsa;
+  font-size: 16pt;
+  line-height: 25px;
+  color: #000000;
+  text-transform: uppercase;
+  outline: 2px solid #000000;
+  padding: 8px 10px 0px 5px;
+  box-sizing: border-box;
+  outline-offset: -5px;
+  background-image: url('../materials/extract/aspiration.gif');
+  background-position: -100px -50px;
+}
+article#infos-pratiques .numbers {
+  padding: 20px;
+}
+div.if {
+  font-family: Ume P Gothic Balsa;
+  font-weight: bold;
+  font-size: 16pt;
+  line-height: 18pt;
+  outline: none !important;
+  box-sizing: border-box;
+  padding: 0 5px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 10px;
+}
+div.if p {
+  color: #ffffff;
+}
+span.lettrine {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.occas {
+  color: #000000;
+}
+div.out {
+  font-family: Ume P Gothic Vertical;
+  line-height: 14pt;
+  font-size: 11pt;
+  box-sizing: border-box;
+  border-top: 2px solid #000000;
+  border-left: 2px solid #000000;
+  color: #000000;
+  /*font-weight: bold; // forcé par le navigateur, mais nécessaire si texte en défonce*/
+
+  padding: 12px 0 0 15px;
+  margin-top: 9px;
+  border-color: #000000;
+}
+div#pass-varia p,
+div#pass-varia sup {
+  color: #ffffff;
+}
+div#making-of p + p {
+  text-indent: 1.5em;
+}
+div.border {
+  border: 2px solid #ffffff;
+}
+.centrer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  /* largeur obligatoire pour être centré */
+
+}
+.item {
+  width: 50px;
+  margin: 10px;
+  float: left;
+}
+div#commit-container div {
+  -webkit-flow-from: CommitFlow;
+  width: 25%;
+  height: 1000px;
+}
+.commit-list {
+  width: 100%;
+  -webkit-flow-into: CommitFlow;
+}
+.commit-list div {
+  float: left;
+}
+.ellipse {
+  clear: both;
+  width: 5px;
+  margin: auto;
+  margin-left: 50px;
+  border-left: 1px solid black;
+}
+.commit p {
+  margin-bottom: 0;
+}
+.commit-author {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 8px;
+  border: solid 1px;
+  padding: 2px;
+  margin-bottom: -1px;
+  margin-right: -1px;
+  position: relative;
+}
+.commit-author-said {
+  text-transform: none;
+  letter-spacing: 0.05em;
+  font-size: 9px;
+  border: solid 1px;
+  padding: 2px;
+  margin-bottom: -1px;
+  margin-right: -1px;
+  position: relative;
+  top: 0px;
+  margin-left: 0px;
+}
+.commit-spacer {
+  display: none;
+  width: 19px;
+  height: 12px;
+  float: left;
+  border-top: 1px solid black;
+  position: relative;
+}
+.commit-message {
+  float: left;
+  text-indent: -18px;
+  font-size: 10px;
+  line-height: 10.5px;
+  border: solid 1px;
+  display: inline-block;
+  padding: 2px 2px 2px 22px;
+  width: 120px;
+  margin-left: 15px;
+  margin-top: -4px;
+  background-color: white;
+  background-image: url('../materials/extract/aspiration.gif');
+  background-position: -470px -257px;
+  background-size: 400px 300px;
+}
+.commit-message1 {
+  float: left;
+  text-indent: -18px;
+  font-size: 10px;
+  line-height: 10.5px;
+  border: solid 1px;
+  display: inline-block;
+  padding: 2px 2px 2px 22px;
+  width: 120px;
+  margin-left: 15px;
+  margin-top: -4px;
+  background-color: white;
+  background-image: url('../materials/extract/cloud-light.gif');
+  background-position: 465px -865px;
+  background-size: 205px 211px;
+}
+.commit-message2 {
+  float: left;
+  text-indent: -18px;
+  font-size: 10px;
+  line-height: 10.5px;
+  border: solid 1px;
+  display: inline-block;
+  padding: 2px 2px 2px 22px;
+  width: 120px;
+  margin-left: 15px;
+  margin-top: -4px;
+  background-color: white;
+  background-image: url('../materials/extract/cloud-light.gif');
+  background-position: 165px -265px;
+  background-size: 205px 211px;
+}
+.commit-date {
+  display: none;
+  float: left;
+  font-size: 8px;
+  margin-left: 18px;
+  margin-top: -1px;
+  padding: 0 2px;
+  padding-right: 4px;
+  border: solid 1px;
+  padding: 1px 3px 1px 3px;
+  margin-bottom: -1px;
+  margin-right: -1px;
+  background-color: #ffffff;
+  border-top-color: #ffffff;
+  margin-top: -2px;
+}
+.commit-source {
+  font-size: 8px;
+  margin-left: 18px;
+}
+</style>
+</head>
+
+<body>
+    <div id="virtual">
+        <div id="fakepage-p44" class="fakepage" style="display: block;">
+            <img src="../materials/cale-page.png">
+            <div class="crop-tl">
+                <div class="crop-right" style="top: 0; right: 0;"></div>
+                <div class="crop-bottom" style="bottom: 0cm; left: 0;"></div>
+            </div>
+            <div class="crop-tr">
+                <div class="crop-left" style="top: 0; left: 0;"></div>
+                <div class="crop-bottom" style="bottom: 0; right: 0;"></div>
+            </div>
+            <div class="crop-br">
+                <div class="crop-left" style="left: 0; bottom: 0;"></div>
+                <div class="crop-top" style="right: 0cm; top: 0;"></div>
+            </div>
+            <div class="crop-bl">
+                <div class="crop-right" style="bottom: 0cm; right: 0;"></div>
+                <div class="crop-top" style="left: 0cm; top: 0"></div>
+            </div>
+            <div class="folio">
+            </div>
+        </div><div id="fakepage-p45" class="fakepage" style="display: block;">
+            <img src="../materials/cale-page.png">
+            <div class="crop-tl">
+                <div class="crop-right" style="top: 0; right: 0;"></div>
+                <div class="crop-bottom" style="bottom: 0cm; left: 0;"></div>
+            </div>
+            <div class="crop-tr">
+                <div class="crop-left" style="top: 0; left: 0;"></div>
+                <div class="crop-bottom" style="bottom: 0; right: 0;"></div>
+            </div>
+            <div class="crop-br">
+                <div class="crop-left" style="left: 0; bottom: 0;"></div>
+                <div class="crop-top" style="right: 0cm; top: 0;"></div>
+            </div>
+            <div class="crop-bl">
+                <div class="crop-right" style="bottom: 0cm; right: 0;"></div>
+                <div class="crop-top" style="left: 0cm; top: 0"></div>
+            </div>
+            <div class="folio">
+            </div>
+        </div><div id="fakepage" class="fakepage" style="display: none;">
+            <img src="../materials/cale-page.png">
+            <div class="crop-tl">
+                <div class="crop-right" style="top: 0; right: 0;"></div>
+                <div class="crop-bottom" style="bottom: 0cm; left: 0;"></div>
+            </div>
+            <div class="crop-tr">
+                <div class="crop-left" style="top: 0; left: 0;"></div>
+                <div class="crop-bottom" style="bottom: 0; right: 0;"></div>
+            </div>
+            <div class="crop-br">
+                <div class="crop-left" style="left: 0; bottom: 0;"></div>
+                <div class="crop-top" style="right: 0cm; top: 0;"></div>
+            </div>
+            <div class="crop-bl">
+                <div class="crop-right" style="bottom: 0cm; right: 0;"></div>
+                <div class="crop-top" style="left: 0cm; top: 0"></div>
+            </div>
+            <div class="folio">
+            </div>
+        </div>
+    </div>
+
+    <section id="body">
+
+<article id="mason-extract" style="padding-top: 20px;">
+<div id="containermason" style="position: relative; height: 3248px;" class="masonry">
+<div class="itemmason masonry-brick" style="position: absolute; top: 0px; left: 0px;"><img class="rose" width="130px" src="../materials/extract/allo.gif"><p>allo</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 0px; left: 130px;"><img class="rose" width="130px" src="../materials/extract/angle-radiant.gif"><p>angle-radiant</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 0px; left: 260px;"><img class="rose" width="130px" src="../materials/extract/aspiration.gif"><p>aspiration</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 0px; left: 390px;"><img class="rose" width="130px" src="../materials/extract/attendez.gif"><p>attendez</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 0px; left: 520px;"><img class="rose" width="130px" src="../materials/extract/balle.gif"><p>balle</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 69px; left: 520px;"><img class="rose" width="130px" src="../materials/extract/ballon.gif"><p>ballon</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 81px; left: 130px;"><img class="rose" width="130px" src="../materials/extract/BAM.gif"><p>BAM</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 108px; left: 260px;"><img class="rose" width="130px" src="../materials/extract/bang-miroir.gif"><p>bang-miroir</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 149px; left: 0px;"><img class="rose" width="130px" src="../materials/extract/baudruche.gif"><p>baudruche</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 209px; left: 130px;"><img class="rose" width="130px" src="../materials/extract/bird-talk.gif"><p>bird-talk</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 223px; left: 520px;"><img class="rose" width="130px" src="../materials/extract/black-bird.gif"><p>black-bird</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 226px; left: 260px;"><img class="rose" width="130px" src="../materials/extract/blow1.gif"><p>blow1</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 308px; left: 0px;"><img class="rose" width="130px" src="../materials/extract/blow2.gif"><p>blow2</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 308px; left: 260px;"><img class="rose" width="130px" src="../materials/extract/bong.gif"><p>bong</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 330px; left: 130px;"><img class="rose" width="130px" src="../materials/extract/broken-heart.gif"><p>broken-heart</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 360px; left: 520px;"><img class="rose" width="130px" src="../materials/extract/brossescarwash.gif"><p>brossescarwash</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 382px; left: 0px;"><img class="rose" width="130px" src="../materials/extract/bulle-negative.gif"><p>bulle-negative</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 455px; left: 130px;"><img class="rose" width="130px" src="../materials/extract/cheveux-vif.gif"><p>cheveux-vif</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 519px; left: 260px;"><img class="rose" width="130px" src="../materials/extract/cinema.gif"><p>cinema</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 622px; left: 0px;"><img class="rose" width="130px" src="../materials/extract/circles-and-lines-170.gif"><p>circles-and-lines-170</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 562px; left: 390px;"><img class="rose" width="130px" src="../materials/extract/cloud.gif"><p>cloud</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 685px; left: 390px;"><img class="rose" width="130px" src="../materials/extract/crachat.gif"><p>crachat</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 710px; left: 520px;"><img class="rose" width="130px" src="../materials/extract/curly-269.gif"><p>curly-269</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 732px; left: 260px;"><img class="rose" width="130px" src="../materials/extract/dancing.gif"><p>dancing</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 800px; left: 390px;"><img class="rose" width="130px" src="../materials/extract/darkvador.gif"><p>darkvador</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 801px; left: 260px;"><img class="rose" width="130px" src="../materials/extract/decollage.gif"><p>decollage</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 846px; left: 0px;"><img class="rose" width="130px" src="../materials/extract/doigt-224.gif"><p>doigt-224</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 846px; left: 130px;"><img class="rose" width="130px" src="../materials/extract/drape.gif"><p>drape</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 869px; left: 390px;"><img class="rose" width="130px" src="../materials/extract/DSC_6516.gif"><p>DSC_6516</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 893px; left: 260px;"><img class="rose" width="130px" src="../materials/extract/dunes1.gif"><p>dunes1</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 913px; left: 0px;"><img class="rose" width="130px" src="../materials/extract/dunes2.gif"><p>dunes2</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 933px; left: 520px;"><img class="rose" width="130px" src="../materials/extract/eclat-de-voix.gif"><p>eclat-de-voix</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 956px; left: 260px;"><img class="rose" width="130px" src="../materials/extract/encore-des-lignes.gif"><p>encore-des-lignes</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 998px; left: 130px;"><img class="rose" width="130px" src="../materials/extract/enrobage.gif"><p>enrobage</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1008px; left: 0px;"><img class="rose" width="130px" src="../materials/extract/eponge-219.gif"><p>eponge-219</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1017px; left: 260px;"><img class="rose" width="130px" src="../materials/extract/etoile.gif"><p>etoile</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1160px; left: 390px;"><img class="rose" width="130px" src="../materials/extract/explosion-par-le-dessus.gif"><p>explosion-par-le-dessus</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1190px; left: 130px;"><img class="rose" width="130px" src="../materials/extract/explosion-violente.gif"><p>explosion-violente</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1271px; left: 260px;"><img class="rose" width="130px" src="../materials/extract/fausse-peau-de-mouton.gif"><p>fausse-peau-de-mouton</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1234px; left: 0px;"><img class="rose" width="130px" src="../materials/extract/feuillages-239.gif"><p>feuillages-239</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1271px; left: 520px;"><img class="rose" width="130px" src="../materials/extract/fibres.gif"><p>fibres</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1307px; left: 130px;"><img class="rose" width="130px" src="../materials/extract/fire-crackers.gif"><p>fire-crackers</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1355px; left: 520px;"><img class="rose" width="130px" src="../materials/extract/flammes.gif"><p>flammes</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1418px; left: 130px;"><img class="rose" width="130px" src="../materials/extract/flashback.gif"><p>flashback</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1458px; left: 0px;"><img class="rose" width="130px" src="../materials/extract/floor.gif"><p>floor</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1483px; left: 520px;"><img class="rose" width="130px" src="../materials/extract/geometrie-240.gif"><p>geometrie-240</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1505px; left: 130px;"><img class="rose" width="130px" src="../materials/extract/gradient.gif"><p>gradient</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1531px; left: 0px;"><img class="rose" width="130px" src="../materials/extract/gradient-bigout.gif"><p>gradient-bigout</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1602px; left: 260px;"><img class="rose" width="130px" src="../materials/extract/gradient-bigoutupsidedown.png"><p>gradient-bigoutupsidedown</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1636px; left: 0px;"><img class="rose" width="130px" src="../materials/extract/grand-canyon-%C3%A0--ciel-courb%C3%A9.gif"><p>grand-canyon-à--ciel-courbé</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1691px; left: 260px;"><img class="rose" width="130px" src="../materials/extract/grille.gif"><p>grille</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1691px; left: 390px;"><img class="rose" width="130px" src="../materials/extract/grosse-trame-155.gif"><p>grosse-trame-155</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1709px; left: 520px;"><img class="rose" width="130px" src="../materials/extract/gruyere-224.gif"><p>gruyere-224</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1735px; left: 0px;"><img class="rose" width="130px" src="../materials/extract/gueule-de-loup.gif"><p>gueule-de-loup</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1735px; left: 130px;"><img class="rose" width="130px" src="../materials/extract/hairs.gif"><p>hairs</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1799px; left: 520px;"><img class="rose" width="130px" src="../materials/extract/hallucinogene-338.gif"><p>hallucinogene-338</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1829px; left: 130px;"><img class="rose" width="130px" src="../materials/extract/hatches.gif"><p>hatches</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1844px; left: 0px;"><img class="rose" width="130px" src="../materials/extract/hesitation.gif"><p>hesitation</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1869px; left: 130px;"><img class="rose" width="130px" src="../materials/extract/horizontales.gif"><p>horizontales</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1923px; left: 390px;"><img class="rose" width="130px" src="../materials/extract/jute-express.gif"><p>jute-express</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1931px; left: 0px;"><img class="rose" width="130px" src="../materials/extract/lignes.gif"><p>lignes</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 1991px; left: 130px;"><img class="rose" width="130px" src="../materials/extract/lignes-a-droite.gif"><p>lignes-a-droite</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2007px; left: 0px;"><img class="rose" width="130px" src="../materials/extract/lignes%20avec%20oblique.gif"><p>lignes avec oblique</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2022px; left: 520px;"><img class="rose" width="130px" src="../materials/extract/lignes-obliques.gif"><p>lignes-obliques</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2179px; left: 260px;"><img class="rose" width="130px" src="../materials/extract/lignes-obliques-en-haut.gif"><p>lignes-obliques-en-haut</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2059px; left: 0px;"><img class="rose" width="130px" src="../materials/extract/marais-205.gif"><p>marais-205</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2181px; left: 130px;"><img class="rose" width="130px" src="../materials/extract/marble-228.gif"><p>marble-228</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2235px; left: 260px;"><img class="rose" width="130px" src="../materials/extract/mellowblue.gif"><p>mellowblue</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2235px; left: 390px;"><img class="rose" width="130px" src="../materials/extract/mini-lignes%20longues.gif"><p>mini-lignes longues</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2274px; left: 390px;"><img class="rose" width="130px" src="../materials/extract/mirage.gif"><p>mirage</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2286px; left: 0px;"><img class="rose" width="130px" src="../materials/extract/mouton.gif"><p>mouton</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2318px; left: 520px;"><img class="rose" width="130px" src="../materials/extract/moutons-207.gif"><p>moutons-207</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2346px; left: 390px;"><img class="rose" width="130px" src="../materials/extract/noise1.gif"><p>noise1</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2406px; left: 260px;"><img class="rose" width="130px" src="../materials/extract/nuagessales.gif"><p>nuagessales</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2471px; left: 130px;"><img class="rose" width="130px" src="../materials/extract/oiseaux-a-decouper-272.gif"><p>oiseaux-a-decouper-272</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2468px; left: 390px;"><img class="rose" width="130px" src="../materials/extract/pfiouuu.gif"><p>pfiouuu</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2545px; left: 520px;"><img class="rose" width="130px" src="../materials/extract/pinceau.gif"><p>pinceau</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2566px; left: 0px;"><img class="rose" width="130px" src="../materials/extract/pingdansloreille.gif"><p>pingdansloreille</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2580px; left: 390px;"><img class="rose" width="130px" src="../materials/extract/plaaaf.gif"><p>plaaaf</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2583px; left: 520px;"><img class="rose" width="130px" src="../materials/extract/plaaaf-split.gif"><p>plaaaf-split</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2697px; left: 130px;"><img class="rose" width="130px" src="../materials/extract/point45.gif"><p>point45</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2697px; left: 260px;"><img class="rose" width="130px" src="../materials/extract/rayon-convex.gif"><p>rayon-convex</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2704px; left: 0px;"><img class="rose" width="130px" src="../materials/extract/rides-260.gif"><p>rides-260</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2759px; left: 260px;"><img class="rose" width="130px" src="../materials/extract/slope.gif"><p>slope</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2817px; left: 130px;"><img class="rose" width="130px" src="../materials/extract/soleil.gif"><p>soleil</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2822px; left: 390px;"><img class="rose" width="130px" src="../materials/extract/soleil-light.gif"><p>soleil-light</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2825px; left: 520px;"><img class="rose" width="130px" src="../materials/extract/splash.gif"><p>splash</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2841px; left: 260px;"><img class="rose" width="130px" src="../materials/extract/sploush.gif"><p>sploush</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2931px; left: 0px;"><img class="rose" width="130px" src="../materials/extract/twister-232.gif"><p>twister-232</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2968px; left: 130px;"><img class="rose" width="130px" src="../materials/extract/vagues-trouees-236.gif"><p>vagues-trouees-236</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2946px; left: 520px;"><img class="rose" width="130px" src="../materials/extract/vloush.gif"><p>vloush</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 2976px; left: 390px;"><img class="rose" width="130px" src="../materials/extract/vortex-157.gif"><p>vortex-157</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 3023px; left: 390px;"><img class="rose" width="130px" src="../materials/extract/waouh.gif"><p>waouh</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 3156px; left: 0px;"><img class="rose" width="130px" src="../materials/extract/wham.gif"><p>wham</p></div>
+<div class="itemmason masonry-brick" style="position: absolute; top: 3163px; left: 520px;"><img class="rose" width="130px" src="../materials/extract/wouuuuhhhhh.gif"><p>wouuuuhhhhh</p></div>
+</div>
+</article>
+
+
+<!--
+*-  J A V A S C R I P T  -
+-->
+        <script type="text/javascript" src="https://lesscss.googlecode.com/files/less-1.3.0.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        
+<script type="text/javascript">
+
+        // INSÈRE UN CARACTÈRE UNICODE APRÈS <DD>
+        (function($) {
+            $.fn.postDD=function()
+            {
+                return this.each(function(){
+                    $(this).after("<span>⁀</span>");
+                });
+            };
+        })(jQuery);
+
+        // INSÈRE DES <WBR> ENTRE CHAQUE LETTRE
+        (function($) {
+            $.fn.bainesify=function()
+            {
+                return this.each(function(){
+            text = $(this).text().split("");
+            html = text.join("<wbr>");
+                    console.log(text + html);
+            $(this).html(html);
+                });
+            };
+        })(jQuery);
+        
+        // TITRAGE -> DUPLIQUE L'ÉLÉMENT POUR LE PLACER EN-DESSOUS, CHANGER LE CLONE EN CSS
+        (function($) {
+            $.fn.titrage=function()
+            {
+                return this.each(function(){
+                    $(this).wrapInner('<span />');
+                    span = $("span", $(this));
+                        span.clone().css({'position': 'absolute',}).insertBefore(span);
+                });
+            };
+        })(jQuery);
+        
+        // FAIT COULER UN CONTENU DANS UN FLUX
+        (function($) {
+            $.fn.flowText=function()
+            {
+                return this.each(function(){
+                    id = $(this).attr("id");
+                    $("section#grille-" +id + " div.texte").css("-webkit-flow-from", "Text-" + id);
+                    $("div.content", this).css("-webkit-flow-into", "Text-" + id);
+                    
+                    $("section#grille-" + id + " div.image").css("-webkit-flow-from", "Image-" + id);
+                    $("div.image-cmjn", $(this)).css("-webkit-flow-into", "Image-" + id);
+                    $("section#grille-" + id + " div.bible").css("-webkit-flow-from", "Bible-" + id);
+                    $("dl.bible", $(this)).css("-webkit-flow-into", "Bible-" + id);
+                });
+            };
+        })(jQuery);
+        
+        // CADRES LOSANGES
+        (function($) {
+            $.fn.cadre=function()
+            {
+                return this.each(function(){
+                    w = $(this).width();
+                    h = $(this).height();
+                    t = $(this).offset().top;
+                    l = $(this).offset().left;
+          $(this).clone().css({'position': 'absolute', "top": t, "left": l, "width": h, "height":w, "border": "3px solid black", "-webkit-  transform":"rotateY(10deg)"}).text("").insertBefore($(this));
+                });
+            };
+        })(jQuery);
+
+
+        $(document).ready(function(){
+
+                // TITRAGES
+                //$("h2").titrage();
+                //$("h3").cadre();
+                
+                // FAKE PAGES
+                doc_height = $("body").height();
+                page_height = $("#fakepage").height(); 
+                //page_height = 22; 
+                nb_page = Math.ceil(doc_height/page_height);
+                //gutter = parseInt($("#fakepage").css("top"));  // = 1cm
+                
+                
+                for (i = 44; i <= nb_page+44; i++){
+                    $("#fakepage").clone().css({'display': 'block'}).attr("id","fakepage-p"+i).insertBefore($("#fakepage"));
+                        
+                    // FOLIO
+                    //$("#fakepage-p" + i + " .folio").html("<p>page " + (i+1) + "</p>");
+                }
+                
+        });
+</script>
+
+</section></body></html>
