@@ -105,30 +105,26 @@
     </div>
 
     <div class="tableau">
-            <dt>Niveau  français</dt>
-            <dd>Accessible</dd>
+        <p class="tech">Niveau  français</p>
+        <p class="info">Accessible</p>
     </div>       
-        <div class="tableau">
-
-            <dt>Age minimum</dt>
-            <dd>16/17 ans</dd>
-            </div>
-                <div class="tableau">
-
-            <dt>Discipline</dt>
-            <dd>Théâtre</dd>
-            </div>
-                <div class="tableau">
-
-            <dt>Thématiques abordées</dt>
-            <dd>La normalité et la destruction</dd>
-            </div>
-                <div class="tableau">
-
-            <dt>Particularités</dt>
-            <dd>Utilisation du chant dans le spectacle. Humour décalé. Le spectateur peut être mis à contribution lors de la présentation. Très ludique.</dd>
-</div>
+    <div class="tableau">    
+         <p class="tech">Age minimum</p>
+         <p class="info">16/17 ans</p>
     </div>
+    <div class="tableau">
+         <p class="tech">Discipline</dt>
+          <p class="info">Théâtre</p>
+    </div>
+    <div class="tableau">
+          <p class="tech">Thématiques abordées</p>
+          <p class="info">La normalité et la destruction</p>
+    </div>
+    <div class="tableau">
+          <p class="tech">Particularités</p>
+          <p class="info">Utilisation du chant dans le spectacle. Humour décalé. Le spectateur peut être mis à contribution lors de la présentation. Très ludique.</p>
+    </div>
+    
 
     <div class="atelier texte">
         <p>
