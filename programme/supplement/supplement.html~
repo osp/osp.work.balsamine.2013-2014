@@ -109,25 +109,22 @@
         <img alt="" class="noir vert" src="../materials/extract/hairs.gif" style="width: 214%; margin-left: -110px; margin-top: -110px;" />
     </div>
     
-    <div class="fiche">
-    <dl>
-        <dt class="supplement">Niveau  français<dt>
-        <dd class="supplement">Accessible</dd>
+    <dl class="fiche">
+        <dt>Niveau  français<dt>
+        <dd >Accessible</dd>
     </dl>
-    </div>
     <div class="fiche">    
-         <dt>Age minimum</dt>
-         <dd>16/17 ans</dd>
+         <p class="intitule" >Age minimum</p>
+         <p>16/17 ans</p>
     </div>
 
-    
     <div class="fiche">
-         <dt>Discipline</dt>
-          <dd>Théâtre</dd>
+         <p class="intitule">Discipline</p>
+          <p>Théâtre</p>
     </div>
     <div class="fiche" style="width:195px">
-          <dt>Thématiques abordées</dt>
-          <dd>La normalité et la destruction</dd>
+          <p class="intitule">Thématiques abordées</p>
+          <p>La normalité et la destruction</p>
     </div>
     
     
@@ -137,8 +134,8 @@
     </div>
     
     <div class="fiche">
-          <dt>Particularités</dt>
-          <dd>Utilisation du chant dans le spectacle. Humour décalé. Le spectateur peut être mis à contribution lors de la présentation. Très ludique.</dd>
+          <p class="intitule">Particularités</p>
+          <p>Utilisation du chant dans le spectacle. Humour décalé. Le spectateur peut être mis à contribution lors de la présentation. Très ludique.</p>
     </div>
     </dl>
     
