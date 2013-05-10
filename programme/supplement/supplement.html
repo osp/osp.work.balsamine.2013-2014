@@ -299,11 +299,11 @@
             <p class="intitule">Discipline</p>
             <p>Théâtre</p>
     </div>
-    <div class="fiche">        
+    <div class="fiche" style="width: 32%;">        
             <p class="intitule">Thématiques abordées</p>
             <p>La vengeance, les passions humaines, questionnement sur notre société actuelle</p>
     </div>
-    <div class="fiche">
+    <div class="fiche" style="width: 38%;">
             <p class="intitule">Particularités</p>
             <p>Spectacle très intéressant pour les écoles car brassant de grands thèmes de la tragédie de manière ludique et en lien avec des sujets sociétaux</p>
     </div>
@@ -365,7 +365,7 @@
     </div>
     <div class="fiche">
         <p class="intitule">Niveau  français</p>
-        <p>Très très accessible (pour les primo-arrivants également)</p>
+        <p>Très accessible (pour les primo-arrivants également)</p>
     </div>
     <div class="fiche">
         <p class="intitule">Âge minimum</p>
@@ -471,7 +471,7 @@
     <div class="fiche">
         <p class="intitule">Niveau  français</p>
         <p>En anglais (mais très peu de dialogues, beaucoup de séquences muettes), sur-titré  en français et néerlandais.
-        Très très accessible (pour les primo-arrivants également).</p>
+        Très accessible (pour les primo-arrivants également).</p>
     </div>
     <div class="fiche">
         <p class="intitule">Âge minimum</p>
@@ -950,11 +950,11 @@
                     $(this).css("background-image", url);
                 });
                 // IMAGES
-                $("img.preview").css("display", "none");
-                $("img.noir").css("display", "block");
+                $("section#body.export img.preview").css("display", "none");
+                $("section#body.export img.noir").css("display", "block");
                 
                 // VECTEURS
-                $("*").css({"color": "black", "border-color": "black", "outline-color": "black"});
+                $("section#body.export *").css({"color": "black", "border-color": "black", "outline-color": "black"});
         });
     </script>
     </body>
