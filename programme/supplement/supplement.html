@@ -1,6 +1,4 @@
-
-        
-<section id="body" class="supplement">
+<section id="body" class="supplement export">
 
 <article id="cover" style="height: 1200px;">
     <h1 class="supplement">La Balsamine, saison 2013-2014</h1>
@@ -928,6 +926,21 @@
             $.each($("img"), function(){
                     console.log("path: " + $(this).attr("src") + " ; width: " + $(this).width()+ " ; height: " + $(this).height());
             });
+
+
+            // PRÉPARATION À L'EXPORT, ON PASSE TOUT EN NOIR
+                // BORDURES BARIOLÉES
+                $("section#body.export article.bordure-bariolee").each(function(){
+                    url = $(this).css("background-image");
+                    url = url.replace("extract-G", "extract");
+                    $(this).css("background-image", url);
+                });
+                // IMAGES
+                $("img.preview").css("display", "none");
+                $("img.noir").css("display", "block");
+                
+                // VECTEURS
+                $("*").css({"color": "black", "border-color": "black", "outline-color": "black"});
         });
     </script>
     </body>
