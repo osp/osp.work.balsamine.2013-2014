@@ -1,5 +1,4 @@
 
-    <body>
         
         <section id="body" class="supplement">
 
@@ -16,14 +15,14 @@
     « Balsamiquement vôtre » dans le sens où nous avons la volonté d’agir comme un baume sur certaines difficultés que l’on peut éprouver parfois dans nos vies respectives. Dégageons le sens caché, sortons la tête de l’eau pour voir moins trouble. Peut-on vivre sans ces « je ne sais quoi », sans musique, sans joie et sans amour? L’art peut être ce magnétisme abstrait qui nous tire vers le haut, qui nous tire de notre lit le matin, qui nous étire, nous rend plus grand, plus ouvert, plus à l’écoute de soi, des autres. 
     </p>
     <p>
-    Ce petit guide est concocté à votre intention bienveillante et est censé nous faire passer une année agréable et artistiquement jouissive. Il y a un brin d’Epicure sinon rien, Le plaisir ! Venir au théâtre, découvrir de nouvelles perspectives. Témérité, diront certains, audace inconsciente, objecteront d’autres, ou encore, pur émerveillement. Traiter le contemporain c’est aborder nos vies, notre temps et cela nous est donc naturellement adressé et accessible. Et s’il suffisait de faire confiance à sa sensibilité et à son intuition ? 
+    Ce petit guide est concocté à votre intention bienveillante et est censé nous faire passer une année agréable et artistiquement jouissive. Il y a un brin d’Épicure sinon rien, Le plaisir ! Venir au théâtre, découvrir de nouvelles perspectives. Témérité, diront certains, audace inconsciente, objecteront d’autres, ou encore, pur émerveillement. Traiter le contemporain c’est aborder nos vies, notre temps et cela nous est donc naturellement adressé et accessible. Et s’il suffisait de faire confiance à sa sensibilité et à son intuition ? 
     </p>
     <p>
     Il ne reste plus qu’à vous rencontrer, qu’à user ce programme, ce projet qui nous rappelle que les aventures artistiques sont là, à l’image de nos plus belles aventures humaines, pour nous pousser au dépassement plus qu’à la résignation. 
     </p>
     <p>
     Monica Gomes & Fabien Dehasseler<br/>
-    Direction Artistique
+    Direction artistique
     </p>
 </article>
 
@@ -33,20 +32,20 @@
     <p>
     Comment donner accès au théâtre d’aujourd’hui ? Par quelle porte se faufiler afin de rencontrer au mieux un processus créatif, d’en comprendre les enjeux et d’en ressentir la sensibilité ? Comment aller avec confiance vers l’œuvre théâtrale ? Approcher une création peut être passionnant, à partir du moment où les jalons sont posés… La gageure n’est pas seulement de savoir qui est Molière ou Shakespeare mais d’appréhender les nouvelles formes scéniques, d’être en contact intime avec l’art d’aujourd’hui, de le ressentir, d’en cerner les contours et de plonger dans son élaboration. 
     </p>
+    <blockquote>
+    « Ce que j’aimerais vous proposer ? C’est simplement rencontrer l’œuvre artistique avec vos étudiants, vos proches, vos collègues… Et, pour ce faire, il s’agirait d’imaginer ensemble quelles seraient les activités les plus adéquates à leur proposer. » 
+    </blockquote>
     <p>
-    « Ce que j’aimerais vous proposer ? C’est simplement rencontrer l’œuvre artistique avec vos étudiants, vos proches, vos collègues,… Et, pour ce faire, il s’agirait d’imaginer ensemble quelles seraient les activités les plus adéquates à leur proposer. » (traiter la photo comme pour les bulles de dialogue)
+    Afin de vous faciliter la tâche, j’ai composé ce petit guide qui reprend une sélection des spectacles accessibles à votre public (p. 3&ndash;8), et les activités d’accompagnement que nous vous suggérons afin de préparer, d’éveiller votre public de la manière la plus juste (p. 8&ndash;9). Nous désirons optimiser la qualité de rencontre entre l’art et le spectateur et privilégier l’échange à la consommation de masse.
     </p>
     <p>
-    Afin de vous faciliter la tâche, j’ai composé ce petit guide qui reprend une sélection des spectacles accessibles à votre public (p 3-8), et les activités d’accompagnement que nous vous suggérons afin de préparer, d’éveiller votre public de la manière la plus juste(p 8-9). Nous désirons optimiser la qualité de rencontre entre l’art et le spectateur et privilégier l’échange à la consommation de masse.
-    </p>
-    <p>
-    « Qu’est-ce qui me fait sortir la tête de l’eau » est le thème du projet de médiation artistique que nous développerons cette année 2013-2014. N’hésitez pas à nous contacter si vous désirez vous inscrire dans ce beau projet que vous trouverez page 10.
+    « Qu’est-ce qui me fait sortir la tête de l’eau » est le thème du projet de médiation artistique que nous développerons cette année 2013&ndash;2014. N’hésitez pas à nous contacter si vous désirez vous inscrire dans ce beau projet que vous trouverez page 10.
     </p>
     <p>
     Enfin pour les informations pratiques, jetez-vous sur la page 11 !
     </p>
     <p>
-    Isabelle Colassin, médiatrice artistique, 
+    Isabelle Colassin, <br />médiatrice artistique, <br />
     02 737 70 18
     </p>
 </article>
@@ -58,28 +57,30 @@
 
 <article id="fusee">
     <div class="titre">
-        <h1 class="supplement">Fusée</h1>
-    </div>
-    <div class="titre">
+        <h5>Fusée</h5>
         <h2 class="supplement">glöörgh opera</h2> 
     </div>
-    <div class="type">
-        <h3>Création Théâtre</h3>
+
+    <div style="width: 31%;">
+        <div class="type">
+            <h3>Création Théâtre</h3>
+        </div>
+        <div class="artiste">
+            <h4>Clinic Orgasm Society</h4>
+        </div>
     </div>
-    <div class="artiste">
-        <h4>Clinic Orgasm Society</h4>
-    </div>
-    <div class="date">
+
+    <div class="date" style="width: 22%;">
         <p>Du 25 septembre au 5 octobre à 20h30 <br/> Amphithéâtre</p>
     </div>
 
     <div class="resume texte supplement">
         <p>
-        Torturons en direct un Glöörgh, type d’extra-terrestre assez redoutable, et questionnons-nous : qu’est-ce qui est humain, qu’est-ce qui ne l’est pas? La pulsion de la destruction est-elle ‘normale’ ? Comment est-elle légitimée dans un cadre sociétal? Comment est-on prêt à détruire ce qui est étranger à nous ? Comment nous manipule-t-on ? 
+        Torturons en direct un Glöörgh, type d’extra-terrestre assez redoutable, et questionnons-nous : qu’est-ce qui est humain, qu’est-ce qui ne l’est pas? La pulsion de la destruction est-elle « normale » ? Comment est-elle légitimée dans un cadre sociétal ? Comment est-on prêt à détruire ce qui est étranger à nous ? Comment nous manipule-t-on ? 
         </p>
     </div>
 
-    <div class="bible" style="width:50%">
+    <div class="bible" style="width:35%">
         <dl>
             <dt>Conception</dt>
             <dd>Ludovic Barth et Claire Deville</dd>
@@ -98,51 +99,56 @@
         </dl>
     </div>
 
-    <div class="production" style="width:50%;">
+    <div class="production" style="width:35%;">
         <p>
         Une production de la Clinic Orgasm Society en coproduction avec la Balsamine, le Théâtre Varia, le manège.mons / Centres Dramatiques de la Fédération Wallonie-Bruxelles, le PBA + Eden (Charleroi), Le Grand Bleu – ENPDA Lille Nprd/Pas-de-Calais. Avec le soutien du centre des Arts Scéniques (CAS) et de la SACD. Avec l’aide du Conseil de l’aide aux projets théâtraux (CAPT).
         </p>
     </div>
 
-        <div class="image-cmjn" style="width: 44%; height: 84px;">
-        <img alt="" class="preview" src="../materials/extract-G/hairs.gif" style="width: 214%; margin-left: -110px; margin-top: -110px;" />
-        <img alt="" class="noir vert" src="../materials/extract/hairs.gif" style="width: 214%; margin-left: -110px; margin-top: -110px;" />
+    <div class="image-cmjn" style="width: 30%; height: 135px;">
+        <img alt="" class="preview" src="../photos/layers-processed/orgasm/orgasm_Calque 4.png" style="width: 100%; z-index:-30; " />
+        <img alt="" class="noir rose" src="../photos/layers-processed/orgasm/orgasm_Calque 4.png" style="width: 100%; z-index:-30;" />
     </div>
     
-    <dl class="fiche">
-        <dt>Niveau  français<dt>
-        <dd >Accessible</dd>
-    </dl>
-    <div class="fiche">    
-         <p class="intitule" >Age minimum</p>
+    <div class="fiche" style="width: 30%;">
+        <p class="intitule">Niveau  français<p>
+        <p >Accessible</p>
+    </div>
+    <div class="fiche" style="height: 100px;">    
+         <p class="intitule" >Âge minimum</p>
          <p>16/17 ans</p>
     </div>
 
-    <div class="fiche">
+    <div class="image-cmjn" style="width: 15%; height: 87px;">
+        <img alt="" class="preview" src="../photos/layers-processed/orgasm/orgasm_Calque 15.png" style="width: 220%; z-index:-30; margin-left: -130px;" />
+        <img alt="" class="noir rose" src="../photos/layers-processed/orgasm/orgasm_Calque 15.png" style="width: 220%; z-index:-30; margin-left: -130px;" />
+    </div>
+
+    <div class="fiche" style="height: 100px;">
          <p class="intitule">Discipline</p>
           <p>Théâtre</p>
     </div>
-    <div class="fiche" style="width:195px">
+    <div class="fiche" style="width: 29%">
           <p class="intitule">Thématiques abordées</p>
           <p>La normalité et la destruction</p>
     </div>
     
     
-    <div class="full" style="width: 40%; margin-bottom: 0px; margin-top:0px; margin-left:0px; height: 120px;">
-        <img alt="" class="preview" src="../photos/retable_clinic_orgasm-nb.jpg" style="width: 300%; z-index:-30; margin-left:-50px; margin-top:-100px" />
-        <img alt="" class="noir rose" src="../photos/retable_clinic_orgasm-nb.jpg" style="width: 300%; z-index:-30; margin-left:-50px; margin-top:-100px" />
+    <div class="full" style="width: 20%; margin-bottom: -170px; height: 270px;">
+        <img alt="" class="preview" src="../photos/layers-processed/orgasm/orgasm_Calque 1 copie.png" style="width: 150%; z-index:-30; margin-left: -20px;" />
+        <img alt="" class="noir rose" src="../photos/layers-processed/orgasm/orgasm_Calque 1 copie.png" style="width: 150%; z-index:-30; margin-left: -20px;" />
     </div>
     
-    <div class="fiche">
+    <div class="fiche" style="width: 37%;">
           <p class="intitule">Particularités</p>
           <p>Utilisation du chant dans le spectacle. Humour décalé. Le spectateur peut être mis à contribution lors de la présentation. Très ludique.</p>
     </div>
     </dl>
     
 
-    <div class="atelier">
+    <div class="atelier" style="width: 42%; height: 180px;">
         <p>
-            atelier texte avec les artistes, ouvert au public, le samedi 28 septembre, de 17h à 19h, à la Balsamine : imagination et construction de machines de torture 
+            Atelier texte avec les artistes, ouvert au public le samedi 28 septembre, de 17h à 19h, à la Balsamine : imagination et construction de machines de torture 
         </p>
     </div>
 </article>
@@ -195,7 +201,7 @@
             <p>Accessible</p>
     </div>        
     <div class="fiche">
-            <p class="intitule">Age minimum</p>
+            <p class="intitule">Âge minimum</p>
             <p>16/17 ans</p>
     </div>        
     <div class="fiche">        
@@ -204,7 +210,7 @@
     </div>
     <div class="fiche">        
             <p class="intitule">Thématique abordée</p>
-            <p>L’utopie existentialiste: Et si nous refaisions le monde?</p>
+            <p>L’utopie existentialiste: et si nous refaisions le monde?</p>
     </div>
     <div class="fiche">
             <p class="intitule">Particularités</p>
@@ -213,7 +219,7 @@
     </div>
     <div class="atelier">
         <p>
-            atelier texte avec les artistes, ouvert au public, le samedi 19 octobre, de 17h à 19h, à la Balsamine
+            Atelier texte avec les artistes, ouvert au public le samedi 19 octobre, de 17h à 19h, à la Balsamine
         </p>
     </div>
 </article>
@@ -242,7 +248,7 @@
 
     <div class="resume texte supplement">
         <p>
-            Anne Thuot traverse les grands thèmes élisabethains (mort, inceste, vengeance, amour,…) en excellant dans de passionnantes digressions sur différents sujets de notre société. Et si les grandes passions humaines étaient toujours d’actualité ?
+            Anne Thuot traverse les grands thèmes élisabethains (mort, inceste, vengeance, amour…) en excellant dans de passionnantes digressions sur différents sujets de notre société. Et si les grandes passions humaines étaient toujours d’actualité ?
         </p>
     <p>
     Copyright Maurice Henry
@@ -273,7 +279,7 @@
             <p>Accessible</p>
    </div>
    <div class="fiche">            
-            <p class="intitule">Age minimum</p>
+            <p class="intitule">Âge minimum</p>
             <p>16/17 ans</p>
     </div>
     <div class="fiche">        
@@ -292,7 +298,7 @@
     
     <div class="atelier">
         <p>
-            atelier texte avec les artistes, ouvert au public, le samedi 9 novembre, de 17h à 19h, à la Balsamine
+            Atelier texte avec les artistes, ouvert au public le samedi 9 novembre, de 17h à 19h, à la Balsamine
         </p>
     </div>
 </article>
@@ -344,41 +350,46 @@
         Une production de Garage 29 et de la Compagnie Tupperware, en coproduction avec la Balsamine. 
         </p>
     </div>
-
-    <div class="tableau">
-        <dl>
-            <dt>Niveau  français</dt>
-            <dd>Très très accessible (pour les primo-arrivants également)</dd>
-            <dt>Age minimum</dt>
-            <dd>16/17 ans</dd>
-            <dt>Discipline</dt>
-            <dd>Danse </dd>
-            <dt>Thématiques abordées</dt>
-            <dd>Quelles traces laissons-nous derrière nous? Thème de la monstruosité abordé.</dd>
-            <dt>Particularités</dt>
-            <dd>Utilisant les matières plastiques de manière ludique et inventive, ces performances danse enchanteront le tout public</dd>
-        </dl>
+    <div class="fiche">
+        <p class="intitule">Niveau  français</p>
+        <p>Très très accessible (pour les primo-arrivants également)</p>
+    </div>
+    <div class="fiche">
+        <p class="intitule">Âge minimum</p>
+        <p>16/17 ans</p>
+    </div>
+    <div class="fiche">
+        <p class="intitule">Discipline</p>
+        <p>Danse </p>
+    </div>
+    <div class="fiche">
+        <p class="intitule">Thématiques abordées</p>
+        <p>Quelles traces laissons-nous derrière nous? Thème de la monstruosité abordé.</p>
+    </div>
+    <div class="fiche">
+        <p class="intitule">Particularités</p>
+        <p>Utilisant les matières plastiques de manière ludique et inventive, ces performances danse enchanteront le tout public</p>
     </div>
 
     <div class="atelier">
         <p>
-        Le samedi 30 novembre dès 14h : atelier textes parents/enfants, spectacle tout public et dîner
+        Le samedi 30 novembre dès 14h : atelier parents/<wbr>enfants, spectacle tout public et dîner
         </p>
     </div>
 
-    <p class="atelier">
+    <div class="atelier">
         <p>
-        14H : atelier texte ludique pour enfants à partir de 6 ans d’une part, et pour leurs parents d’autre part, autour de la matière plastique et des thèmes tels que l’obscurité, la monstruosité,… 
+        14H : atelier ludique pour enfants à partir de 6 ans d’une part, et pour leurs parents d’autre part, autour de la matière plastique et des thèmes tels que l’obscurité, la monstruosité… 
         </p>
     </div>
     <div class="atelier">   
         <p>
-        16h : "Monsters", spectacle de danse pour jeune public autour des matériaux utilisés dans l’atelier texte, toujours sur le thème de la monstruosité
+        16h : «Monsters», spectacle de danse pour jeune public autour des matériaux utilisés dans l’atelier, toujours sur le thème de la monstruosité
         </p>
     </div>
     <div class="atelier">
         <p>
-        19h : Dîner-concert avec « invités surprises».
+        19h : Dîner-concert avec «invités surprises».
         </p>
     </div>
 </article>
@@ -406,7 +417,7 @@
 
     <div class="resume texte">
         <p>
-        Vision brasse les mythes futuristes proposés par Hollywood et nous livre en temps réel une confrontation du théâtre et du cinéma, par le biais de la méthode Bluekey. 
+        <em>Vision</em> brasse les mythes futuristes proposés par Hollywood et nous livre en temps réel une confrontation du théâtre et du cinéma, par le biais de la méthode Bluekey. 
         </p>
     </div>
     <div class="bible" style="width:50%;">
@@ -428,7 +439,7 @@
             <dt>Scénographe «cinéma»</dt>
             <dd>Thomas Delord</dd>
             <dt>Scénographie</dt>
-            <dd>Christine Grégoire en collaboraion avec Ledicia Garcia</dd>
+            <dd>Christine Grégoire en collaboration avec Ledicia Garcia</dd>
             <dt>Construction</dt>
             <dd>Marc Defrise</dd>
             <dt>Maquilleuse</dt>
@@ -444,24 +455,30 @@
         Une production de Mothership asbl, en coproduction avec la Balsamine avec l'aide du Service général des Arts de la Scène de la Fédération Wallonie-Bruxelles, Service Théâtre et le soutien du WBTD (aide à la diffusion).
         </p>
     </div>
-    <div class="tableau">
-        <dl>
-            <dt>Niveau  français</dt>
-            <dd>En anglais (mais très peu de dialogues, beaucoup de séquences muettes), sur-titré  en français et néerlandais.
-            Très très accessible (pour les primo-arrivants également).</dd>
-            <dt>Age minimum</dt>
-            <dd>14/15 ans</dd>
-            <dt>Disciplines</dt>
-            <dd>Théâtre/cinéma</dd>
-            <dt>Thématiques abordées</dt>
-            <dd>Les films de science-fiction hollywoodiens, les utopies futuristes</dd>
-            <dt>Particularités</dt>
-            <dd>Ce spectacle a recueilli un énorme succès l’année passée. Il est très accessible tout en étant novateur. Venez en découvrir les trucages!  </dd>
-        </dl>
+    <div class="fiche">
+        <p class="intitule">Niveau  français</p>
+        <p>En anglais (mais très peu de dialogues, beaucoup de séquences muettes), sur-titré  en français et néerlandais.
+        Très très accessible (pour les primo-arrivants également).</p>
+    </div>
+    <div class="fiche">
+        <p class="intitule">Âge minimum</p>
+        <p>14/15 ans</p>
+    </div>
+    <div class="fiche">
+        <p class="intitule">Disciplines</p>
+        <p>Théâtre/cinéma</p>
+    </div>
+    <div class="fiche">
+        <p class="intitule">Thématiques abordées</p>
+        <p>Les films de science-fiction hollywoodiens, les utopies futuristes</p>
+    </div>
+    <div class="fiche">
+        <p class="intitule">Particularités</p>
+        <p>Ce spectacle a recueilli un énorme succès l’année passée. Il est très accessible tout en étant novateur. Venez en découvrir les trucages!  </p>
     </div>
     <div class="atelier">
         <p>
-        atelier texte avec les artistes, ouvert au public, le samedi 1er mars, de 17h à 19h, à la Balsamine
+        Atelier texte avec les artistes, ouvert au public le samedi 1<sup>er</sup> mars, de 17h à 19h, à la Balsamine
         </p>
     </div>
 </article>
@@ -500,7 +517,7 @@
     </div>
     <div class="resume">
         <p>
-        « Simone elle est bonne » décline avec humour les stéréotypes de notre société, sur un air d’electro punk.
+        « Simone elle est bonne » décline avec humour les stéréotypes de notre société, sur un air d’électro punk.
         </p>
     </div>
 
@@ -521,23 +538,29 @@
     </div>
 
 
-    <div class="tableau">
-        <dl>
-            <dt>Niveau  français</dt>
-            <dd>Très accessible </dd>
-            <dt>Age min</dt>
-            <dd>16/17 ans</dd>
-            <dt>Disciplines</dt>
-            <dd>Danse et concert</dd>
-            <dt>Thématique abordée</dt>
-            <dd>Place des femmes dans notre société et les clichés qui en sont véhiculés</dd>
-            <dt>Particularités</dt>
-            <dd>Très punch et déjanté,avec un esprit rock/punk, cet événement enchantera les esprits jeunes et questionnera de manière pertinente</dd>
-        </dl>
+    <div class="fiche">
+        <p class="intitule">Niveau  français</p>
+        <p>Très accessible </p>
+    </div>
+    <div class="fiche">
+        <p class="intitule">Âge minimum</p>
+        <p>16/17 ans</p>
+    </div>
+    <div class="fiche">
+        <p class="intitule">Disciplines</p>
+        <p>Danse et concert</p>
+    </div>
+    <div class="fiche">
+        <p class="intitule">Thématique abordée</p>
+        <p>Place des femmes dans notre société et les clichés qui en sont véhiculés</p>
+    </div>
+    <div class="fiche">
+        <p class="intitule">Particularités</p>
+        <p>Très punch et déjanté, avec un esprit rock/punk, cet événement enchantera les esprits jeunes et questionnera de manière pertinente</p>
     </div>
     <div class="atelier">
         <p>
-        atelier texte avec Barbara Mavro Thalassitis, ouvert au public, le samedi 22 mars, de 17h à 19h, à la Balsamine
+        Atelier avec Barbara Mavro Thalassitis, ouvert au public le samedi 22 mars, de 17h à 19h, à la Balsamine
         </p>
     </div>
 </article>
@@ -551,83 +574,141 @@
             
 <table>
     <tr>
-        <th>atelier textes </th>
-        <th>Performances interactives</th>
-        <th>Accompagnements thématiques</th>
-        <th>atelier texte ponctuel avec les artistes</th>
+        <th class="vide" style="height: 96px">
+            <img alt="" class="preview" src="../materials/extract-G/crachat.gif" style="height: 96px; top: 0;" />
+            <img alt="" class="noir vert" src="../materials/extract/crachat.gif" style="height: 96px; top: 0;" />
+        </th>
+        <th>Ateliers </th>
+        <th>Perfor&shy;mances inter&shy;actives</th>
+        <th>Accom&shy;pa&shy;gne&shy;ments thématiques</th>
+        <th>Atelier ponctuel avec les artistes</th>
     </tr>
     <tr>
-        <td>Avec tout spectacle</td>
-        <td>Visite du théâtre, assister à une répétition, atelier texte initiation jeu (50’/70’)</td>
+        <td>
+            <div>T o u t</div>
+            <div>s p e c t a c l e</div>
+        </td>
+        <td>Visite du théâtre, assister à une répétition, atelier initiation jeu (50’/70’)</td>
         <td>Toutes les performances peuvent être choisies</td>
-        <td>Clés du théâtre d’aujourd’hui (50’)</td>
-        <td>Langages corporels (50’) </td>
+        <td><em>Clés du théâtre d’aujourd’hui</em> (50’);
+            <em>Langages corporels</em> (50’) </td>
         <td>Rencontre avec les artistes</td>
     </tr>
     <tr>
-        <td>Fusée</td>
-        <td>atelier texte ludique :Qu’est-ce que la‘normalité’? Et qu’en est-il de nos peurs ? (50’)</td>
-        <td></td>
-        <td></td>
-        <td>28 septembre 17/19h &mdash;
-        Construction de Machines de torture</td>
+        <td><div>F u s é e</div></td>
+        <td>Atelier ludique : <em>Qu’est-ce que la «normalité»?</em>; <em>Et qu’en est-il de nos peurs ?</em> (50’)</td>
+        <td class="vide">
+            <img alt="" class="preview" src="../materials/extract-G/cloud.gif" style="height: 212px;" />
+            <img alt="" class="noir vert" src="../materials/extract/cloud.gif" style="height: 212px;" />
+        </td>
+        <td class="vide">
+            <img alt="" class="preview" src="../materials/extract-G/floor.gif" style="height: 212px;" />
+            <img alt="" class="noir vert" src="../materials/extract/floor.gif" style="height: 212px;" />
+        </td>
+        <td>28 septembre 17→19h :
+        construction de Machines de torture</td>
     </tr>
     <tr>
-        <td>Les moutons</td>
-        <td>atelier texte d’écriture avec les actrices : Réécrivons le monde… (50’)</td>
+        <td>
+            <div>L e s </div>
+            <div>m o u t o n s</div>
+        </td>
+        <td>Atelier d’écriture avec les actrices : <em>Réécrivons le monde…</em> (50’)</td>
         <td>Écritures scéniques (50’) </td>
-        <td></td>
-        <td>19 octobre 17/19h &mdash;
-        Mettre en jeu le corps sur scène</td>
+        <td class="vide" style="height: 207px;">
+            <img alt="" class="preview" src="../materials/extract-G/gradient.gif" style="height: 207px;" />
+            <img alt="" class="noir vert" src="../materials/extract/gradient.gif" style="height: 207px;" />
+        </td>
+        <td>19 octobre 17→19h :
+        mettre en jeu le corps sur scène</td>
     </tr>
     <tr>
 
-        <td>J’ai enduré vos discours…</td>
-        <td>Jeux dont vous êtes le héros : Et si tu jouais dans une tragédie, qu’est-ce que tu ferais ? (50’)</td>
-        <td>Écritures scéniques (50’)</td>
-        <td>Qu’en est-il de nos passions humaines ? (30’)</td>
-        <td>9 novembre 17/19h</td>
+        <td>
+            <div style="width: 80px; margin: 0;">
+                <div>J’ a i</div>
+                <div>e n d u r é </div>
+                <div>v o s </div>
+                <div>d i s c o u r s …</div>
+            </div>
+        </td> 
+        <td>Jeux dont vous êtes le héros :
+            <em>Et si tu jouais dans une tragédie, qu’est-ce que tu ferais ?</em>            (50’)</td> 
+        <td>Écritures scéniques (50’)</td> 
+        <td><em>Qu’en est-il de nos passions humaines ?</em> (30’)</td> 
+        <td>9 novembre 17→19h</td> 
     </tr>
-    <tr>
-        <td>Garage 29</td>
-        <td></td>
+    <tr> 
+        <td>
+            <div style="width: 40px">
+                <div>G a r a g e </div>
+                <div>2 9</div>
+            </div>
+        </td> 
+        <td class="vide">
+            <img alt="" class="preview" src="../materials/extract-G/flammes.gif" style="height: 132px;" />
+            <img alt="" class="noir vert" src="../materials/extract/flammes.gif" style="height: 132px;" />
+        </td>
         <td>Langages corporels (50’)</td>
-        <td></td>
-        <td>30 novembre 14h &mdash;
-        parents/enfants &mdash;
-        monstruosité</td>
-    </tr>
+        <td class="vide">
+            <img alt="" class="preview" src="../materials/extract-G/fire-crackers.gif" style="height: 132px;" />
+            <img alt="" class="noir vert" src="../materials/extract/fire-crackers.gif" style="height: 132px;" />
+        </td>
+        <td>30 novembre 14h : parents/enfants &mdash;            monstruosité</td> 
+    </tr> 
+    <tr> 
+        <td>
+            <div>T r i l o g i e </div>
+            <div>d e </div>
+            <div>l’ E n f e r </div>
+        </td>
+        <td>Spectacle non repris dans le livret, voir le programme de            saison</td> 
+        <td class="vide">
+            <img alt="" class="preview" src="../materials/extract-G/lignes-obliques.gif" style="height: 168px;" />
+            <img alt="" class="noir vert" src="../materials/extract/lignes-obliques.gif" style="height: 168px" />
+        </td>
+        <td class="vide">
+            <img alt="" class="preview" src="../materials/extract-G/explosion-violente.gif" style="height: 168px;" />
+            <img alt="" class="noir vert" src="../materials/extract/explosion-violente.gif" style="height: 168px;" />
+        </td>
+        <td>1<sup>er</sup> février 17→19h :
+            Lecture au lutrin d’extraits du texte</td> 
+    </tr> 
     <tr>
-        <td>Trilogie de l’Enfer </td>
-        <td>Spectacle non repris dans le livret, voir le programme de saison</td>
-        <td></td>
-        <td></td>
-        <td>1<sup>er</sup> février 17/19h &mdash;
-        Lecture au lutrin  &mdash;
-        d’extraits du texte</td>
-    </tr>
-    <tr>
-        <td>Vision</td>
-        <td>Visite de l’envers du décor (15’) et atelier texte Bluekey (30’)</td>
-        <td>Hybridité,transdisciplinarité ou Écritures scéniques (50’) </td>
-        <td>Une vision de l’utopie au cinéma… (30’)</td>
-        <td>1<sup>er</sup> mars 17/19h</td>
-    </tr>
-    <tr>
-        <td>K Barré</td>
-        <td>atelier texte danse autour des clichés de la femme (50’ /70’)</td>
-        <td>Langages corporels (50’)</td>
-        <td>Le K des Femmes (30’)</td>
-        <td>22 mars 17/19h</td>
-    </tr>
-    <tr>
-        <td>La Forêt</td>
-        <td>Spectacle non repris dans le livret, voir le programme de saison</td>
-        <td></td>
-        <td></td>
-        <td>5 avril 17/19h &mdash;
-        Composition d’opéras</td>
-    </tr>
+        <td>
+            <div>V i s i o n</div>
+        </td> 
+        <td>Visite de l’envers du décor (15’) ; atelier Bluekey            (30’)</td> 
+        <td>Hybridité, transdisciplinarité ou Écritures            scéniques (50’) </td> 
+        <td><em>Une vision de l’utopie au cinéma…</em>            (30’)</td> 
+        <td>1<sup>er</sup> mars 17→19h</td> 
+    </tr> 
+    <tr> 
+        <td>
+            <div>K</div>
+            <div>B a r r é</div>
+       </td> 
+       <td>Atelier danse autour des clichés de la femme (50’/70’)</td> 
+       <td>Langages corporels (50’)</td> 
+       <td><em>Le K des Femmes</em>           (30’)</td> 
+       <td>22 mars 17→19h</td> 
+   </tr> 
+   <tr> 
+       <td>
+           <div>L a </div>
+           <div>F o r ê t</div>
+       </td>
+        <td>Spectacle non repris dans le livret, voir le programme de            saison</td> 
+        <td class="vide">
+            <img alt="" class="preview" src="../materials/extract-G/lignes avec oblique.gif" style="height: 114px;" />
+            <img alt="" class="noir vert" src="../materials/extract/lignes avec oblique.gif" style="height: 114px;" />
+        </td>
+        <td class="vide">
+            <img alt="" class="preview" src="../materials/extract-G/grand-canyon-à--ciel-courbé.gif" style="height: 114px;" />
+            <img alt="" class="noir vert" src="../materials/extract/grand-canyon-à--ciel-courbé.gif" style="height: 114px;" />
+        </td>
+        <td>5 avril 17→19h : composition           d’opéras</td> 
+    </tr> 
 </table>
 
 
@@ -637,30 +718,35 @@
     Libre à vous de composer votre propre parcours d’accompagnement à travers nos spectacles et nos activités (gratuites).
     </p>
 </div>
-<div class="pratique">
+
+<div style="width: 24%">
+    <div class="pratique">
+        <p>
+        À titre d’exemples :
+        </p>
+    </div>
+    <div class="pratique" style="height: 404px;">
+        <p>
+        <span class="intitule">Public de personnes peu initiées au théâtre d’aujourd’hui</span> <br/> Visite du théâtre ou <em>Clés du théâtre d’aujourd’hui</em>, <em>Les Moutons</em>, suivi d’une rencontre avec les interprètes, l’atelier Bluekey, <em>Vision</em>.
+        </p>
+    </div>
+</div>
+
+<div class="pratique" style="width: 40%">
     <p>
-    A titre d’exemples :
+    <span class="intitule">Public de jeunes ados</span> <br/> <em>Clés du théâtre d’aujourd’hui</em>, <em>Les Moutons</em>, suivi d’un atelier d’écriture avec les interprètes, <em>J’ai enduré vos discours</em>, préparé par la performance « écritures scéniques » et l’atelier thématique « qu’en est-il de nos passions humaines », <em>Vision</em>, préparé par la performance écritures scéniques et l’atelier thématique « Une vision de l’utopie au cinéma », la visite de l’envers du décor le soir même, et <em>Le K des femmes</em>,  suivi d’un débat autour de la place des femmes dans notre société.
     </p>
 </div>
-<div class="pratique">
+<div class="pratique" style="width: 34%; height: 488px;">
     <p>
-    public de personnes peu initiées au théâtre d’aujourd’hui : Visite du théâtre ou Clés du théâtre d’aujourd’hui, Les Moutons, suivi d’une rencontre avec les interprètes, l’atelier texte Bluekey, Vision.
-    </p>
-</div>
-<div class="pratique">
-    <p>
-    public de jeunes ados : Clés du théâtre d’aujourd’hui, Les moutons, suivi d’un atelier texte d’écriture avec les interprètes, J’ai enduré vos discours, préparé par la performance « écritures scéniques » et l’atelier texte thématique « qu’en est-il de nos passions humaines », Vision, préparé par la performance écritures scéniques et l’atelier texte thématique « Une vision de l’utopie au cinéma », la visite de l’envers du décor le soir même, et Le K des femmes,  suivi d’un débat autour de la place des femmes dans notre société
-    </p>
-</div>
-<div class="pratique">
-    <p>
-    public habitué à fréquenter les salles, aimant les atelier textes: Fusée préparé par l’atelier texte ludique autour de la normalité et la performance sur la transdisciplinarité, J’’ai enduré vos discours, préparé par « le jeu dont vous êtes le héros », Les moutons et la performance « écritures scéniques ». 
+    <span class="intitule">Public habitué à fréquenter les salles, aimant les ateliers</span> <br/>
+    <em>Fusée</em> préparé par l’atelier ludique autour de la normalité et la performance sur la transdisciplinarité, <em>J’ai enduré vos discours</em>, préparé par « le jeu dont vous êtes le héros », <em>Les Moutons</em> et la performance « écritures scéniques ». 
     </p>
 </div>
 
 <div class="pratique">
     <p>
-    Les performances interactives : une équipe de 2 ou 3 personnes (une attachée pédagogique : Isabelle Colassin, un des deux directeurs artistiques de la Balsamine : Monica Gomes et Fabien Dehasseler, et un éventuel artiste) viendront à vous en tant que pédagogues singuliers de leur pratique et en tant que performeurs. Pendant 50 minutes, nous vous inviterons à pénétrer dans des univers particuliers en partageant et en « actant » un aspect des créations proposées dans notre saison.
+    <span class="intitule">Les performances interactives</span> <br/> Une équipe de 2 ou 3 personnes (une attachée pédagogique : Isabelle Colassin, un des deux directeurs artistiques de la Balsamine : Monica Gomes et Fabien Dehasseler, et un éventuel artiste) viendront à vous en tant que pédagogues singuliers de leur pratique et en tant que performeurs. Pendant 50 minutes, nous vous inviterons à pénétrer dans des univers particuliers en partageant et en « actant » un aspect des créations proposées dans notre saison.
     </p>
 </div>
 
@@ -672,7 +758,7 @@
 
 <div class="pratique">
     <p>
-    Les atelier textes Balsa : donnés ponctuellement, le samedi, par les artistes de chaque spectacle, ils permettent de rencontrer autrement la démarche artistique des créateurs.Vous formerez un petit groupe de 15 à 20 personnes maximum et pourrez vivre une démarche artistique de l’intérieur. L’atelier texte est gratuit pour le public mais il est obligatoire de réserver pour y participer. 
+    <span class="intitule">Les ateliers Balsa</span> donnés ponctuellement, le samedi, par les artistes de chaque spectacle, ils permettent de rencontrer autrement la démarche artistique des créateurs. Vous formerez un petit groupe de 15 à 20 personnes maximum et pourrez vivre une démarche artistique de l’intérieur. L’atelier est gratuit pour le public mais il est obligatoire de réserver pour y participer. 
     </p>
 </div>
 
@@ -682,8 +768,8 @@
 
 
 <article id="mediation-artistique">
-<h1 class="supplement">Projet de médiation artistique</h1>
-<h2 class="supplement">qu’est ce qui me fait sortir la tête de l’eau ?</h2>
+<div class="partsup">Projet de médiation artistique</div>
+<h2 class="supplement">qu’est-ce qui me fait sortir la tête de l’eau ?</h2>
 
 <div class="pratique">
     <p>
@@ -695,20 +781,24 @@
     Cette année, nous creuserons les différentes facettes de ce sujet excitant par le biais de trois disciplines :
     </p>
 </div>
-<div class="pratique">
+<div class="pratique" style="width: 33%;">
     <p>
-    la danse : des atelier textes réguliers avec des danseurs confirmés seront donnés en préparation d’un événement performatif auxquels les participants seront libres de prendre part ou non.
+    <span class="intitule">la danse</span> <br/> des ateliers réguliers avec des danseurs confirmés seront donnés en préparation d’un événement performatif auxquels les participants seront libres de prendre part ou non.
+    </p>
+</div>
+<div class="pratique" style="width: 33%; height: 260px;">
+    <p>
+    <span class="intitule">le théâtre performatif</span> <br/> un groupe d’artistes vous invitera à intégrer un événement théâtral présenté à la Balsamine.
+    </p>
+</div>
+<div class="pratique" style="width: 33%; height: 260px;">
+    <p>
+    <span class="intitule">l’art plastique</span> <br/> une récolte de matériaux (vidéos, peintures, photos, éléments bruts, etc.) sera réalisée autour du sujet et ceux-ci seront mis en forme par un artiste.
     </p>
 </div>
 <div class="pratique">
     <p>
-    le théâtre performatif : un groupe d’artistes vous invitera à intégrer un événement théâtral présenté à la Balsamine
-    l’art plastique : une récolte de matériaux (vidéos, peintures, photos, éléments bruts, etc.) sera réalisée autour du sujet et ceux-ci seront mis en forme par un artiste
-    </p>
-</div>
-<div class="pratique">
-    <p>
-    Si cela vous intéresse, d’une manière ou d’une autre, n’hésitez pas à me contacter. Les dates d’atelier texte et le nom des intervenants seront vous communiqués très prochainement.
+    Si cela vous intéresse, d’une manière ou d’une autre, n’hésitez pas à me contacter. Les dates d’atelier et le nom des intervenants vous seront communiqués très prochainement.
     </p>
 </div>
 
@@ -716,46 +806,53 @@
 
 
 
+<div class="page-break" style="height: 190px; margin-bottom: 30px;"></div>
 
 
 
 <article id="infos-pratiques">
 
-    <h1 class="supplement">Informations pratiques</h1>
+    <div class="partsup">Informations pratiques</div>
 
-    <div class="pratique">
+    <div class="pratique" style="outline: none">
         <p>
-        Isabelle Colassin,service médiation artistique : 02 737 70 18 <br/>
+        Isabelle Colassin, service médiation artistique : 02 737 70 18 <br/>
         N’hésitez pas à laisser un message en donnant vos disponibilités ou à envoyer un mail à isabelle.colassin@balsamine.be
         </p>
     </div>
-    <div class="titre">
-         <h2 class="supplement">Tarifs</h2>
-     </div>
-     <div class="pratique" style="width:66%;  text-transform: none">
+
+    <!--<div class="titre" style="width: 100%">-->
+         <!--<h2 class="supplement">Tarifs</h2>-->
+     <!--</div>-->
+
+     <div class="pratique numbers" style="width:70%;  text-transform: none">
          <span class="lettrine">Tarifs de groupe</span>
-         <div class="pratique" style="width: 42%; height: 256px; ">
+         <div class="pratique" style="width: 41%; height: 256px; ">
              Le paiement des réservations de groupe doit s’effectuer 10&nbsp;jours avant la date de représentation choisie.
          </div>
-         <div class="pratique" style="width: 58%; ">
-             <span class="lettrine">Groupe adulte</span> (à partir de 10 personnes) : 10€ la place + 1 place offerte à l’organisateur
+         <div class="pratique numbers" style="width: 59%; ">
+             <span class="intitule">Groupe adulte</span> (à partir de 10 personnes) : 10€ la place + 1 place offerte à l’organisateur
          </div>
-         <div class="pratique" style="width: 58%; ">
-             <span class="lettrine">Groupe étudiant</span> (à partir de 10 personnes) : 6€ la place + 1 place offerte à l’enseignant
+         <div class="pratique numbers" style="width: 59%; ">
+             <span class="intitule">Groupe étudiant</span> (à partir de 10 personnes) : 6€ la place + 1 place offerte à l’enseignant
          </div>
      </div>
 
-     <div class="pratique" style="width:15%;  text-transform: none; ">
-         <span class="lettrine">Art. 27</span> et <span class="lettrine">Arsène 50</span>
+     <div class="pratique numbers" style="width:20%;  text-transform: none; ">
+         <span class="intitule">Article 27</span> et <span class="intitule">Arsène 50</span>
      </div>
-     <div class="pratique" style="width:24%;  text-transform: none; ">
-         <span class="lettrine">Tarifs étudiants <br /> en écoles supérieures artistiques</span> <br/>4€
+     <div class="pratique numbers" style="width:24%;  text-transform: none; ">
+         <span class="intitule">Tarifs étudiants <br /> en écoles supérieures artistiques</span> <br/>4€
      </div>
-     <div class="pratique" style="width:44%;  text-transform: none">
-         <span class="lettrine">Tarifs réduits</span> <br />8€ &mdash; prévente 6€
+     <div class="pratique numbers" style="width:30%;  text-transform: none">
+         <span class="intitule">Tarifs réduits</span> <br />8€ &mdash; prévente 6€
          (étudiants, +&nbsp;60 ans, demandeurs d’emploi, schaerbeekois)
      </div>
 
+    <div class="image-cmjn" style="width: 100%; height: 84px;">
+        <img alt="" class="preview" src="../materials/extract-G/pinceau.gif" style="width: 214%; margin-left: -110px; margin-top: -110px;" />
+        <img alt="" class="noir vert" src="../materials/extract/pinceau.gif" style="width: 214%; margin-left: -110px; margin-top: -110px;" />
+    </div>
 
     <div class="pratique">
         <p>
@@ -764,15 +861,15 @@
         1030 Bruxelles 
         </p>
     </div>
-    <div class="pratique">
+    <div class="pratique" style="width: 29%">
         <p>
         Numéro de réservation général : 02 737 70 18
         </p>
     </div>
     <div class="pratique">
         <p>
-        Bus et metro
-        Bus 29, 64, 28, 61 (Dailly) - Bus 63 (Plasky) - Tram 25 (Meiser)- Bus 410, 358, 351, 318 (Dailly) - Metro Madou - Collecto 051 Dailly -  Villo - Bus de nuit N05 (Plasky) et N04 (Meiser)
+        <span class="lettrine">Bus et metro</span><br />
+        Bus 29, 64, 28, 61 (Dailly) &mdash; Bus 63 (Plasky) &mdash; Tram 25 (Meiser) &mdash; Bus 410, 358, 351, 318 (Dailly) &mdash; Metro Madou &mdash; Collecto 051 Dailly &mdash;  Villo &mdash; Bus de nuit N05 (Plasky) et N04 (Meiser)
         </p>
     </div>
 </article>
@@ -781,6 +878,56 @@
 
 
 
-        <script src="articles/less-1.3.0.min.js"></script>
+    <script type="text/javascript" src="articles/jquery.min.js"></script>
+    <script src="articles/less-1.3.0.min.js"></script>
+    <script type="text/javascript">
+
+        // INSÈRE UN CARACTÈRE UNICODE APRÈS <DD>
+        (function($) {
+            $.fn.postDD=function()
+            {
+                return this.each(function(){
+                    $(this).after("<span>⁀</span>");
+                });
+            };
+        })(jQuery);
+
+        // INSÈRE DES <WBR> ENTRE CHAQUE LETTRE
+        (function($) {
+            $.fn.bainesify=function()
+            {
+                return this.each(function(){
+            text = $(this).text().split("");
+            html = text.join("<wbr>");
+                    console.log(text + html);
+            $(this).html(html);
+                });
+            };
+        })(jQuery);
+
+        $(document).ready(function(){
+            // TITRAGES
+            //$("h2").titrage();
+            //$("h3").cadre();
+            
+            // FAKE PAGES
+            doc_height = $("body").height();
+            page_height = $("#fakepage").height(); 
+            //page_height = 22; 
+            nb_page = Math.ceil(doc_height/page_height);
+            //gutter = parseInt($("#fakepage").css("top"));  // = 1cm
+            
+            for (i = 0; i <= nb_page; i++){
+                $("#fakepage").clone().css({'outline-offset': '-1cm', 'display': 'block'}).attr("id","fakepage-p"+i).insertBefore($("#fakepage"));
+            }
+
+            // AJOUTE UN UNICODE APRÈS <DD>
+            $("dd").postDD();
+
+            $.each($("img"), function(){
+                    console.log("path: " + $(this).attr("src") + " ; width: " + $(this).width()+ " ; height: " + $(this).height());
+            });
+        });
+    </script>
     </body>
 </html>
