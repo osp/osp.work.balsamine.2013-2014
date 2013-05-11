@@ -160,13 +160,15 @@
     <div class="titre">
         <h5>Les Moutons</h5>
     </div>
-    <div class="type">
-        <h3>Reprise Théâtre</h3>
+    <div style="width: 25%">
+        <div class="type">
+            <h3>Reprise Théâtre</h3>
+        </div>
+        <div class="artiste">
+            <h4>Schieve Compagnie</h4>
+        </div>
     </div>
-    <div class="artiste">
-        <h4>Schieve Compagnie</h4>
-    </div>
-    <div class="date">
+    <div class="date" style="width: 25%">
         <p>
             Du 15 au 26 octobre à 20h30 <br /> Foyer
         </p>
@@ -177,7 +179,13 @@
         Corinne et Corinne, un mouton blanc et un mouton noir, ont soif de liberté et décident de rallier le camp des Hommes… Elles philosophent quelque peu sur la question, qui n’est certainement pas anodine, et surtout de manière truculente…
         </p>
     </div>
-    <div class="bible" style="width:50%;">
+
+    <div class="image-cmjn" style="width: 33%; height:146px;">
+        <img alt="" class="preview" src="../photos/reprises/les_moutons.jpg" style="width: 1230px; z-index:-30; margin-left: -70px; margin-top: -1122px;" />
+        <img alt="" class="noir rose" src="../photos/reprises/les_moutons.jpg" style="width: 1230px; z-index:-30; margin-left: -70px; margin-top: -1122px;" />
+    </div>
+
+    <div class="bible" style="width:32%;">
         <dl>
             <dt>Concept, écriture</dt>
             <dd>Élena Perez et Lise Wittamer</dd>
@@ -202,9 +210,9 @@
     </div>    
     
         
- <div class="full" style="width: 24%; margin-bottom: -170px; ">
-        <img alt="" class="preview" src="../photos/reprises/les_moutons.jpg" style="width: 293%; z-index:-30; margin-left: -122px; margin-top: -349px; height: 132px;" />
-        <img alt="" class="noir vert" src="../photos/reprises/les_moutons.jpg" style="width: 293%; z-index:-30; margin-left: -122px; margin-top: -349px;" />
+    <div class="image-cmjn" style="width: 63%; height:164px;">
+        <img alt="" class="preview" src="../photos/reprises/les_moutons.jpg" style="width: 1230px; z-index:-30; margin-left: -70px; margin-top: -823px;" />
+        <img alt="" class="noir rose" src="../photos/reprises/les_moutons.jpg" style="width: 1230px; z-index:-30; margin-left: -70px; margin-top: -823px;" />
     </div>
     
     <div class="fiche shasha">
@@ -218,45 +226,53 @@
     <div class="fiche" style="width: 28%">        
             <p class="intitule">Thématique abordée</p>
             <p>L’utopie existentialiste: et si nous refaisions le monde?</p>
-     
-   <div class="image-cmjn" style="width:55%;outline: none; position: relative; z-index: -10; overflow: visible;margin-left:-310px;margin-top:-281px; clear:left;">
-<img alt="" class="preview" src="../materials/extract-G/mouton.gif" style="width: 326%;" />
-            <img alt="" class="noir vert" src="../materials/extract/mouton.gif" style="width: 326%;" /> 
-    </div>  
-           
     </div>
-    <div class="fiche" style="width: 46%; margin-left: 10px">
+
+
+    <div class="fiche" style="width: 44%">
             <p class="intitule">Particularités</p>
             <p>Spectacle très amusant, beaucoup d’humour, de dérision, reprise de chansons connues, connotations philosophiques</p>
 
     </div>
-    <div class="atelier" style="width:36%">
+    <div class="atelier" style="width: 36%">
         <p>
             Atelier texte avec les artistes, ouvert au public le samedi 19 octobre, de 17h à 19h, à la Balsamine
         </p>
     </div>
+    <div class="image-cmjn" style="width: 41%;outline: none; position: absolute; z-index: -1; overflow: visible;left: -120px;top: 90px;">
+        <img alt="" class="preview" src="../materials/extract-G/mouton.gif" style="width: 100%;" /> 
+        <img alt="" class="noir vert" src="../materials/extract/mouton.gif" style="width: 100%;" /> 
+    </div>  
 </article>
 
 
 
 
 
-
 <article id="jai-endure-vos-discours">
-    <div class="titre">
+
+    <div class="image-cmjn turn-skiev-2" class="image-cmjn" style="width: 115%; height:215px; margin-left:-100px; margin-bottom:40px;">
+        <img alt="" class="preview" src="../photos/layers/annedroite/anne__MG_4923.CR2.png" style="width: 100%; margin-top:-272px" /> 
+    <img alt="" class="noir vert" src="../photos/layers/annedroite/anne__MG_4923.CR2.png" style="width: 100%; margin-top:-272px" /> 
+   </div>
+
+    <div class="titre" style="width: 50%">
         <h5>«J'ai enduré vos discours et j'ai l'oreille en feu»</h5>
     </div>
-    <div class="type">
-        <h3>Création Théâtre</h3>
-    </div>
-    <div class="artiste">
-        <h4>Anne Thuot</h4>
-    </div>
 
-    <div class="date">
-        <p>
-            Du 6 au 16 novembre à 20h30 <br /> Amphithéâtre 
-        </p>
+    <div style="width: 25%">
+        <div class="type">
+            <h3>Création Théâtre</h3>
+        </div>
+        <div class="artiste">
+            <h4>Anne Thuot</h4>
+        </div>
+
+        <div class="date" >
+            <p>
+                Du 6 au 16 novembre à 20h30 <br /> Amphithéâtre 
+            </p>
+        </div>
     </div>
 
     <div class="resume texte supplement">
@@ -269,7 +285,7 @@
     </div>
 
 
-    <div class="bible" style="width:50%;">
+    <div class="bible" style="width:42%;">
     <dl>
         <dt>Mise en scène</dt>
         <dd>Anne Thuot</dd>
@@ -281,7 +297,7 @@
         <dd>Raphaël Noël</dd>
     </dl>
     </div>
-    <div class="production" style="width:50%;">
+    <div class="production" style="width:28%;">
         <p>
             Une production du Théâtre de l’Ancre et de la Balsamine. Avec l’aide de la Fédération Wallonie-Bruxelles, service Théâtre et le soutien de WBTD (aide à la diffusion). En partenariat avec le Centre des Arts Scéniques. Anne Thuot est artiste en Compagnie au Théâtre de l’Ancre.  
         </p>
@@ -295,6 +311,12 @@
             <p class="intitule">Âge minimum</p>
             <p>16/17 ans</p>
     </div>
+    
+    <div class="image-cmjn" style="width: 70%; height:132px;">
+        <img alt="" class="preview" src="../photos/layers/annedroite/anne_Calque1.png" style="width: 138%; margin-left: -280px; margin-top: -330px;" />
+        <img alt="" class="noir rose" src="../photos/layers/annedroite/anne_Calque1.png" style="width: 138%; margin-left: -280px; margin-top: -330px;" />
+    </div>
+    
     <div class="fiche">        
             <p class="intitule">Discipline</p>
             <p>Théâtre</p>
@@ -309,9 +331,9 @@
     </div>
     </div>
     
-    <div class="atelier">
+    <div class="atelier" style="width: 42%;">
         <p>
-            Atelier texte avec les artistes, ouvert au public le samedi 9 novembre, de 17h à 19h, à la Balsamine
+            Atelier texte avec les artistes, ouvert au public le samedi 9 novembre, de 17h à 19h, à&nbsp;la&nbsp;Balsamine
         </p>
     </div>
 </article>
@@ -323,20 +345,19 @@
 
 
 <article id="carte-blanche-garage-29">
-    <div class="titre">
+    <div class="titre" style="width: 75%;">
         <h5>Carte Blanche Garage 29</h5>
     </div>
-    <div class="type">
-        <h3>Danse</h3>
+    <div style="width: 25%;">
+        <div class="type">
+            <h3>Danse/performances</h3>
+        </div>
+        <div class="artiste">
+            <h4>Compagnie Tupperware</h4>
+        </div>
     </div>
-    <div class="date">
+    <div class="date" style="width: 25%;">
         <p>Le 29 novembre à 20h30</p>
-    </div>
-    <div class="type">
-        <h3>Danse/performances</h3>
-    </div>
-    <div class="artiste">
-        <h4>Compagnie Tupperware</h4>
     </div>
 
     <div class="resume texte supplement">
@@ -344,7 +365,7 @@
         Nos déchets, nos sacs poubelles sont, en quelque sorte, des traces de notre vie… Comment transcender ces résidus?
         </p>
     </div>
-    <div class="bible" style="width:50%;">
+    <div class="bible" style="width:43%;">
         <dl>
             <dt>Avec</dt>
             <dd>Laida Arietta Aldaz,Nicanor de Elia, Laida Aldaz Arietta, Jorge Jauregui Allue, Sabina Scarlat, Tiziano Lavoratornovi</dd>
@@ -358,33 +379,44 @@
             <dd>Flavia Ceglie</dd>
         </dl>
     </div>
-    <div class="production" style="width:50%;">
+    <div class="production" style="width:36%;">
         <p>
         Une production de Garage 29 et de la Compagnie Tupperware, en coproduction avec la Balsamine. 
         </p>
     </div>
-    <div class="fiche">
+    <div class="fiche" style="width: 31%;">
         <p class="intitule">Niveau  français</p>
         <p>Très accessible (pour les primo-arrivants également)</p>
     </div>
     <div class="fiche">
         <p class="intitule">Âge minimum</p>
         <p>16/17 ans</p>
+        
+     
+        
     </div>
     <div class="fiche">
         <p class="intitule">Discipline</p>
         <p>Danse </p>
     </div>
-    <div class="fiche">
+    <div class="fiche" style="width: 33%;">
         <p class="intitule">Thématiques abordées</p>
         <p>Quelles traces laissons-nous derrière nous? Thème de la monstruosité abordé.</p>
     </div>
-    <div class="fiche">
+    <div class="fiche" style="width: 32%;">
         <p class="intitule">Particularités</p>
         <p>Utilisant les matières plastiques de manière ludique et inventive, ces performances danse enchanteront le tout public</p>
     </div>
 
-    <div class="atelier">
+          <div class="image-cmjn" style="width:58%;height: 215px; outline: none; margin-left: 15px; z-index: -10;">
+            <img alt="" class="noir vert" src="../materials/extract/cinema.gif" style="width: 110%; margin-top: -313px;" />
+            <img alt="" class="preview" src="../materials/extract-G/cinema.gif" style="width: 110%; margin-top: -313px;" />
+        </div>
+        
+    
+    
+    
+    <div class="atelier" style="width: 29%;">
         <p>
         Le samedi 30 novembre dès 14h : atelier parents/<wbr>enfants, spectacle tout public et dîner
         </p>
@@ -418,13 +450,15 @@
     <div class="titre">
         <h5>Vision</h5>
     </div>
-    <div class="type"
-        <h3>Reprise Théâtre/Cinéma</h3>
+    <div style="width: 25%;">
+        <div class="type">
+            <h3>Reprise Théâtre/Cinéma</h3>
+        </div>
+        <div class="artiste">
+            <h4>Pierre Megos</h4>
+        </div>
     </div>
-    <div class="artiste">
-        <h4>Pierre Megos</h4>
-    </div>
-    <div class="date">
+    <div class="date" style="width: 25%;">
         <p>Du 25 février au 1<sup>er</sup> mars à 20h30 <br/> Amphithéâtre</p>
     </div>
 
@@ -433,7 +467,7 @@
         <em>Vision</em> brasse les mythes futuristes proposés par Hollywood et nous livre en temps réel une confrontation du théâtre et du cinéma, par le biais de la méthode Bluekey. 
         </p>
     </div>
-    <div class="bible" style="width:50%;">
+    <div class="bible" style="width:39%;">
         <dl>
             <dt>Concept, écriture et mise en scène</dt>
             <dd>Pierre Megos</dd>
@@ -463,12 +497,12 @@
             <dd>Sémie, Stéphanie Scultore, Herbert Schuller et Dimitri Megos</dd>
         </dl>
     </div>
-    <div class="production" style="width:50%;">
+    <div class="production" style="width:43%;">
         <p>
         Une production de Mothership asbl, en coproduction avec la Balsamine avec l'aide du Service général des Arts de la Scène de la Fédération Wallonie-Bruxelles, Service Théâtre et le soutien du WBTD (aide à la diffusion).
         </p>
     </div>
-    <div class="fiche">
+    <div class="fiche" style="width: 34%;">
         <p class="intitule">Niveau  français</p>
         <p>En anglais (mais très peu de dialogues, beaucoup de séquences muettes), sur-titré  en français et néerlandais.
         Très accessible (pour les primo-arrivants également).</p>
@@ -481,15 +515,15 @@
         <p class="intitule">Disciplines</p>
         <p>Théâtre/cinéma</p>
     </div>
-    <div class="fiche">
+    <div class="fiche" style="width: 29%;">
         <p class="intitule">Thématiques abordées</p>
         <p>Les films de science-fiction hollywoodiens, les utopies futuristes</p>
     </div>
-    <div class="fiche">
+    <div class="fiche" style="width: 35%;">
         <p class="intitule">Particularités</p>
         <p>Ce spectacle a recueilli un énorme succès l’année passée. Il est très accessible tout en étant novateur. Venez en découvrir les trucages!  </p>
     </div>
-    <div class="atelier">
+    <div class="atelier" style="width: 36%;">
         <p>
         Atelier texte avec les artistes, ouvert au public le samedi 1<sup>er</sup> mars, de 17h à 19h, à la Balsamine
         </p>
@@ -502,39 +536,52 @@
 
 
 <article id="k-barre">
-    <div class="titre">
+
+    <div class="image-cmjn turn-skiev-4" class="image-cmjn" style="width: 121%; height:260px; margin-left:-100px; margin-bottom:40px;">
+        <img alt="" class="preview" src="../photos/layers/k-barre/kbarre_Calque31.png" style="width: 100%; margin-top:-749px" /> 
+    <img alt="" class="noir vert" src="../photos/layers/k-barre/kbarre_Calque31.png" style="width: 100%; margin-top:-749px" /> 
+   </div>
+
+    <div class="titre" style="width: 50%;">
         <h5>K Barré #1</h5>
-    </div>
-    <div class="titre">
         <h2 class="supplement">le K des Femmes</h2>
     </div>
-    <div class="type">
-        <h3>Création Danse/textes + Concert </h3>
+    <div style="width: 25%;">
+        <div class="type">
+            <h3>Création Danse/textes + Concert </h3>
+        </div>
+        <div class="artiste">
+            <h4>Barbara Mavro Thalassitis</h4>
+        </div>
     </div>
-    <div class="artiste">
-        <h4>Barbara Mavro Thalassitis</h4>
-    </div>
-    <div class="date">
+    <div class="date" style="width: 25%;">
         <p>Du 19 au 22 mars (avec option pour le 18) à 20h30 <br/> Amphithéâtre + Foyer</p>
     </div>
 
-    <div class="atelier">
+    <div class="atelier" style="width:44%">
         <p>
         Célébration barrée de la femme par le biais du mouvement… Faisons et défaisons les clichés !
         </p>
     </div>
-    <div class="atelier">
+    <div class="numbers">
         <h2 class="supplement">En extra</h2>
         <h4>Simone elle est bonne</h4>
         <h3>concert</h3>
     </div>
-    <div class="resume">
+    
+   <div class="image-cmjn" class="image-cmjn" style="width: 48%; height:230px; margin-right:12px; margin-bottom:40px; clear:left">
+        <img alt="" class="preview" src="../photos/layers/k-barre/kbarre_Calque18.png" style="width: 208%; margin-top:-308px; margin-left:-308px" /> 
+        <img alt="" class="noir vert" src="../photos/layers/k-barre/kbarre_Calque18.png" style="width: 208%; margin-top:-308px; margin-left:-308px"/> 
+   </div>
+    
+    
+    <div class="resume" style="width:37%">
         <p>
         « Simone elle est bonne » décline avec humour les stéréotypes de notre société, sur un air d’électro punk.
         </p>
     </div>
 
-    <div class="bible" style="width:50%;">
+    <div class="bible" style="width:36%;">
         <dl>
             <dt>Création</dt>
             <dd>Barbara Mavro Thalassitis, en collaboration avec Lydia Lunch, Maria Clara Villa Lobos…</dd>
@@ -544,7 +591,7 @@
             <dd>Barbara Mavro Thalassitis </dd>
         </dl>
     </div>
-    <div class="production" style="width:50%;">
+    <div class="production" style="width:45%;">
         <p>
         Une production de Roberta DC, en coproduction avec la Balsamine. Avec le soutien de la Zone Liège.
         </p>
@@ -563,17 +610,17 @@
         <p class="intitule">Disciplines</p>
         <p>Danse et concert</p>
     </div>
-    <div class="fiche">
+    <div class="fiche" style="width: 38%;">
         <p class="intitule">Thématique abordée</p>
         <p>Place des femmes dans notre société et les clichés qui en sont véhiculés</p>
     </div>
-    <div class="fiche">
+    <div class="fiche" style="width: 37%;">
         <p class="intitule">Particularités</p>
         <p>Très punch et déjanté, avec un esprit rock/punk, cet événement enchantera les esprits jeunes et questionnera de manière pertinente</p>
     </div>
-    <div class="atelier">
+    <div class="atelier" style="width: 36%;">
         <p>
-        Atelier avec Barbara Mavro Thalassitis, ouvert au public le samedi 22 mars, de 17h à 19h, à la Balsamine
+        Atelier avec Barbara Mavro Thalassitis, ouvert au public le samedi 22 mars, de 17h à 19h, à&nbsp;la&nbsp;Balsamine
         </p>
     </div>
 </article>
@@ -769,7 +816,7 @@
     </p>
 </div>
 
-<div class="pratique">
+<div class="pratique" style="margin-bottom: 101px;">
     <p>
     <span class="intitule">Les ateliers Balsa</span> donnés ponctuellement, le samedi, par les artistes de chaque spectacle, ils permettent de rencontrer autrement la démarche artistique des créateurs. Vous formerez un petit groupe de 15 à 20 personnes maximum et pourrez vivre une démarche artistique de l’intérieur. L’atelier est gratuit pour le public mais il est obligatoire de réserver pour y participer. 
     </p>
@@ -779,22 +826,28 @@
 
 
 
-
 <article id="mediation-artistique">
+
+    <div class="image-cmjn" style="width: 125%;outline: none; position: absolute; z-index: -1000; overflow: visible;left: -120px;top: -227px;">
+        <img alt="" class="preview" src="../materials/extract-G/circles-and-lines-170.gif" style="width: 100%;" /> 
+        <img alt="" class="noir vert" src="../materials/extract/circles-and-lines-170.gif" style="width: 100%;" /> 
+    </div> 
+
+
 <div class="partsup">Projet de médiation artistique</div>
 <h2 class="supplement">qu’est-ce qui me fait sortir la tête de l’eau ?</h2>
 
-<div class="pratique">
+
     <p>
     Qu’est-ce qui nous fait hurler de plaisir tous les matins ? Qu’est-ce qui nous fait grimper aux murs ? Qu’est-ce qui fait que l’on chante à tue-tête parce que, dans l’air, il y a quelque chose? Où allons-nous en cachette pour recharger nos batteries? Pourquoi ce truc, on le fait, on l’écoute, on le sent, on le voit, on le touche, encore et encore ? Pourquoi on aime cela par dessus tout ? Quels sont ces petits plus de la vie, ces petits extras qui nous font parfois sourire quand nous avons besoin de pleurer ? Parfois, on oublie de regarder, parfois on vit sur des rails. Mais la vie est là, brute, belle, émouvante. La question de l’art est une question de partage du sensible. Et c’est ce que nous vous proposons. C’est une question de patrimoine commun, l’idée de mettre l’art comme but de lien social et que l’art du dehors rejoigne l’art du dedans. 
     </p>
-</div>
-<div class="pratique">
+
+<di>
     <p>
     Cette année, nous creuserons les différentes facettes de ce sujet excitant par le biais de trois disciplines :
     </p>
 </div>
-<div class="pratique" style="width: 33%;">
+<div style="width: 33%; background-color:white">
     <p>
     <span class="intitule">la danse</span> <br/> des ateliers réguliers avec des danseurs confirmés seront donnés en préparation d’un événement performatif auxquels les participants seront libres de prendre part ou non.
     </p>
@@ -809,7 +862,7 @@
     <span class="intitule">l’art plastique</span> <br/> une récolte de matériaux (vidéos, peintures, photos, éléments bruts, etc.) sera réalisée autour du sujet et ceux-ci seront mis en forme par un artiste.
     </p>
 </div>
-<div class="pratique">
+<div class="pratique" style="margin-bottom:100px">
     <p>
     Si cela vous intéresse, d’une manière ou d’une autre, n’hésitez pas à me contacter. Les dates d’atelier et le nom des intervenants vous seront communiqués très prochainement.
     </p>
@@ -819,7 +872,7 @@
 
 
 
-<div class="page-break" style="height: 190px; margin-bottom: 30px;"></div>
+<div class="page-break" style="height: 190px; margin-bottom: 80px;"></div>
 
 
 
