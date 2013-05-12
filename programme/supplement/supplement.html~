@@ -1,4 +1,4 @@
-<section id="body" class="supplement">
+<section id="body" class="supplement export">
 
 
 
@@ -276,9 +276,10 @@
         <p>
             Anne Thuot traverse les grands thèmes élisabethains (mort, inceste, vengeance, amour…) en excellant dans de passionnantes digressions sur différents sujets de notre société. Et si les grandes passions humaines étaient toujours d’actualité ?
         </p>
-    <p>
-    Copyright Maurice Henry
-    </p>
+    <div>
+    <span class="production">Copyright Maurice Henry</span>
+    </div>
+  
     </div>
 
 
@@ -921,7 +922,8 @@
      </div>
      
 
-<img scr="logo-piece_6.svg" type="image/svg+xml" style="margin-left:10px; margin-top: 10px"/>
+<embed src="logo-piece_6.svg" type="image/svg+xml" style="margin-left:10px; margin-top: 10px" />
+
 
 
     <div class="pratique">
