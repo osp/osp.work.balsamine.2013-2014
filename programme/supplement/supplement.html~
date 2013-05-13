@@ -155,23 +155,23 @@
 
 
 <article id="les-moutons">
-<img src="logo-piece_3.png"  style="position:absolute; top:108px; left:329px;" />
+<img src="logo-piece_3.png"  style="position:absolute; top:148px; left:329px;" />
 
 <div class="page-break"></div>
 
 
-    <div class="titre" style="margin-top:105px; clear:left;">
+    <div class="titre" style="margin-top:215px; clear:left;">
         <h5>Les Moutons</h5>
     </div>
     <div style="width: 25%">
-        <div class="type" style="margin-top:105px;">
+        <div class="type" style="margin-top:215px;">
             <h3>Reprise Théâtre</h3>
         </div>
         <div class="artiste">
             <h4>Schieve Compagnie</h4>
         </div>
     </div>
-    <div class="date" style="width: 25%; margin-top:105px;">
+    <div class="date" style="width: 25%; margin-top:215px;">
         <p>
             Du 15 au 26 octobre à 20h30 <br /> Foyer
         </p>
@@ -247,16 +247,16 @@
 
 
 <article id="jai-endure-vos-discours">
-<img src="logo-piece_2.png" style="position: absolute; left:238px; top: 140px; z-index:100" />
+<img src="logo-piece_2.png" style="position: absolute; left:238px; top: 0px; z-index:100" />
 
 <div class="page-break"></div>
 
 
-    <div class="titre" style="width: 50%; margin-top:75px;">
+    <div class="titre" style="width: 80%; margin-top:50px;">
         <h5>«J'ai enduré vos discours et j'ai l'oreille en feu»</h5>
     </div>
 
-    <div style="width: 25%;margin-top: 75px;">
+    <div style="width: 25%;margin-top: 80px;">
         <div class="type">
             <h3>Création Théâtre</h3>
         </div>
@@ -303,7 +303,7 @@
         </p>
     </div>
     
-    <div class="fiche">
+    <div class="fiche" style="width: 24%;>
             <p class="intitule">Niveau  français<p>
             <p>Accessible</p>
    </div>
@@ -312,25 +312,25 @@
             <p>16/17 ans</p>
     </div>
     
-     <div class="image-cmjn" class="image-cmjn" style="width: 52%; height:415px; margin-left:0px; margin-bottom:40px; margin-top:-83px">
+     <div class="image-cmjn" class="image-cmjn" style="width: 60%; height:415px; margin-left:-133px; margin-bottom:40px; margin-top:-83px">
         <img alt="" class="preview" src="../photos/layers-processed/annedroite/anne__MG_4923.CR2.png" style="width: 150%; margin-top:-4px; margin-left:-106px" /> 
     <img alt="" class="noir vert" src="../photos/layers-processed/annedroite/anne__MG_4923.CR2.png" style="width: 150%; margin-top:-4px; margin-left:-106px" /> 
    </div>
     
-    <div class="fiche" style="margin-left:35px">        
+    <div class="fiche" style="width:115px;margin-left:35px; height:160px">        
             <p class="intitule">Discipline</p>
             <p>Théâtre</p>
     </div>
     
    
     
-    <div class="fiche" style="width: 32%; margin-left:35px">        
+    <div class="fiche" style="width: 30%; margin-left:10px">        
             <p class="intitule">Thématiques abordées</p>
             <p>La vengeance, les passions humaines, questionnement sur notre société actuelle</p>
     </div>
-    <div class="fiche" style="width: 38%;margin-left:35px">
+    <div class="fiche" style="width: 49%;margin-left:35px">
             <p class="intitule">Particularités</p>
-            <p>Spectacle très intéressant pour les écoles car brassant de grands thèmes de la tragédie de manière ludique et en lien avec des sujets sociétaux</p>
+            <p>Spectacle très intéressant pour les écoles car brassant de grands thèmes de la tragédie de manière ludique et en lien avec des sujets sociétaux.</p>
     </div>
     </div>
     
@@ -340,15 +340,14 @@
 
 
 <article id="carte-blanche-garage-29">
-    <img src="logo-piece_1.png" style="margin-left:-65px; margin-top: -129px"/>
-
-<div class="page-break"></div>
+    <img src="logo-piece_1.png" style="margin-left:-65px; margin-top: -179px"/>
 
 
-    <div class="titre" style="width: 75%;">
+
+    <div class="titre" style="width: 65%; margin-top: 70px">
         <h5>Carte Blanche Garage 29</h5>
     </div>
-    <div style="width: 25%;">
+    <div style="width: 25%; margin-top: 70px">
         <div class="type">
             <h3>Danse/performances</h3>
         </div>
@@ -399,17 +398,17 @@
         <p class="intitule">Discipline</p>
         <p>Danse </p>
     </div>
-    <div class="fiche" style="width: 33%; margin-top:-97px">
+    <div class="fiche" style="width: 33%; margin-top:-89px">
         <p class="intitule">Thématiques abordées</p>
         <p>Quelles traces laissons-nous derrière nous? Thème de la monstruosité abordé.</p>
     </div>
     
-    <div class="image-cmjn" style="width:38%;height: 325px; outline: none; margin-left: 15px; margin-top:-54px;z-index: -10;">
-            <img alt="" class="noir vert" src="materials/supplement/garage29-G.png" style="width: 180%;" />
-            <img alt="" class="preview" src="materials/supplement/garage29-G.png" style="width: 180%;" />
+    <div class="image-cmjn" style="width:38%;height: 309px; outline: none; margin-left: 15px; margin-top:-54px;z-index: -10;">
+            <img alt="" class="noir vert" src="materials/supplement/garage29.png" style="width: 180%;margin-top: -84px;" />
+            <img alt="" class="preview" src="materials/supplement/garage29-G.png" style="width: 180%;margin-top: -84px;" />
         </div>
         
-    <div class="fiche" style="width: 33%;clear:left; margin-top:-209px">
+    <div class="fiche" style="width: 33%;clear:left; margin-top:-182px">
         <p class="intitule">Particularités</p>
         <p>Utilisant les matières plastiques de manière ludique et inventive, ces performances danse enchanteront le tout public</p>
     </div>
@@ -418,7 +417,7 @@
     
     
     
-    <div class="atelier" style="width: 83%;">
+    <div class="atelier" style="width: 83%; margin-top:-10px">
         <p>
         Le samedi 30 novembre dès 14h : atelier parents/<wbr>enfants, spectacle tout public et dîner
         </p>
@@ -426,14 +425,14 @@
 
     <div class="texte" style="width: 37%;">
         <p>
-        <span class="under">14h00</span> <br/>
+        <span class="under" style= "margin-top:-10px; height:69px;">14h00</span> <br/>
         Atelier ludique pour enfants à partir de 6 ans d’une part, et pour leurs parents d’autre part, autour de la matière plastique et des thèmes tels que l’obscurité, la monstruosité… 
         </p>
     </div>
-    <div class="texte" style="width: 31%;">   
+    <div class="texte" style="width: 36%;">   
         <p>
-        <span class="under">16h00</span> <br/>
-        <em>«Monsters»</em>, spectacle de danse pour jeune public autour des matériaux utilisés dans l’atelier, toujours sur le thème de la monstruosité
+        <span class="under" style="background:white; margin-top:-10px;">16h00</span> <br/>
+        <em>«Monsters»</em>, spectacle de danse pour jeune public autour des matériaux utilisés dans l’atelier, toujours sur le thème de la monstruosité.
         </p>
     </div>
     <div class="texte" style="width: 17%;">
@@ -456,8 +455,7 @@
 <article id="vision">
 
 
-<img src="logo-piece_5.png" style="margin-left:-68px; margin-top: -18px" />
-<div class="page-break"></div>
+<img src="logo-piece_5.png" style="margin-left:-68px; margin-top: -140px" />
 
 
     <div class="titre">
@@ -553,7 +551,7 @@
 <article id="k-barre">
 
 
-<img src="logo-piece_4.png" style="margin-left:20px;" />
+<img src="logo-piece_4.png" style="margin-left:20px; margin-top:-180px" />
 
 
     <div class="titre" style="width: 50%;">
@@ -643,7 +641,8 @@
 
 
 <article id="a-la-carte">
-<div class="page-break"></div>
+        <div class="page-break"></div>
+
 <div class="partsup">Activités proposées autour des spectacles: à la carte!</div>
             
 <table>
@@ -714,6 +713,8 @@
     </tr>
     <tr> 
         <td>
+        <div class="page-break"></div>
+
             <div style="width: 40px">
                 <div>G a r a g e </div>
                 <div>2 9</div>
@@ -1081,7 +1082,7 @@ www.balsamine.be
                 $("#fakepage").clone().css({'outline-offset': '-1cm', 'display': 'block'}).attr("id","fakepage-p"+i).insertBefore($("#fakepage"));
                 
                 // FOLIO
-                    $("#fakepage-p" + i + " .folio").html("<p>page " + (i+1) + "</p>");
+                    $("#fakepage-p" + i + " .folio").html("<p>page " + (i+2) + "</p>");
             }
 
             // AJOUTE UN UNICODE APRÈS <DD>
@@ -1105,6 +1106,7 @@ www.balsamine.be
                 
                 // VECTEURS
                 $("section#body.export *").css({"color": "black", "border-color": "black", "outline-color": "black"});
+                $(".folio p").css({"color": "black",});
         });
     </script>
     </body>
