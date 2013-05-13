@@ -1,7 +1,7 @@
 <body>
     <div id="virtual">
         <div id="fakepage" class="fakepage" style="display: none;">
-            <img src="../materials/cale-page.png" />
+            <img src="../materials/cale-page-sup.png" />
             <div class="crop-tl">
                 <div class="crop-right" style="top: 0; right: 0;"></div>
                 <div class="crop-bottom" style="bottom: 0cm; left: 0;"></div>
@@ -18,50 +18,12 @@
                 <div class="crop-right" style="bottom: 0cm; right: 0;"></div>
                 <div class="crop-top" style="left: 0cm; top: 0"></div>
             </div>
-            <div class="folio">
+            <div class="folio supplement">
             </div>
         </div>
     </div>
 
     <ul id="toc"></ul>
 
-    <div id="nuancier">
-        <div id="colorC-100"></div>
-        <div id="colorC-90"></div>
-        <div id="colorC-80"></div>
-        <div id="colorC-70"></div>
-        <div id="colorC-60"></div>
-        <div id="colorC-50"></div>
-        <div id="colorC-40"></div>
-        <div id="colorC-30"></div>
-        <div id="colorC-20"></div>
-        <div id="colorC-10"></div>
-        <div id="colorC-0"></div>
-
-        <div id="color-0"></div>
-        <div id="color-10"></div>
-        <div id="color-20"></div>
-        <div id="color-30"></div>
-        <div id="color-40"></div>
-        <div id="color-50"></div>
-        <div id="color-60"></div>
-        <div id="color-70"></div>
-        <div id="color-80"></div>
-        <div id="color-90"></div>
-        <div id="color-100"></div>
-
-        <div id="colorG-0"></div>
-        <div id="colorG-10"></div>
-        <div id="colorG-20"></div>
-        <div id="colorG-30"></div>
-        <div id="colorG-40"></div>
-        <div id="colorG-50"></div>
-        <div id="colorG-60"></div>
-        <div id="colorG-70"></div>
-        <div id="colorG-80"></div>
-        <div id="colorG-90"></div>
-        <div id="colorG-100"></div>
-    </div>
-
-    <section id="body">
+   
 
