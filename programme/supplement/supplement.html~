@@ -155,7 +155,9 @@
 
 
 <article id="les-moutons">
-<!---><img src="logo-piece_3.png"  style="position:absolute; top:0px; left:329px;" /><--->
+
+<img src="logo-piece_3.svg"  style="position:absolute; top:0px; left:329px;" />
+
 
     <div class="titre" style="margin-top:185px; clear:left;">
         <h5>Les Moutons</h5>
@@ -235,7 +237,9 @@
 
     </div>
 
-<!---><img src="logo-piece_2.png" style="position: absolute; left:238px; top: 1068px; outline: none" /><--->
+
+<img src="logo-piece_2.svg" style="position: absolute; left:238px; top: 1068px; outline: none" />
+
 
 </article>
 
@@ -334,7 +338,9 @@
 
 
 <article id="carte-blanche-garage-29">
-<!---><img src="logo-piece_1.png" style="margin-left:445px; margin-top: -129px"/><--->
+
+<img src="logo-piece_1.svg" style="margin-left:445px; margin-top: -129px"/>
+
 
     <div class="titre" style="width: 75%;">
         <h5>Carte Blanche Garage 29</h5>
@@ -444,7 +450,9 @@
 
 <article id="vision">
 
-<!---><img src="logo-piece_5.png" style="margin-left:-68px; margin-top: -18px" /><--->
+
+<img src="logo-piece_5.svg" style="margin-left:-68px; margin-top: -18px" />
+
 
     <div class="titre">
         <h5>Vision</h5>
@@ -538,7 +546,9 @@
 
 <article id="k-barre">
 
-<!---><img src="logo-piece_4.png" style="margin-left:20px;" /><--->
+
+<img src="logo-piece_4.svg" style="margin-left:20px;" />
+
 
     <div class="titre" style="width: 50%;">
         <h5>K Barré #1</h5>
@@ -911,7 +921,9 @@
      </div>
      
 
-<!---><img src="logo-piece_6.png" style="margin-left:10px; margin-top: 10px" /><--->
+
+<img src="logo-piece_6.svg" style="margin-left:10px; margin-top: 10px" />
+
 
 
     <div class="pratique">
@@ -993,6 +1005,21 @@ www.balsamine.be
 
     </div>
     
+     
+                    <dt>Éditeur responsable</dt> 
+                    Fabien Dehasseler, Avenue Félix Marchal, 1 - 1030 Bruxelles
+                    <dt>Photographie</dt> 
+                    Hichem Dahes sauf mentions contraires
+                    <dt>Design:</dt>
+                    Open Source Publishing
+                    <dt>Fichiers disponibles</dt> 
+                    sous licence art libre sur osp.constantvzw.org
+                    <dt>Impression</dt> 
+                    Imprimerie Dereume, Drogenbos
+ 
+    </div>
+    
+   
     
     
 </article>
