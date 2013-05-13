@@ -1,4 +1,4 @@
-<section id="body" class="supplement">
+<section id="body" class="supplement export">
 
 
 
@@ -405,7 +405,7 @@
     </div>
     
     <div class="image-cmjn" style="width:38%;height: 325px; outline: none; margin-left: 15px; margin-top:-54px;z-index: -10;">
-            <img alt="" class="noir vert" src="materials/supplement/garage29-G.png" style="width: 180%;" />
+            <img alt="" class="noir vert" src="materials/supplement/garage29.png" style="width: 180%;" />
             <img alt="" class="preview" src="materials/supplement/garage29-G.png" style="width: 180%;" />
         </div>
         
@@ -1079,7 +1079,7 @@ www.balsamine.be
                 $("#fakepage").clone().css({'outline-offset': '-1cm', 'display': 'block'}).attr("id","fakepage-p"+i).insertBefore($("#fakepage"));
                 
                 // FOLIO
-                    $("#fakepage-p" + i + " .folio").html("<p>page " + (i+1) + "</p>");
+                    $("#fakepage-p" + i + " .folio").html("<p>page " + (i+2) + "</p>");
             }
 
             // AJOUTE UN UNICODE APRÈS <DD>
@@ -1103,6 +1103,7 @@ www.balsamine.be
                 
                 // VECTEURS
                 $("section#body.export *").css({"color": "black", "border-color": "black", "outline-color": "black"});
+                $(".folio p").css({"color": "black",});
         });
     </script>
     </body>
