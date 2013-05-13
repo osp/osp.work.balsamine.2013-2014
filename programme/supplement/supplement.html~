@@ -148,6 +148,7 @@
     </div>
     </dl>
     
+<img src="logo-piece_3.svg"  style="position:absolute; top:50px; left:329px;" />
 
 
 </article>
@@ -156,7 +157,7 @@
 
 <article id="les-moutons">
 
-<img src="logo-piece_3.svg"  style="position:absolute; top:50px; left:329px;" />
+<div class="page-break"></div>
 
 
     <div class="titre" style="margin-top:50px; clear:left;">
@@ -248,6 +249,7 @@
 
 <article id="jai-endure-vos-discours">
 
+<div class="page-break"></div>
 
 
     <div class="titre" style="width: 50%; margin-top:75px;">
@@ -791,6 +793,7 @@
     </p>
 </div>
 
+<div class="page-break"></div>
 <div style="width: 26%">
     <div class="pratique">
         <p>
@@ -834,7 +837,7 @@
 
 <article id="mediation-artistique" class="bordure-bariolee">
 
-
+<div class="page-break"></div>
 
 <div style="text-align: center; float: none;">
     <h1 class="partsup" style="display: inline-block">Projet de médiation artistique</h1>
