@@ -107,7 +107,7 @@
 
     <div class="image-cmjn" style="width: 30%; height: 135px; margin-left:-30px;">
         <img alt="" class="preview" src="../photos/layers-processed/orgasm/orgasm_Calque 4.png" style="width: 100%; z-index:-30; " />
-        <img alt="" class="noir rose" src="../photos/layers-processed/orgasm/orgasm_Calque 4.png" style="width: 100%; z-index:-30;" />
+        <img alt="" class="noir vert" src="../photos/layers-processed/orgasm/orgasm_Calque 4.png" style="width: 100%; z-index:-30;" />
     </div>
     
     <div class="fiche" style="width: 30%;">
@@ -121,7 +121,7 @@
 
     <div class="image-cmjn" style="width: 15%; height: 87px;">
         <img alt="" class="preview" src="../photos/layers-processed/orgasm/orgasm_Calque 15.png" style="width: 220%; z-index:-30; margin-left: -130px;" />
-        <img alt="" class="noir rose" src="../photos/layers-processed/orgasm/orgasm_Calque 15.png" style="width: 220%; z-index:-30; margin-left: -130px;" />
+        <img alt="" class="noir vert" src="../photos/layers-processed/orgasm/orgasm_Calque 15.png" style="width: 220%; z-index:-30; margin-left: -130px;" />
     </div>
 
     <div class="fiche" style="height:auto">
@@ -138,8 +138,8 @@
     
     
       <div class="full" style="width: 27%; height: 237px;">
-        <img alt="" class="preview" src="../photos/layers-processed/orgasm/orgasm_Calque 1 copie.png" style="width: 163%; z-index:-30; margin-left: -40px;" />
-        <img alt="" class="noir rose" src="../photos/layers-processed/orgasm/orgasm_Calque 1 copie.png" style="width: 163%; z-index:-30; margin-left: -40px;" />
+        <img alt="" class="preview" src="../photos/layers-processed/orgasm/orgasm_1.png" style="width: 163%; z-index:100; margin-left: -40px;" />
+        <img alt="" class="noir vert" src="../photos/layers-processed/orgasm/orgasm_1.png" style="width: 163%; z-index:100; margin-left: -40px;" />
     </div>   
     
     <div class="fiche" style="width: 37%;">
@@ -148,7 +148,11 @@
     </div>
     </dl>
     
-
+    <div class="atelier" style="width: 29%; margin-top:-105px; margin-left:-15px; clear:left;">
+        <p>
+        Atelier avec les artistes, ouvert au public, le samedi 28 septembre, de 17h à 19h, à la Balsamine : imagination/construction de machines de torture.
+        </p>
+    </div>
 
 <img src="logo-piece_3.svg"  style="position:absolute; top:700px; left:329px;" />
 <div class="page-break"></div>
@@ -235,7 +239,11 @@
 
     </div>
 
-
+    <div class="atelier" style="width: 34%; margin-top:-18px; margin-left:-10px; clear:left;">
+        <p>
+        Atelier avec les artistes, ouvert au public, le samedi 19 octobre, de 17h à 19h, à la Balsamine.
+        </p>
+    </div>
 
 
 </article>
@@ -249,11 +257,11 @@
 <div class="page-break"></div>
 
 
-    <div class="titre" style="width: 80%; margin-top:60px;">
+    <div class="titre" style="width: 70%; margin-top:60px;">
         <h5>«J'ai enduré vos discours et j'ai l'oreille en feu»</h5>
     </div>
 
-    <div style="width: 25%;margin-top: 80px;">
+    <div style="width: 25%;margin-top: 100px;">
         <div class="type">
             <h3>Création Théâtre</h3>
         </div>
@@ -268,21 +276,23 @@
         </div>
     </div>
     
-    <div class="image-cmjn" style="width: 70%; height:132px; margin-left:350px; margin-top:-132px">
-        <img alt="" class="preview" src="../photos/layers-processed/annedroite/anne_Calque1.png" style="width: 138%; margin-left: -280px; margin-top: -330px;" />
-        <img alt="" class="noir rose" src="../photos/layers-processed/annedroite/anne_Calque1.png" style="width: 138%; margin-left: -280px; margin-top: -330px;" />
-    </div>
-
-    <div class="resume texte supplement">
+        <div class="resume texte supplement" style="width:60%; margin-left:-10px">
         <p>
             Anne Thuot traverse les grands thèmes élisabethains (mort, inceste, vengeance, amour…) en excellant dans de passionnantes digressions sur différents sujets de notre société. Et si les grandes passions humaines étaient toujours d’actualité&thinsp;?
         </p>
     
   
     </div>
+    
+    <div class="image-cmjn" style="width: 70%; height:132px; margin-left:367px; margin-top:-143px">
+        <img alt="" class="preview" src="../photos/layers-processed/annedroite/anne_Calque1.png" style="width: 138%; margin-left: -280px; margin-top: -330px;" />
+        <img alt="" class="noir rose" src="../photos/layers-processed/annedroite/anne_Calque1.png" style="width: 138%; margin-left: -280px; margin-top: -330px;" />
+    </div>
 
 
-    <div class="bible" style="width:42%;">
+
+
+    <div class="bible" style="width:42%;clear:left">
     <dl>
         <dt>Mise en scène</dt>
         <dd>Anne Thuot</dd>
@@ -329,19 +339,23 @@
             <p class="intitule">Particularités</p>
             <p>Spectacle très intéressant pour les écoles car brassant de grands thèmes de la tragédie de manière ludique et en lien avec des sujets sociétaux.</p>
     </div>
-    
+      
+      <div class="atelier" style="width: 34%; margin-top:-18px; margin-left:308px; clear:left;">
+        <p>
+Atelier avec les artistes, ouvert au public, le samedi 9 novembre, de 17h à 19h, à la Balsamine</p>
+    </div>
 
 </article>
 
 
 
 <article id="carte-blanche-garage-29">
-    <img src="logo-piece_1.svg" style="position: absolute; left:-65px; top: -119px"/>
+    <img src="logo-piece_1.svg" style="position: absolute; left:-65px; top: -99px"/>
 
-    <div class="titre" style="width: 65%; margin-top: 45px">
+    <div class="titre" style="width: 65%; margin-top: 65px; margin-left:0px">
         <h5>Carte Blanche Garage 29</h5>
     </div>
-    <div style="width: 25%; margin-top: 55px">
+    <div style="width: 25%; margin-top: 65px">
         <div class="type">
             <h3>Danse/performances</h3>
         </div>
@@ -534,8 +548,13 @@
         <p class="intitule">Particularités</p>
         <p>Ce spectacle a recueilli un énorme succès l’année passée. Il est très accessible tout en étant novateur. Venez en découvrir les trucages!  </p>
     </div>
+    
+      <div class="atelier" style="width: 34%; margin-top:-18px; margin-left:2px; clear:left;">
+        <p>
+Atelier avec les artistes, ouvert au public, le samedi 1er mars, de 17h à 19h, à la Balsamine. </p>    </div>
 
     <img src="logo-piece_4.svg" style="position: absolute; right:20px; top:950px" />
+    
     <div class="page-break"></div>
 </article>
 
@@ -659,8 +678,8 @@
         </td>
         <td>Visite du théâtre, assister à une répétition, atelier initiation jeu (50’/70’)</td>
         <td>Toutes les performances peuvent être choisies</td>
-        <td><em>«Clés du théâtre d’aujourd’hui»</em> (50’);
-            <em>Langages corporels</em> (50’) </td>
+        <td>«Clés du théâtre d’aujourd’hui» (50’);
+            Langages corporels (50’) </td>
         <td>Rencontre avec les artistes</td>
     </tr>
     <tr>
@@ -743,7 +762,7 @@
             <img alt="" class="preview" src="../materials/extract-G/explosion-violente.gif" style="height: 168px;" />
             <img alt="" class="noir vert" src="../materials/extract/explosion-violente.gif" style="height: 168px;" />
         </td>
-        <td>1<sup>er</sup> février 17→19h :
+        <td>1<sup>er</sup> février 17→19h&nbsp;:
             Lecture au lutrin d’extraits du texte</td> 
     </tr> 
     <tr>
@@ -805,14 +824,14 @@
     </div>
     <div class="pratique" style="height: 426px;">
         <p>
-        <span class="intitule">Public de personnes peu initiées au théâtre d’aujourd’hui</span> <br/> Visite du théâtre ou <em>«Clés du théâtre d’aujourd’hui»</em>, <em>Les Moutons</em>, suivi d’une rencontre avec les interprètes, l’atelier Bluekey, <em>Vision</em>.
+        <span class="intitule">Public de personnes peu initiées au théâtre d’aujourd’hui</span> <br/> Visite du théâtre ou «Clés du théâtre d’aujourd’hui», <em>Les Moutons</em>, suivi d’une rencontre avec les interprètes, l’atelier Bluekey, <em>Vision</em>.
         </p>
     </div>
 </div>
 
 <div class="pratique" style="width: 40%">
     <p>
-    <span class="intitule">Public de jeunes ados</span> <br/> <em>«Clés du théâtre d’aujourd’hui»</em>, <em>Les Moutons</em>, suivi d’un atelier d’écriture avec les interprètes, <em>J’ai enduré vos discours</em>, préparé par la performance « écritures scéniques » et l’atelier thématique « qu’en est-il de nos passions humaines », <em>Vision</em>, préparé par la performance écritures scéniques et l’atelier thématique « Une vision de l’utopie au cinéma », la visite de l’envers du décor le soir même, et <em>Le K des femmes</em>,  suivi d’un débat autour de la place des femmes dans notre société.
+    <span class="intitule">Public de jeunes ados</span> <br/> «Clés du théâtre d’aujourd’hui», <em>Les Moutons</em>, suivi d’un atelier d’écriture avec les interprètes, <em>J’ai enduré vos discours</em>, préparé par la performance « écritures scéniques » et l’atelier thématique « qu’en est-il de nos passions humaines », <em>Vision</em>, préparé par la performance écritures scéniques et l’atelier thématique « Une vision de l’utopie au cinéma », la visite de l’envers du décor le soir même, et <em>Le K des femmes</em>,  suivi d’un débat autour de la place des femmes dans notre société.
     </p>
 </div>
 <div class="pratique" style="width: 34%; height: 510px;">
