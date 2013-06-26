@@ -1256,8 +1256,8 @@ gif" style="width: 50%;left: 200px;top:-220px; position: absolute; ">
 	$(document).ready(function(){
 		var controller = $.superscrollorama({
 		});
-		controller.addTween('#ouverture',  TweenMax.from( $('#ouverture img'), 3, {css:{rotation:260,}, ease:Quad.easeInOut}, {css:{rotation:280,}, ease:Quad.easeInOut}));
 		controller.addTween('#garage',  TweenMax.from( $('#garage'), .25, {css:{'position': 'absolute',  'right':'1000px'}, ease:Quad.easeInOut}));
+		controller.addTween('#moutons',  TweenMax.from( $('#moutons img'), 0.25, {css:{'transform': 'scale(0.7)'}, ease:Elastic.easeInOut}));
 		controller.addTween('#courrier',  TweenMax.from( $('#courrier img'), 0.5, {css:{'transform': 'scale(0.9) rotate(270deg)'}, ease:Quad.easeInOut}));
 		controller.addTween('#genesis',  TweenMax.from( $('#genesis img'), .25, {css:{'visibility': 'hidden',},}));
 		controller.addTween('#kbarre',  TweenMax.from( $('#kbarre img'), .25, {css:{'visibility': 'hidden',},}));
