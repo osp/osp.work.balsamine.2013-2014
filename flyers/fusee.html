@@ -5,771 +5,12 @@
   <title>Balsamine | Saison2013-2014 / Fusée </title>
   
   <meta http-equiv="Content-Style-Type" content="text/css">
-  <link rel="stylesheet" href="./fusee_files/meyer.reset.css" type="text/css">
-  <link rel="stylesheet" href="./fusee_files/all.css" type="text/css">
-  <link rel="stylesheet" href="./fusee_files/balsa.css" type="text/css">
-  <script language="JavaScript" type="text/javascript" src="./fusee_files/jquery-1.5.1.min.js"> </script>
-  <script language="JavaScript" type="text/javascript" src="./fusee_files/balsa.js"> </script>
-
-<style type="text/css">
-html {
-    width: 823px;
-    margin: 0 !important;
-    padding: 0 !important;
-}
-body {
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 823px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-section#body {
-	padding-left:1.5cm;
-	padding-right:1cm;
-	box-sizing: border-box;
-	width: 100%;
-}
-article {
-	background-color:#FFF;
-	clear:both;
-	margin-top:1cm;
-	width:100%;
-	box-sizing: border-box;
-	padding-top: 15px;
-}
-
-
-@page {
-	/*border:1px solid #00aa5a;*/
-	margin:0;
-	orphans:4;
-	size:15.8cm 21cm;
-	widows:2;
-}
-div#virtual {
-	position:absolute;
-	width:100%;
-	z-index:1000;
-}
-div.fakepage {
-	height:1140px;
-	position:relative;
-	/*width:926px;*/
-	width:849px;
-	z-index:-10;
-}
-div.crop-tl, div.crop-tr, div.crop-br, div.crop-bl {
-	box-sizing:border-box;
-	height:1cm;
-	position:absolute;
-	width:1cm;
-}
-div.crop-tl {
-	left:0;
-	top:0;
-}
-div.crop-tr {
-	right:0;
-	top:0;
-}
-div.crop-br {
-	bottom:0;
-	right:0;
-}
-div.crop-bl {
-	bottom:0;
-	left:0;
-}
-div.crop-top, div.crop-right, div.crop-bottom, div.crop-left {
-	box-sizing:border-box;
-	height: 0.5cm;
-	position: absolute;
-	width: 0.5cm;
-}
-div.crop-top {
-	border-top:1px solid #000;
-
-}
-div.crop-right {
-	border-right:1px solid #000;
-}
-div.crop-bottom {
-	border-bottom:1px solid #000;
-
-}
-div.crop-left {
-	border-left:1px solid #000;
-}
-
-
-div#signature {
-	font-family:Ume P Mincho;
-	font-size:10pt !important;
-	line-height:13pt;
-	margin:0 2px 0 0;
-	padding:0 3px 1px;
-	letter-spacing:0px;
-}
-div#signature span {
-	font-family:Ume P Gothic Balsa;
-    border-bottom: 1px solid #00aa5a;
-    text-transform: uppercase;
-    border-left: 1px solid #00aa5a;
-    font-size:8pt;
-	font-weight:400!important;
-	letter-spacing:1px;
-	margin:0 -5px 0 0;
-	padding:3px 3px 1px;
-	text-transform:uppercase;
-}
-div#wikibody p + p {
-    margin-bottom: 0;
-}
-
-div#wikibody blockquote {
-    padding: 0;
-}
-
-div#wikibody img.preview {
-	border:0;
-	z-index:9;
-        width: 100%;
-}
-img {
-	margin:0;
-}
-div#wikibody div#nuancier {
-	width:100%;
-}
-div#wikibody div#nuancier div {
-	float:left;
-	height:50px;
-	margin-right:5px;
-	margin-top:5px;
-	width:8%;
-}
-div#wikibody * {
-	-webkit-print-color-adjust:exact;
-	color:#00aa5a;
-}
-div#wikibody {
-	color:#00aa5a;
-	font-family:Ume P Mincho, Ume P Gothic Balsa;
-	font-size:12pt;
-	line-height:14pt;
-	width: 100%;
-}
-div#wikibody .sup {
-	color:#00aa5a;
-}
-div#wikibody ul#toc {
-	bottom:1cm;
-	height:auto;
-	position:fixed;
-	right:1cm;
-	width:auto;
-}
-
-div#wikibody div {
-	float:left;
-}
-div#wikibody div.texte {
-	box-sizing:border-box;
-	color:#00aa5a;
-	font-size:14pt;
-	height:auto;
-	line-height:17pt;
-	outline:2px solid #00aa5a;
-	outline-offset:-10px;
-	padding:20px;
-	page-break-inside:avoid;
-}
-div#wikibody div.texte p {
-    font-size:14pt;
-    line-height:17pt;
-}
-div#wikibody div.texte .sup {
-	color:#00aa5a;
-}
-div#wikibody div.resume {
-	color:#00aa5a;
-	outline:none;
-}
-div#wikibody div.image {
-	border:2px solid #00aa5a;
-	box-sizing:border-box;
-	margin-bottom:5px;
-	margin-right:5px;
-	overflow:hidden;
-}
-div#wikibody div.imagesimple {
-	box-sizing:border-box;
-	outline:0 solid #00aa5a;
-	overflow:hidden;
-}
-div#wikibody div.bible {
-	box-sizing:border-box;
-	font-size:12pt;
-	height:auto;
-	line-height:14pt;
-	outline-offset:-10px;
-	padding:10px;
-	page-break-inside:avoid;
-	width:15%;
-}
-div#wikibody div.bible p {
-	font-size:12pt;
-	line-height:14pt;
-}
-div#wikibody div.artiste {
-	outline:none!important;
-	padding-left:5px;
-}
-div#wikibody div.image-cmjn {
-	outline-color:#00aa5a;
-	outline-style:solid;
-	outline-width:0;
-	overflow:hidden;
-	position:relative;
-	width:100%;
-	z-index:90;
-}
-div#wikibody div.image-cmjn .sup {
-	outline-color:#00aa5a;
-}
-div#wikibody div.image-cmjn img {
-	left:0;
-	position:absolute;
-}
-div#wikibody div.image-cmjn p {
-	position:relative;
-	z-index:10;
-}
-div#wikibody div.vignette {
-	height:225px;
-	margin:25px 25px 5px 0;
-	outline-width:15px;
-	z-index:100;
-}
-div#wikibody div.transition {
-	margin-left:-93px;
-	overflow:hidden;
-	position:relative;
-	width:886px;
-}
-div#wikibody div.transition img {
-	position:absolute;
-}
-div#wikibody div.full {
-	height:auto;
-	overflow:hidden;
-	position:relative;
-}
-div#wikibody div.full img {
-	position:absolute;
-}
-div#wikibody div#flux-container div.flux {
-	-webkit-flow-from:article-flow;
-	float:left;
-	height:30px;
-}
-div#wikibody article#artcolophon {
-	-webkit-flow-into:article-flow;
-}
-div#wikibody article#artcolophon dd {
-	border-bottom:none;
-	font-family:Ume P Mincho;
-	font-size:16px;
-}
-div#wikibody .demi-tour {
-	-moz-transform:rotate(180deg);
-	-webkit-transform:rotate(180deg);
-}
-div#wikibody .turn-right {
-	-moz-transform:rotate(90deg);
-	-webkit-transform:rotate(90deg);
-}
-div#wikibody .turn-left {
-	-moz-transform:rotate(270deg);
-	-webkit-transform:rotate(270deg);
-}
-div#wikibody .shape-hexagone {
-	-webkit-shape-inside:polygon(25%0,75%0,100%50%,75%100%,25%100%,050%);
-	height:200px;
-	text-align:justify;
-	width:200px;
-}
-div#wikibody div.page-break {
-	height:1em;
-	page-break-before:always;
-	position:relative;
-	width:100%;
-}
-div#wikibody div.clip {
-	-webkit-mask-clip:padding;
-	-webkit-mask-image:url(http://www.ludi.be/logo-boutt.svg);
-}
-div#wikibody div.cach {
-	position:relative;
-	z-index:100px;
-}
-div#wikibody div.cuted {
-	position:relative;
-}
-div#wikibody sup {
-	font-size:.7em;
-	line-height:0;
-	vertical-align:.3em;
-}
-div#wikibody h1,div#wikibody h2,div#wikibody h3,div#wikibody h4,div#wikibody h5,div#wikibody h6 {
-	font-weight:400;
-}
-div#wikibody h1 {
-	background:#FFF!important;
-	color:#00aa5a;
-	font-family:Ume P Gothic Shadow;
-	font-size:40pt;
-	line-height:44pt;
-	text-align:center;
-	text-transform:uppercase;
-	z-index:100;
-}
-div#wikibody h1 .sup {
-	color:#00aa5a;
-}
-div#wikibody h2 {
-	color:#00aa5a;
-	font-family:Ume Mincho Balsa;
-	font-size:12pt;
-	line-height:14pt;
-	text-align:center;
-	text-transform:uppercase;
-}
-div#wikibody h2 .sup {
-	color:#00aa5a;
-}
-div#wikibody h3 {
-	display:inline-block;
-	font-size:13pt;
-	line-height:15pt;
-	text-transform:uppercase;
-}
-div#wikibody h4 {
-	font-size:27pt;
-	line-height:27pt;
-        outline: none;
-}
-div#wikibody p {
-	width:100%;
-}
-div#wikibody .indent, 
-div#wikibody blockquote {
-	-webkit-region-break-before:always;
-	font-family:Ume Mincho Balsa;
-	font-size:18pt;
-	line-height:20pt;
-	outline:none;
-	text-align:center;
-	text-transform:uppercase;
-}
-div#wikibody .blockquote {
-	color:#00aa5a;
-	padding:20px 10px;
-	page-break-inside:avoid;
-}
-div#wikibody .nl {
-	color:#00aa5a;
-}
-div#wikibody .nl .sup {
-	color:#00aa5a;
-}
-div#wikibody ul li {
-	list-style-type:none;
-}
-div#wikibody dl {
-	font-family:Ume Mincho Balsa;
-	font-size:10pt;
-	line-height:13pt;
-	text-align:left;
-}
-div#wikibody dt {
-	border:solid thin #00aa5a;
-	border-right:none;
-	border-top:none;
-	color:inherit;
-	display:inline;
-	font-family:Ume P Gothic Balsa;
-	font-size:8pt;
-	font-weight:400!important;
-	letter-spacing:1px;
-	margin:0 -5px 0 0;
-	padding:3px 3px 1px;
-	text-transform:uppercase;
-        float: none;
-}
-div#wikibody dd {
-	border:solid thin #00aa5a;
-	border-left:none;
-	border-top:none;
-	color:inherit;
-	display:inline;
-	line-height:13px;
-	margin:0 2px 0 0;
-	padding:0 3px 1px;
-}
-div#wikibody dd+span {
-	font-size:11pt;
-	line-height:0;
-	margin:0 -6.3px 0 -1.2px;
-	vertical-align:-6px;
-}
-div#wikibody dl span:last-child {
-	display:none;
-}
-div#wikibody dd+dt {
-	margin-top:5px;
-}
-div#wikibody div.titre {
-	background:#FFF!important;
-	border-color:#00aa5a;
-	border-style:solid;
-	box-sizing:border-box;
-	margin:0 0 0 -3px;
-	outline:none!important;
-	padding:10px;
-	page-break-inside:avoid;
-	position:relative;
-	z-index:100;
-}
-div#wikibody div.titre .sup {
-	border-color:#00aa5a;
-}
-div#wikibody div.titre:first-child {
-	clear:left;
-}
-div#wikibody div.type {
-	padding:5px;
-}
-div#wikibody div.date {
-	color:#00aa5a;
-	font-family:Ume P Gothic Shadow;
-	font-size:12pt;
-	line-height:14pt;
-	outline:none;
-	text-align:center;
-	text-transform:uppercase;
-}
-div#wikibody div.date p {
-    	font-size:12pt;
-	line-height:14pt;
-}
-div#wikibody div.date .sup {
-	color:#00aa5a;
-}
-div#wikibody div.horaire {
-	color:#00aa5a;
-	font-family:Ume P Gothic Shadow;
-	font-size:12pt;
-	line-height:14pt;
-	text-align:center;
-	text-transform:uppercase;
-}
-div#wikibody div.horaire .sup {
-	color:#00aa5a;
-}
-div#wikibody div.relax {
-	font-family:Ume P Gothic Balsa;
-	margin-bottom:7px;
-	margin-top:7px;
-}
-div#wikibody div.production {
-	box-sizing:border-box;
-	font-family:Ume P Gothic Balsa;
-	font-size:10pt;
-	line-height:13pt;
-	padding:10px;
-	page-break-inside:avoid;
-}
-div#wikibody em {
-	font-family:Ume P Gothic Balsa;
-}
-div#wikibody b {
-	color:#00aa5a;
-}
-div#wikibody b .sup {
-	color:#00aa5a;
-}
-div#wikibody .under {
-	color:#00aa5a;
-	font-family:Ume P Gothic Balsa;
-	text-decoration:underline;
-	text-transform:uppercase;
-}
-div#wikibody .under .sup {
-	color:#00aa5a;
-}
-div#wikibody .numbers {
-	background-image:url(http://git.constantvzw.org/?p=osp.work.balsamine.2013-2014.git;a=blob_plain;f=materials/extract-G/aspiration.gif);
-	background-position:-100px -50px;
-	box-sizing:border-box;
-	color:#00aa5a;
-	font-family:Ume P Gothic Balsa;
-	font-size:16pt;
-	line-height:25px;
-	outline-offset:-5px;
-	padding:8px 10px 0 5px;
-	text-transform:uppercase;
-}
-div#wikibody .numbers p {
-	font-size:16pt;
-	line-height:25px;
-}
-div#wikibody .numbers .sup {
-	color:#00aa5a;
-}
-div#wikibody .fusee-numbers {
-	background-image:url(../materials/extract-G/aspiration.gif);
-	background-position:-100px -50px;
-	box-sizing:border-box;
-	color:#00aa5a;
-	font-family:Ume P Gothic Balsa;
-	font-size:16pt;
-	line-height:25px;
-	outline:2px solid #00aa5a;
-	outline-offset:-5px;
-	padding:8px 10px 0 5px;
-	text-transform:uppercase;
-}
-div#wikibody .fusee-numbers p {
-	font-size:16pt;
-	line-height:25px;
-}
-div#wikibody .fusee-numbers .sup {
-	color:#00aa5a;
-}
-div#wikibody article#infos-pratiques .numbers {
-	padding:20px;
-}
-div#wikibody div.if {
-	box-sizing:border-box;
-	font-family:Ume P Gothic Balsa;
-	font-size:16pt;
-	font-weight:700;
-	line-height:18pt;
-	margin-top:10px;
-	outline:none!important;
-	padding:0 5px;
-	text-align:left;
-	text-transform:uppercase;
-}
-div#wikibody div.if p {
-	color:#00aa5a;
-	font-size:16pt;
-	line-height:18pt;
-}
-div#wikibody div.if p .sup {
-	color:#00aa5a;
-}
-div#wikibody span.lettrine {
-	letter-spacing:1px;
-	text-transform:uppercase;
-}
-div#wikibody .occas {
-	color:#00aa5a;
-}
-div#wikibody div.out {
-	border-color:#00aa5a;
-	border-left:2px solid #00aa5a;
-	border-top:2px solid #00aa5a;
-	box-sizing:border-box;
-	color:#00aa5a;
-	font-family:Ume P Gothic Vertical;
-	font-size:11pt;
-	line-height:14pt;
-	margin-top:9px;
-	padding:12px 0 0 15px;
-}
-div#wikibody div#pass-varia p,div#wikibody div#pass-varia sup {
-	color:#00aa5a;
-}
-div#wikibody div#pass-varia p .sup,div#wikibody div#pass-varia sup .sup {
-	color:#00aa5a;
-}
-div#wikibody div#making-of p+p {
-	text-indent:1.5em;
-}
-div#wikibody div.border {
-	border:2px solid #00aa5a;
-}
-div#wikibody .centrer {
-	margin-left:auto;
-	margin-right:auto;
-	width:80%;
-}
-div#wikibody .item {
-	float:left;
-	margin:10px;
-	width:50px;
-}
-div#wikibody div.fiche {
-	box-sizing:border-box;
-	color:#00aa5a;
-	font-family:Ume P Gothic Vertical;
-	font-size:14pt;
-	height:auto;
-	line-height:17pt;
-	outline:2px solid #00aa5a;
-	outline-offset:-10px;
-	padding:20px;
-	page-break-inside:avoid;
-}
-div#wikibody div.fiche .intitule {
-	font-size:10pt;
-	text-transform:uppercase;
-}
-div#wikibody div#commit-container div {
-	-webkit-flow-from:CommitFlow;
-	height:1000px;
-	width:25%;
-}
-div#wikibody .commit-list {
-	-webkit-flow-into:CommitFlow;
-	width:100%;
-}
-div#wikibody .commit-list div {
-	float:left;
-}
-div#wikibody .ellipse {
-	border-left:1px solid #000;
-	clear:both;
-	margin:auto auto auto 50px;
-	width:5px;
-}
-div#wikibody .commit p {
-	margin-bottom:0;
-}
-div#wikibody .commit-author {
-	border:solid 1px;
-	font-size:8px;
-	letter-spacing:.05em;
-	margin-bottom:-1px;
-	margin-right:-1px;
-	padding:2px;
-	position:relative;
-	text-transform:uppercase;
-}
-div#wikibody .commit-author-said {
-	border:solid 1px;
-	font-size:9px;
-	letter-spacing:.05em;
-	margin-bottom:-1px;
-	margin-left:0;
-	margin-right:-1px;
-	padding:2px;
-	position:relative;
-	text-transform:none;
-	top:0;
-}
-div#wikibody .commit-spacer {
-	border-top:1px solid #000;
-	display:none;
-	float:left;
-	height:12px;
-	position:relative;
-	width:19px;
-}
-div#wikibody .commit-message {
-	background-color:#FFF;
-	background-image:url(../materials/extract-G/aspiration.gif);
-	background-position:-470px -257px;
-	background-size:400px 300px;
-	border:solid 1px;
-	display:inline-block;
-	float:left;
-	font-size:10px;
-	line-height:10.5px;
-	margin-left:15px;
-	margin-top:-4px;
-	padding:2px 2px 2px 22px;
-	text-indent:-18px;
-	width:120px;
-}
-div#wikibody .commit-message1 {
-	background-color:#FFF;
-	background-image:url(../materials/extract-G/cloud-light.gif);
-	background-position:465px -865px;
-	background-size:205px 211px;
-	border:solid 1px;
-	display:inline-block;
-	float:left;
-	font-size:10px;
-	line-height:10.5px;
-	margin-left:15px;
-	margin-top:-4px;
-	padding:2px 2px 2px 22px;
-	text-indent:-18px;
-	width:120px;
-}
-div#wikibody .commit-message2 {
-	background-color:#FFF;
-	background-image:url(../materials/extract-G/cloud-light.gif);
-	background-position:165px -265px;
-	background-size:205px 211px;
-	border:solid 1px;
-	display:inline-block;
-	float:left;
-	font-size:10px;
-	line-height:10.5px;
-	margin-left:15px;
-	margin-top:-4px;
-	padding:2px 2px 2px 22px;
-	text-indent:-18px;
-	width:120px;
-}
-div#wikibody .commit-date {
-	background-color:#ff99ba;
-	border:solid 1px;
-	border-top-color:#ff99ba;
-	display:none;
-	float:left;
-	font-size:8px;
-	margin:-2px -1px -1px 18px;
-	padding:1px 3px;
-}
-div#wikibody .commit-date .sup {
-	background-color:none;
-	border-top-color:#00aa5a;
-}
-div#wikibody .commit-source {
-	font-size:8px;
-	margin-left:18px;
-}
-div#wikibody .itemmason {
-	border:solid 1px;
-	font-family:Ume P Gothic Balsa;
-	font-size:10px;
-	line-height:12px;
-	margin:-1px 0 10px;
-	padding:0;
-	text-align:center;
-}
-@media screen {
-	div#wikibody ul#toc
-	{
-		display:block;
-	}
-}
-@media print {
-	div#wikibody ul#toc
-	{
-		display:none;
-	}
-}
-</style>
-
-
+  <link rel="stylesheet" href="./online_files/meyer.reset.css" type="text/css">
+  <link rel="stylesheet" href="./online_files/all.css" type="text/css">
+  <link rel="stylesheet" href="./online_files/balsa.css" type="text/css">
+  <link rel="stylesheet" href="flyers.css" type="text/css">
+  <script language="JavaScript" type="text/javascript" src="./online_files/jquery-1.5.1.min.js"> </script>
+  <script language="JavaScript" type="text/javascript" src="./online_files/balsa.js"> </script>
 </head>
 <body>
     <div id="virtual">
@@ -796,12 +37,8 @@ div#wikibody .itemmason {
         </div>
     </div>
 
-
-
-
     <section id="body">
         <div id="wikibody">
-
 
 <article id="fusee">
  
@@ -816,23 +53,25 @@ div#wikibody .itemmason {
             Et si les extra­terrestres n’étaient pas nos amis&thinsp;?
         </p>
     </div>
-
+    
+        <div class="image-cmjn" style="width: 211px; height: 163px; position: relative; z-index: -10; ">
+      <img alt="" class="preview" src="../photos/layers-processed/orgasm/orgasm_Calque 4-G.png" style="width: 150%;margin-left: -60px;margin-top: -40px;" />
+        </div>
 
     <div class="texte" style="width: 40%; height: 170px;">
         <p>Première tentative d’échange artistique entre humains et non-humains,  ce projet est  conçu pour un public majoritairement  extraterrestre.</p>
     </div> 
 
+        <div id="logo" class="image-cmjn turn-left" style="width: 80px; height: 70px; position: relative; z-index: -10; top: 14px;">
+            <img alt="" class="preview" src="../pack-com/haute-def/vert/balsamine-logo_part1-couleur.png" style="width: 100%">
+        </div>
 
-    <div class="if" style="width: 27%;  ">
-        <p>
-            Ne serait-ce pas leur rendre la monnaie de leur pièce que de les torturer à leur tour&thinsp;? 
-        </p>
-    </div>
 
     <div class="texte" style="width: 45%;  margin-bottom: 0px; clear:left; ">
         <p>Déployant une inventivité perverse et musicale, explorant l’aspect relatif de  la   normalité et de l’obscénité, <em>Fusée</em> questionne en dernier ressort les limites de l’utilité et de la représentation.</p>
     </div> 
 
+<!--
     <div style="width: 53%; ">
         <div class="blockquote" style="padding-bottom: 0; padding-top: 10px;">
             <blockquote>
@@ -842,9 +81,21 @@ div#wikibody .itemmason {
             </blockquote>
         </div>
     </div>
+-->
 
+    <div class="if" style="width: 27%;  ">
+        <p>
+            Ne serait-ce pas leur rendre la monnaie de leur pièce que de les torturer à leur tour&thinsp;? 
+        </p>
+    </div>
+    
+    
+            <div class="image-cmjn" style="width: 110%; height: 118px; position: relative; z-index: -10; overflow: hidden;margin-right: 20px;margin-left: -30px;clear: left;">
+            <img alt="" class="preview" src="../photos/layers-processed/orgasm/orgasm_Calque 8-h-G.png" style="width: 100%;margin-top: -150px;">
+        </div>
+        
 
-   <div class="bible" style="width: 31%; clear: left; padding: 0 10px;">
+   <div class="bible" style="width: 39%; padding: 0 10px; clear: left;">
         <dl style="margin-top: 10px;">
             <dt>Conception</dt>
             <dd>Ludovic Barth et Claire Deville</dd>
@@ -864,7 +115,7 @@ div#wikibody .itemmason {
     </div>
 
 
-    <div class="texte" style="width: 69%;">
+    <div class="texte" style="width: 61%;">
         <p>Après les succès de <em>J’ai gravé le nom de ma grenouille dans ton foie</em> et de <em>DTC (on&nbsp;est bien)</em>, la jeune compagnie Clinic Orgasm Society s’est lancée dans un triptyque&thinsp;: <em>Pré-Blé-Fusée</em>,  3 spectacles indépendants et déjantés qui déplacent les limites de la  normalité et qui se jouent de nos répulsions-fascinations.</p>
 
         <p>Aussi, après <em>Pré</em> au Varia, <em>Blé</em> au Manège.Mons, voici <em>Fusée</em> à la Balsa, vers l’insoutenable et au-delà&thinsp;!</p>
@@ -877,21 +128,22 @@ div#wikibody .itemmason {
         </p>
     </div>
 
-    <div class="production" style="width: 28%;">
+    <div class="production" style="width: 37%;">
         <p>Une  production de la Clinic Orgasm Society en coproduction avec la  Balsamine, le  Théâtre Varia, le manège.mons/Centres Dramatiques de la  Fédération Wallonie-Bruxelles, le PBA + Eden (Charleroi), Le Grand Bleu  – ENPDA Lille Nord/Pas-de-Calais. Avec le soutien du Centre des Arts  Scéniques (CAS) et de la SACD. Avec l’aide du Conseil de l’aide aux  projets théâtraux (CAPT).</p>
     </div>
 
-
+<!--
     <div class="texte" style="width: 53%; outline-style: dotted; height: 286px;">
         <p><span class="lettrine under">Pass Balsa/Varia </span> </p><p>prix plein&thinsp;: 30&thinsp;€ </p><p style="margin-bottom: 7px;">prix réduit&thinsp;: 18&thinsp;€</p>
         <p style="margin-bottom: 7px;"><span class="lettrine under">Fusée</span>   Du 25 septembre au 5 octobre à 20h30 à la Balsamine</p>
         <p style="margin-bottom: 7px;"><span class="lettrine under">Pré</span>  Les 21 et  22 février, et du 27 février au 1<sup>er</sup> mars à 20h au  Petit Varia</p>
         <p><span class="lettrine under">Blé</span> Du 11 au 14 mars à 20h30, le 15 mars à 19h30  au Grand Varia </p>
     </div>
+-->
 
-    <div class="out" style="width: 61%;">
+    <div class="out" style="width: 44%;">
         <p>
-        <em>Pré</em> et <em>Blé</em> seront à nouveau visibles au Théâtre Varia en février et mars 2014. Chacun peut être vu séparément des autres, mais vous pouvez aussi opter pour la formule des trois réunis&thinsp;: «&thinsp;Fusée-Pré-Blé&thinsp;», en partenariat avec le Théâtre Varia. 
+        <em>Pré</em> et <em>Blé</em> seront à nouveau visibles au Théâtre Varia en février et mars 2014. Chacun peut être vu séparément des autres, mais vous pouvez aussi opter pour la formule des trois réunis (PASS Balsa-Varia)&thinsp;: «&thinsp;Fusée-Pré-Blé&thinsp;», en partenariat avec le Théâtre Varia. 
         </p>
     </div>
 
@@ -903,20 +155,23 @@ div#wikibody .itemmason {
 
 
 
-<div id="signature" class="bible" style="width: 100%; padding: 30px 0;">
+<div id="signature" class="bible" style="width: 100%; padding: 25px 0;">
     <span>Éditeur responsable</span> Fabien Dehasseler &mdash;
     avenue Félix Marchal, 1 — 1030 Bruxelles  <span>Design</span> Open Source Publishing<sup>Speculoos</sup>  <span>Photographie</span> Hichem Dahes
 </div>
 
 
-<div class="image-cmjn craboutcha" style="width: 30%; height: 320px; position: absolute; top: 685px; left: -63px; z-index: -1000;">
+<div class="image-cmjn craboutcha" style="width: 45%; height: 360px; position: absolute; top: 119px; left: 467px;  ">
     <img class="preview" src="../photos/layers-processed/meteor/meteor_Calque-2_nb-G.png" />
 </div>
 
-<div class="image-cmjn craboutcha turn-right" style="width: 60%; height: 320px; position: absolute; top: 45px; right: -105px; z-index: -1000;">
-    <img class="preview" src="../materials/extract-G/wouuuuhhhhh.gif" />
+<div class="image-cmjn craboutcha turn-right" style="width: 43%; height: 264px; position: absolute; top: 685px; left: -15px; z-index: -1000;">
+    <img class="preview" src="../materials/extract-G/gradient.gif" style="margin-left: -60px;" />
 </div>
 
+<div class="image-cmjn craboutcha" style="width: 26%; height: 274px; position: absolute; top: 754px; left: -41px; z-index: -1000;">
+    <img class="preview" src="../materials/extract-G/enrobage.gif" />
+</div>
 
 </article>
 
