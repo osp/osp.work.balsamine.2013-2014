@@ -305,9 +305,9 @@ div#wikibody div.cuted {
 	position:relative;
 }
 div#wikibody sup {
-	font-size:.7em;
+	font-size:.8em;
 	line-height:0;
-	vertical-align:.3em;
+	vertical-align:.4em;
 }
 div#wikibody h1,div#wikibody h2,div#wikibody h3,div#wikibody h4,div#wikibody h5,div#wikibody h6 {
 	font-weight:400;
