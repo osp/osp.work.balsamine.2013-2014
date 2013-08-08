@@ -11,11 +11,12 @@
   <link rel="stylesheet" href="flyers.css" type="text/css">
   <script language="JavaScript" type="text/javascript" src="./online_files/jquery-1.5.1.min.js"> </script>
   <script language="JavaScript" type="text/javascript" src="./online_files/balsa.js"> </script>
+  <script language="JavaScript" type="text/javascript" src="flyers.js"> </script>
 </head>
 <body>
     <div id="virtual">
         <div id="fakepage" class="fakepage">
-            <img src="../materials/cale-page-flyers.png" />
+            <img id="cale-page" src="../materials/cale-page-flyers.png" />
             <div class="crop-tl">
                 <div class="crop-right" style="top: 0; right: 0;"></div>
                 <div class="crop-bottom" style="bottom: 0cm; left: 0;"></div>
@@ -126,43 +127,7 @@
 
 </article>
 
-
-
-
         </div>
 
-
 </section>
-
-<script type="text/javascript">
-
-        // INSÈRE UN CARACTÈRE UNICODE APRÈS <DD>
-        (function($) {
-            $.fn.postDD=function()
-            {
-                return this.each(function(){
-                    $(this).after("<span>⁀</span>");
-                });
-            };
-        })(jQuery);
-
-
-
-        $(document).ready(function(){             
-                // FAKE PAGES
-                //doc_height = $("body").height();
-                //page_height = $("#fakepage").height(); 
-                //page_height = 22; 
-                //nb_page = Math.ceil(doc_height/page_height) -2;
-                //gutter = parseInt($("#fakepage").css("top"));  // = 1cm
-                
-                //for (i = 0; i <= nb_page; i++){
-                //    $("#fakepage").clone().css({'outline-offset': '-1cm', 'display': 'block'}).attr("id","fakepage-p"+i).insertBefore($("#fakepage"));
-                //}
-
-                // AJOUTE UN UNICODE APRÈS <DD>
-                $("dd").postDD();
-
-        });
-</script>
 </body></html>
