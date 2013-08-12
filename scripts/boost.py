@@ -15,7 +15,7 @@ def boost(image, ratio):
         height = pdb.gimp_image_height(image)
         width = pdb.gimp_image_width(image)
         pdb.gimp_image_scale(image, width*200/100, height*200/100)
-        pdb.plug_in_rgb_noise(image, drawable, 1, 0, 0.2, 0.2, 0.2, 1)
+        pdb.plug_in_rgb_noise(image, drawable, 1, 0, 0.5, 0.5, 0.5, 1)
     pdb.gimp_image_convert_indexed(image, 0, 3, 2, False, True, 0)
 
 images = gimp.image_list()
