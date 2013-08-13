@@ -8,6 +8,23 @@
     };
 })(jQuery);
 
+function checkImageResolution(){
+    // CHECK IMAGE RESOLUTION
+    $("img.noir").each(function(){
+        if ($(this).attr("id") != "cale-page"){
+            height = $(this).height();
+            naturalHeight = this.naturalHeight;
+            ratio = naturalHeight/height;
+            console.log(this);
+            console.log(ratio);
+            if (ratio < 5.5){
+                $(this).parent().css("outline", "5px solid red");
+                //$(this).css({"opacity": ".5", "background-color": "red"});
+            }
+        }
+    });
+}
+
 $(window).load(function(){             
         // FAKE PAGES
         //doc_height = $("body").height();
@@ -22,19 +39,18 @@ $(window).load(function(){
 
         // AJOUTE UN UNICODE APRÈS <DD>
         $("dd").postDD();
+        
+        
+        
+        // PRÉPARATION À L'EXPORT, ON PASSE TOUT EN NOIR
+        // IMAGES
+        $("section#body.export img.preview").css("display", "none");
+        $("section#body.export img.noir").css("display", "block");
+        
+        // VECTEURS
+        $("section#body.export *").css({"color": "black", "border-color": "black", "outline-color": "black"});
+        $(".folio p").css({"color": "black",});
 
-        // CHECK IMAGE RESOLUTION
-        $("img").each(function(){
-            if ($(this).attr("id") != "cale-page"){
-                height = $(this).height();
-                naturalHeight = this.naturalHeight;
-                ratio = naturalHeight/height;
-                if (ratio < 5.5){
-                    console.log(this);
-                    console.log(ratio);
-                    $(this).parent().css("outline", "5px solid red");
-                    //$(this).css({"opacity": ".5", "background-color": "red"});
-                }
-            }
-        });
+        //checkImageResolution();
+
 });
