@@ -10,11 +10,12 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="2444.8818"
+   width="2551.1812"
    height="4606.2993"
-   viewBox="0 0 1955.9054 3685.0393"
+   viewBox="0 0 2040.9448 3685.0393"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
@@ -28,13 +29,13 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1680"
-     inkscape:window-height="994"
+     inkscape:window-width="1280"
+     inkscape:window-height="744"
      id="namedview98"
      showgrid="false"
-     inkscape:zoom="0.19489337"
-     inkscape:cx="1744.8619"
-     inkscape:cy="2962.3595"
+     inkscape:zoom="0.15153763"
+     inkscape:cx="1449.5178"
+     inkscape:cy="2973.7932"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -102,7 +103,7 @@
        id="guide6540" />
     <sodipodi:guide
        orientation="0,1"
-       position="5616.9101,3666.0859"
+       position="1988.7799,3559.3469"
        id="guide6542" />
     <sodipodi:guide
        orientation="1,0"
@@ -200,6 +201,22 @@
        orientation="0,1"
        position="-351.93274,4564.2411"
        id="guide5157" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="2091.6297,2967.7111"
+       id="guide4081" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="1952.2266,2848.1394"
+       id="guide4094" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="2044.9676,2144.1246"
+       id="guide4136" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="2019.3034,2028.6358"
+       id="guide4138" />
   </sodipodi:namedview>
   <metadata
      id="metadata102">
@@ -596,7 +613,7 @@
   </defs>
   <text
      x="408.39899"
-     y="3335.4241"
+     y="3335.4236"
      font-size="8.00"
      id="text39"
      style="font-size:8px;text-anchor:middle;font-family:Ume P Gothic Balsa" />
@@ -604,7 +621,15 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="Layer"
-     transform="translate(0,-1048.8191)">
+     transform="translate(0,-1048.8195)">
+    <image
+       y="1738.5916"
+       x="-2301.3376"
+       id="image4997"
+       xlink:href="file:///home/ludi/wrk/osp.work.balsamine.2013-2014/materials/extract-G/bong.gif"
+       height="1557.6"
+       width="1065.6"
+       transform="scale(-1,1)" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot3752"
@@ -639,7 +664,7 @@
        xml:space="preserve"
        id="flowRoot3930"
        style="font-size:3.8818078px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Ume P Gothic Shadow;-inkscape-font-specification:Ume P Gothic Shadow"
-       transform="matrix(6.1826861,0,0,6.1826861,-18317.99,-9289.9982)"><flowRegion
+       transform="matrix(6.1826861,0,0,6.1826861,-18319.59,-9289.9982)"><flowRegion
          id="flowRegion3932"><rect
            style="font-size:3.8818078px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Ume P Gothic Shadow;-inkscape-font-specification:Ume P Gothic Shadow"
            id="rect3934"
@@ -649,7 +674,7 @@
            y="1681.8481" /></flowRegion><flowPara
          id="flowPara3936"
          style="font-size:15.52723122px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:1.03514874px;writing-mode:lr-tb;text-anchor:middle;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Ume P Gothic Shadow;-inkscape-font-specification:Ume P Gothic Shadow">PRIX DES PLACES</flowPara></flowRoot>    <flowRoot
-       transform="matrix(6.1826861,0,0,6.1826861,-17865.14,-8405.2206)"
+       transform="matrix(6.1826861,0,0,6.1826861,-17866.74,-8405.2206)"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot3938"
        xml:space="preserve"><flowRegion
@@ -665,7 +690,7 @@
        xml:space="preserve"
        id="flowRoot3946"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(6.1826861,0,0,6.1826861,-18002.742,-8406.4196)"><flowRegion
+       transform="matrix(6.1826861,0,0,6.1826861,-18004.342,-8406.4196)"><flowRegion
          id="flowRegion3948"><rect
            style="fill:#ff0052;fill-opacity:1;stroke:none"
            id="rect3950"
@@ -678,7 +703,7 @@
        xml:space="preserve"
        id="flowRoot3954"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(6.1826861,0,0,6.1826861,-17854.504,-8292.8785)"><flowRegion
+       transform="matrix(6.1826861,0,0,6.1826861,-17856.104,-8292.8785)"><flowRegion
          id="flowRegion3956"><rect
            style="fill:#ff0052;fill-opacity:1;stroke:none"
            id="rect3958"
@@ -696,7 +721,7 @@
          style="font-size:11.64542389px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa">demandeurs d'emploi, </flowPara><flowPara
          id="flowPara3966"
          style="font-size:11.64542389px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa">Schaerbeekois</flowPara></flowRoot>    <flowRoot
-       transform="matrix(6.1826861,0,0,6.1826861,-17868.159,-7454.1951)"
+       transform="matrix(6.1826861,0,0,6.1826861,-17869.759,-7454.1951)"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot3968"
        xml:space="preserve"><flowRegion
@@ -718,7 +743,7 @@
        xml:space="preserve"
        id="flowRoot3982"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(6.1826861,0,0,6.1826861,-17868.159,-7048.0052)"><flowRegion
+       transform="matrix(6.1826861,0,0,6.1826861,-17869.759,-7048.0052)"><flowRegion
          id="flowRegion3984"><rect
            style="fill:#ff0052;fill-opacity:1;stroke:none"
            id="rect3986"
@@ -737,7 +762,7 @@
        xml:space="preserve"
        id="flowRoot4004"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(6.1826861,0,0,6.1826861,-17857.302,-6623.2491)"><flowRegion
+       transform="matrix(6.1826861,0,0,6.1826861,-17858.902,-6623.2491)"><flowRegion
          id="flowRegion4006"><rect
            style="fill:#00aa5a;fill-opacity:1;stroke:none"
            id="rect4008"
@@ -747,7 +772,7 @@
            y="1681.8481" /></flowRegion><flowPara
          id="flowPara4010"
          style="font-size:11.64542389px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa">ART. 27, ARSÈNE 50</flowPara></flowRoot>    <flowRoot
-       transform="matrix(6.1826861,0,0,6.1826861,-18041.946,-7456.0752)"
+       transform="matrix(6.1826861,0,0,6.1826861,-18043.546,-7456.0752)"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot4012"
        xml:space="preserve"><flowRegion
@@ -763,7 +788,7 @@
        xml:space="preserve"
        id="flowRoot4020"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(6.1826861,0,0,6.1826861,-17868.232,-8852.3687)"><flowRegion
+       transform="matrix(6.1826861,0,0,6.1826861,-17869.832,-8852.3687)"><flowRegion
          id="flowRegion4022"><rect
            style="fill:#00aa5a;fill-opacity:1;stroke:none"
            id="rect4024"
@@ -773,7 +798,7 @@
            y="1681.8481" /></flowRegion><flowPara
          id="flowPara4026"
          style="font-size:11.64542389px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa">TARIF PLEIN</flowPara></flowRoot>    <flowRoot
-       transform="matrix(6.1826861,0,0,6.1826861,-18041.174,-8853.5784)"
+       transform="matrix(6.1826861,0,0,6.1826861,-18042.774,-8853.5784)"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0.12939361px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot4028"
        xml:space="preserve"><flowRegion
@@ -788,14 +813,14 @@
          id="flowPara4034">14€</flowPara></flowRoot>    <path
        sodipodi:nodetypes="ccc"
        style="fill:none;stroke:#00aa5a;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 646.0058,1646.6996 -421.2989,0 0,-79.8979"
+       d="m 644.4058,1646.6996 -421.2989,0 0,-79.8979"
        id="path4036"
        inkscape:connector-curvature="0" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot4038"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(6.1826861,0,0,6.1826861,-18040.911,-8745.5671)"><flowRegion
+       transform="matrix(6.1826861,0,0,6.1826861,-18042.511,-8745.5671)"><flowRegion
          id="flowRegion4040"><rect
            style="fill:#ff0052;fill-opacity:1;stroke:none"
            id="rect4042"
@@ -805,7 +830,7 @@
            y="1681.8481" /></flowRegion><flowPara
          id="flowPara4044"
          style="font-size:11.64542389px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa">12€</flowPara></flowRoot>    <flowRoot
-       transform="matrix(6.1826861,0,0,6.1826861,-17854.279,-8745.261)"
+       transform="matrix(6.1826861,0,0,6.1826861,-17855.879,-8745.261)"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot4046"
        xml:space="preserve"><flowRegion
@@ -818,7 +843,7 @@
            id="rect4050" /></flowRegion><flowPara
          style="font-size:11.64542389px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
          id="flowPara4052">Prévente</flowPara></flowRoot>    <flowRoot
-       transform="matrix(6.1826861,0,0,6.1826861,-17866.532,-9032.5022)"
+       transform="matrix(6.1826861,0,0,6.1826861,-17868.132,-9032.5022)"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot4054"
        xml:space="preserve"><flowRegion
@@ -834,7 +859,7 @@
        xml:space="preserve"
        id="flowRoot4062"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(6.1826861,0,0,6.1826861,-18041.798,-9031.5842)"><flowRegion
+       transform="matrix(6.1826861,0,0,6.1826861,-18043.398,-9031.5842)"><flowRegion
          id="flowRegion4064"><rect
            style="fill:#ff0052;fill-opacity:1;stroke:none"
            id="rect4066"
@@ -846,20 +871,20 @@
          style="font-size:11.64542389px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa">20€ </flowPara></flowRoot>    <path
        sodipodi:nodetypes="ccc"
        style="fill:none;stroke:#00aa5a;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 730.0963,1467.5588 -502.8989,0 0,-79.8979"
+       d="m 728.4963,1467.5588 -502.8989,0 0,-79.8979"
        id="path4071"
        inkscape:connector-curvature="0" />
     <path
        inkscape:connector-curvature="0"
        id="path4073"
-       d="m 788.03521,2094.6328 -560.4989,0 0,-79.8979"
+       d="m 786.43521,2094.6328 -560.4989,0 0,-79.8979"
        style="fill:none;stroke:#00aa5a;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:nodetypes="ccc" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot4075"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(6.1826861,0,0,6.1826861,-18006.976,-7048.0848)"><flowRegion
+       transform="matrix(6.1826861,0,0,6.1826861,-18008.576,-7048.0848)"><flowRegion
          id="flowRegion4077"><rect
            style="fill:#ff0052;fill-opacity:1;stroke:none"
            id="rect4079"
@@ -872,7 +897,7 @@
        xml:space="preserve"
        id="flowRoot4083"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(6.1826861,0,0,6.1826861,-17864.736,-7582.6753)"><flowRegion
+       transform="matrix(6.1826861,0,0,6.1826861,-17866.336,-7582.6753)"><flowRegion
          id="flowRegion4085"><rect
            style="fill:#00aa5a;fill-opacity:1;stroke:none"
            id="rect4087"
@@ -884,11 +909,11 @@
          style="font-size:11.64542389px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa">TARIFS DE GROUPE</flowPara></flowRoot>    <path
        sodipodi:nodetypes="ccc"
        style="fill:none;stroke:#00aa5a;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 880.39152,2919.2375 -654.8989,0 0,-79.898"
+       d="m 878.79152,2919.2375 -654.8989,0 0,-79.898"
        id="path4091"
        inkscape:connector-curvature="0" />
     <flowRoot
-       transform="matrix(6.1826861,0,0,6.1826861,-17852.471,-8589.5866)"
+       transform="matrix(6.1826861,0,0,6.1826861,-17854.071,-8589.5866)"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot4093"
        xml:space="preserve"><flowRegion
@@ -901,7 +926,7 @@
            id="rect4097" /></flowRegion><flowPara
          style="font-size:11.64542389px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
          id="flowPara4099">LE SAMEDI</flowPara></flowRoot>    <flowRoot
-       transform="matrix(6.1826861,0,0,6.1826861,-18003.397,-8589.1364)"
+       transform="matrix(6.1826861,0,0,6.1826861,-18004.997,-8589.1364)"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot4101"
        xml:space="preserve"><flowRegion
@@ -917,7 +942,7 @@
        xml:space="preserve"
        id="flowRoot4109"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(6.1826861,0,0,6.1826861,-18004.113,-7862.4585)"><flowRegion
+       transform="matrix(6.1826861,0,0,6.1826861,-18005.713,-7862.4585)"><flowRegion
          id="flowRegion4111"><rect
            style="fill:#ff0052;fill-opacity:1;stroke:none"
            id="rect4113"
@@ -929,17 +954,17 @@
          style="font-size:11.64542389px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa">4€</flowPara></flowRoot>    <path
        inkscape:connector-curvature="0"
        id="path4117"
-       d="m 613.0445,1915.4459 -384.4989,0 0,-79.8979"
+       d="m 611.4445,1915.4459 -384.4989,0 0,-79.8979"
        style="fill:none;stroke:#00aa5a;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:nodetypes="ccc" />
     <path
        inkscape:connector-curvature="0"
        id="path4119"
-       d="m 880.44812,3880.9129 -654.8989,0 0,-79.898"
+       d="m 878.84812,3880.9129 -654.8989,0 0,-79.898"
        style="fill:none;stroke:#00aa5a;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:nodetypes="ccc" />
     <flowRoot
-       transform="matrix(6.1826861,0,0,6.1826861,-18053.52,-9046.1832)"
+       transform="matrix(6.1826861,0,0,6.1826861,-18055.12,-9046.1832)"
        style="font-size:3.8818078px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Ume P Gothic Shadow;-inkscape-font-specification:Ume P Gothic Shadow"
        id="flowRoot4125"
        xml:space="preserve"><flowRegion
@@ -952,7 +977,7 @@
            style="font-size:3.8818078px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Ume P Gothic Shadow;-inkscape-font-specification:Ume P Gothic Shadow" /></flowRegion><flowPara
          style="font-size:15.52723122px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:1.03514874px;writing-mode:lr-tb;text-anchor:middle;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Ume P Gothic Shadow;-inkscape-font-specification:Ume P Gothic Shadow"
          id="flowPara4131">PASS</flowPara></flowRoot>    <flowRoot
-       transform="matrix(6.1826861,0,0,6.1826861,-16996.532,-8855.8313)"
+       transform="matrix(6.1826861,0,0,6.1826861,-16998.132,-8855.8313)"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot4137"
        xml:space="preserve"><flowRegion
@@ -965,7 +990,7 @@
            id="rect4141" /></flowRegion><flowPara
          style="font-size:11.64542389px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
          id="flowPara4143">PASS QUAND TU VEUX</flowPara></flowRoot>    <flowRoot
-       transform="matrix(6.1826861,0,0,6.1826861,-16872.308,-8677.233)"
+       transform="matrix(6.1826861,0,0,6.1826861,-16873.908,-8677.233)"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot4145"
        xml:space="preserve"><flowRegion
@@ -981,7 +1006,7 @@
        xml:space="preserve"
        id="flowRoot4153"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(6.1826861,0,0,6.1826861,-16867.507,-8588.9847)"><flowRegion
+       transform="matrix(6.1826861,0,0,6.1826861,-16869.107,-8588.9847)"><flowRegion
          id="flowRegion4155"><rect
            style="fill:#ff0052;fill-opacity:1;stroke:none"
            id="rect4157"
@@ -991,7 +1016,7 @@
            y="1681.8481" /></flowRegion><flowPara
          id="flowPara4159"
          style="font-size:11.64542389px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa">Tarif réduit</flowPara></flowRoot>    <flowRoot
-       transform="matrix(6.1826861,0,0,6.1826861,-17021.022,-8483.9814)"
+       transform="matrix(6.1826861,0,0,6.1826861,-17022.622,-8483.9814)"
        style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot4161"
        xml:space="preserve"><flowRegion
@@ -1009,7 +1034,7 @@
        xml:space="preserve"
        id="flowRoot4175"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(6.1826861,0,0,6.1826861,-16999.104,-8298.6295)"><flowRegion
+       transform="matrix(6.1826861,0,0,6.1826861,-17000.704,-8298.6295)"><flowRegion
          id="flowRegion4177"><rect
            style="fill:#00aa5a;fill-opacity:1;stroke:none"
            id="rect4179"
@@ -1022,7 +1047,7 @@
        xml:space="preserve"
        id="flowRoot4183"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(6.1826861,0,0,6.1826861,-16871.955,-8114.4814)"><flowRegion
+       transform="matrix(6.1826861,0,0,6.1826861,-16873.555,-8114.4814)"><flowRegion
          id="flowRegion4185"><rect
            style="fill:#ff0052;fill-opacity:1;stroke:none"
            id="rect4187"
@@ -1032,7 +1057,7 @@
            y="1681.8481" /></flowRegion><flowPara
          id="flowPara4189"
          style="font-size:11.64542389px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa">Tarif plein</flowPara></flowRoot>    <flowRoot
-       transform="matrix(6.1826861,0,0,6.1826861,-16873.554,-8019.8331)"
+       transform="matrix(6.1826861,0,0,6.1826861,-16875.154,-8019.8331)"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot4191"
        xml:space="preserve"><flowRegion
@@ -1045,7 +1070,7 @@
            id="rect4195" /></flowRegion><flowPara
          style="font-size:11.64542389px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
          id="flowPara4197">Tarif réduit</flowPara></flowRoot>    <flowRoot
-       transform="matrix(6.1826861,0,0,6.1826861,-16993.509,-7711.1876)"
+       transform="matrix(6.1826861,0,0,6.1826861,-16995.109,-7711.1876)"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot4199"
        xml:space="preserve"><flowRegion
@@ -1061,7 +1086,7 @@
        xml:space="preserve"
        id="flowRoot4207"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(6.1826861,0,0,6.1826861,-16996.817,-8184.3062)"><flowRegion
+       transform="matrix(6.1826861,0,0,6.1826861,-16998.417,-8184.3062)"><flowRegion
          id="flowRegion4209"><rect
            style="fill:#00aa5a;fill-opacity:1;stroke:none"
            id="rect4211"
@@ -1074,7 +1099,7 @@
        xml:space="preserve"
        id="flowRoot4215"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(6.1826861,0,0,6.1826861,-16869.352,-7455.6424)"><flowRegion
+       transform="matrix(6.1826861,0,0,6.1826861,-16870.952,-7455.6424)"><flowRegion
          id="flowRegion4217"><rect
            style="fill:#ff0052;fill-opacity:1;stroke:none"
            id="rect4219"
@@ -1084,7 +1109,7 @@
            y="1681.8481" /></flowRegion><flowPara
          id="flowPara4221"
          style="font-size:11.64542389px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa">Tarif plein</flowPara></flowRoot>    <flowRoot
-       transform="matrix(6.1826861,0,0,6.1826861,-16867.981,-7363.0533)"
+       transform="matrix(6.1826861,0,0,6.1826861,-16869.581,-7363.0533)"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot4223"
        xml:space="preserve"><flowRegion
@@ -1099,23 +1124,23 @@
          id="flowPara4229">Tarif réduit</flowPara></flowRoot>    <path
        sodipodi:nodetypes="ccc"
        style="fill:none;stroke:#00aa5a;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 1858.0823,1644.2178 -771.1485,0 0,-79.898"
+       d="m 1856.4823,1644.2178 -771.1485,0 0,-79.898"
        id="path4231"
        inkscape:connector-curvature="0" />
     <path
        inkscape:connector-curvature="0"
        id="path4233"
-       d="m 1675.5353,2202.1693 -587.6989,0 0,-79.898"
+       d="m 1673.9353,2202.1693 -587.6989,0 0,-79.898"
        style="fill:none;stroke:#00aa5a;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:nodetypes="ccc" />
     <path
        sodipodi:nodetypes="ccc"
        style="fill:none;stroke:#00aa5a;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 1768.3799,2792.8112 -680.4989,0 0,-79.898"
+       d="m 1766.7799,2792.8112 -680.4989,0 0,-79.898"
        id="path4235"
        inkscape:connector-curvature="0" />
     <flowRoot
-       transform="matrix(6.1826861,0,0,6.1826861,-17027.759,-8678.2471)"
+       transform="matrix(6.1826861,0,0,6.1826861,-17029.359,-8678.2471)"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot4237"
        xml:space="preserve"><flowRegion
@@ -1131,7 +1156,7 @@
        xml:space="preserve"
        id="flowRoot4245"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(6.1826861,0,0,6.1826861,-17027.759,-8588.6471)"><flowRegion
+       transform="matrix(6.1826861,0,0,6.1826861,-17029.359,-8588.6471)"><flowRegion
          id="flowRegion4247"><rect
            style="fill:#ff0052;fill-opacity:1;stroke:none"
            id="rect4249"
@@ -1144,7 +1169,7 @@
        xml:space="preserve"
        id="flowRoot4253"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(6.1826861,0,0,6.1826861,-17028.743,-8113.8955)"><flowRegion
+       transform="matrix(6.1826861,0,0,6.1826861,-17030.343,-8113.8955)"><flowRegion
          id="flowRegion4255"><rect
            style="fill:#ff0052;fill-opacity:1;stroke:none"
            id="rect4257"
@@ -1154,7 +1179,7 @@
            y="1681.8481" /></flowRegion><flowPara
          id="flowPara4259"
          style="font-size:11.64542389px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa">30€ </flowPara></flowRoot>    <flowRoot
-       transform="matrix(6.1826861,0,0,6.1826861,-17030.343,-8019.4955)"
+       transform="matrix(6.1826861,0,0,6.1826861,-17031.943,-8019.4955)"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot4261"
        xml:space="preserve"><flowRegion
@@ -1170,7 +1195,7 @@
        xml:space="preserve"
        id="flowRoot4269"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(6.1826861,0,0,6.1826861,-17024.825,-7455.0005)"><flowRegion
+       transform="matrix(6.1826861,0,0,6.1826861,-17026.425,-7455.0005)"><flowRegion
          id="flowRegion4271"><rect
            style="fill:#ff0052;fill-opacity:1;stroke:none"
            id="rect4273"
@@ -1180,7 +1205,7 @@
            y="1681.8481" /></flowRegion><flowPara
          id="flowPara4275"
          style="font-size:11.64542389px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa">30€ </flowPara></flowRoot>    <flowRoot
-       transform="matrix(6.1826861,0,0,6.1826861,-17024.825,-7362.2005)"
+       transform="matrix(6.1826861,0,0,6.1826861,-17026.425,-7362.2005)"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot4277"
        xml:space="preserve"><flowRegion
@@ -1193,7 +1218,7 @@
            id="rect4281" /></flowRegion><flowPara
          style="font-size:11.64542389px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
          id="flowPara4283">18€ </flowPara></flowRoot>    <flowRoot
-       transform="matrix(6.1826861,0,0,6.1826861,-16998.009,-7589.8145)"
+       transform="matrix(6.1826861,0,0,6.1826861,-16999.609,-7589.8145)"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot4285"
        xml:space="preserve"><flowRegion
@@ -1208,7 +1233,7 @@
          id="flowPara4291">Autour de la trilogie </flowPara><flowPara
          style="font-size:7.76361561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
          id="flowPara5097">de Clinic Orgasm Society</flowPara></flowRoot>    <flowRoot
-       transform="matrix(6.1826861,0,0,6.1826861,-17001.617,-8741.1062)"
+       transform="matrix(6.1826861,0,0,6.1826861,-17003.217,-8741.1062)"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot4293"
        xml:space="preserve"><flowRegion
@@ -1221,7 +1246,7 @@
            id="rect4297" /></flowRegion><flowPara
          style="font-size:7.76361561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
          id="flowPara4299">Accès aux 12 spectacles de saison</flowPara></flowRoot>    <flowRoot
-       transform="matrix(6.1826861,0,0,6.1826861,-18003.648,-8291.0223)"
+       transform="matrix(6.1826861,0,0,6.1826861,-18005.248,-8291.0223)"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot4301"
        xml:space="preserve"><flowRegion
@@ -1237,7 +1262,7 @@
        xml:space="preserve"
        id="flowRoot4309"
        style="font-size:8px;font-style:normal;font-weight:normal;line-height:133.00000429%;letter-spacing:0px;word-spacing:0px;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(6.1826861,0,0,6.1826861,-17856.268,-7866.586)"><flowRegion
+       transform="matrix(6.1826861,0,0,6.1826861,-17857.868,-7866.586)"><flowRegion
          id="flowRegion4311"><rect
            id="rect4313"
            width="295.36475"
@@ -1251,20 +1276,20 @@
          id="flowPara5091">EN ÉCOLES D'ART</flowPara></flowRoot>    <path
        sodipodi:nodetypes="ccc"
        style="fill:none;stroke:#00aa5a;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 611.82389,2633.2674 -385.2255,0 0,-79.8979"
+       d="m 610.22389,2633.2674 -385.2255,0 0,-79.8979"
        id="path4317"
        inkscape:connector-curvature="0" />
     <path
        inkscape:connector-curvature="0"
        id="path5095"
-       d="m 830.02131,2735.6568 -562.0955,0"
+       d="m 828.42131,2735.6568 -562.0955,0"
        style="fill:none;stroke:#00aa5a;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:nodetypes="cc" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot5111"
        style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(6.1826861,0,0,6.1826861,-17028.327,-7908.2813)"><flowRegion
+       transform="matrix(6.1826861,0,0,6.1826861,-17029.927,-7908.2813)"><flowRegion
          id="flowRegion5113"><rect
            id="rect5115"
            width="144.83311"
@@ -1275,5 +1300,127 @@
          id="flowPara5117"
          style="font-size:7.76361561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa">Avec un verre offert avant </flowPara><flowPara
          style="font-size:7.76361561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0052;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
-         id="flowPara5119">chaque représentation choisie</flowPara></flowRoot>  </g>
+         id="flowPara5119">chaque représentation choisie</flowPara></flowRoot>    <flowRoot
+       transform="matrix(6.1826861,0,0,6.1826861,-16523.775,-8090.8803)"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot3303"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3305"><rect
+           y="1681.8481"
+           x="2929.3684"
+           height="18.41976"
+           width="42.273243"
+           id="rect3307"
+           style="fill:#00aa5a;fill-opacity:1;stroke:none" /></flowRegion><flowPara
+         style="font-size:7.76361561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
+         id="flowPara3309">Réserver</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#00aa5a;stroke-width:3.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 1590.7759,2370.2219 177.3128,0"
+       id="path4079"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4084"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(6.1826861,0,0,6.1826861,-16494.975,-7995.8135)"><flowRegion
+         id="flowRegion4086"><rect
+           style="fill:#00aa5a;fill-opacity:1;stroke:none"
+           id="rect4088"
+           width="42.273243"
+           height="18.41976"
+           x="2929.3684"
+           y="1681.8481" /></flowRegion><flowPara
+         id="flowPara4090"
+         style="font-size:7.76361561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa">Réserver</flowPara></flowRoot>    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path4092"
+       d="m 1619.5759,2465.2887 177.3128,0"
+       style="fill:none;stroke:#00aa5a;stroke-width:3.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4096"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(6.1826861,0,0,6.1826861,-16523.775,-8653.5149)"><flowRegion
+         id="flowRegion4098"><rect
+           style="fill:#00aa5a;fill-opacity:1;stroke:none"
+           id="rect4100"
+           width="42.273243"
+           height="18.41976"
+           x="2929.3684"
+           y="1681.8481" /></flowRegion><flowPara
+         id="flowPara4102"
+         style="font-size:7.76361561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa">Réserver</flowPara></flowRoot>    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path4104"
+       d="m 1590.7759,1807.5873 177.3128,0"
+       style="fill:none;stroke:#00aa5a;stroke-width:3.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <flowRoot
+       transform="matrix(6.1826861,0,0,6.1826861,-16494.975,-8564.8481)"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot4106"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4108"><rect
+           y="1681.8481"
+           x="2929.3684"
+           height="18.41976"
+           width="42.273243"
+           id="rect4110"
+           style="fill:#00aa5a;fill-opacity:1;stroke:none" /></flowRegion><flowPara
+         style="font-size:7.76361561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
+         id="flowPara4112">Réserver</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#00aa5a;stroke-width:3.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 1619.5759,1896.2541 177.3128,0"
+       id="path4114"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4116"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(6.1826861,0,0,6.1826861,-16504.575,-7433.2803)"><flowRegion
+         id="flowRegion4118"><rect
+           style="fill:#00aa5a;fill-opacity:1;stroke:none"
+           id="rect4120"
+           width="42.273243"
+           height="18.41976"
+           x="2929.3684"
+           y="1681.8481" /></flowRegion><flowPara
+         id="flowPara4122"
+         style="font-size:7.76361561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa">Réserver</flowPara></flowRoot>    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path4124"
+       d="m 1609.9759,3027.8219 177.3128,0"
+       style="fill:none;stroke:#00aa5a;stroke-width:3.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <flowRoot
+       transform="matrix(6.1826861,0,0,6.1826861,-16483.775,-7341.4135)"
+       style="font-size:8px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot4126"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4128"><rect
+           y="1681.8481"
+           x="2929.3684"
+           height="18.41976"
+           width="42.273243"
+           id="rect4130"
+           style="fill:#00aa5a;fill-opacity:1;stroke:none" /></flowRegion><flowPara
+         style="font-size:7.76361561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#00aa5a;fill-opacity:1;stroke:none;font-family:Ume P Gothic Balsa;-inkscape-font-specification:Ume P Gothic Balsa"
+         id="flowPara4132">Réserver</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#00aa5a;stroke-width:3.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 1630.7759,3119.6887 177.3128,0"
+       id="path4134"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect5006"
+       width="917.26392"
+       height="2263.4641"
+       x="2527.425"
+       y="765.66919"
+       transform="matrix(0.79999997,0,0,0.79999997,-1.8533654e-5,1048.8195)" />
+  </g>
 </svg>
