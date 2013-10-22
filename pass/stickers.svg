@@ -24,14 +24,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4088798"
-     inkscape:cx="1190.1372"
-     inkscape:cy="678.00752"
+     inkscape:zoom="2.237147"
+     inkscape:cx="1133.1397"
+     inkscape:cy="687.59252"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1280"
-     inkscape:window-height="744"
+     inkscape:window-width="1680"
+     inkscape:window-height="994"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1" />
@@ -321,17 +321,18 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      id="layer1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     inkscape:label="Layer 1"
+     style="display:inline">
     <rect
-       y="80.027679"
-       x="677.8208"
+       y="159.90265"
+       x="820.68286"
        height="611.60095"
        width="901.87994"
        id="rect3109"
@@ -1256,16 +1257,16 @@
        x="1061.03"
        style="font-size:17.1085453px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Ume Mincho Balsa;-inkscape-font-specification:Ume Mincho Balsa"
        xml:space="preserve"><tspan
-         id="tspan3717"
          style="font-size:17.1085453px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;font-family:Permanent Marker;-inkscape-font-specification:Permanent Marker"
          y="333.83237"
-         x="1064.2045"
-         sodipodi:role="line">Myriam </tspan><tspan
+         x="1061.03"
+         sodipodi:role="line"
+         id="tspan3721">Justin</tspan><tspan
          style="font-size:17.1085453px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;font-family:Permanent Marker;-inkscape-font-specification:Permanent Marker"
          y="350.94092"
          x="1061.03"
          sodipodi:role="line"
-         id="tspan3721">Doussse</tspan></text>
+         id="tspan3221">Benett</tspan></text>
     <path
        sodipodi:type="arc"
        style="fill:#ffffff;fill-opacity:1;stroke:#b3b3b3;filter:url(#filter3066)"
@@ -1507,14 +1508,13 @@
        height="247.78696"
        width="191.14993"
        clip-path="url(#clipPath4608)"
-       transform="translate(-359.66508,0.62567024)" />
+       transform="translate(-360.15318,-1.003202)" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="f"
-     style="filter:url(#filter4084)"
-     sodipodi:insensitive="true">
+     style="display:inline;filter:url(#filter4084)">
     <image
        y="-11.384745"
        x="1516.1573"
