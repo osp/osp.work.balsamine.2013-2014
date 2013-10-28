@@ -169,7 +169,7 @@ div#wikibody div.texte {
 	line-height:17pt;
 	outline:2px solid black;
 	outline-offset:-15px;
-	padding:25px;
+	padding:0px 25px;
 	page-break-inside:avoid;
 }
 div#wikibody div.texte p {
